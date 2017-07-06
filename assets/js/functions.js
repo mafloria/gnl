@@ -10,6 +10,10 @@
 	var totalimg_capitulo01_scena_1 = 4; var totalimg_capitulo01_scena_2 = 6; var totalimg_capitulo01_scena_3 = 2; var totalimg_capitulo01_scena_4 = 4; var totalimg_capitulo01_scena_5 = 3; var totalimg_capitulo01_scena_6 = 2;
 	var totalimg_capitulo02_scena_1 = 3; var totalimg_capitulo02_scena_2 = 2; var totalimg_capitulo02_scena_3 = 5; var totalimg_capitulo02_scena_4 = 4;
 	var totalimg_capitulo03_scena_1 = 7; var totalimg_capitulo03_scena_2 = 3; var totalimg_capitulo03_scena_3 = 5; var totalimg_capitulo03_scena_4 = 4;
+<<<<<<< HEAD
+=======
+	var totalimg_capitulo04_scena_1 = 6; var totalimg_capitulo04_scena_2 = 2; var totalimg_capitulo04_scena_3 = 7; var totalimg_capitulo04_scena_4 = 4;var totalimg_capitulo04_scena_5 = 7;var totalimg_capitulo04_scena_6 = 1;
+>>>>>>> origin/master
 	
 	//setup time when the image is displayed
 	var timeimg_capitulo01_scena_1 = [8, 19, 25, 27]; 
@@ -29,11 +33,28 @@
 	var timeimg_capitulo03_scena_3 = [13, 30, 42, 51, 82];
 	var timeimg_capitulo03_scena_4 = [22, 34, 36, 53];
 	
+<<<<<<< HEAD
+=======
+	var timeimg_capitulo04_scena_1 = [10, 22, 29, 32, 36, 41]; 
+	var timeimg_capitulo04_scena_2 = [6, 11];
+	var timeimg_capitulo04_scena_3 = [17, 20, 27, 28, 29, 33, 54];
+	var timeimg_capitulo04_scena_4 = [11, 30, 44, 63];
+	var timeimg_capitulo04_scena_5 = [25, 29, 30, 46, 49, 59, 66];
+	var timeimg_capitulo04_scena_6 = [45];
+	
+>>>>>>> origin/master
 	
 	//setup line number for each scena inside the chapter
 	var textini_capitulo01 = [0, 6, 16, 21, 29, 33]; 	
 	var textini_capitulo02 = [0, 5, 9, 17]; 		
+<<<<<<< HEAD
 	var textini_capitulo03 = [0, 11, 17, 30]; 	
+=======
+	var textini_capitulo03 = [0, 11, 17, 30];
+	var textini_capitulo04 = [0, 6, 7, 16, 27, 37];	 	
+	var textini_capitulo05 = [0];
+	var textini_capitulo06 = [0];
+>>>>>>> origin/master
 	
 	var current_scena_number = 1;
 	var current_chapter = "capitulo01";
@@ -64,7 +85,11 @@ function set_current_audio_time(event){
 				console.log("#imgbg-"+current_chapter+"-scena-"+current_scena_number+"-"+current_image_counter + "---"+current_audio_tracktime );
 			}
 		}else{
+<<<<<<< HEAD
 			if(stop_last_image==false){ last_image_displayed = "#imgbg-"+current_chapter+"-scena-"+current_scena_number+"-"+current_image_counter; }
+=======
+			if(stop_last_image==false){ last_image_displayed = "#imgbg-"+current_chapter+"-scena-"+current_scena_number+"-"+current_image_counter; }						
+>>>>>>> origin/master
 			
 			stop_last_image = true;
 			current_image_counter = 1;			
@@ -82,12 +107,17 @@ $(document).ready(function(){
 	var capitulo01_escena_1 = capitulo01_escena_2 = capitulo01_escena_3 = capitulo01_escena_4 = capitulo01_escena_5 = capitulo01_escena_6 = 4;
 	var capitulo02_escena_1 = capitulo02_escena_2 = capitulo02_escena_3 = capitulo02_escena_4 = 6;
 	var capitulo03_escena_1 = capitulo03_escena_2 = capitulo03_escena_3 = capitulo03_escena_4 = 6;	
+<<<<<<< HEAD
 	var capitulo04_escena_1 = 12;
+=======
+	var capitulo04_escena_1 = capitulo04_escena_2 = capitulo04_escena_3 = capitulo04_escena_4 = capitulo04_escena_5 = capitulo04_escena_6 =4;
+>>>>>>> origin/master
 	var capitulo05_escena_1 = capitulo05_escena_2 = 14;
 	var capitulo06_escena_1 = 8;
 	
 	// load audios elements	
 	//capitulo 01
+<<<<<<< HEAD
 	var vid_capitulo01_scena_1 = document.getElementById("audio-capitulo01-scena-1"); var vid_capitulo01_scena_2 = document.getElementById("audio-capitulo01-scena-2");var vid_capitulo01_scena_3 = document.getElementById("audio-capitulo01-scena-3");var vid_capitulo01_scena_4 = document.getElementById("audio-capitulo01-scena-4");	var vid_capitulo01_scena_5 = document.getElementById("audio-capitulo01-scena-5"); var vid_capitulo01_scena_6 = document.getElementById("audio-capitulo01-scena-6");
 	
 	//capitulo 02
@@ -98,6 +128,18 @@ $(document).ready(function(){
 	
 	//capitulo 04
 	var vid_capitulo04_scena_1 = document.getElementById("audio-capitulo04-scena-1");
+=======
+	var vid_capitulo01_scena_1 = document.getElementById("audio-capitulo01-scena-1"); var vid_capitulo01_scena_2 = document.getElementById("audio-capitulo01-scena-2"); var vid_capitulo01_scena_3 = document.getElementById("audio-capitulo01-scena-3"); var vid_capitulo01_scena_4 = document.getElementById("audio-capitulo01-scena-4");	var vid_capitulo01_scena_5 = document.getElementById("audio-capitulo01-scena-5"); var vid_capitulo01_scena_6 = document.getElementById("audio-capitulo01-scena-6");
+	
+	//capitulo 02
+	var vid_capitulo02_scena_1 = document.getElementById("audio-capitulo02-scena-1"); var vid_capitulo02_scena_2 = document.getElementById("audio-capitulo02-scena-2"); var vid_capitulo02_scena_3 = document.getElementById("audio-capitulo02-scena-3"); var vid_capitulo02_scena_4 = document.getElementById("audio-capitulo02-scena-4");
+	
+	//capitulo 03
+	var vid_capitulo03_scena_1 = document.getElementById("audio-capitulo03-scena-1"); var vid_capitulo03_scena_2 = document.getElementById("audio-capitulo03-scena-2"); var vid_capitulo03_scena_3 = document.getElementById("audio-capitulo03-scena-3"); var vid_capitulo03_scena_4 = document.getElementById("audio-capitulo03-scena-4");
+	
+	//capitulo 04
+	var vid_capitulo04_scena_1 = document.getElementById("audio-capitulo04-scena-1"); var vid_capitulo04_scena_2 = document.getElementById("audio-capitulo04-scena-2"); var vid_capitulo04_scena_3 = document.getElementById("audio-capitulo04-scena-3"); var vid_capitulo04_scena_4 = document.getElementById("audio-capitulo04-scena-4"); var vid_capitulo04_scena_5 = document.getElementById("audio-capitulo04-scena-5"); var vid_capitulo04_scena_6 = document.getElementById("audio-capitulo04-scena-6");
+>>>>>>> origin/master
 	
 	//capitulo 05
 	var vid_capitulo05_scena_1 = document.getElementById("audio-capitulo05-scena-1"); var vid_capitulo05_scena_2 = document.getElementById("audio-capitulo05-scena-2");
@@ -110,7 +152,11 @@ $(document).ready(function(){
 	var total_scenas_capitulo01 = 6;
 	var total_scenas_capitulo02 = 4;
 	var total_scenas_capitulo03 = 4;
+<<<<<<< HEAD
 	var total_scenas_capitulo04 = 1;
+=======
+	var total_scenas_capitulo04 = 6;
+>>>>>>> origin/master
 	var total_scenas_capitulo05 = 2;
 	var total_scenas_capitulo06 = 1;
 	
@@ -140,12 +186,17 @@ $(document).ready(function(){
 	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
 	      var target = $(this.hash);		      
 	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+<<<<<<< HEAD
 	      if (target.length) {
 	        $('html, body').animate({		          		         
 	          scrollLeft: target.offset().left
             }, 1000);
         	
         	let_audios_text_begins(); //restart audios and text if the user returns start all again
+=======
+	     
+	     let_audios_text_begins(); //restart audios and text if the user returns start all again
+>>>>>>> origin/master
         	
 		    if(this.hash.slice(1)=="introduccion") {
 		    	if(progress_bar>=100){ $(".intro-chapter-menu").show(); $(".intro-chapter-startbtn").hide(); }
@@ -166,6 +217,16 @@ $(document).ready(function(){
 		    
 		    $("#sequence-"+current_chapter+"-scena-1 a").addClass("current-scene");		    		    		    		      
 
+<<<<<<< HEAD
+=======
+	     
+	      if (target.length) {
+	        $('html, body').animate({		          		         
+	          scrollLeft: target.offset().left
+            }, 1000);//1000
+        	
+        	
+>>>>>>> origin/master
 		    return false;
 		  }//end if target length
 		}//end if location
@@ -181,6 +242,7 @@ $(document).ready(function(){
 
 //********** audios
 	//listen each audio to check if it is finihed
+<<<<<<< HEAD
 	vid_capitulo01_scena_1.onended = function() { audio_ended_action(); };
 	vid_capitulo01_scena_2.onended = function() { audio_ended_action(); };
 	vid_capitulo01_scena_3.onended = function() { audio_ended_action(); };
@@ -196,6 +258,12 @@ $(document).ready(function(){
 	vid_capitulo03_scena_3.onended = function() { audio_ended_action(); };
 	vid_capitulo03_scena_4.onended = function() { audio_ended_action(); };
 	vid_capitulo04_scena_1.onended = function() { audio_ended_action(); };
+=======
+	vid_capitulo01_scena_1.onended = function() { audio_ended_action(); };	vid_capitulo01_scena_2.onended = function() { audio_ended_action(); };	vid_capitulo01_scena_3.onended = function() { audio_ended_action(); };	vid_capitulo01_scena_4.onended = function() { audio_ended_action(); };	vid_capitulo01_scena_5.onended = function() { audio_ended_action(); };	vid_capitulo01_scena_6.onended = function() { audio_ended_action(); };	
+	vid_capitulo02_scena_1.onended = function() { audio_ended_action(); };	vid_capitulo02_scena_2.onended = function() { audio_ended_action(); };	vid_capitulo02_scena_3.onended = function() { audio_ended_action(); };	vid_capitulo02_scena_4.onended = function() { audio_ended_action(); };	
+	vid_capitulo03_scena_1.onended = function() { audio_ended_action(); };	vid_capitulo03_scena_2.onended = function() { audio_ended_action(); };	vid_capitulo03_scena_3.onended = function() { audio_ended_action(); };	vid_capitulo03_scena_4.onended = function() { audio_ended_action(); };
+	vid_capitulo04_scena_1.onended = function() { audio_ended_action(); };  vid_capitulo04_scena_2.onended = function() { audio_ended_action(); };  vid_capitulo04_scena_3.onended = function() { audio_ended_action(); };  vid_capitulo04_scena_4.onended = function() { audio_ended_action(); }; vid_capitulo04_scena_5.onended = function() { audio_ended_action(); };  vid_capitulo04_scena_6.onended = function() { audio_ended_action(); };
+>>>>>>> origin/master
 	vid_capitulo05_scena_1.onended = function() { audio_ended_action(); };
 	vid_capitulo05_scena_2.onended = function() { audio_ended_action(); };
 	vid_capitulo06_scena_1.onended = function() { audio_ended_action(); };
@@ -224,21 +292,35 @@ $(document).ready(function(){
 			var total_timer_lines = timer.length;
 			for(j=0; j<=total_timer_lines; j++){ clearTimeout(timer[j]);  }
 			//clearTimeout(timer);
+<<<<<<< HEAD
 			delayCounter = 1;
+=======
+			delayCounter = 1;			
+>>>>>>> origin/master
 			//---------- end - stop write text threat
 	   		
 	   		autoplay_audios(current_chapter);
 	   			   
 	   		$("#sequence-"+current_chapter+"-scena-"+current_scena_number+" > a").addClass("current-scene");
 	   		
+<<<<<<< HEAD
 	  }else{
 	  	
 	  	$("#nav-next-"+current_chapter+"-active").trigger("click");
+=======
+	  }else{	  		  	
+>>>>>>> origin/master
 	  	
 	  	$("#imgbg-"+current_chapter+"-scena-0").show();	//shows scena after all images passed
 	  	
 	  	$("#nav-next-"+current_chapter+"-inactive").hide();
+<<<<<<< HEAD
 	  	$("#nav-next-"+current_chapter+"-active").show();	  	
+=======
+	  	$("#nav-next-"+current_chapter+"-active").show();
+	  	
+	  	$("#nav-next-"+current_chapter+"-active").trigger("click");	  	
+>>>>>>> origin/master
 	  }
 	  
 	}
@@ -326,6 +408,10 @@ $(document).ready(function(){
 		
 		eval("vid_"+capitulo+"_scena_"+current_scena_number).load();
 		eval("vid_"+capitulo+"_scena_"+current_scena_number).play();
+<<<<<<< HEAD
+=======
+		text_current_line = eval("textini_"+current_chapter+"["+(current_scena_number-1)+"];");
+>>>>>>> origin/master
 		$("#txt_"+capitulo).html(text_current_chapter[text_current_line]);
 		
 		//text_current_line++;
@@ -349,6 +435,10 @@ $(document).ready(function(){
 		vid_capitulo01_scena_1.pause();vid_capitulo01_scena_2.pause();vid_capitulo01_scena_3.pause();vid_capitulo01_scena_4.pause();vid_capitulo01_scena_5.pause();vid_capitulo01_scena_6.pause();
 		vid_capitulo02_scena_1.pause();vid_capitulo02_scena_2.pause();vid_capitulo02_scena_3.pause();vid_capitulo02_scena_4.pause();
 		vid_capitulo03_scena_1.pause();vid_capitulo03_scena_2.pause();vid_capitulo03_scena_3.pause();vid_capitulo03_scena_4.pause();
+<<<<<<< HEAD
+=======
+		vid_capitulo04_scena_1.pause();vid_capitulo04_scena_2.pause();vid_capitulo04_scena_3.pause();vid_capitulo04_scena_4.pause();vid_capitulo04_scena_5.pause();vid_capitulo04_scena_6.pause();
+>>>>>>> origin/master
 		//vid_capitulo04.pause();vid_capitulo05.pause();vid_capitulo06.pause();		
 		var total_timer_lines = timer.length;
 		for(j=0; j<=total_timer_lines; j++){ clearTimeout(timer[j]); }		
@@ -375,7 +465,11 @@ $(document).ready(function(){
 						$("#txt_"+capitulo).html(text_current_chapter[i]);
 						//$(".txt_sc1").textillate('start');
 						text_current_line = i;						
+<<<<<<< HEAD
 						//console.log(capitulo + " THIS IS: "+text_current_line+" -- "+delayCounter);
+=======
+						console.log(capitulo + " THIS IS: "+text_current_line+" -- "+delayCounter);
+>>>>>>> origin/master
 					}			
 			    }, 5500*delayCounter);			    
 			  })(i, delayCounter);			  			 
@@ -427,12 +521,17 @@ $(document).ready(function(){
 	text_capitulo01[34]="She has to leave and reach her destination guided by the angels of the road. Tic tac, tic tac ...";
 	text_capitulo01[35]="She separates tenderly from her grandma. A kiss in the forehead, a caress, -I’ll make sure you come too- she says with a smile.";
 	text_capitulo01[36]="she carries a picture of her family in her pocket, along with an old letter to her father.";
+<<<<<<< HEAD
 	text_capitulo01[37]="She turns back and starts walking.";
 	text_capitulo01[38]="Her grandmother makes crosses in the air, she has her blessings against all danger and evil.";
+=======
+	text_capitulo01[37]="She turns back and starts walking. Her grandmother makes crosses in the air, she has her blessings against all danger and evil.";	
+>>>>>>> origin/master
 
 	var text_capitulo02 = new Array();
 	text_capitulo02[0]="I met Amalia in Chiapas. When crossing borders, people get together to support each other,"; 
     text_capitulo02[1]="the bigger ones carry the lighter ones, the healthy look after the sick ones and that way we all keep going.";	
+<<<<<<< HEAD
     text_capitulo02[2]="In that particular group there were people from far away, who spoke different languages. From Haiti "; 
     text_capitulo02[3]="and Africa, I believe. They came in rafts by the sea, walking through hills and secret paths, ";
     text_capitulo02[4]="hiding in cargo containers, with little girls and babies. Just like us!  But on a much longer journey. ";
@@ -440,6 +539,15 @@ $(document).ready(function(){
     text_capitulo02[6]="Some Cubans were sharing stories from their journey: They climbed a massive mountain in the Darién jungle, ";     
     text_capitulo02[7]="they crossed a river that overflowed, a woman and two kids didn’t make it to the other side, ";
     text_capitulo02[8]="and there are other bodies scattered around... ";
+=======
+    text_capitulo02[2]="In that particular group there were people from far away, who spoke different languages. From Haiti and Africa, I believe. "; 
+    text_capitulo02[3]="They came in rafts by the sea, walking through hills and secret paths, ";
+    text_capitulo02[4]="hiding in cargo containers, with little girls and babies. Just like us!  But on a much longer journey. ";
+    text_capitulo02[5]="Multicoloured bodies, beautiful and fragile, drinking water and showering in the river. ";
+    text_capitulo02[6]="Some Cubans were sharing stories from their journey: They climbed a massive mountain in the Darién jungle, ";     
+    text_capitulo02[7]="they crossed a river that overflowed, a woman and two kids didn’t make it to the other side, and there are other bodies scattered around... ";
+    text_capitulo02[8]="";
+>>>>>>> origin/master
 	text_capitulo02[9]="Just thinking how much distance we still had to cover, and imagining the million things that could happen,";                
     text_capitulo02[10]=" I got scared.  And then I saw her. Like a ghost. "; 
     text_capitulo02[11]="A girl alone in the middle of a bunch of people who doesn’t look afraid. "; 
@@ -508,8 +616,61 @@ $(document).ready(function(){
     
     
     var text_capitulo04 = new Array();
+<<<<<<< HEAD
 	text_capitulo04[0]="C4 Tic tac, tic tac..."; 
     text_capitulo04[1]="C4 Amalia was never afraid, or so I thought every time I saw her, strong and confindent. Tic tac, tic tac...";
+=======
+	text_capitulo04[0]="The pollero is coming. -We’ll travel by night, it’s safer. They just cannot catch us we all know what we’re doing is illegal. "; 
+    text_capitulo04[1]="So everybody hush up and stay still until I say otherwise. Oh! And don’t go anywhere, haha!-, he said with a laugh before leaving.";
+    text_capitulo04[2]="That laughter still echoes in my head. His voice is rough and his eyes penetrating.";
+    text_capitulo04[3]=" A killer’s look, mom would say -you can’t trust him-. ";
+    text_capitulo04[4]="His presence frightens me: leather boots, steel point, ";
+    text_capitulo04[5]="gun showing on his waist. How much did we pay him? It was a lot of money. How long since he left?";
+    //scena 2
+    text_capitulo04[6]="One on top of the other, all crumpled up inside the van: mom, brother, Amalia, another four people and me trying to get some sleep and take the least space possible. But we simply can’t; it’s just too tight.";    
+    //scena 3
+    text_capitulo04[7]="From my tiny corner I keep thinking about Tita, the African babies, our own destiny. My back is really killing me. ";    
+    text_capitulo04[8]="It’s been two days already in the desert, no water, no food, 	getting to the end of our rope.";
+    text_capitulo04[9]="The road has been tough but as Amalia says: what matters is to make it.";
+    text_capitulo04[10]="-Don’t think about the way-, mom keeps telling us, -think about your grandpa’s hug-.";
+    text_capitulo04[11]="Her strength has helped us cross El Salvador, Guatemala, Mexico.";
+    text_capitulo04[12]="We’re getting closer to the border but the fear hasn’t gone away. I’m fully aware I’m a coward. ";
+    text_capitulo04[13]="It’s just wedged in my mind and I feel it deep in my bones. I ache all over. I’m not like my mom or Amalia,";
+    text_capitulo04[14]="this journey northbound without a passport is harder than I expected.";
+    text_capitulo04[15]="More like a suspense or horror film. You really don’t know what’s happening next.";
+    //scena 4
+    text_capitulo04[16]="Tic tac, tic tac... Dawn is coming and I can’t sleep. Minutes turn into hours. I can feel the strong desert winds hit the sides of the van. ";
+    text_capitulo04[17]="The coyote howls seem quite close. And from the darkness, footsteps, getting closer.";
+    text_capitulo04[18]="Tic tac, tic tac... The pollero is coming, that’s gotta be him. Crack! Crack! It’s been a loooong time since he left.";
+    text_capitulo04[19]="Each second feels like an eternity. Crack! Dry twigs breaking under a heavy body that lumbers around in the sand.";
+    text_capitulo04[20]="Dry twigs breaking under a heavy body that lumbers around in the sand. Crack! It’s 4:00 AM and he hasn’t returned. ";
+    text_capitulo04[21]="Crack! We lost an entire night. It’s actually more than one person walking around. The pollero is not alone...";
+    text_capitulo04[22]="Between the deafening echo of the wind, the unbearable cold and the crack crack around us, I feel desperate.";
+    text_capitulo04[23]="My teeth are clattering loudly. I’m shaking, out of control. I want to scream at him, make him realise how irresponsible he is!";
+    text_capitulo04[24]="Our lives are in his hands and he seems not to care, actually he doesn’t care at all!";
+    text_capitulo04[25]="My eyes avoided him since the beginning and now beg to find his. I’m crying! Even though I’m afraid of him, ";
+    text_capitulo04[26]="knowing he’s here to guide us through the desert makes me feel safer. Crack! Crack! ";
+    //scena 5
+    text_capitulo04[27]="What is it now? Multiple ideas overloading my head, similar to what I experienced when we started getting blackmailed at my mom’s restaurant. ";
+    text_capitulo04[28]="That’s when my family’s ordeal began. Week after week for over two years, paying to stay alive. ";
+    text_capitulo04[29]="Coming back from school became a torture. There was always bad news.";
+	text_capitulo04[30]="I barely finished third grade. -Mom, what if we die?-, I asked her once.";
+	text_capitulo04[31]="She broke down. It was really hard to leave that place but we did it.";
+	text_capitulo04[32]="This is the road to our family’s freedom. Tic tac, tic tac… Why did he leave us here?! - I yell. -Shush, Gabriela!-.";
+	text_capitulo04[33]="My mom scolds me. -Hush and duck, kid-.";
+	text_capitulo04[34]="-Some men are coming- Says Amalia quietly. My head spins and I feel fainting, out of breath. I have a bad feeling. Crack! Crack!";
+	text_capitulo04[35]="Flash lights blinding our sight. It is not the pollero . It’s the Border Police. -We’re done!-, my brother says. -This is the end of the road!-.";
+	text_capitulo04[36]="After the pollero left us, got drunk somewhere and mentioned us to someone, flashing lights blinding us: -Hands up! Border Police!- it all happened in seconds. -You’re under arrest!-, ";
+	//scena 6
+	text_capitulo04[37]="banging on the van. -All right, move it! We don’t have all day! Men on one side, women on the other, shoes out, belts,";
+	text_capitulo04[38]="we’re doing a body search-... they broke down our group. My fear became a reality. Mom went to the women’s area, my brother to the men’s area and I was sent to the kids’ one.";
+	text_capitulo04[39]="I didn’t see Amalia again. The lies one hears when preparing were her demise: ";
+	text_capitulo04[40]="Don’t carry your documents because if they catch you they’ll know where you’re from .";
+	text_capitulo04[41]="The worst thing you can do is losing your documents, and she did. ";
+	text_capitulo04[42]="I heard she was taken to a detention center while they identified her. I don’t know what will happen to her. ";
+	text_capitulo04[43]="There are people there who have been waiting for months. Poor, dear Amalia, is she afraid now?";
+    
+>>>>>>> origin/master
     
     var text_capitulo05 = new Array();
 	text_capitulo05[0]="C5 Tic tac, tic tac..."; 

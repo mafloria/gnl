@@ -146,6 +146,14 @@ a.nav-next svg{
 	z-index: 3;
 	width: 100%;
 }
+<<<<<<< HEAD
+=======
+.main-title{
+	width: auto;
+	float: left;
+		
+}
+>>>>>>> origin/master
 .main-header h1{
 	width: 15%;
 	float: left;
@@ -158,6 +166,10 @@ a.nav-next svg{
     border-bottom: 4px solid black;  
     border-right: 4px solid black;
     border-bottom-right-radius: 5px;
+<<<<<<< HEAD
+=======
+    
+>>>>>>> origin/master
 }
 .main-header h1 a{
 	display: block;
@@ -170,15 +182,25 @@ a.nav-next svg{
 }
 .chapter-title{
 	float: right;
+<<<<<<< HEAD
 	width: auto;
 	padding: 10px;
 	background-color: white;
 	border-bottom: 4px solid black;  
+=======
+	background-color: white;
+    padding: 10px;
+    border-bottom: 4px solid black;  
+>>>>>>> origin/master
     border-left: 4px solid black;
     border-bottom-left-radius: 5px;
 }
 .chapter-title h3{
+<<<<<<< HEAD
 	margin: 0;
+=======
+	margin: 0 1em 0 0;
+>>>>>>> origin/master
 }
 .nav-chap-us{
 
@@ -498,9 +520,12 @@ a.next-scenas-detail:hover{
 }
 
 @media screen and (min-width:1280px){
+<<<<<<< HEAD
 	.main-header h1{
 		width: 11%;
 	}
+=======
+>>>>>>> origin/master
 
 }
 @media screen and (min-width:1440px){

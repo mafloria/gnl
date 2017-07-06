@@ -1,0 +1,522 @@
+body, select, input, textarea {color: #333;}
+a {color: #03f;}
+a:hover {color: #69f;}
+::-moz-selection{background: #fcd700; color: #fff; text-shadow: none;}
+::selection {background: #fcd700; color: #fff; text-shadow: none;}
+a:link {-webkit-tap-highlight-color: #fcd700;}
+ins {background-color: #fcd700; color: #000; text-decoration: none;}
+mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: bold;}
+input:-moz-placeholder { color:#a9a9a9; }
+textarea:-moz-placeholder { color:#a9a9a9; }
+blockquote {padding: 16px; background: #eee;}
+
+
+
+/*
+	BUSCANDO EL NORTE CSS
+*/
+html{
+	overflow: hidden !important;
+	background-color: black;
+}
+body{
+	font-size: 16px;
+	font-family: 'Magra', sans-serif !important;
+	background-color: black !important;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	vertical-align: middle;
+}
+p, a, h1, h2, h3, h4, h5{
+	font-family: 'Magra', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+a:focus,
+map area:focus{
+	border: 0;
+	outline: 0;
+}
+a, a:hover{
+	text-decoration: none !important;
+}
+a.blackBtn{
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 0.5em;
+	border-radius: 0.3em;
+}
+a.blackBtn:hover{
+	color: white;
+	background-color: #ab6501;
+}
+.wrapper{
+    width: 100%;
+	height: 100%;
+}
+.section-site{
+	float: left;
+}
+#content-section{
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+#nav-menu{
+	float: right;
+    position: absolute;
+    top: 0.5em;
+    right: 1em;
+    z-index: 3;
+}
+#nav-menu svg{
+	width: 30px;
+    height: 30px;
+    fill: black;
+    display: block;	
+    transition: all 0.4s ease;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-ms-transition: all 0.4s ease;
+}
+#nav-menu svg:hover{
+	fill:#ab6501;
+}
+.nav-section{
+	position: absolute;
+	z-index: 3;
+	top: 50%;
+	width: 100%;	
+}
+a.nav-before,
+a.nav-next{	
+	opacity: 0.25;
+	position: absolute;
+	z-index: 3;
+	top: 50%;
+	transition: all 0.4s ease;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	background-color: white;
+	padding: 10px 10px 5px 10px;
+
+	-webkit-box-shadow: -8px 10px 12px 0px rgba(0,0,0,0.4);
+	-moz-box-shadow: -8px 10px 12px 0px rgba(0,0,0,0.4);
+	box-shadow: -8px 10px 12px 0px rgba(0,0,0,0.4);
+}
+a.nav-before.chapter-nav,
+a.nav-next.chapter-nav{
+	opacity: 1;
+}
+a.nav-before.chapter-nav:hover,
+a.nav-next.chapter-nav:hover,
+a.nav-enable{
+	opacity: 1;
+}
+a.nav-before{
+	left: 0;
+	transform : rotate(180deg);
+	border-top-left-radius: 0.3em;
+	border-bottom-left-radius: 0.3em;
+}
+a.nav-next{
+	right: 0;
+	border-top-left-radius: 0.3em;
+	border-bottom-left-radius: 0.3em;
+}
+a.nav-before svg,
+a.nav-next svg{
+	width: 55px;
+	height: 55px;
+}
+.main-header{
+	/*background:rgba(255,255,255, 0.96);
+	border-bottom: 2px solid black;
+	width: 100%;*/
+	padding: 0;
+	position: fixed;
+	z-index: 3;
+	width: 100%;
+}
+.main-title{
+	width: auto;
+	float: left;
+		
+}
+.main-header h1{
+	width: 15%;
+	float: left;
+	margin: 0;
+    padding: 0;
+    line-height: 0;
+    display: block;
+    background-color: white;
+    padding: 10px;
+    border-bottom: 4px solid black;  
+    border-right: 4px solid black;
+    border-bottom-right-radius: 5px;
+    
+}
+.main-header h1 a{
+	display: block;
+}
+.main-header h1 p{
+	float: left;
+	font-size: 20px;
+	padding: 10px;
+	margin-left: 1em;
+}
+.chapter-title{
+	float: right;
+	background-color: white;
+    padding: 10px;
+    border-bottom: 4px solid black;  
+    border-left: 4px solid black;
+    border-bottom-left-radius: 5px;
+}
+.chapter-title h3{
+	margin: 0 1em 0 0;
+}
+.nav-chap-us{
+
+}
+header .submenu{
+	position: absolute;
+	top: 3.25em;
+	right: 0;
+	width: 30%;
+}
+header .submenu ul li{
+	border-bottom: 2px solid black;
+}
+header .submenu ul li a{
+	padding: 1em;
+	background-color: white;
+	color: black;
+	text-align: right;
+	width: 100%;
+	display: block;	
+	line-height: 1em;
+	font-size: 1.2em;
+	transition: all 0.4s ease;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-ms-transition: all 0.4s ease;
+}
+header .submenu ul li a:hover{
+	background-color: black;
+	color: white;
+}
+#content-section section{
+	width: 100%;
+	position: relative;
+}
+.cpt00{	
+
+}
+.content-intro{
+	position: absolute;
+	top: 20%;
+	left: 10%;
+	width: 40%;
+	-webkit-animation: logo 0.7s  ease-in-out;
+}
+.content-intro a.blackBtn{
+	float: right;
+	width: 62%;
+	font-size: 1.4em;
+	margin-top: 5em;
+	transition: all 0.4s ease;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-ms-transition: all 0.4s ease;
+}
+.content-intro .logo{
+	
+}
+@-webkit-keyframes logo{
+		from{ left:0;}
+		to{right:2em;}
+	}
+.intro-chapter-menu{
+    position: absolute;
+    z-index: 5;
+    bottom: 1em;
+    width: 50%;
+    left: 25%;
+    text-align: center;
+}
+.intro-chapter-menu ul{
+	    display: inline-block;
+    padding: 1em 0px;
+}
+.intro-chapter-menu ul li{
+	    width: 16.5%;
+    float: left;
+}
+.intro-chapter-menu ul li a{}
+.intro-chapter-menu ul li a img{
+	border: 5px solid black;
+    border-radius: 50%;
+    width: 80%;
+    transition: all 0.4s ease;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	opacity: 0.5;
+	-webkit-box-shadow: inset 0px 0px 42px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 0px 42px 0px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 0px 42px 0px rgba(0,0,0,0.75);
+}
+.intro-chapter-menu ul li a img:hover{
+	opacity: 1;
+	border: 5px solid #b46127;
+
+}
+#content-section .cpt00 .background-section{
+    height: 100%;
+    width: 100%;
+    /*background: black url("../../images/buscando-el-norte-landing-bg.png") no-repeat center center;
+    background-size: cover;
+    overflow: hidden;*/
+}
+#content-section .cpt00 .background-section img{
+	height: 100%;
+    width: 100%;	
+}
+figure img{
+	max-width: 100%;
+    height: auto;
+    display: block;	
+}
+section img{
+	width: 100%;
+	height: 100%;
+}
+.large-bg{
+		display: none;
+}
+#barra-progreso{
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    z-index: 4;	
+    background-color: black;
+}
+#barra-progreso .barra-marcador{
+	 display: block;
+    float: left;
+    width: 100%;
+    position: relative;
+    height: 15px;
+    background-color: #ab6501;;	
+}
+.subs-section{
+	width: 100%;
+	background: rgba(0, 0, 0, 0.8);
+	padding: 0.5em;
+
+	position: absolute;
+	z-index: 4;	
+	bottom: 11px;
+}
+.subs-section a.playAudio,
+.subs-section a.pauseAudio{
+	float: left;
+	display: block;	
+}
+.subs-section a.playAudio svg,
+.subs-section a.pauseAudio svg{
+	width: 35px;
+    height: 35px;
+    fill: white;	
+}
+.txt_capitulos{
+    color: white;
+    font-style: italic;
+    text-align: center;
+    font-size: 20px;
+    padding: 0 4%;
+}
+.side-nav-section{
+	width: 8%;
+	float: left;
+}
+.side-nav-section ul{
+	   margin: 0;
+    padding: 3.25em 0 0 0;	
+}
+.side-nav-section ul li a{
+	display: block;
+    width: 100%;
+    opacity: 0.3;
+    transition: all 0.4s ease;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+}
+.side-nav-section ul li a.active-escena:hover{
+	opacity: 1;
+}
+.side-nav-section ul li a.enable-scene{
+	opacity: 1;
+}
+.side-nav-section ul li a.current-scene{
+	opacity: 1;
+	background-color: #b46127;	
+}
+.side-nav-section ul li a img{
+	border-radius: 60%;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 10% 25%;	
+}
+.section-content-wrap{
+	width: 92%;
+	float: right;
+	position: relative;
+}
+/*modales escenas*/
+.modal-descriptions{
+	position: absolute;
+	z-index: 999999999;
+	top: 10%;
+	left: 10%;
+	right: 10%;
+	background-color: rgba(255, 255, 255, 0.97);
+	width: 80%;
+	border-radius: 0.5em;
+	-webkit-box-shadow: -4px 2px 12px 0px rgba(0,0,0,0.6);
+	-moz-box-shadow: -4px 2px 12px 0px rgba(0,0,0,0.6);
+	box-shadow: -4px 2px 12px 0px rgba(0,0,0,0.6);
+}
+.escenas-detail-content-left{
+	float: left;
+	width: 55%;
+}
+.escenas-detail-content-right{
+	float: left;
+	width: 45%;
+	padding: 5% 2.5%;
+}
+.escenas-detail-content p,
+.escenas-detail-content ul li{
+	font-size: 1.25em;
+}
+.escenas-detail-content ul li{
+	font-family: 'Magra', sans-serif;
+	margin-bottom: 0.5em;
+	font-style: italic;
+}
+a.close-scenas-detail{
+	background-color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    color: white;	
+    transition: all 0.4s ease;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+}
+a.close-scenas-detail svg{
+	width: 20px;
+	height: 20px;
+	fill: white;
+}
+a.close-scenas-detail:hover{
+	background-color: #7f1b1b;
+}
+a.next-scenas-detail{
+	position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    padding: 0.5em 3em;
+    color: white;
+    font-size: 1.5em;	
+     transition: all 0.4s ease;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+}
+a.next-scenas-detail:hover{
+	color: white;
+	background-color: #ab6501;
+}
+.escenas-detail-content.no-img{
+	width: 60%;
+	padding: 4%;
+}
+.tooltip-html-titlecontent{
+	display: none;
+}
+.tooltipster-sidetip.tooltipster-shadow .tooltipster-box{
+	z-index: 5 !important;
+}
+
+.tooltipster-sidetip.tooltipster-shadow .tooltipster-box svg,
+ .tooltipster-follower .tooltipster-box svg{
+	width: 25px;
+	height: 25px;
+	fill: white !important;
+	float: left;
+	margin-right: 1em;
+}
+.tooltipster-sidetip.tooltipster-shadow .tooltipster-box p,
+.tooltipster-follower .tooltipster-box p{
+	float: left;
+	color: white;
+	font-size: 1.5em;
+	line-height: 1.2em;
+}
+#overlay{ display:none; }
+#overlay{
+	background-color: rgba(0, 0, 0, 0.8);
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 9;
+}
+.tooltipster-sidetip.tooltipster-shadow .tooltipster-box,
+    .tooltipster-follower .tooltipster-box {
+	background-color: rgba(0, 0, 0, 0.8) !important;
+}
+.tooltipster-sidetip.tooltipster-shadow.tooltipster-left .tooltipster-arrow-border{border-left-color:#000000 !important}
+.tooltipster-sidetip.tooltipster-shadow.tooltipster-right .tooltipster-arrow-border{border-right-color:#000000 !important}
+.tooltipster-sidetip.tooltipster-shadow.tooltipster-top .tooltipster-arrow-border{border-top-color:#000000 !important}
+.tooltipster-sidetip.tooltipster-shadow.tooltipster-bottom .tooltipster-arrow-border{border-bottom-color:#000000 !important}
+/* Media queries
+-------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 480px) {
+
+
+}
+
+@media screen and (min-width:1280px){
+
+}
+@media screen and (min-width:1440px){
+	.modal-descriptions{
+		top:7%;
+		left: 16.5%;
+		right: 16.5%;
+		width: 67%;
+	}
+}
+/* Print styles
+-------------------------------------------------------------------------------*/
+@media print {
+
+
+
+}

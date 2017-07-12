@@ -4,18 +4,44 @@ body{
   background-color: #8bc9c3;
   color: white;
 }
+h1, h2, h3, h4{
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+}
+.title-section h2{
+  color: white;
+  font-size: 1.85em;
+  padding: 0 1em;
+  background-color: #1a5489;
+  text-align: center;
+  margin: 0 auto;
+  width: auto;
+  display: table;
+}
+h3{
+  color: #1a5489;
+  font-size: 1.65em;  
+}
 #wrapper{
-  width: 100%;
-  height: 100%;
+  width: 20000px;
+  height: 900px;
   display: block;
   position: relative;
 }
 .section{
-  width: 100%;
+  width: 1280px;
   height: 100%;
   float: left;
   position: relative;
 }
+.section-content{
+  width: 98%;
+  height: 98%;
+  padding: 2%;
+}
+
+/**/
 .navigation{
   text-align: center;
   margin: 0 auto;
@@ -39,4 +65,79 @@ body{
 
 img.logo-intro{
   width: 50%;
+  margin-top: 20%;
+}
+/*screen2*/
+.screen2-txt{
+  float: left;
+  width: 40%;
+  margin-top: 20%;
+  font-size: 1.2em;
+}
+.menu-circles-icons{
+  float: right;
+  width: 182px;
+  margin-right: 20%;
+}
+.menu-circles-icons a{
+  width: 182px;
+  height: 197px;
+  display: block;
+  transition: all 0.5s ease;
+  margin-bottom: 1em;
+}
+a.biogas-menu-btn{
+  background: url(../images/gnc-biogas-btn.png) no-repeat;
+}
+a.biogas-menu-btn:hover{
+  background: url(../images/gnc-biogas-btn-hover.png) no-repeat;
+}
+a.yacimiento-menu-btn{
+  background: url(../images/gnc-yacimiento-btn.png) no-repeat;  
+}
+a.yacimiento-menu-btn:hover{
+  background: url(../images/gnc-yacimiento-btn-hover.png) no-repeat; 
+}
+a.gasoducto-menu-btn{
+  background: url(../images/gnc-gasoducto-btn.png) no-repeat;  
+}
+a.gasoducto-menu-btn:hover{
+  background: url(../images/gnc-gasoducto-btn-hover.png) no-repeat; 
+}
+/*screen 3*/
+.screen3-title{
+  float: left;
+  width: 45%;
+  margin-top: 20%;
+}
+.screen3-title h1{
+  color: #1a5489;
+  font-size: 7.7em; 
+}
+/*landscape*/
+.landscape-section{
+  width: 100%;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+.gnc-biogas-landscape{
+  width: 14460px;
+  height: 100%;
+  float: left;
+
+}
+.landscape-top{
+  width: 100%;
+  height: 47%;
+}
+.landscape-bottom{
+  width: 100%;
+  height: 53%;
+  background-color: #81b58b;
+}
+.main-landscape-image{
+  position: absolute;
+  top: 17%;
+  left: -3%; 
 }

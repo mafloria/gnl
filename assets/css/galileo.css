@@ -9,6 +9,12 @@ h1, h2, h3, h4{
   padding: 0;
   line-height: inherit;
 }
+/*sets horizontal scroll*/
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+
 .title-section h2{
   color: white;
   font-size: 1.85em;
@@ -25,12 +31,12 @@ h3{
 }
 #wrapper{
   width: 20000px;
-  height: 900px;
+  /*height: 900px;*/
   display: block;
   position: relative;
 }
 .section{
-  width: 1280px;
+  /*width: 1280px;*/
   height: 100%;
   float: left;
   position: relative;

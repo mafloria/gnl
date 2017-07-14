@@ -88,27 +88,11 @@
     
     <style>
 
-/*
-body{font-family: 'Roboto Condensed', sans-serif;background-color: #8bc9c3;color: white;  }
-h1, h2, h3, h4{ margin: 0;padding: 0;line-height: inherit;}
-.title-section h2{color: white;  font-size: 1.85em;  padding: 0 1em;  background-color: #1a5489;  text-align: center;  margin: 0 auto;  width: auto;  display: table;}
-h3{  color: #1a5489;  font-size: 1.65em;}
 
-#wrapper{
-   width: 20000px;
-}
-.section{
-  width: 1280px; 
-  height: 90%;  
-}
-.section-content{  width: 98%;  height: 98%;  padding: 2%;}
-img.logo-intro{  width: 50%;  margin-top: 20%;}
-*/
 body{
     overflow-x: hidden;
 }
-.front
-{
+.front{
     z-index: 500;
     top: 150px;
     width: 20000px;
@@ -119,22 +103,6 @@ body{
   bottom: 0;
   left: 0;
 }
-/*
-.screen-1{
-    width: 1280px;
-  position: absolute;
-  float: left;
-}
-.screen-2{
- width: 1280px;
-   position: absolute; 
-   float: left;
-}
-.screen-3{    
-    width: 1280px;
-  position: absolute;  
-  float: left;
-}*/
             
         </style>    
 </html>

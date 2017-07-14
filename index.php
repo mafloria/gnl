@@ -84,6 +84,7 @@
     <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>           
     <script src="assets/js/vendor/jquery-1.12.0.min.js"></script>        
     <script src="assets/js/vendor/jquery.jInvertScroll.js"></script>
+    <script src="assets/js/dist/scrollreveal.min.js"></script>
     <script src="assets/js/main.js"></script>
     
     <style>
@@ -103,6 +104,8 @@ body{
   bottom: 0;
   left: 0;
 }
+
+.sr .screen2-txt { visibility: hidden; }
             
         </style>    
 </html>

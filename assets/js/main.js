@@ -8,8 +8,28 @@
 
 //document ready	
 $(document).ready(function(){	
+	
+	
+	 var elem = $.jInvertScroll(['.scroll'],        // an array containing the selector(s) for the elements you want to animate
+            {
+            //height: $(window).innerHeight(),                   // optional: define the height the user can scroll, otherwise the overall length will be taken as scrollable height
+            onScroll: function(percent) {   //optional: callback function that will be called when the user scrolls down, useful for animating other things on the page
+                console.log(percent);
+            }
+        });
+        
+       /* $(window).resize(function() {
+          if ($(window).width() <= 768) {
+            elem.destroy();
+          }
+          else {
+            elem.reinitialize();
+          }
+        });
+	*/
+	
 //*********** window size to fix content	   
-	setHeight();	
+/*	setHeight();	
 		  
 	$(window).resize(function() {
 		setHeight();
@@ -21,32 +41,11 @@ $(document).ready(function(){
 		
 		$("#wrapper").css('height', windowHeight);
 		$(".section").css('width', windowWidth);
+		$(".section").css('height', windowHeight);
 					
 	};
+	*/
 //*********** end - window size to fix content
-
-//*********** scrolls to an href section exactly - just for biggest navegation
-    $('a[href*="#"]:not([href="#"])').click(function() {
-	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-	      var target = $(this.hash);		      
-	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-	      if (target.length) {
-	        $('html, body').animate({		          		         
-	          scrollLeft: target.offset().left
-            }, 1000);//1000
-                    	        	        			    
-		    return false;
-		  }//end if target length
-		}//end if location
-	});
-//*********** end - scrolls to an href section exactly	
-
-//********** actions
-	$("#ben-main-menu").click(function(){
-		$(".submenu").toggle('slow');
-	});			
-	
-//********** end - actions	
 	
 		 
 });

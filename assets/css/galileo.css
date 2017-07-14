@@ -14,7 +14,6 @@ h1, h2, h3, h4{
     width: 0px;  /* remove scrollbar space */
     background: transparent;  /* optional: just make scrollbar invisible */
 }
-
 .title-section h2{
   color: white;
   font-size: 1.85em;
@@ -29,6 +28,7 @@ h3{
   color: #1a5489;
   font-size: 1.65em;  
 }
+
 #wrapper{
   width: 20000px;
   /*height: 900px;*/

@@ -86,28 +86,7 @@
     <script src="assets/js/vendor/jquery.jInvertScroll.js"></script>
     <script src="assets/js/dist/scrollreveal.min.js"></script>
     <script src="assets/js/main.js"></script>
-    
-    <style>
-
-
-body{
-    overflow-x: hidden;
-}
-.front{
-    z-index: 500;
-    top: 150px;
-    width: 20000px;
-}
-.scroll{    
-  height: 6000px;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-}
-
-.sr .screen2-txt { visibility: hidden; }
-            
-        </style>    
+        
 </html>
 
 

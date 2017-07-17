@@ -34,8 +34,8 @@
                     <a href=""></a>
                 </div>
             </div>
-<div class="front scroll">
-
+<div class="front scroll">            
+            
             <section class="section center screen-1">
                 <img class="logo-intro" src="svg/titulo-gnc.svg">
             </section>
@@ -67,7 +67,7 @@
                         <p>Gas Biometano Comprimido</p>
                     </div>
                 </div>
-            </section>
+            </section>         
 
             <div class="gnc-biogas-landscape landscape-section">
             

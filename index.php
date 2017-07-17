@@ -71,9 +71,19 @@
 
             <div class="gnc-biogas-landscape landscape-section">
             
-                <div class="landscape-top"></div>
+                <div class="landscape-top">
+                    <!--elements 1 hills-->
+                    <div id="hill-1" class="hillType1"></div>
+                    <div id="hill-2" class="hillType2"></div>
+                    <div id="hill-3" class="hillType1"></div>
+
+                    <!--elements 2 trees-->
+                    <div id="tree-1" class="treeType2"></div>
+                    <div id="tree-2" class="treeType2"></div>
+                    <div id="tree-3" class="treeType1"></div>
+                </div>
                 <div class="landscape-bottom">
-                    <img class="main-landscape-image" src="assets/images/gnc-biogas-landscape-main-img.png">    
+                    <img class="main-landscape-image" src="assets/images/gnc-biogas-landscape-main-img.png"> <!--main image-->
                 </div>
 
             </div>

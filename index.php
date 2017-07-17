@@ -20,20 +20,20 @@
         <script src="js/main.js"></script>
         -->
         <div id="wrapper">
-
-            <div class="navigation" style="display: none;">
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
+            <div class="bottom-nav">
+                <div class="navigation">
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                </div>
             </div>
-
 <div class="front scroll">
 
             <section class="section center screen-1">
@@ -73,7 +73,7 @@
             
                 <div class="landscape-top"></div>
                 <div class="landscape-bottom">
-                    <img class="main-landscape-image" src="images/gnc-biogas-landscape-main-img.png">    
+                    <img class="main-landscape-image" src="assets/images/gnc-biogas-landscape-main-img.png">    
                 </div>
 
             </div>

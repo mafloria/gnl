@@ -56,6 +56,13 @@ h3{
 }
 
 /**/
+.bottom-nav{
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  bottom: 0;
+  padding: 1em 0;
+}
 .navigation{
   text-align: center;
   margin: 0 auto;
@@ -101,22 +108,22 @@ img.logo-intro{
   margin-bottom: 1em;
 }
 a.biogas-menu-btn{
-  background: url(../images/gnc-biogas-btn.png) no-repeat;
+  background: url(images/gnc-biogas-btn.png) no-repeat;
 }
 a.biogas-menu-btn:hover{
-  background: url(../images/gnc-biogas-btn-hover.png) no-repeat;
+  background: url(images/gnc-biogas-btn-hover.png) no-repeat;
 }
 a.yacimiento-menu-btn{
-  background: url(../images/gnc-yacimiento-btn.png) no-repeat;  
+  background: url(images/gnc-yacimiento-btn.png) no-repeat;  
 }
 a.yacimiento-menu-btn:hover{
-  background: url(../images/gnc-yacimiento-btn-hover.png) no-repeat; 
+  background: url(images/gnc-yacimiento-btn-hover.png) no-repeat; 
 }
 a.gasoducto-menu-btn{
-  background: url(../images/gnc-gasoducto-btn.png) no-repeat;  
+  background: url(images/gnc-gasoducto-btn.png) no-repeat;  
 }
 a.gasoducto-menu-btn:hover{
-  background: url(../images/gnc-gasoducto-btn-hover.png) no-repeat; 
+  background: url(images/gnc-gasoducto-btn-hover.png) no-repeat; 
 }
 /*screen 3*/
 .screen3-title{
@@ -139,25 +146,26 @@ a.gasoducto-menu-btn:hover{
   width: 100%;
   height: 100%;
   float: left;
-  position: relative;
 }
 .gnc-biogas-landscape{
   width: 14460px;
   height: 100%;
   float: left;
-
 }
 .landscape-top{
   width: 100%;
   height: 47%;
+  position: relative;
 }
 .landscape-bottom{
   width: 100%;
   height: 53%;
   background-color: #81b58b;
+  background-image: url(../../images/border-top-bottom-landscape.png) top top repeat-x;
+  position: relative;
 }
 .main-landscape-image{
   position: absolute;
-  top: 20%; 
+  top: -55%; 
   left: -3%;
 }

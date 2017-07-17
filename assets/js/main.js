@@ -24,8 +24,9 @@ $(document).ready(function(){
 	sr.reveal('.screen2-txt', { origin:'top', duration: 400, delay: 1000 });	
 	sr.reveal('.screen3-title', { origin:'top', duration: 400, delay: 1000 });
 	//sr.reveal('.hill', { container: '.landscape-top', duration: 1400, delay: 1000 });        
-	sr.reveal('.hill', { origin:'top', viewFactor: 1.0, delay: 1000});
-//	sr.reveal('.tree', { origin:'bottom', duration: 400});
+
+	sr.reveal('.hill', { origin:'top', delay: 10000});
+	sr.reveal('.tree', { origin:'bottom', delay: 10400});
 */
 		 
 });

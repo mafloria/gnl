@@ -7,10 +7,12 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href="assets/css/normalize.css">
+        <link rel="stylesheet" href="assets/css/normalize.css">        
         <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="assets/css/animations.css" type="text/css">
         <link rel="stylesheet" href="assets/css/galileo.css">
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">        
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+                
     </head>
     <body>
         <!--
@@ -65,22 +67,22 @@
                     <div class="screen3-title center">
                         <h1>Bio - GNC</h1>
                         <p>Gas Biometano Comprimido</p>
-                    </div>
+                    </div>                   
                 </div>
             </section>         
 
             <div class="gnc-biogas-landscape landscape-section">
             
-                <div class="landscape-top">
+                <div class="landscape-top animatedParent"  data-sequence='700'>
                     <!--elements 1 hills-->
-                    <div id="hill-1" class="hillType1"></div>
-                    <div id="hill-2" class="hillType2"></div>
-                    <div id="hill-3" class="hillType1"></div>
+                    <div id="hill-1" class="hillType1 animated growIn delay-350" data-id='1'></div>
+                    <div id="hill-2" class="hillType2 animated growIn" data-id='3'><p>Nuestro Gasoducto Virtual.</p></div>
+                    <div id="hill-3" class="hillType1 animated growIn" data-id='5'></div>
 
                     <!--elements 2 trees-->
-                    <div id="tree-1" class="treeType2"></div>
-                    <div id="tree-2" class="treeType2"></div>
-                    <div id="tree-3" class="treeType1"></div>
+                    <div id="tree-1" class="treeType2 animated growIn slow" data-id='2'></div>
+                    <div id="tree-2" class="treeType2 animated growIn slow" data-id='4'></div>
+                    <div id="tree-3" class="treeType1 animated growIn slow" data-id='6'></div>
                 </div>
                 <div class="landscape-bottom">
                     <img class="main-landscape-image" src="assets/images/gnc-biogas-landscape-main-img.png"> <!--main image-->
@@ -95,8 +97,13 @@
     <script src="assets/js/vendor/jquery-1.12.0.min.js"></script>        
     <script src="assets/js/vendor/jquery.jInvertScroll.js"></script>
     <script src="assets/js/dist/scrollreveal.min.js"></script>
+    <script src="assets/js/dist/css3-animate-it.js"></script>
     <script src="assets/js/main.js"></script>
         
+    <style>
+        /* Ensure elements load hidden before ScrollReveal runs */
+        .sr .fooReveal { visibility: hidden; }        
+    </style>
 </html>
 
 

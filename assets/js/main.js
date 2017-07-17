@@ -16,10 +16,16 @@ $(document).ready(function(){
             onScroll: function(percent) {   //optional: callback function that will be called when the user scrolls down, useful for animating other things on the page
                 //console.log(percent);
             }
-        });
+        });        
 	
 	//reveal screen elements
-	window.sr = ScrollReveal(); 	
-	sr.reveal('.screen2-txt', { origin:'top', duration: 400, delay: 10 });        
+	/*window.sr = ScrollReveal(); 	
+	sr.reveal('.scroll', { duration: 2000 }, 50);
+	sr.reveal('.screen2-txt', { origin:'top', duration: 400, delay: 1000 });	
+	sr.reveal('.screen3-title', { origin:'top', duration: 400, delay: 1000 });
+	//sr.reveal('.hill', { container: '.landscape-top', duration: 1400, delay: 1000 });        
+	sr.reveal('.hill', { origin:'top', viewFactor: 1.0, delay: 1000});
+//	sr.reveal('.tree', { origin:'bottom', duration: 400});
+*/
 		 
 });

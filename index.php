@@ -79,10 +79,26 @@
                     <div id="hill-2" class="hillType2 animated fadeInLeftShort" data-id='3'></div>
                     <div id="hill-3" class="hillType1 animated fadeInLeftShort" data-id='5'></div>
 
+                    <div id="hill-4" class="hillType1 animated fadeInLeftShort" data-id='12'></div>
+                    <div id="hill-5" class="hillType2 animated fadeInLeftShort" data-id='14'></div>
+
+                    <div id="hill-6" class="hillType1 animated fadeInLeftShort" data-id='15'></div>
+                    <div id="hill-7" class="hillType2 animated fadeInLeftShort" data-id='16'></div>
+                    <div id="hill-8" class="hillType1 animated fadeInLeftShort" data-id='19'></div>
+                    <div id="hill-9" class="hillType2 animated fadeInLeftShort" data-id='20'></div>
+
                     <!--elements 2 trees-->
                     <div id="tree-1" class="treeType2 animated fadeInLeftShort" data-id='2'></div>
                     <div id="tree-2" class="treeType2 animated fadeInLeftShort" data-id='4'></div>
                     <div id="tree-3" class="treeType1 animated fadeInLeftShort" data-id='6'></div>
+
+                    <div id="tree-4" class="treeType2 animated fadeInLeftShort" data-id='7'></div>
+                    <div id="tree-5" class="treeType1 animated fadeInLeftShort" data-id='8'></div>
+                    <div id="tree-6" class="treeType2 animated fadeInLeftShort" data-id='9'></div>
+
+                    <div id="tree-7" class="treeType1 animated fadeInLeftShort" data-id='10'></div>
+                    <div id="tree-8" class="treeType2 animated fadeInLeftShort" data-id='11'></div>
+                    <div id="tree-9" class="treeType1 animated fadeInLeftShort" data-id='13'></div>
                 </div>
                 <div class="landscape-bottom animatedParent" data-sequence='200'>
                     <!--elementos landscape part 1 -->

@@ -73,7 +73,7 @@
 
             <div class="gnc-biogas-landscape landscape-section">
             
-                <div class="landscape-top animatedParent"  data-sequence='200'>
+                <div class="landscape-top animatedParent" data-appear-top-offset='-300'  data-sequence='200'>
                     <!--elements 1 hills-->
                     <div id="hill-1" class="hillType1 animated fadeInLeftShort" data-id='1'></div>
                     <div id="hill-2" class="hillType2 animated fadeInLeftShort" data-id='3'></div>
@@ -87,6 +87,15 @@
                     <div id="hill-8" class="hillType1 animated fadeInLeftShort" data-id='19'></div>
                     <div id="hill-9" class="hillType2 animated fadeInLeftShort" data-id='20'></div>
 
+                    <div id="hill-10" class="hillType1 animated fadeInLeftShort" data-id='22'></div>
+                    <div id="hill-11" class="hillType2 animated fadeInLeftShort" data-id='25'></div>
+                    <div id="hill-12" class="hillType1 animated fadeInLeftShort" data-id='29'></div>
+                    <div id="hill-13" class="hillType2 animated fadeInLeftShort" data-id='32'></div>
+                    <div id="hill-14" class="hillType1 animated fadeInLeftShort" data-id='36'></div>
+                    <div id="hill-15" class="hillType2 animated fadeInLeftShort" data-id='39'></div>
+                    <div id="hill-16" class="hillType1 animated fadeInLeftShort" data-id='40'></div>
+                    <div id="hill-17" class="hillType2 animated fadeInLeftShort" data-id='42'></div>
+
                     <!--elements 2 trees-->
                     <div id="tree-1" class="treeType2 animated fadeInLeftShort" data-id='2'></div>
                     <div id="tree-2" class="treeType2 animated fadeInLeftShort" data-id='4'></div>
@@ -99,28 +108,60 @@
                     <div id="tree-7" class="treeType1 animated fadeInLeftShort" data-id='10'></div>
                     <div id="tree-8" class="treeType2 animated fadeInLeftShort" data-id='11'></div>
                     <div id="tree-9" class="treeType1 animated fadeInLeftShort" data-id='13'></div>
+
+                    <div id="tree-10" class="treeType2 animated fadeInLeftShort" data-id='17'></div>
+                    <div id="tree-11" class="treeType1 animated fadeInLeftShort" data-id='18'></div>
+                    <div id="tree-12" class="treeType2 animated fadeInLeftShort" data-id='21'></div>
+
+                    <div id="tree-13" class="treeType1 animated fadeInLeftShort" data-id='23'></div>
+                    <div id="tree-14" class="treeType2 animated fadeInLeftShort" data-id='24'></div>
+                    <div id="tree-15" class="treeType1 animated fadeInLeftShort" data-id='26'></div>
+                    <div id="tree-16" class="treeType2 animated fadeInLeftShort" data-id='27'></div>
+                    <div id="tree-17" class="treeType1 animated fadeInLeftShort" data-id='28'></div>
+                    <div id="tree-18" class="treeType1 animated fadeInLeftShort" data-id='30'></div>
+                    <div id="tree-19" class="treeType2 animated fadeInLeftShort" data-id='31'></div>
+
+                    <div id="tree-20" class="treeType2 animated fadeInLeftShort" data-id='33'></div>
+                    <div id="tree-21" class="treeType1 animated fadeInLeftShort" data-id='34'></div>
+                    <div id="tree-22" class="treeType2 animated fadeInLeftShort" data-id='35'></div>
+
+                    <div id="tree-23" class="treeType1 animated fadeInLeftShort" data-id='37'></div>
+                    <div id="tree-24" class="treeType2 animated fadeInLeftShort" data-id='38'></div>
+                    <div id="tree-25" class="treeType2 animated fadeInLeftShort" data-id='41'></div>
+                    <div id="tree-26" class="treeType1 animated fadeInLeftShort" data-id='43'></div>
+
+                    <!-- elements 3 titles -->
+                    <!--<h2 id="h2-1" class="h2-title-box animated fadeInLeftShort">ESTACIÓN MADRE</h2>-->
                 </div>
                 <div class="landscape-bottom animatedParent" data-sequence='200'>
                     <!--elementos landscape part 1 -->
                     <div id="txt-wrap-1" class="txtWrap1 animated fadeInLeftShort" data-id="1">
                         <div class="txt-wrap-cntr">
                             <div id="icon-1" class="icon1 animated fadeInLeftShort" data-id="2"></div> 
-                            <p class="txt1 animated fadeInLeftShort" data-id="6">Lodos Cloacales</p>   
+                            <p class="txt-box1 animated fadeInLeftShort" data-id="6">Lodos Cloacales</p>   
                         </div>
                         <div class="txt-wrap-cntr">
                             <div id="icon-2" class="icon2 animated fadeInLeftShort" data-id="3"></div> 
-                            <p class="txt1 animated fadeInLeftShort" data-id="6">Cultivos no comestibles</p>   
+                            <p class="txt-box1 animated fadeInLeftShort" data-id="6">Cultivos no comestibles</p>   
                         </div>
                         <div class="txt-wrap-cntr">
                             <div id="icon-1" class="icon3 animated fadeInLeftShort" data-id="4"></div> 
-                            <p class="txt1 animated fadeInLeftShort" data-id="6">Estiércol de ganado estabulado</p>   
+                            <p class="txt-box1 animated fadeInLeftShort" data-id="6">Estiércol de ganado estabulado</p>   
                         </div>
                         <div class="txt-wrap-cntr">
                             <div id="icon-2" class="icon4 animated fadeInLeftShort" data-id="5"></div> 
-                            <p class="txt1 animated fadeInLeftShort" data-id="6">Desechos de la industria alimenticia</p>   
+                            <p class="txt-box1 animated fadeInLeftShort" data-id="6">Desechos de la industria alimenticia</p>   
                         </div> 
-                        <h3 class="title-h3-1 animated fadeInLeftShort" data-id="7">Fuentes de biogás</h3>   
+                        <h3 id="h3-1" class="title-h3 animated fadeInLeftShort" data-id="7">Fuentes de biogás</h3>   
                     </div>
+                                        
+                    <h3 id="h3-3" class="title-green animated fadeInLeftShort" data-id="8">Biogas</h3>
+
+                    <h3 id="h3-2" class="title-h3 animated fadeInLeftShort" data-id="9">Biodigestor</h3>
+
+                    <div id="line-1" class="linea-txt-1 animated fadeInLeftShort" data-id="10"></div>
+                    <p id="txt-1" class="txtInfo animated fadeInLeftShort" data-id="11">Los efluentes del proceso se transforman en fertilizantes.</p>
+
                     <!--main image-->
                     <img class="main-landscape-image" src="assets/images/gnc-biogas-landscape-main-img.png">
                     <!--main image-->

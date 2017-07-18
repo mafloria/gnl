@@ -148,7 +148,7 @@ a.gasoducto-menu-btn:hover{
   float: left;
 }
 .gnc-biogas-landscape{
-  width: 14460px;
+  width: 15860px;
   height: 100%;
   float: left;
 }
@@ -191,10 +191,18 @@ a.gasoducto-menu-btn:hover{
 #hill-3{ bottom: 0; left: 700px;}
 #hill-4{ bottom: 0; left: 2670px;}
 #hill-5{ bottom: 0; left: 3500px;}
-#hill-6{ bottom: 0; left: 3800px;}
-#hill-7{ bottom: 0; left: 3850px;}
-#hill-8{ bottom: 0; left: 4000px;}
-#hill-9{ bottom: 0; left: 4050px;}
+#hill-6{ bottom: 0; left: 4300px;}
+#hill-7{ bottom: 0; left: 4450px;}
+#hill-8{ bottom: 0; left: 4750px;}
+#hill-9{ bottom: 0; left: 4850px;}
+#hill-10{ bottom: 0; left: 5250px;}
+#hill-11{ bottom: 0; left: 5400px;}
+#hill-12{ bottom: 0; left: 6350px;}
+#hill-13{ bottom: 0; left: 6550px;}
+#hill-14{ bottom: 0; left: 7800px;}
+#hill-15{ bottom: 0; left: 7950px;}
+#hill-16{ bottom: 0; left: 8600px;}
+#hill-17{ bottom: 0; left: 8780px;}
 
 /*elements 2 trees*/
 .treeType1{
@@ -220,6 +228,23 @@ a.gasoducto-menu-btn:hover{
 #tree-7{ bottom: -25px; left: 2600px;}
 #tree-8{ bottom: -10px; left: 2700px;}
 #tree-9{ bottom: -25px; left: 2770px;}
+#tree-10{ bottom: -18px; left: 4350px;}
+#tree-11{ bottom: -25px; left: 4600px;}
+#tree-12{ bottom: -14px; left: 4840px;}
+#tree-13{ bottom: -30px; left: 5230px;}
+#tree-14{ bottom: -20px; left: 5380px;}
+#tree-15{ bottom: -14px; left: 5600px;}
+#tree-16{ bottom: -25px; left: 5750px;}
+#tree-17{ bottom: -14px; left: 5920px;}
+#tree-18{ bottom: -25px; left: 6450px;}
+#tree-19{ bottom: -15px; left: 6570px;}
+#tree-20{ bottom: -15px; left: 7000px;}
+#tree-21{ bottom: -25px; left: 7150px;}
+#tree-22{ bottom: -15px; left: 7300px;}
+#tree-23{ bottom: -25px; left: 7750px;}
+#tree-24{ bottom: -15px; left: 7900px;}
+#tree-25{ bottom: -15px; left: 8750px;}
+#tree-26{ bottom: -25px; left: 8950px;}
 /*elements 3 txt*/
 .txt-wrap-cntr{
   position: relative;
@@ -239,13 +264,7 @@ a.gasoducto-menu-btn:hover{
   background: transparent url(../images/cajon-txt-section1.png) no-repeat;
   padding: 20px 0;
 }
-.title-h3-1{
-  position: absolute;
-  bottom: -15px;
-  text-align: center;
-  width: 100%;  
-}
-.txt1{
+.txt-box1{
   width: 30%;
   float: left;
   font-size: 20px;
@@ -253,8 +272,40 @@ a.gasoducto-menu-btn:hover{
   color: #074c38;
   margin-left: 10px;
 }
-#icon-1{
+.txtInfo{
+  font-size: 18px;
+  color: white;
+  line-height: 20px;
+  position: absolute;
+  z-index: 12;
+}
+.title-green{
+  position: absolute;
+  z-index: 11;
+  text-align: center; 
+  color: #b1efe6;
+  background-color: #359688;
+  padding: 0.1em 1em;
+  border-top-right-radius: 1em;
+}
+.title-h3{
+  position: absolute;
+  z-index: 11;
+  text-align: center;
+}
+#txt-1{ bottom: 350px; left: 988px; width: 150px;}
+#h3-1{ bottom: -15px; width: 100%;}
+#h3-2{ bottom: 215px; left: 690px; border-bottom: 2px solid #1a5489}
+#h3-3{ top: -70px; left: 967px;}
 
+#line-1{
+  width: 142px;
+  height: 41px;
+  position: absolute;
+  background: transparent url(../images/linea-1.png) no-repeat;
+  bottom: 380px;
+  left: 835px;
+  z-index: 11;
 }
 .icon1{
  float: left;

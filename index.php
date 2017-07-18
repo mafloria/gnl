@@ -73,19 +73,41 @@
 
             <div class="gnc-biogas-landscape landscape-section">
             
-                <div class="landscape-top animatedParent"  data-sequence='700'>
+                <div class="landscape-top animatedParent"  data-sequence='200'>
                     <!--elements 1 hills-->
-                    <div id="hill-1" class="hillType1 animated growIn delay-350" data-id='1'></div>
-                    <div id="hill-2" class="hillType2 animated growIn" data-id='3'><p>Nuestro Gasoducto Virtual.</p></div>
-                    <div id="hill-3" class="hillType1 animated growIn" data-id='5'></div>
+                    <div id="hill-1" class="hillType1 animated fadeInLeftShort" data-id='1'></div>
+                    <div id="hill-2" class="hillType2 animated fadeInLeftShort" data-id='3'></div>
+                    <div id="hill-3" class="hillType1 animated fadeInLeftShort" data-id='5'></div>
 
                     <!--elements 2 trees-->
-                    <div id="tree-1" class="treeType2 animated growIn slow" data-id='2'></div>
-                    <div id="tree-2" class="treeType2 animated growIn slow" data-id='4'></div>
-                    <div id="tree-3" class="treeType1 animated growIn slow" data-id='6'></div>
+                    <div id="tree-1" class="treeType2 animated fadeInLeftShort" data-id='2'></div>
+                    <div id="tree-2" class="treeType2 animated fadeInLeftShort" data-id='4'></div>
+                    <div id="tree-3" class="treeType1 animated fadeInLeftShort" data-id='6'></div>
                 </div>
-                <div class="landscape-bottom">
-                    <img class="main-landscape-image" src="assets/images/gnc-biogas-landscape-main-img.png"> <!--main image-->
+                <div class="landscape-bottom animatedParent" data-sequence='200'>
+                    <!--elementos landscape part 1 -->
+                    <div id="txt-wrap-1" class="txtWrap1 animated fadeInLeftShort" data-id="1">
+                        <div class="txt-wrap-cntr">
+                            <div id="icon-1" class="icon1 animated fadeInLeftShort" data-id="2"></div> 
+                            <p class="txt1 animated fadeInLeftShort" data-id="6">Lodos Cloacales</p>   
+                        </div>
+                        <div class="txt-wrap-cntr">
+                            <div id="icon-2" class="icon2 animated fadeInLeftShort" data-id="3"></div> 
+                            <p class="txt1 animated fadeInLeftShort" data-id="6">Cultivos no comestibles</p>   
+                        </div>
+                        <div class="txt-wrap-cntr">
+                            <div id="icon-1" class="icon3 animated fadeInLeftShort" data-id="4"></div> 
+                            <p class="txt1 animated fadeInLeftShort" data-id="6">Estiércol de ganado estabulado</p>   
+                        </div>
+                        <div class="txt-wrap-cntr">
+                            <div id="icon-2" class="icon4 animated fadeInLeftShort" data-id="5"></div> 
+                            <p class="txt1 animated fadeInLeftShort" data-id="6">Desechos de la industria alimenticia</p>   
+                        </div> 
+                        <h3 class="title-h3-1 animated fadeInLeftShort" data-id="7">Fuentes de biogás</h3>   
+                    </div>
+                    <!--main image-->
+                    <img class="main-landscape-image" src="assets/images/gnc-biogas-landscape-main-img.png">
+                    <!--main image-->
                 </div>
 
             </div>

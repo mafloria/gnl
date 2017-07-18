@@ -224,3 +224,63 @@ a.gasoducto-menu-btn:hover{
   bottom: -20px;
   left: 765px;
 }
+/*elements 3 txt*/
+.txt-wrap-cntr{
+  position: relative;
+  width: 90%;
+  display: inline-block;
+  padding: 2% 5%;
+}
+#txt-wrap-1{
+  top: -250px;
+  left: 150px;
+}
+.txtWrap1{
+  width: 341px;
+  height: 537px;
+  z-index: 11;
+  position: absolute;
+  background: transparent url(../images/cajon-txt-section1.png) no-repeat;
+  padding: 20px 0;
+}
+.title-h3-1{
+  position: absolute;
+  bottom: -15px;
+  text-align: center;
+  width: 100%;  
+}
+.txt1{
+  width: 30%;
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+  color: #074c38;
+  margin-left: 10px;
+}
+#icon-1{
+
+}
+.icon1{
+ float: left;
+ width: 171px;
+ height: 118px;
+ background: transparent url(../images/em-icon-1.png) no-repeat;
+}
+.icon2{
+ float: left;
+ width: 161px;
+ height: 117px;
+ background: transparent url(../images/em-icon-2.png) no-repeat;
+}
+.icon3{
+ float: left;
+ width: 161px;
+ height: 118px;
+ background: transparent url(../images/em-icon-3.png) no-repeat;
+}
+.icon4{
+ float: left;
+ width: 162px;
+ height: 118px;
+ background: transparent url(../images/em-icon-4.png) no-repeat;
+}

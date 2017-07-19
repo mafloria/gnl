@@ -74,14 +74,9 @@
             <div class="gnc-biogas-landscape landscape-section">
             
                 <div class="landscape-top">
-<<<<<<< HEAD
-                    <!--elements 1 hills-->
-                    <div class="group-animated ">
-                        <div id="hill-1" class="hillType1 "></div>
-=======
-
+    
                 <div class="group-animated animatedParent" data-appear-top-offset='-800'  data-sequence='300'>
-                        <div id="txt-wrap-1" class="txtWrap1 animated fadeInLeftShort" data-id="1">
+                        <div id="txt-wrap-1 class="txtWrap1 animated fadeInLeftShort" data-id="1"">
                             <div class="txt-wrap-cntr">
                                 <div id="icon-1" class="icon1 animated fadeInLeftShort" data-id="2"></div> 
                                 <p class="txt-box1 animated fadeInLeftShort" data-id="3">Lodos Cloacales</p>   
@@ -103,8 +98,8 @@
                     </div>
 
                     <div class="group-animated animatedParent" data-appear-top-offset='-800'  data-sequence='300'>
-                        <div id="hill-1" class="hillType1 animated fadeInLeftShort" data-id='1'></div>
->>>>>>> origin/master
+                        <div id="hill-1" class="hillType1 animated fadeInLeftShort" data-id='1'></div
+
                         <div id="tree-1" class="treeType2 animated fadeInLeftShort" data-id='2'></div>
                         
                         <div id="hill-2" class="hillType2 animated fadeInLeftShort" data-id='3'></div>

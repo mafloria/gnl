@@ -114,8 +114,6 @@
                         <div id="tree-3" class="treeType1 animated fadeInLeftShort" data-id='6'></div>    
                     </div>
                     
-                    
-
                     <div class="group-animated animatedParent" data-appear-top-offset='-800'  data-sequence='300'>
                         <div id="tree-4" class="treeType2 animated fadeInLeftShort" data-id='1'></div>
                         <div id="tree-5" class="treeType1 animated fadeInLeftShort" data-id='2'></div>

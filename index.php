@@ -74,9 +74,9 @@
             <div class="gnc-biogas-landscape landscape-section">
             
                 <div class="landscape-top">
-    
-                <div class="group-animated animatedParent" data-appear-top-offset='-800'  data-sequence='300'>
-                        <div id="txt-wrap-1 class="txtWrap1 animated fadeInLeftShort" data-id="1"">
+
+                    <div class="group-animated animatedParent" data-appear-left-offset='-400'  data-sequence='300'>
+                        <div id="txt-wrap-1" class="txtWrap1 animated fadeInLeftShort" data-id="1">
                             <div class="txt-wrap-cntr">
                                 <div id="icon-1" class="icon1 animated fadeInLeftShort" data-id="2"></div> 
                                 <p class="txt-box1 animated fadeInLeftShort" data-id="3">Lodos Cloacales</p>   
@@ -97,19 +97,21 @@
                         </div>
                     </div>
 
-                    <div class="group-animated animatedParent" data-appear-top-offset='-800'  data-sequence='300'>
-                        <div id="hill-1" class="hillType1 animated fadeInLeftShort" data-id='1'></div
-
+                    <div class="group-animated animatedParent"  data-appear-left-offset='-700'  data-sequence='300'>
+                        <div id="hill-1" class="hillType1 animated fadeInLeftShort slowest" data-id='1'></div>
                         <div id="tree-1" class="treeType2 animated fadeInLeftShort" data-id='2'></div>
                         
                         <div id="hill-2" class="hillType2 animated fadeInLeftShort" data-id='3'></div>
                         <div id="tree-2" class="treeType2 animated fadeInLeftShort" data-id='4'></div>
                         
-                        <div id="hill-3" class="hillType1 " ></div>
-                        <div id="tree-3" class="treeType1 animated fadeInLeftShort" data-id='6'></div>    
+                        <div id="hill-3" class="hillType1 animated fadeInLeftShort" data-id='5'></div>
+                        <div id="tree-3" class="treeType1 animated fadeInLeftShort" data-id='6'></div>
+                        
+                        <div id="tree-4" class="treeType2 animated fadeInLeftShort" data-id='7'></div>
+                        <div id="tree-5" class="treeType1 animated fadeInLeftShort" data-id='8'></div>    
                     </div>
                     
-                    <div class="group-animated animatedParent" data-appear-top-offset='-800'  data-sequence='300'>
+                    <div class="group-animated animatedParent"  data-appear-left-offset='-1200'  data-sequence='300'>
                         <div id="tree-4" class="treeType2 animated fadeInLeftShort" data-id='1'></div>
                         <div id="tree-5" class="treeType1 animated fadeInLeftShort" data-id='2'></div>
                     </div>
@@ -196,8 +198,8 @@
     <script src="assets/js/main.js"></script>
         
     <style>
-        /* Ensure elements load hidden before ScrollReveal runs */
-        .sr .fooReveal { visibility: hidden; }        
+        /* Ensure elements load hidden before ScrollReveal runs 
+        .sr .fooReveal { visibility: hidden; }        */
     </style>
 </html>
 

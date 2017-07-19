@@ -77,14 +77,23 @@
                     <!--elements 1 hills-->
                     <div class="group-animated animatedParent" data-appear-top-offset='-500'  data-sequence='400'>
                         <div id="hill-1" class="hillType1 animated fadeInLeftShort" data-id='1'></div>
-                        <div id="tree-1" class="treeType2 animated fadeInLeftShort" data-id='2'></div>    
+                        <div id="tree-1" class="treeType2 animated fadeInLeftShort" data-id='2'></div>
+                        
+                        <div id="hill-2" class="hillType2 animated fadeInLeftShort" data-id='3'></div>
+                        <div id="tree-2" class="treeType2 animated fadeInLeftShort" data-id='4'></div>
+                        
+                        <div id="hill-3" class="hillType1 animated fadeInLeftShort" data-id='5'></div>
+                        <div id="tree-3" class="treeType1 animated fadeInLeftShort" data-id='6'></div>    
                     </div>
                     
-                    <div id="hill-2" class="hillType2 animated fadeInLeftShort" data-id='3'></div>
-                    <div id="hill-3" class="hillType1 animated fadeInLeftShort" data-id='5'></div>
-
-                    <div id="hill-4" class="hillType1 animated fadeInLeftShort" data-id='12'></div>
-                    <div id="hill-5" class="hillType2 animated fadeInLeftShort" data-id='14'></div>
+                    
+                    
+                    <div class="group-animated animatedParent" data-appear-top-offset='-500'>
+                        <div id="hill-4" class="hillType1 animated fadeInLeftShort"></div>
+                    </div>
+                    <div class="group-animated animatedParent" data-appear-top-offset='-500'>
+                        <div id="hill-5" class="hillType2 animated fadeInLeftShort"></div>
+                    </div>
 
                     <div id="hill-6" class="hillType1 animated fadeInLeftShort" data-id='15'></div>
                     <div id="hill-7" class="hillType2 animated fadeInLeftShort" data-id='16'></div>
@@ -100,10 +109,7 @@
                     <div id="hill-16" class="hillType1 animated fadeInLeftShort" data-id='40'></div>
                     <div id="hill-17" class="hillType2 animated fadeInLeftShort" data-id='42'></div>
 
-                    <!--elements 2 trees-->
-                    
-                    <div id="tree-2" class="treeType2 animated fadeInLeftShort" data-id='4'></div>
-                    <div id="tree-3" class="treeType1 animated fadeInLeftShort" data-id='6'></div>
+                    <!--elements 2 trees-->                                                            
 
                     <div id="tree-4" class="treeType2 animated fadeInLeftShort" data-id='7'></div>
                     <div id="tree-5" class="treeType1 animated fadeInLeftShort" data-id='8'></div>

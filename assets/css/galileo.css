@@ -33,6 +33,15 @@ h1, h2, h3, h4{
   width: auto;
   display: table;
 }
+.h2-title-box{
+  position: absolute;
+  z-index: 13;
+  color: white;
+  font-size: 1.85em;
+  padding: 0 1em;
+  background-color: #1a5489;
+  text-align: center;
+}
 h3{
   color: #1a5489;
   font-size: 1.65em;  
@@ -293,6 +302,8 @@ a.gasoducto-menu-btn:hover{
   z-index: 11;
   text-align: center;
 }
+#h2-1{top: 40px; left: 670px;}
+
 #txt-1{ bottom: 350px; left: 988px; width: 150px;}
 #h3-1{ bottom: -15px; width: 100%;}
 #h3-2{ bottom: 215px; left: 690px; border-bottom: 2px solid #1a5489}

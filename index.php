@@ -73,9 +73,13 @@
 
             <div class="gnc-biogas-landscape landscape-section">
             
-                <div class="landscape-top animatedParent" data-appear-top-offset='-300'  data-sequence='200'>
+                <div class="landscape-top">
                     <!--elements 1 hills-->
-                    <div id="hill-1" class="hillType1 animated fadeInLeftShort" data-id='1'></div>
+                    <div class="group-animated animatedParent" data-appear-top-offset='-500'  data-sequence='400'>
+                        <div id="hill-1" class="hillType1 animated fadeInLeftShort" data-id='1'></div>
+                        <div id="tree-1" class="treeType2 animated fadeInLeftShort" data-id='2'></div>    
+                    </div>
+                    
                     <div id="hill-2" class="hillType2 animated fadeInLeftShort" data-id='3'></div>
                     <div id="hill-3" class="hillType1 animated fadeInLeftShort" data-id='5'></div>
 
@@ -97,7 +101,7 @@
                     <div id="hill-17" class="hillType2 animated fadeInLeftShort" data-id='42'></div>
 
                     <!--elements 2 trees-->
-                    <div id="tree-1" class="treeType2 animated fadeInLeftShort" data-id='2'></div>
+                    
                     <div id="tree-2" class="treeType2 animated fadeInLeftShort" data-id='4'></div>
                     <div id="tree-3" class="treeType1 animated fadeInLeftShort" data-id='6'></div>
 
@@ -131,30 +135,34 @@
                     <div id="tree-26" class="treeType1 animated fadeInLeftShort" data-id='43'></div>
 
                     <!-- elements 3 titles -->
-                    <!--<h2 id="h2-1" class="h2-title-box animated fadeInLeftShort">ESTACIÓN MADRE</h2>-->
-                </div>
-                <div class="landscape-bottom animatedParent" data-sequence='200'>
-                    <!--elementos landscape part 1 -->
-                    <div id="txt-wrap-1" class="txtWrap1 animated fadeInLeftShort" data-id="1">
-                        <div class="txt-wrap-cntr">
-                            <div id="icon-1" class="icon1 animated fadeInLeftShort" data-id="2"></div> 
-                            <p class="txt-box1 animated fadeInLeftShort" data-id="6">Lodos Cloacales</p>   
-                        </div>
-                        <div class="txt-wrap-cntr">
-                            <div id="icon-2" class="icon2 animated fadeInLeftShort" data-id="3"></div> 
-                            <p class="txt-box1 animated fadeInLeftShort" data-id="6">Cultivos no comestibles</p>   
-                        </div>
-                        <div class="txt-wrap-cntr">
-                            <div id="icon-1" class="icon3 animated fadeInLeftShort" data-id="4"></div> 
-                            <p class="txt-box1 animated fadeInLeftShort" data-id="6">Estiércol de ganado estabulado</p>   
-                        </div>
-                        <div class="txt-wrap-cntr">
-                            <div id="icon-2" class="icon4 animated fadeInLeftShort" data-id="5"></div> 
-                            <p class="txt-box1 animated fadeInLeftShort" data-id="6">Desechos de la industria alimenticia</p>   
-                        </div> 
-                        <h3 id="h3-1" class="title-h3 animated fadeInLeftShort" data-id="7">Fuentes de biogás</h3>   
+                    <div class="group-animated animatedParent" data-appear-top-offset='-500'  data-sequence='400'>
+                        <h2 id="h2-1" class="h2-title-box animated fadeInLeftShort">ESTACIÓN MADRE</h2>
                     </div>
-                                        
+                    
+                </div>
+                <div class="landscape-bottom">
+                    <!--elementos landscape part 1 -->
+                    <div class="group-animated animatedParent" data-appear-top-offset='-500'  data-sequence='400'>
+                        <div id="txt-wrap-1" class="txtWrap1 animated fadeInLeftShort" data-id="1">
+                            <div class="txt-wrap-cntr">
+                                <div id="icon-1" class="icon1 animated fadeInLeftShort" data-id="2"></div> 
+                                <p class="txt-box1 animated fadeInLeftShort" data-id="3">Lodos Cloacales</p>   
+                            </div>
+                            <div class="txt-wrap-cntr">
+                                <div id="icon-2" class="icon2 animated fadeInLeftShort" data-id="4"></div> 
+                                <p class="txt-box1 animated fadeInLeftShort" data-id="5">Cultivos no comestibles</p>   
+                            </div>
+                            <div class="txt-wrap-cntr">
+                                <div id="icon-1" class="icon3 animated fadeInLeftShort" data-id="6"></div> 
+                                <p class="txt-box1 animated fadeInLeftShort" data-id="7">Estiércol de ganado estabulado</p>   
+                            </div>
+                            <div class="txt-wrap-cntr">
+                                <div id="icon-2" class="icon4 animated fadeInLeftShort" data-id="8"></div> 
+                                <p class="txt-box1 animated fadeInLeftShort" data-id="9">Desechos de la industria alimenticia</p>   
+                            </div> 
+                            <h3 id="h3-1" class="title-h3 animated fadeInLeftShort" data-id="10">Fuentes de biogás</h3>   
+                        </div>
+                    </div>                    
                     <h3 id="h3-3" class="title-green animated fadeInLeftShort" data-id="8">Biogas</h3>
 
                     <h3 id="h3-2" class="title-h3 animated fadeInLeftShort" data-id="9">Biodigestor</h3>

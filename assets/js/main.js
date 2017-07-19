@@ -19,10 +19,10 @@ $(document).ready(function(){
         });        
 	
 	//reveal screen elements
-	/*window.sr = ScrollReveal(); 	
-	sr.reveal('.scroll', { duration: 2000 }, 50);
-	sr.reveal('.screen2-txt', { origin:'top', duration: 400, delay: 1000 });	
-	sr.reveal('.screen3-title', { origin:'top', duration: 400, delay: 1000 });
+	window.sr = ScrollReveal(); 	
+	//sr.reveal('.scroll', { duration: 2000 }, 50);
+	sr.reveal('.hillType1', { origin:'top', duration: 400, delay: 1000 });	
+	/*sr.reveal('.screen3-title', { origin:'top', duration: 400, delay: 1000 });
 	//sr.reveal('.hill', { container: '.landscape-top', duration: 1400, delay: 1000 });        
 
 	sr.reveal('.hill', { origin:'top', delay: 10000});

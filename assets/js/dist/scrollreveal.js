@@ -683,13 +683,16 @@
 
   function _getScrolled (container) {
     // Return the container scroll values, plus the its offset.
+    console.log("container: "+container);
     if (container && container !== window.document.documentElement) {
       var offset = _getOffset(container)
+      console.log("offset");
       return {
         x: container.scrollLeft + offset.left,
         y: container.scrollTop + offset.top
       }
     } else {
+      console.log("window: "+window.pageXOffset);
       // Otherwise, default to the window object’s scroll values.
       return {
         x: window.pageXOffset,

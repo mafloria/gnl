@@ -75,14 +75,14 @@
             
                 <div class="landscape-top">
                     <!--elements 1 hills-->
-                    <div class="group-animated animatedParent" data-appear-top-offset='-500'  data-sequence='400'>
-                        <div id="hill-1" class="hillType1 animated fadeInLeftShort" data-id='1'></div>
+                    <div class="group-animated ">
+                        <div id="hill-1" class="hillType1 "></div>
                         <div id="tree-1" class="treeType2 animated fadeInLeftShort" data-id='2'></div>
                         
                         <div id="hill-2" class="hillType2 animated fadeInLeftShort" data-id='3'></div>
                         <div id="tree-2" class="treeType2 animated fadeInLeftShort" data-id='4'></div>
                         
-                        <div id="hill-3" class="hillType1 animated fadeInLeftShort" data-id='5'></div>
+                        <div id="hill-3" class="hillType1 " ></div>
                         <div id="tree-3" class="treeType1 animated fadeInLeftShort" data-id='6'></div>    
                     </div>
                     
@@ -189,7 +189,7 @@
     <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>           
     <script src="assets/js/vendor/jquery-1.12.0.min.js"></script>        
     <script src="assets/js/vendor/jquery.jInvertScroll.js"></script>
-    <script src="assets/js/dist/scrollreveal.min.js"></script>
+    <script src="assets/js/dist/scrollreveal.js"></script>
     <script src="assets/js/dist/css3-animate-it.js"></script>
     <script src="assets/js/main.js"></script>
         

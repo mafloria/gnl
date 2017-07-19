@@ -19,7 +19,7 @@ $(document).ready(function(){
         });        
 	
 	//reveal screen elements
-	/*window.sr = ScrollReveal(); 	
+	window.sr = ScrollReveal(); 	
 	//sr.reveal('.scroll', { duration: 2000 }, 50);
 	sr.reveal('.hillType1', { origin:'top', duration: 400, delay: 1000 });	
 	/*sr.reveal('.screen3-title', { origin:'top', duration: 400, delay: 1000 });

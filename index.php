@@ -97,7 +97,7 @@
                         </div>
                     </div>
 
-                    <div class="group-animated animatedParent"  data-appear-left-offset='-700'  data-sequence='300'>
+                    <div class="group-animated animatedParent"  data-appear-left-offset='-700'  data-sequence='150'>
                         <div id="hill-1" class="hillType1 animated fadeInLeftShort" data-id='1'></div>
                         <div id="tree-1" class="treeType2 animated fadeInLeftShort" data-id='2'></div>
                         

@@ -7,8 +7,7 @@
     $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
     curl_close($ch);
     
-    $texts = json_decode($texts_file);    
-    print_r($texts);
+    $texts = json_decode($texts_file);
 ?>
 <!doctype html>
 <html class="no-js" lang="es">

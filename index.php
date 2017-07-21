@@ -99,11 +99,7 @@
                             <h2 id="h2-1" class="h2-title-box animated fadeInLeftShort" data-id="1">ESTACIÓN MADRE</h2>
                     </div>
 
-<<<<<<< HEAD
                     <div class="group-animated animatedParent"  data-appear-left-offset='-700'  data-sequence='150'>
-=======
-                    <div class="group-animated animatedParent"  data-appear-left-offset='-500'  data-sequence='300'>
->>>>>>> origin/master
                         <div id="hill-1" class="hillType1 animated fadeInLeftShort" data-id='1'></div>
                         <div id="tree-1" class="treeType2 animated fadeInLeftShort" data-id='2'></div>
                         

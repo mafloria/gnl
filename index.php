@@ -1,6 +1,7 @@
 <?php
+	include("config/config.php");
     $ch = curl_init();
-    curl_setopt($ch, CURLOPT_URL, "http://localhost/php-apps/IndustriasParaiso/gnl/language/biogas.txt");
+    curl_setopt($ch, CURLOPT_URL, $language_url."biogas.txt");
     curl_setopt($ch, CURLOPT_HEADER, FALSE);    
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
     $texts_file = curl_exec($ch);

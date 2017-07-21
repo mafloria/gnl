@@ -1,0 +1,20 @@
+{
+    "intro":{
+    
+	    "lang":"en-us",
+	    "intro_text":"Nuestro Gasoducto Virtual&reg; conecta a los consumidores con múltiples fuentes de gas, superando el alcance de los gasoductos convencionales y proveyendo energía en regiones aisladas.",
+	    "biognc_subtitulo":"Gas Biometano Comprimido"
+    },
+    "seccion_1":{
+	    "fuentes_biogas_box_titulo":"Fuentes de biogás",
+	    "fuentes_biogas_box_op1":"Lodos Cloacales",
+	    "fuentes_biogas_box_op2":"Cultivos no comestibles",
+	    "fuentes_biogas_box_op3":"Estiércol de ganado estabulado",
+	    "fuentes_biogas_box_op4":"Desechos de la industria alimenticia",
+	    
+	    "estacion_madre":"ESTACIÓN MADRE",
+	    "biodigestor":"Biodigestor",
+	    "biodigestor_desc":"Los efluentes del proceso se transforman en fertilizantes."
+    }
+    
+}

@@ -200,30 +200,33 @@
                         <div id="tree-21" class="treeType1 animated fadeInLeftShort" data-id='2'></div>
                         <div id="tree-22" class="treeType2 animated fadeInLeftShort" data-id='3'></div>
                     </div>
+
                     <!--elementos landscape top 7 --> 
- 
+                    <div class="group-animated animatedParent" data-appear-left-offset='-8000'  data-sequence='300'>
+                        <div id="tree-23" class="treeType1 animated fadeInLeftShort" data-id='1'></div>
+                        <div id="hill-14" class="hillType1 animated fadeInLeftShort" data-id='2'></div>
+                        <div id="tree-24" class="treeType2 animated fadeInLeftShort" data-id='3'></div>
+                        <div id="hill-15" class="hillType2 animated fadeInLeftShort" data-id='4'></div>   
+                    </div>
+
+                    <div class="group-animated animatedParent" data-appear-left-offset='-8100'  data-sequence='300'>
+                         <h2 id="h2-6" class="h2-title-box animated fadeInLeftShort" data-id="1">ESTACIÓN HIJA</h2>
+                         <h4 id="subt-2" class="subtitle animated fadeInLeftShort" data-id="2">Plataformas PAD</h4>
+                     </div>
+
+                     <div class="group-animated animatedParent" data-appear-left-offset='-8700'  data-sequence='300'>
+                        <div id="hill-16" class="hillType1 animated fadeInLeftShort" data-id='1'></div>
+                        <div id="tree-25" class="treeType2 animated fadeInLeftShort" data-id='2'></div>
+                        <div id="hill-17" class="hillType2 animated fadeInLeftShort" data-id='3'></div>
+                        <div id="tree-26" class="treeType1 animated fadeInLeftShort" data-id='4'></div>
+                     </div>
                     <!--elementos landscape top 8 --> 
- 
+                    <div class="group-animated animatedParent" data-appear-left-offset='-9900'  data-sequence='300'>
+                        <h2 id="h2-7" class="h2-title-box animated fadeInLeftShort" data-id="1">ESTACIÓN HIJA</h2>
+                    </div>
                      
  
-                     
- 
-                     <div id="hill-14" class="hillType1 animated fadeInLeftShort" data-id='2'></div>
-                     <div id="hill-15" class="hillType2 animated fadeInLeftShort" data-id='39'></div>
-                     <div id="hill-16" class="hillType1 animated fadeInLeftShort" data-id='40'></div>
-                     <div id="hill-17" class="hillType2 animated fadeInLeftShort" data-id='42'></div>
- 
-                     
- 
-                     
- 
-                     
- 
-                     <div id="tree-23" class="treeType1 animated fadeInLeftShort" data-id='37'></div>
-                     <div id="tree-24" class="treeType2 animated fadeInLeftShort" data-id='38'></div>
-                     <div id="tree-25" class="treeType2 animated fadeInLeftShort" data-id='41'></div>
-                     <div id="tree-26" class="treeType1 animated fadeInLeftShort" data-id='43'></div>
- 
+                      
                  </div>
                  <div class="landscape-bottom">
                      <!--elementos landscape bottom 1 -->
@@ -277,10 +280,33 @@
  
                      <div class="group-animated animatedParent"  data-appear-left-offset='-7400'  data-sequence='300'>
                         <div id="warning-1" class="warning-icon animated fadeInLeftShort" data-id="1"></div>
-                        <p id="txt-8" class="txtInfo animated fadeInLeftShort" data-id="2"><span ></span>Un tráiler equipado con un MAT-B puede funcionar como una estación móvil de Bio-GNC, y abastecer flotas en sus propios centros logísticos.</p>
+                        <p id="txt-8" class="txtInfo animated fadeInLeftShort" data-id="2">Un tráiler equipado con un MAT-B puede funcionar como una estación móvil de Bio-GNC, y abastecer flotas en sus propios centros logísticos.</p>
                         <p id="txt-9" class="txtInfo animated fadeInLeftShort" data-id="3">Los MAT-B cuentan con booster de recompresión y surtidor para distribuir Bio-GNC a granel.</p>
                      </div>
- 
+
+                     <!--elementos landscape bottom 7 -->
+                        <div class="group-animated animatedParent"  data-appear-left-offset='-8200'  data-sequence='300'>
+                            <h3 id="h3-10" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">4</span></h3>
+                            <p id="txt-10" class="txtInfo animated fadeInLeftShort" data-id="2">Una vez en el centro de consumo, los mecanismos hidráulicos de anclaje del tráiler VST depositan los MAT llenos sobre una plataforma de descarga PAD® y simultáneamente retiran los vacíos. </p>
+                        </div>
+                        <div class="group-animated animatedParent"  data-appear-left-offset='-8600'  data-sequence='300'>
+                            <div id="warning-2" class="warning-icon animated fadeInLeftShort" data-id="1"></div>
+                            <p id="txt-11" class="txtInfo animated fadeInLeftShort" data-id="2">La operación de intercambio y conexión toma menos de 7 minutos por MAT y es realizada con la sola asistencia del conductor del camión, quien inmediatamente continúa su ruta hacia la próxima estación hija.</p>
+                        </div>
+
+                        <!--elementos landscape bottom 8 -->
+                        <div class="group-animated animatedParent"  data-appear-left-offset='-10100'  data-sequence='300'>
+                            <h3 id="h3-11" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">5</span></h3>
+                            <p id="txt-12" class="txtInfo animated fadeInLeftShort" data-id="2">Al ser depositados sobre la PAD, los MAT son conectados a ella para que el GNC sea transferido a una Planta Reguladora de Presión PRP®, cuya función es proveer gas en los rangos de presión de salida y caudal requeridos por los usuarios finales.</p>
+                        </div>
+
+                        <div class="group-animated animatedParent"  data-appear-left-offset='-10600'  data-sequence='300'>
+                            <h3 id="h3-12" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">6</span></h3>
+                            <p id="txt-13" class="txtInfo animated fadeInLeftShort" data-id="2">Finalmente, el gas es distribuido a través de una red de tuberías para que los hogares reemplacen las garrafas de gas por una simple llave de paso. También para que las operaciones en las industrias, las usinas eléctricas y los centros turísticos reemplacen el consumo de combustibles contaminantes y costosos por gas biometano.</p>
+                        </div>
+
+                        <!--elementos landscape bottom 9 -->
+
                      <!--main image-->
                      <img class="main-landscape-image" src="assets/images/gnc-biogas-landscape-main-img.png">
                      <!--main image-->

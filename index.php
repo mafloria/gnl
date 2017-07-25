@@ -307,8 +307,6 @@
 
                         <!--elementos landscape bottom 9 -->
 
-
- 
                      <!--main image-->
                      <img class="main-landscape-image" src="assets/images/gnc-biogas-landscape-main-img.png">
                      <!--main image-->

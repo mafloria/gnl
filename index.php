@@ -224,8 +224,6 @@
                      <div id="tree-25" class="treeType2 animated fadeInLeftShort" data-id='41'></div>
                      <div id="tree-26" class="treeType1 animated fadeInLeftShort" data-id='43'></div>
  
-                     
-                     
                  </div>
                  <div class="landscape-bottom">
                      <!--elementos landscape bottom 1 -->

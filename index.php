@@ -175,22 +175,34 @@
                      <div class="group-animated animatedParent" data-appear-left-offset='-5900'  data-sequence='300'>
                          <h2 id="h2-4" class="h2-title-box animated fadeInLeftShort" data-id="1">TRANSPORTE</h2>
                      </div>
- 
-                     
-                     <div class="group-animated animatedParent" data-appear-left-offset='-6000'  data-sequence='300'>
+  
+                     <div class="group-animated animatedParent" data-appear-left-offset='-6600'  data-sequence='300'>
                          <div id="hill-12" class="hillType1 animated fadeInLeftShort" data-id='1'></div>
                          <div id="tree-18" class="treeType1 animated fadeInLeftShort" data-id='2'></div>
                          <div id="hill-13" class="hillType2 animated fadeInLeftShort" data-id='3'></div>
                          <div id="tree-19" class="treeType2 animated fadeInLeftShort" data-id='4'></div>
                      </div>
-                     
-                    
+                                     
+                    <!--elementos landscape top 6 -->
+                    <div class="group-animated animatedParent" data-appear-left-offset='-7100'  data-sequence='300'>
+                         <h2 id="h2-5" class="h2-title-box animated fadeInLeftShort" data-id="1">TRANSPORTE</h2>
+                     </div>
+
+                     <div class="group-animated animatedParent" data-appear-left-offset='-7200'  data-sequence='200'>
+                         <div id="txt-wrap-2" class="txtWrap2 animated fadeInLeftShort" data-id="1">
+                            <h3 id="h3-9" class="title-h3 animated fadeInLeftShort" data-id="2">MAT-B</h3>
+                            <div id="wrap-objet-1" class="wrapObjet1 animated fadeInLeftShort" data-id="3"></div>
+                         </div>
+                     </div>
+
+                    <div class="group-animated animatedParent" data-appear-left-offset='-7300'  data-sequence='300'> 
+                        <div id="tree-20" class="treeType2 animated fadeInLeftShort" data-id='1'></div>
+                        <div id="tree-21" class="treeType1 animated fadeInLeftShort" data-id='2'></div>
+                        <div id="tree-22" class="treeType2 animated fadeInLeftShort" data-id='3'></div>
+                    </div>
+                    <!--elementos landscape top 7 --> 
  
-                     <!--elementos landscape top 6 --> 
- 
-                     <!--elementos landscape top 7 --> 
- 
-                     <!--elementos landscape top 8 --> 
+                    <!--elementos landscape top 8 --> 
  
                      
  
@@ -205,9 +217,7 @@
  
                      
  
-                     <div id="tree-20" class="treeType2 animated fadeInLeftShort" data-id='33'></div>
-                     <div id="tree-21" class="treeType1 animated fadeInLeftShort" data-id='34'></div>
-                     <div id="tree-22" class="treeType2 animated fadeInLeftShort" data-id='35'></div>
+                     
  
                      <div id="tree-23" class="treeType1 animated fadeInLeftShort" data-id='37'></div>
                      <div id="tree-24" class="treeType2 animated fadeInLeftShort" data-id='38'></div>
@@ -257,6 +267,21 @@
                          <p id="txt-5" class="txtInfo animated fadeInLeftShort" data-id="3">Los contenedores MAT pueden almacenar 1500 Nm3 (420 GGE) de Bio-GNC a una presión de 250 bar (3625 psi) a temperatura ambiente.</p>
                      </div>
  
+                     <!--elementos landscape bottom 5 -->
+ 
+                     <div class="group-animated animatedParent"  data-appear-left-offset='-6100'  data-sequence='300'>
+                         <h3 id="h3-8" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">3</span>Tráiler VST</h3>
+                         <p id="txt-6" class="txtInfo animated fadeInLeftShort" data-id="2">Los MAT son transportados por carretera sobre tráileres VST y distribuidos en las estaciones hijas localizadas en los distintos centros de consumo. Los VST presentan configuraciones de transporte para 2, 3 ó 4</p>
+                         <p id="txt-7" class="txtInfo animated fadeInLeftShort" data-id="3">MATs y sus mecanismos de anclaje garantizan que el recorrido se realice en forma segura y a la velocidad promedio de cualquier flete.</p>
+                     </div>
+
+                     <!--elementos landscape bottom 6 -->
+ 
+                     <div class="group-animated animatedParent"  data-appear-left-offset='-7400'  data-sequence='300'>
+                        <div id="warning-1" class="warning-icon animated fadeInLeftShort" data-id="1"></div>
+                        <p id="txt-8" class="txtInfo animated fadeInLeftShort" data-id="2"><span ></span>Un tráiler equipado con un MAT-B puede funcionar como una estación móvil de Bio-GNC, y abastecer flotas en sus propios centros logísticos.</p>
+                        <p id="txt-9" class="txtInfo animated fadeInLeftShort" data-id="3">Los MAT-B cuentan con booster de recompresión y surtidor para distribuir Bio-GNC a granel.</p>
+                     </div>
  
                      <!--main image-->
                      <img class="main-landscape-image" src="assets/images/gnc-biogas-landscape-main-img.png">

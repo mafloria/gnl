@@ -219,39 +219,9 @@ a.gasoducto-menu-btn:hover{
   background: transparent url(../images/montana-galileo-2.png) no-repeat;
 }
 
-#hill-1{ bottom: 0; left: 400px;}
-#hill-2{ bottom: 0; left: 580px;}
-#hill-3{ bottom: 0; left: 700px;}
-#hill-4{ bottom: 0; left: 2670px;}
-#hill-5{ bottom: 0; left: 3500px;}
-#hill-6{ bottom: 0; left: 4300px;}
-#hill-7{ bottom: 0; left: 4450px;}
-#hill-8{ bottom: 0; left: 4750px;}
-#hill-9{ bottom: 0; left: 4850px;}
-#hill-10{ bottom: 0; left: 5250px;}
-#hill-11{ bottom: 0; left: 5400px;}
-#hill-12{ bottom: 0; left: 6350px;}
-#hill-13{ bottom: 0; left: 6550px;}
-#hill-14{ bottom: 0; left: 7800px;}
-#hill-15{ bottom: 0; left: 7950px;}
-#hill-16{ bottom: 0; left: 8600px;}
-#hill-17{ bottom: 0; left: 8780px;}
 
-/*elements 2 trees*/
-.treeType1{
-  z-index: 4;
-  position: absolute;
-  width: 80px;
-  height: 117px;
-  background: transparent url(../images/arbol-galileo-1.png) no-repeat;
-}
-.treeType2{
-  z-index: 4;
-  position: absolute;
-  width: 64px;
-  height: 94px;
-  background: transparent url(../images/arbol-galileo-2.png) no-repeat;  
-}
+
+/*elements position*/
 #tree-1{ bottom: -10px; left: 465px;}
 #tree-2{ bottom: -10px; left: 610px;}
 #tree-3{ bottom: -20px; left: 765px;}
@@ -278,16 +248,82 @@ a.gasoducto-menu-btn:hover{
 #tree-24{ bottom: -15px; left: 7900px;}
 #tree-25{ bottom: -15px; left: 8750px;}
 #tree-26{ bottom: -25px; left: 8950px;}
-/*elements 3 txt*/
+
+#hill-1{ bottom: 0; left: 400px;}
+#hill-2{ bottom: 0; left: 580px;}
+#hill-3{ bottom: 0; left: 700px;}
+#hill-4{ bottom: 0; left: 2670px;}
+#hill-5{ bottom: 0; left: 3500px;}
+#hill-6{ bottom: 0; left: 4300px;}
+#hill-7{ bottom: 0; left: 4450px;}
+#hill-8{ bottom: 0; left: 4750px;}
+#hill-9{ bottom: 0; left: 4850px;}
+#hill-10{ bottom: 0; left: 5250px;}
+#hill-11{ bottom: 0; left: 5400px;}
+#hill-12{ bottom: 0; left: 6350px;}
+#hill-13{ bottom: 0; left: 6550px;}
+#hill-14{ bottom: 0; left: 7800px;}
+#hill-15{ bottom: 0; left: 7950px;}
+#hill-16{ bottom: 0; left: 8600px;}
+#hill-17{ bottom: 0; left: 8780px;}
+
+#txt-wrap-1{bottom: -328px; left: 150px;}
+#txt-wrap-2{bottom: -175px; left: 6500px;}
+
+#h2-1{top: 40px; left: 610px;}
+#h2-2{top: 40px; left: 1700px;}
+#h2-3{top: 40px; left: 3000px;}
+#h2-4{top: 40px; left: 5650px;}
+#h2-5{top: 40px; left: 7050px;}
+
+#txt-1{ bottom: 350px; left: 988px; width: 150px;}
+#txt-2{ bottom: 225px; left: 1383px; width: 450px;}
+#txt-3{ bottom: 264px; left: 1880px; width: 450px;}
+#txt-4{ bottom: 265px; left: 2800px; width: 400px;}
+#txt-5{ bottom: 265px; left: 3250px; width: 400px;}
+#txt-6{ bottom: 240px; left: 5200px; width: 450px;}
+#txt-7{ bottom: 262px; left: 5800px; width: 450px;}
+#txt-8{ bottom: 262px; left: 6540px; width: 400px;}
+#txt-9{ bottom: 282px; left: 7000px; width: 400px;}
+
+#subt-1{ top: 80px; left: 3000px;}
+
+#h3-1{ bottom: -15px; width: 100%;}
+#h3-2{ bottom: 215px; left: 690px; border-bottom: 2px solid #1a5489}
+#h3-3{ top: -70px; left: 967px;}
+#h3-4{ top: -70px; left: 1380px;}
+#h3-5{ top: 150px; left: 1380px;}
+#h3-6{ top: -96px; left: 2100px;}
+#h3-7{ top: 150px; left: 2800px;}
+#h3-8{ top: 150px; left: 5200px;}
+#h3-9{margin-top: -18px; text-align: center; width: 100%;}
+
+#arrow-1{top: -53px; left: 1511px;}
+#arrow-2{top: -53px; left: 2330px;}
+
+#warning-1{top: 195px; left: 6500px;}
+
+
+/*elements css*/
+.treeType1{
+  z-index: 4;
+  position: absolute;
+  width: 80px;
+  height: 117px;
+  background: transparent url(../images/arbol-galileo-1.png) no-repeat;
+}
+.treeType2{
+  z-index: 4;
+  position: absolute;
+  width: 64px;
+  height: 94px;
+  background: transparent url(../images/arbol-galileo-2.png) no-repeat;  
+}
 .txt-wrap-cntr{
   position: relative;
   width: 90%;
   display: inline-block;
   padding: 1% 5%;
-}
-#txt-wrap-1{
-  bottom: -328px;
-  left: 150px;
 }
 .txtWrap1{
   width: 341px;
@@ -296,6 +332,14 @@ a.gasoducto-menu-btn:hover{
   position: absolute;
   background: transparent url(../images/cajon-txt-section1.png) no-repeat;
   padding: 20px 0;
+}
+.txtWrap2{
+  width: 396px;
+  height: 393px;
+  z-index: 11;
+  position: absolute;
+  background: transparent url(../images/cajon-txt-section2.png) no-repeat;
+  padding: 0;
 }
 .txt-box1{
   width: 30%;
@@ -322,28 +366,12 @@ a.gasoducto-menu-btn:hover{
   border-top-right-radius: 1em;
   line-height: 1.2em;
 }
-
-#h2-1{top: 40px; left: 610px;}
-#h2-2{top: 40px; left: 1700px;}
-#h2-3{top: 40px; left: 3000px;}
-#h2-4{top: 40px; left: 5650px;}
-
-#txt-1{ bottom: 350px; left: 988px; width: 150px;}
-#txt-2{ bottom: 225px; left: 1383px; width: 450px;}
-#txt-3{ bottom: 264px; left: 1880px; width: 450px;}
-#txt-4{ bottom: 265px; left: 2800px; width: 400px;}
-#txt-5{ bottom: 265px; left: 3250px; width: 400px;}
-
-#subt-1{ top: 80px; left: 3000px;}
-
-#h3-1{ bottom: -15px; width: 100%;}
-#h3-2{ bottom: 215px; left: 690px; border-bottom: 2px solid #1a5489}
-#h3-3{ top: -70px; left: 967px;}
-#h3-4{ top: -70px; left: 1380px;}
-#h3-5{ top: 150px; left: 1380px;}
-#h3-6{ top: -96px; left: 2100px;}
-#h3-7{ top: 150px; left: 2800px;}
-
+.wrapObjet1{
+  width: 353px;
+  height: 274px;
+  background: transparent url(../images/mat-b-figura.png) no-repeat; 
+  margin: 60px 20px;
+}
 #line-1{
   width: 142px;
   height: 41px;
@@ -360,9 +388,13 @@ a.gasoducto-menu-btn:hover{
   z-index: 11;
   position: absolute;
 }
-#arrow-1{  top: -53px; left: 1511px;}
-#arrow-2{  top: -53px; left: 2330px;}
-
+.warning-icon{
+  width: 25px;
+  height: 25px;
+  background: transparent url(../images/icono-warning.png) no-repeat;  
+  position: absolute;
+  z-index: 12;
+}
 .icon1{
  float: left;
  width: 171px;

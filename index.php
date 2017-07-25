@@ -221,7 +221,9 @@
                         <div id="tree-26" class="treeType1 animated fadeInLeftShort" data-id='4'></div>
                      </div>
                     <!--elementos landscape top 8 --> 
- 
+                    <div class="group-animated animatedParent" data-appear-left-offset='-9900'  data-sequence='300'>
+                        <h2 id="h2-7" class="h2-title-box animated fadeInLeftShort" data-id="1">ESTACIÓN HIJA</h2>
+                    </div>
                      
  
                       
@@ -291,6 +293,21 @@
                             <div id="warning-2" class="warning-icon animated fadeInLeftShort" data-id="1"></div>
                             <p id="txt-11" class="txtInfo animated fadeInLeftShort" data-id="2">La operación de intercambio y conexión toma menos de 7 minutos por MAT y es realizada con la sola asistencia del conductor del camión, quien inmediatamente continúa su ruta hacia la próxima estación hija.</p>
                         </div>
+
+                        <!--elementos landscape bottom 8 -->
+                        <div class="group-animated animatedParent"  data-appear-left-offset='-10100'  data-sequence='300'>
+                            <h3 id="h3-11" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">5</span></h3>
+                            <p id="txt-12" class="txtInfo animated fadeInLeftShort" data-id="2">Al ser depositados sobre la PAD, los MAT son conectados a ella para que el GNC sea transferido a una Planta Reguladora de Presión PRP®, cuya función es proveer gas en los rangos de presión de salida y caudal requeridos por los usuarios finales.</p>
+                        </div>
+
+                        <div class="group-animated animatedParent"  data-appear-left-offset='-10600'  data-sequence='300'>
+                            <h3 id="h3-12" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">6</span></h3>
+                            <p id="txt-13" class="txtInfo animated fadeInLeftShort" data-id="2">Finalmente, el gas es distribuido a través de una red de tuberías para que los hogares reemplacen las garrafas de gas por una simple llave de paso. También para que las operaciones en las industrias, las usinas eléctricas y los centros turísticos reemplacen el consumo de combustibles contaminantes y costosos por gas biometano.</p>
+                        </div>
+
+                        <!--elementos landscape bottom 9 -->
+
+
  
                      <!--main image-->
                      <img class="main-landscape-image" src="assets/images/gnc-biogas-landscape-main-img.png">

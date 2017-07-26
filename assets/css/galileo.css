@@ -69,6 +69,7 @@ span.numeracion{
   position: absolute;
   z-index: 11;
   text-align: center;
+  line-height: 28px;
 }
 #wrapper{
   width: 20000px;
@@ -248,6 +249,9 @@ a.gasoducto-menu-btn:hover{
 #tree-24{ bottom: -15px; left: 7900px;}
 #tree-25{ bottom: -15px; left: 8750px;}
 #tree-26{ bottom: -25px; left: 8950px;}
+#tree-27{ bottom: -10px; left: 10300px;}
+#tree-28{ bottom: -10px; left: 10700px;}
+#tree-29{ bottom: -10px; left: 11600px;}
 
 #hill-1{ bottom: 0; left: 400px;}
 #hill-2{ bottom: 0; left: 580px;}
@@ -266,6 +270,8 @@ a.gasoducto-menu-btn:hover{
 #hill-15{ bottom: 0; left: 7950px;}
 #hill-16{ bottom: 0; left: 8600px;}
 #hill-17{ bottom: 0; left: 8780px;}
+#hill-18{ bottom: 0; left: 11300px;}
+#hill-19{ bottom: 0; left: 11450px;}
 
 #txt-wrap-1{bottom: -328px; left: 150px;}
 #txt-wrap-2{bottom: -175px; left: 6500px;}
@@ -291,6 +297,7 @@ a.gasoducto-menu-btn:hover{
 #txt-11{ bottom: 302px; left: 8690px; width: 400px;}
 #txt-12{ top: -200px; left: 9200px; width: 300px;}
 #txt-13{ top: -200px; left: 9850px; width: 400px;}
+#txt-14{ top: -262px; left: 10390px; width: 400px;}
 
 #subt-1{ top: 80px; left: 3000px;}
 #subt-2{ top: 80px; left: 8190px;}
@@ -307,12 +314,24 @@ a.gasoducto-menu-btn:hover{
 #h3-10{ top: 133px; left: 7686px;}
 #h3-11{ top: -200px; left: 9150px;}
 #h3-12{ top: -200px; left: 9800px;}
+#h3-13{ bottom: 410px; left: 10510px;}
+#h3-14{ top: -300px; left: 10390px;}
+#h3-15{ bottom: 337px; left: 10927px;}
 
 #arrow-1{top: -53px; left: 1511px;}
 #arrow-2{top: -53px; left: 2330px;}
 
 #warning-1{top: 195px; left: 6500px;}
-#warning-1{top: 133px; left: 8650px;}
+#warning-2{top: 133px; left: 8650px;}
+#warning-3{top: -300px; left: 10355px;}
+
+#y-line-1{bottom: 380px; left: 10622px;}
+#y-line-2{bottom: 410px; left: 11018px;}
+
+#figure-1{bottom: 312px; left: 10550px;}
+#figure-2{bottom: 460px; left: 10390px;}
+#figure-3{top: -370px; left: 10520px;}
+#figure-4{top: -39px; left: 10955px;}
 
 
 /*elements css*/
@@ -392,6 +411,13 @@ a.gasoducto-menu-btn:hover{
   left: 835px;
   z-index: 11;
 }
+.y-line{
+  position: absolute;
+  z-index: 12;
+  width: 4px;
+  height: 23px;
+  background: transparent url(../images/linea-amarilla.png) no-repeat;
+}
 .red-arrow{
   width: 74px;
   height: 9px;
@@ -429,4 +455,32 @@ a.gasoducto-menu-btn:hover{
  width: 162px;
  height: 118px;
  background: transparent url(../images/em-icon-4.png) no-repeat;
+}
+.figure1{
+ width: 148px;
+ height: 54px;
+ position: absolute;
+ z-index: 12;
+ background: transparent url(../images/contenedores1.png) no-repeat;
+}
+.figure2{
+ width: 474px;
+ height: 197px;
+ position: absolute;
+ z-index: 12;
+ background: transparent url(../images/comunidades.png) no-repeat;
+}
+.figure3{
+ width: 80px;
+ height: 58px;
+ position: absolute;
+ z-index: 12;
+ background: transparent url(../images/medidor.png) no-repeat;
+}
+.figure4{
+ width: 131px;
+ height: 105px;
+ position: absolute;
+ z-index: 12;
+ background: transparent url(../images/inyeccion-gas.png) no-repeat;
 }

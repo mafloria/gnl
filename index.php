@@ -224,6 +224,17 @@
                     <div class="group-animated animatedParent" data-appear-left-offset='-9900'  data-sequence='300'>
                         <h2 id="h2-7" class="h2-title-box animated fadeInLeftShort" data-id="1">ESTACIÓN HIJA</h2>
                     </div>
+
+                    <!--elementos landscape top 9 --> 
+                    <div class="group-animated animatedParent" data-appear-left-offset='-10750'  data-sequence='300'>
+                        <div id="tree-27" class="treeType2 animated fadeInLeftShort" data-id='1'></div>
+                        <div id="tree-28" class="treeType1 animated fadeInLeftShort" data-id='2'></div>
+                    </div>
+                    <div class="group-animated animatedParent" data-appear-left-offset='-11500'  data-sequence='300'>
+                        <div id="hill-18" class="hillType1 animated fadeInLeftShort" data-id='1'></div>
+                        <div id="hill-19" class="hillType2 animated fadeInLeftShort" data-id='2'></div>
+                        <div id="tree-29" class="treeType2 animated fadeInLeftShort" data-id='3'></div>
+                    </div>
                      
  
                       
@@ -232,7 +243,7 @@
                      <!--elementos landscape bottom 1 -->
                  
                      <div class="group-animated animatedParent"  data-appear-left-offset='-1400'  data-sequence='300'>                       
-                         <h3 id="h3-3" class="title-green animated fadeInLeftShort" data-id="1">Biogas</h3>
+                         <h3 id="h3-3" class="title-green animated fadeInLeftShort" data-id="1">Biogas</h3>    
                      </div>
  
                      <div class="group-animated animatedParent"  data-appear-left-offset='-1200'  data-sequence='300'>   
@@ -300,12 +311,38 @@
                             <p id="txt-12" class="txtInfo animated fadeInLeftShort" data-id="2">Al ser depositados sobre la PAD, los MAT son conectados a ella para que el GNC sea transferido a una Planta Reguladora de Presión PRP®, cuya función es proveer gas en los rangos de presión de salida y caudal requeridos por los usuarios finales.</p>
                         </div>
 
-                        <div class="group-animated animatedParent"  data-appear-left-offset='-10600'  data-sequence='300'>
+                        <div class="group-animated animatedParent"  data-appear-left-offset='-10450'  data-sequence='300'>
                             <h3 id="h3-12" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">6</span></h3>
                             <p id="txt-13" class="txtInfo animated fadeInLeftShort" data-id="2">Finalmente, el gas es distribuido a través de una red de tuberías para que los hogares reemplacen las garrafas de gas por una simple llave de paso. También para que las operaciones en las industrias, las usinas eléctricas y los centros turísticos reemplacen el consumo de combustibles contaminantes y costosos por gas biometano.</p>
                         </div>
 
                         <!--elementos landscape bottom 9 -->
+                        <div class="group-animated animatedParent"  data-appear-left-offset='-10800'  data-sequence='300'>
+                            <div id="figure-1" class="figure1 animated fadeInLeftShort" data-id="1"></div>
+                            <div id="y-line-1" class="y-line animated fadeInLeftShort" data-id="2"></div>
+                            <h3 id="h3-13" class="title-h3 animated fadeInLeftShort" data-id="3">Comunidades aisladas</h3>
+                            <div id="figure-2" class="figure2 animated fadeInLeftShort" data-id="4"></div>
+                        </div>
+
+                        <div class="group-animated animatedParent"  data-appear-left-offset='-10880'  data-sequence='300'>
+                            <div id="warning-3" class="warning-icon animated fadeInLeftShort" data-id="1"></div>
+                            <h3 id="h3-14" class="title-h3 animated fadeInLeftShort" data-id="2">Suministro continuo y monitoreado 24/7</h3>
+                            <p id="txt-14" class="txtInfo animated fadeInLeftShort" data-id="3">Cada vez que el medidor de los MATs indica una baja de los niveles de carga, el sistema recibe una orden automática de reabastecimiento.</p>
+                            <div id="figure-3" class="figure3 animated fadeInLeftShort" data-id="4"></div>
+                        </div>
+
+                        <div class="group-animated animatedParent"  data-appear-left-offset='-10920'  data-sequence='300'>
+                            <h3 id="h3-15" class="title-h3 animated fadeInLeftShort" data-id="1">Inyección en la red<br />de gas natural</h3>
+                            <div id="y-line-2" class="y-line animated fadeInLeftShort" data-id="2"></div>
+                            <div id="figure-4" class="figure4 animated fadeInLeftShort" data-id="3"></div>
+                        </div>
+
+                         <div class="group-animated animatedParent"  data-appear-left-offset='-10920'  data-sequence='300'>
+                            <div id="figure-5" class="figure5 animated fadeInLeftShort" data-id="3"></div>
+                            <div id="y-line-3" class="y-line animated fadeInLeftShort" data-id="2"></div>
+                            <h3 id="h3-16" class="title-h3 animated fadeInLeftShort" data-id="1">Minas y plantas industriales</h3>
+                            <div id="figure-6" class="figure6 animated fadeInLeftShort" data-id="3"></div>
+                         </div>
 
                      <!--main image-->
                      <img class="main-landscape-image" src="assets/images/gnc-biogas-landscape-main-img.png">

@@ -202,7 +202,7 @@ a.gasoducto-menu-btn:hover{
 .main-landscape-image{
   position: absolute;
   z-index: 10;
-  bottom: 19%; 
+  bottom: 38%; 
   left: -3%;
 }
 /*elements 1 hills*/
@@ -220,9 +220,6 @@ a.gasoducto-menu-btn:hover{
   height: 95px;
   background: transparent url(../images/montana-galileo-2.png) no-repeat;
 }
-
-
-
 /*elements position*/
 #tree-1{ bottom: -10px; left: 465px;}
 #tree-2{ bottom: -10px; left: 610px;}
@@ -299,6 +296,7 @@ a.gasoducto-menu-btn:hover{
 #txt-12{ top: -200px; left: 9200px; width: 300px;}
 #txt-13{ top: -200px; left: 9850px; width: 400px;}
 #txt-14{ top: -262px; left: 10390px; width: 400px;}
+#txt-15{ top: -300px; left: 12140px; width: 600px;}
 
 #subt-1{ top: 80px; left: 3000px;}
 #subt-2{ top: 80px; left: 8190px;}
@@ -319,6 +317,9 @@ a.gasoducto-menu-btn:hover{
 #h3-14{ top: -300px; left: 10390px;}
 #h3-15{ bottom: 337px; left: 10927px;}
 #h3-16{ bottom: 409px; left: 11227px;}
+#h3-17{ bottom: 409px; left: 11827px;}
+#h3-18{ bottom: 409px; left: 12172px;}
+#h3-19{ bottom: 409px; left: 12530px;}
 
 #arrow-1{top: -53px; left: 1511px;}
 #arrow-2{top: -53px; left: 2330px;}
@@ -326,11 +327,14 @@ a.gasoducto-menu-btn:hover{
 #warning-1{top: 195px; left: 6500px;}
 #warning-2{top: 133px; left: 8650px;}
 #warning-3{top: -300px; left: 10355px;}
+#warning-4{top: -300px; left: 12100px;}
 
 #y-line-1{bottom: 380px; left: 10622px;}
 #y-line-2{bottom: 410px; left: 11018px;}
 #y-line-3{bottom: 380px; left: 11367px;}
 #y-line-4{bottom: 380px; left: 11860px;}
+#y-line-5{bottom: 380px; left: 12260px;}
+#y-line-6{bottom: 380px; left: 12649px;}
 
 #figure-1{bottom: 312px; left: 10550px;}
 #figure-2{bottom: 460px; left: 10390px;}
@@ -339,6 +343,13 @@ a.gasoducto-menu-btn:hover{
 #figure-5{bottom: 312px; left: 11245px;}
 #figure-6{top: -200px; left: 11222px;}
 #figure-7{bottom: 312px; left: 11710px;}
+#figure-8{top: -85px; left: 11795px;}
+#figure-9{top: -70px; left: 11705px;}
+#figure-10{top: -70px; left: 11915px;}
+#figure-11{bottom: 312px; left: 12190px;}
+#figure-12{top: -149px; left: 12107px;}
+#figure-13{bottom: 312px; left: 12575px;}
+#figure-14{top: -100px; left: 12500px;}
 
 
 /*elements css*/
@@ -525,4 +536,18 @@ a.gasoducto-menu-btn:hover{
  position: absolute;
  z-index: 12;
  background: transparent url(../images/torre-electrica-2.png) no-repeat;
+}
+.figure10{
+ width: 320px;
+ height: 162px;
+ position: absolute;
+ z-index: 12;
+ background: transparent url(../images/teleferico.png) no-repeat;
+}
+.figure11{
+ width: 290px;
+ height: 161px;
+ position: absolute;
+ z-index: 12;
+ background: transparent url(../images/estacion-servicio.png) no-repeat;
 }

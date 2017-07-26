@@ -284,22 +284,6 @@
                          <p id="txt-1" class="txtInfo animated fadeInLeftShort" data-id="2"><?php echo $texts->road_info->biodigestor_desc; ?></p>
                      </div>
  
-                     <!--elementos landscape bottom 2 --> 
-                     <div class="group-animated animatedParent"  data-appear-left-offset='-1650'  data-sequence='300'>                       
-                         <h3 id="h3-4" class="title-green animated fadeInLeftShort" data-id="1"><?php echo $texts->road_info->biogas; ?></h3>
-                         <div id="arrow-1" class="red-arrow animated fadeInLeftShort" data-id="2"></div>
-                     </div>
-                     <div class="group-animated animatedParent"  data-appear-left-offset='-1750'  data-sequence='300'>
-                         <h3 id="h3-5" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">1</span><?php echo $texts->process->p1_paquete_compresion; ?></h3>
-                         <p id="txt-2" class="txtInfo animated fadeInLeftShort" data-id="2"><?php echo $texts->process->p1_paquete_compresion_desc; ?></p>
-                         <p id="txt-3" class="txtInfo animated fadeInLeftShort" data-id="3"><?php echo $texts->process->p1_paquete_compresion_desc2; ?></p>
-                     </div>
- 
-                     <div class="group-animated animatedParent"  data-appear-left-offset='-2400'  data-sequence='300'>                       
-                         <h3 id="h3-6" class="title-green animated fadeInLeftShort" data-id="1"><?php echo $texts->road_info->gas_biometano; ?></h3>
-                         <div id="arrow-2" class="red-arrow animated fadeInLeftShort" data-id="2"></div>
-                     </div>
- 
                     <!--elementos landscape bottom 3 -->
  
                     <div class="group-animated animatedParent"  data-appear-left-offset='-3250'  data-sequence='300'>
@@ -389,68 +373,35 @@
 
                     <!--elementos landscape bottom 10 -->
                     <div class="group-animated animatedParent"  data-appear-left-offset='-11900'  data-sequence='300'>
-                         <div id="figure-7" class="figure7 animated fadeInLeftShort" data-id="1"></div>
-                         <div id="y-line-4" class="y-line animated fadeInLeftShort" data-id="2"></div>
-                         <h3 id="h3-17" class="title-h3 animated fadeInLeftShort" data-id="3">Usinas</h3>
-                         <div id="figure-8" class="figure8 animated fadeInLeftShort" data-id="4"></div>
-                         <div id="figure-9" class="figure9 animated fadeInLeftShort" data-id="5"></div>
-                         <div id="figure-10" class="figure9 animated fadeInLeftShort" data-id="6"></div>
-
+                        <div id="figure-7" class="figure7 animated fadeInLeftShort" data-id="1"></div>
+                        <div id="y-line-4" class="y-line animated fadeInLeftShort" data-id="2"></div>
+                        <h3 id="h3-17" class="title-h3 animated fadeInLeftShort" data-id="3">Usinas</h3>
+                        <div id="figure-8" class="figure8 animated fadeInLeftShort" data-id="4"></div>
+                        <div id="figure-9" class="figure9 animated fadeInLeftShort" data-id="5"></div>
+                        <div id="figure-10" class="figure9 animated fadeInLeftShort" data-id="6"></div>
                     </div>
 
+                    <div class="group-animated animatedParent"  data-appear-left-offset='-12100'  data-sequence='300'>
+                        <div id="figure-11" class="figure1 animated fadeInLeftShort" data-id="1"></div>
+                        <div id="y-line-5" class="y-line animated fadeInLeftShort" data-id="2"></div>
+                        <h3 id="h3-18" class="title-h3 animated fadeInLeftShort" data-id="3">Centros turísticos</h3>
+                        <div id="figure-12" class="figure10 animated fadeInLeftShort" data-id="4"></div>
+                    </div>
 
-                        <p id="txt-8" class="txtInfo animated fadeInLeftShort" data-id="2"><?php echo $texts->alert_messages->a1_mat_b; ?></p>
-                        <p id="txt-9" class="txtInfo animated fadeInLeftShort" data-id="3"><?php echo $texts->alert_messages->a1_mat_b2; ?></p>
-                     </div>
+                    <div class="group-animated animatedParent"  data-appear-left-offset='-12150'  data-sequence='300'>
+                        <div id="warning-4" class="warning-icon animated fadeInLeftShort" data-id="1"></div>
+                        <p id="txt-15" class="txtInfo animated fadeInLeftShort" data-id="3">En las estaciones de GNC abastecidas por Gasoducto Virtual, un sistema de recompresión acelera los tiempos de carga surtidores EMB®.</p>
+                    </div>
 
-                     <!--elementos landscape bottom 7 -->
-                        <div class="group-animated animatedParent"  data-appear-left-offset='-8200'  data-sequence='300'>
-                            <h3 id="h3-10" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">4</span></h3>
-                            <p id="txt-10" class="txtInfo animated fadeInLeftShort" data-id="2"><?php echo $texts->process->p4_centro_consumo_desc; ?></p>
-                        </div>
-                        <div class="group-animated animatedParent"  data-appear-left-offset='-8600'  data-sequence='300'>
-                            <div id="warning-2" class="warning-icon animated fadeInLeftShort" data-id="1"></div>
-                            <p id="txt-11" class="txtInfo animated fadeInLeftShort" data-id="2"><?php echo $texts->alert_messages->a2_intercambio_reconexion; ?></p>
-                        </div>
+                    <div class="group-animated animatedParent"  data-appear-left-offset='-12600'  data-sequence='300'>
+                        <div id="figure-13" class="figure1 animated fadeInLeftShort" data-id="1"></div>
+                        <div id="y-line-6" class="y-line animated fadeInLeftShort" data-id="2"></div>
+                        <h3 id="h3-19" class="title-h3 animated fadeInLeftShort" data-id="3">Estaciones de servicio</h3>
+                        <div id="figure-14" class="figure11 animated fadeInLeftShort" data-id="4"></div>
+                    </div>
 
-                        <!--elementos landscape bottom 8 -->
-                        <div class="group-animated animatedParent"  data-appear-left-offset='-10100'  data-sequence='300'>
-                            <h3 id="h3-11" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">5</span></h3>
-                            <p id="txt-12" class="txtInfo animated fadeInLeftShort" data-id="2"><?php echo $texts->process->p5_depositado_pad_desc; ?></p>
-                        </div>
+                       
 
-                        <div class="group-animated animatedParent"  data-appear-left-offset='-10450'  data-sequence='300'>
-                            <h3 id="h3-12" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">6</span></h3>
-                            <p id="txt-13" class="txtInfo animated fadeInLeftShort" data-id="2"><?php echo $texts->process->p6_gas_red_tuberias_desc; ?></p>
-                        </div>
-
-                        <!--elementos landscape bottom 9 -->
-                        <div class="group-animated animatedParent"  data-appear-left-offset='-10800'  data-sequence='300'>
-                            <div id="figure-1" class="figure1 animated fadeInLeftShort" data-id="1"></div>
-                            <div id="y-line-1" class="y-line animated fadeInLeftShort" data-id="2"></div>
-                            <h3 id="h3-13" class="title-h3 animated fadeInLeftShort" data-id="3"><?php echo $texts->road_info->comunidades_aisladas; ?></h3>
-                            <div id="figure-2" class="figure2 animated fadeInLeftShort" data-id="4"></div>
-                        </div>
-
-                        <div class="group-animated animatedParent"  data-appear-left-offset='-10880'  data-sequence='300'>
-                            <div id="warning-3" class="warning-icon animated fadeInLeftShort" data-id="1"></div>
-                            <h3 id="h3-14" class="title-h3 animated fadeInLeftShort" data-id="2"><?php echo $texts->alert_messages->a3_suministro_continuo_titulo; ?></h3>
-                            <p id="txt-14" class="txtInfo animated fadeInLeftShort" data-id="3"><?php echo $texts->alert_messages->a3_suministro_continuo_desc; ?></p>
-                            <div id="figure-3" class="figure3 animated fadeInLeftShort" data-id="4"></div>
-                        </div>
-
-                        <div class="group-animated animatedParent"  data-appear-left-offset='-10920'  data-sequence='300'>
-                            <h3 id="h3-15" class="title-h3 animated fadeInLeftShort" data-id="1"><?php echo $texts->road_info->inyeccion_red; ?></h3>
-                            <div id="y-line-2" class="y-line animated fadeInLeftShort" data-id="2"></div>
-                            <div id="figure-4" class="figure4 animated fadeInLeftShort" data-id="3"></div>
-                        </div>
-
-                         <div class="group-animated animatedParent"  data-appear-left-offset='-10920'  data-sequence='300'>
-                            <div id="figure-5" class="figure5 animated fadeInLeftShort" data-id="3"></div>
-                            <div id="y-line-3" class="y-line animated fadeInLeftShort" data-id="2"></div>
-                            <h3 id="h3-16" class="title-h3 animated fadeInLeftShort" data-id="1"><?php echo $texts->road_info->minas_plantas; ?></h3>
-                            <div id="figure-6" class="figure6 animated fadeInLeftShort" data-id="3"></div>
-                         </div>
 
                      <!--main image-->
                      <img class="main-landscape-image" src="assets/images/gnc-biogas-landscape-main-img.png">

@@ -185,6 +185,7 @@ a.gasoducto-menu-btn:hover{
   width: 15860px;
   height: 100%;
   float: left;
+  position: relative;
 }
 .landscape-top{
   width: 100%;
@@ -201,7 +202,7 @@ a.gasoducto-menu-btn:hover{
 .main-landscape-image{
   position: absolute;
   z-index: 10;
-  top: -50%; 
+  bottom: 19%; 
   left: -3%;
 }
 /*elements 1 hills*/

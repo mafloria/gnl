@@ -243,7 +243,6 @@
                  <div class="landscape-bottom">
                      <!--elementos landscape bottom 1 -->
                  
-<<<<<<< HEAD
                     <div class="group-animated animatedParent"  data-appear-left-offset='-1400'  data-sequence='300'>                       
                         <h3 id="h3-3" class="title-green animated fadeInLeftShort" data-id="1">Biogas</h3>    
                     </div>
@@ -272,7 +271,6 @@
                         <h3 id="h3-6" class="title-green animated fadeInLeftShort" data-id="1">Gas Biometano <br />Comprimido</h3>
                         <div id="arrow-2" class="red-arrow animated fadeInLeftShort" data-id="2"></div>
                     </div>
-=======
                      <div class="group-animated animatedParent"  data-appear-left-offset='-1400'  data-sequence='300'>                       
                          <h3 id="h3-3" class="title-green animated fadeInLeftShort" data-id="1"><?php echo $texts->road_info->biogas; ?></h3>    
                      </div>
@@ -301,45 +299,41 @@
                          <h3 id="h3-6" class="title-green animated fadeInLeftShort" data-id="1"><?php echo $texts->road_info->gas_biometano; ?></h3>
                          <div id="arrow-2" class="red-arrow animated fadeInLeftShort" data-id="2"></div>
                      </div>
->>>>>>> origin/master
  
                     <!--elementos landscape bottom 3 -->
  
-<<<<<<< HEAD
                     <div class="group-animated animatedParent"  data-appear-left-offset='-3250'  data-sequence='300'>
                         <h3 id="h3-7" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">2</span>Módulos MAT</h3>
                         <p id="txt-4" class="txtInfo animated fadeInLeftShort" data-id="2">El GNC es enviado desde los paquetes de compresión a las plataformas PAC® que sirven de soporte fijo y fuente de carga de los contenedores modulares MAT.</p>
                         <p id="txt-5" class="txtInfo animated fadeInLeftShort" data-id="3">Los contenedores MAT pueden almacenar 1500 Nm3 (420 GGE) de Bio-GNC a una presión de 250 bar (3625 psi) a temperatura ambiente.</p>
                     </div>
-=======
+
                      <div class="group-animated animatedParent"  data-appear-left-offset='-3250'  data-sequence='300'>
                          <h3 id="h3-7" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">2</span><?php echo $texts->process->p2_modulos_mat; ?></h3>
                          <p id="txt-4" class="txtInfo animated fadeInLeftShort" data-id="2"><?php echo $texts->process->p2_modulos_mat_desc; ?></p>
                          <p id="txt-5" class="txtInfo animated fadeInLeftShort" data-id="3"><?php echo $texts->process->p2_modulos_mat_desc2; ?></p>
                      </div>
->>>>>>> origin/master
+
  
                     <!--elementos landscape bottom 5 -->
- 
-<<<<<<< HEAD
+
                     <div class="group-animated animatedParent"  data-appear-left-offset='-6100'  data-sequence='300'>
                         <h3 id="h3-8" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">3</span>Tráiler VST</h3>
                         <p id="txt-6" class="txtInfo animated fadeInLeftShort" data-id="2">Los MAT son transportados por carretera sobre tráileres VST y distribuidos en las estaciones hijas localizadas en los distintos centros de consumo. Los VST presentan configuraciones de transporte para 2, 3 ó 4</p>
                         <p id="txt-7" class="txtInfo animated fadeInLeftShort" data-id="3">MATs y sus mecanismos de anclaje garantizan que el recorrido se realice en forma segura y a la velocidad promedio de cualquier flete.</p>
                     </div>
-=======
+
                      <div class="group-animated animatedParent"  data-appear-left-offset='-6100'  data-sequence='300'>
                          <h3 id="h3-8" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">3</span><?php echo $texts->process->p3_trailer_vst; ?></h3>
                          <p id="txt-6" class="txtInfo animated fadeInLeftShort" data-id="2"><?php echo $texts->process->p3_trailer_vst_desc; ?></p>
                          <p id="txt-7" class="txtInfo animated fadeInLeftShort" data-id="3"><?php echo $texts->process->p3_trailer_vst_desc2; ?></p>
                      </div>
->>>>>>> origin/master
+
 
                     <!--elementos landscape bottom 6 -->
  
                     <div class="group-animated animatedParent"  data-appear-left-offset='-7400'  data-sequence='300'>
                         <div id="warning-1" class="warning-icon animated fadeInLeftShort" data-id="1"></div>
-<<<<<<< HEAD
                         <p id="txt-8" class="txtInfo animated fadeInLeftShort" data-id="2">Un tráiler equipado con un MAT-B puede funcionar como una estación móvil de Bio-GNC, y abastecer flotas en sus propios centros logísticos.</p>
                         <p id="txt-9" class="txtInfo animated fadeInLeftShort" data-id="3">Los MAT-B cuentan con booster de recompresión y surtidor para distribuir Bio-GNC a granel.</p>
                     </div>
@@ -405,7 +399,6 @@
                     </div>
 
 
-=======
                         <p id="txt-8" class="txtInfo animated fadeInLeftShort" data-id="2"><?php echo $texts->alert_messages->a1_mat_b; ?></p>
                         <p id="txt-9" class="txtInfo animated fadeInLeftShort" data-id="3"><?php echo $texts->alert_messages->a1_mat_b2; ?></p>
                      </div>
@@ -458,7 +451,6 @@
                             <h3 id="h3-16" class="title-h3 animated fadeInLeftShort" data-id="1"><?php echo $texts->road_info->minas_plantas; ?></h3>
                             <div id="figure-6" class="figure6 animated fadeInLeftShort" data-id="3"></div>
                          </div>
->>>>>>> origin/master
 
                      <!--main image-->
                      <img class="main-landscape-image" src="assets/images/gnc-biogas-landscape-main-img.png">

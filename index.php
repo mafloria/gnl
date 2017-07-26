@@ -242,107 +242,120 @@
                  <div class="landscape-bottom">
                      <!--elementos landscape bottom 1 -->
                  
-                     <div class="group-animated animatedParent"  data-appear-left-offset='-1400'  data-sequence='300'>                       
-                         <h3 id="h3-3" class="title-green animated fadeInLeftShort" data-id="1">Biogas</h3>    
-                     </div>
+                    <div class="group-animated animatedParent"  data-appear-left-offset='-1400'  data-sequence='300'>                       
+                        <h3 id="h3-3" class="title-green animated fadeInLeftShort" data-id="1">Biogas</h3>    
+                    </div>
  
-                     <div class="group-animated animatedParent"  data-appear-left-offset='-1200'  data-sequence='300'>   
-                     <h3 id="h3-2" class="title-h3 animated fadeInLeftShort" data-id="1">Biodigestor</h3>
-                     </div>
+                    <div class="group-animated animatedParent"  data-appear-left-offset='-1200'  data-sequence='300'>   
+                        <h3 id="h3-2" class="title-h3 animated fadeInLeftShort" data-id="1">Biodigestor</h3>
+                    </div>
  
-                     <div class="group-animated animatedParent"  data-appear-left-offset='-1350'  data-sequence='300'> 
-                         <div id="line-1" class="linea-txt-1 animated fadeInLeftShort" data-id="1"></div>
-                         <p id="txt-1" class="txtInfo animated fadeInLeftShort" data-id="2">Los efluentes del proceso se transforman en fertilizantes.</p>
-                     </div>
+                    <div class="group-animated animatedParent"  data-appear-left-offset='-1350'  data-sequence='300'> 
+                        <div id="line-1" class="linea-txt-1 animated fadeInLeftShort" data-id="1"></div>
+                        <p id="txt-1" class="txtInfo animated fadeInLeftShort" data-id="2">Los efluentes del proceso se transforman en fertilizantes.</p>
+                    </div>
  
-                     <!--elementos landscape bottom 2 --> 
-                     <div class="group-animated animatedParent"  data-appear-left-offset='-1650'  data-sequence='300'>                       
-                         <h3 id="h3-4" class="title-green animated fadeInLeftShort" data-id="1">Biogas</h3>
-                         <div id="arrow-1" class="red-arrow animated fadeInLeftShort" data-id="2"></div>
-                     </div>
-                     <div class="group-animated animatedParent"  data-appear-left-offset='-1750'  data-sequence='300'>
-                         <h3 id="h3-5" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">1</span>Paquete de Compresión Microbox-Bio</h3>
-                         <p id="txt-2" class="txtInfo animated fadeInLeftShort" data-id="2">Los paquetes de compresión Microbox-Bio® permiten depurar hasta 500 m3/h de biogás de todos sus elementos corrosivos (H2O, H2S, y CO2 entre otros) y proveer Gas Biometano Comprimido (Bio-GNC) de alta calidad a una presión de 250 bar (3625 psi).</p>
-                         <p id="txt-3" class="txtInfo animated fadeInLeftShort" data-id="3">A su vez, su sistema de refrigeración por agua provee 170 mil kilocalorías por hora (Kcal/h) que aseguran las condiciones térmicas de operación del biodigestor.</p>
-                     </div>
+                    <!--elementos landscape bottom 2 --> 
+                    <div class="group-animated animatedParent"  data-appear-left-offset='-1650'  data-sequence='300'>                       
+                        <h3 id="h3-4" class="title-green animated fadeInLeftShort" data-id="1">Biogas</h3>
+                        <div id="arrow-1" class="red-arrow animated fadeInLeftShort" data-id="2"></div>
+                    </div>
+                    <div class="group-animated animatedParent"  data-appear-left-offset='-1750'  data-sequence='300'>
+                        <h3 id="h3-5" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">1</span>Paquete de Compresión Microbox-Bio</h3>
+                        <p id="txt-2" class="txtInfo animated fadeInLeftShort" data-id="2">Los paquetes de compresión Microbox-Bio® permiten depurar hasta 500 m3/h de biogás de todos sus elementos corrosivos (H2O, H2S, y CO2 entre otros) y proveer Gas Biometano Comprimido (Bio-GNC) de alta calidad a una presión de 250 bar (3625 psi).</p>
+                        <p id="txt-3" class="txtInfo animated fadeInLeftShort" data-id="3">A su vez, su sistema de refrigeración por agua provee 170 mil kilocalorías por hora (Kcal/h) que aseguran las condiciones térmicas de operación del biodigestor.</p>
+                    </div>
  
-                     <div class="group-animated animatedParent"  data-appear-left-offset='-2400'  data-sequence='300'>                       
-                         <h3 id="h3-6" class="title-green animated fadeInLeftShort" data-id="1">Gas Biometano <br />Comprimido</h3>
-                         <div id="arrow-2" class="red-arrow animated fadeInLeftShort" data-id="2"></div>
-                     </div>
+                    <div class="group-animated animatedParent"  data-appear-left-offset='-2400'  data-sequence='300'>                       
+                        <h3 id="h3-6" class="title-green animated fadeInLeftShort" data-id="1">Gas Biometano <br />Comprimido</h3>
+                        <div id="arrow-2" class="red-arrow animated fadeInLeftShort" data-id="2"></div>
+                    </div>
  
-                     <!--elementos landscape bottom 3 -->
+                    <!--elementos landscape bottom 3 -->
  
-                     <div class="group-animated animatedParent"  data-appear-left-offset='-3250'  data-sequence='300'>
-                         <h3 id="h3-7" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">2</span>Módulos MAT</h3>
-                         <p id="txt-4" class="txtInfo animated fadeInLeftShort" data-id="2">El GNC es enviado desde los paquetes de compresión a las plataformas PAC® que sirven de soporte fijo y fuente de carga de los contenedores modulares MAT.</p>
-                         <p id="txt-5" class="txtInfo animated fadeInLeftShort" data-id="3">Los contenedores MAT pueden almacenar 1500 Nm3 (420 GGE) de Bio-GNC a una presión de 250 bar (3625 psi) a temperatura ambiente.</p>
-                     </div>
+                    <div class="group-animated animatedParent"  data-appear-left-offset='-3250'  data-sequence='300'>
+                        <h3 id="h3-7" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">2</span>Módulos MAT</h3>
+                        <p id="txt-4" class="txtInfo animated fadeInLeftShort" data-id="2">El GNC es enviado desde los paquetes de compresión a las plataformas PAC® que sirven de soporte fijo y fuente de carga de los contenedores modulares MAT.</p>
+                        <p id="txt-5" class="txtInfo animated fadeInLeftShort" data-id="3">Los contenedores MAT pueden almacenar 1500 Nm3 (420 GGE) de Bio-GNC a una presión de 250 bar (3625 psi) a temperatura ambiente.</p>
+                    </div>
  
-                     <!--elementos landscape bottom 5 -->
+                    <!--elementos landscape bottom 5 -->
  
-                     <div class="group-animated animatedParent"  data-appear-left-offset='-6100'  data-sequence='300'>
-                         <h3 id="h3-8" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">3</span>Tráiler VST</h3>
-                         <p id="txt-6" class="txtInfo animated fadeInLeftShort" data-id="2">Los MAT son transportados por carretera sobre tráileres VST y distribuidos en las estaciones hijas localizadas en los distintos centros de consumo. Los VST presentan configuraciones de transporte para 2, 3 ó 4</p>
-                         <p id="txt-7" class="txtInfo animated fadeInLeftShort" data-id="3">MATs y sus mecanismos de anclaje garantizan que el recorrido se realice en forma segura y a la velocidad promedio de cualquier flete.</p>
-                     </div>
+                    <div class="group-animated animatedParent"  data-appear-left-offset='-6100'  data-sequence='300'>
+                        <h3 id="h3-8" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">3</span>Tráiler VST</h3>
+                        <p id="txt-6" class="txtInfo animated fadeInLeftShort" data-id="2">Los MAT son transportados por carretera sobre tráileres VST y distribuidos en las estaciones hijas localizadas en los distintos centros de consumo. Los VST presentan configuraciones de transporte para 2, 3 ó 4</p>
+                        <p id="txt-7" class="txtInfo animated fadeInLeftShort" data-id="3">MATs y sus mecanismos de anclaje garantizan que el recorrido se realice en forma segura y a la velocidad promedio de cualquier flete.</p>
+                    </div>
 
-                     <!--elementos landscape bottom 6 -->
+                    <!--elementos landscape bottom 6 -->
  
-                     <div class="group-animated animatedParent"  data-appear-left-offset='-7400'  data-sequence='300'>
+                    <div class="group-animated animatedParent"  data-appear-left-offset='-7400'  data-sequence='300'>
                         <div id="warning-1" class="warning-icon animated fadeInLeftShort" data-id="1"></div>
                         <p id="txt-8" class="txtInfo animated fadeInLeftShort" data-id="2">Un tráiler equipado con un MAT-B puede funcionar como una estación móvil de Bio-GNC, y abastecer flotas en sus propios centros logísticos.</p>
                         <p id="txt-9" class="txtInfo animated fadeInLeftShort" data-id="3">Los MAT-B cuentan con booster de recompresión y surtidor para distribuir Bio-GNC a granel.</p>
-                     </div>
+                    </div>
 
                      <!--elementos landscape bottom 7 -->
-                        <div class="group-animated animatedParent"  data-appear-left-offset='-8200'  data-sequence='300'>
-                            <h3 id="h3-10" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">4</span></h3>
-                            <p id="txt-10" class="txtInfo animated fadeInLeftShort" data-id="2">Una vez en el centro de consumo, los mecanismos hidráulicos de anclaje del tráiler VST depositan los MAT llenos sobre una plataforma de descarga PAD® y simultáneamente retiran los vacíos. </p>
-                        </div>
-                        <div class="group-animated animatedParent"  data-appear-left-offset='-8600'  data-sequence='300'>
-                            <div id="warning-2" class="warning-icon animated fadeInLeftShort" data-id="1"></div>
-                            <p id="txt-11" class="txtInfo animated fadeInLeftShort" data-id="2">La operación de intercambio y conexión toma menos de 7 minutos por MAT y es realizada con la sola asistencia del conductor del camión, quien inmediatamente continúa su ruta hacia la próxima estación hija.</p>
-                        </div>
+                    <div class="group-animated animatedParent"  data-appear-left-offset='-8200'  data-sequence='300'>
+                        <h3 id="h3-10" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">4</span></h3>
+                        <p id="txt-10" class="txtInfo animated fadeInLeftShort" data-id="2">Una vez en el centro de consumo, los mecanismos hidráulicos de anclaje del tráiler VST depositan los MAT llenos sobre una plataforma de descarga PAD® y simultáneamente retiran los vacíos. </p>
+                    </div>
+                    <div class="group-animated animatedParent"  data-appear-left-offset='-8600'  data-sequence='300'>
+                        <div id="warning-2" class="warning-icon animated fadeInLeftShort" data-id="1"></div>
+                        <p id="txt-11" class="txtInfo animated fadeInLeftShort" data-id="2">La operación de intercambio y conexión toma menos de 7 minutos por MAT y es realizada con la sola asistencia del conductor del camión, quien inmediatamente continúa su ruta hacia la próxima estación hija.</p>
+                    </div>
 
-                        <!--elementos landscape bottom 8 -->
-                        <div class="group-animated animatedParent"  data-appear-left-offset='-10100'  data-sequence='300'>
-                            <h3 id="h3-11" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">5</span></h3>
-                            <p id="txt-12" class="txtInfo animated fadeInLeftShort" data-id="2">Al ser depositados sobre la PAD, los MAT son conectados a ella para que el GNC sea transferido a una Planta Reguladora de Presión PRP®, cuya función es proveer gas en los rangos de presión de salida y caudal requeridos por los usuarios finales.</p>
-                        </div>
+                    <!--elementos landscape bottom 8 -->
+                    <div class="group-animated animatedParent"  data-appear-left-offset='-10100'  data-sequence='300'>
+                        <h3 id="h3-11" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">5</span></h3>
+                        <p id="txt-12" class="txtInfo animated fadeInLeftShort" data-id="2">Al ser depositados sobre la PAD, los MAT son conectados a ella para que el GNC sea transferido a una Planta Reguladora de Presión PRP®, cuya función es proveer gas en los rangos de presión de salida y caudal requeridos por los usuarios finales.</p>
+                    </div>
 
-                        <div class="group-animated animatedParent"  data-appear-left-offset='-10450'  data-sequence='300'>
-                            <h3 id="h3-12" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">6</span></h3>
-                            <p id="txt-13" class="txtInfo animated fadeInLeftShort" data-id="2">Finalmente, el gas es distribuido a través de una red de tuberías para que los hogares reemplacen las garrafas de gas por una simple llave de paso. También para que las operaciones en las industrias, las usinas eléctricas y los centros turísticos reemplacen el consumo de combustibles contaminantes y costosos por gas biometano.</p>
-                        </div>
+                    <div class="group-animated animatedParent"  data-appear-left-offset='-10450'  data-sequence='300'>
+                        <h3 id="h3-12" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">6</span></h3>
+                        <p id="txt-13" class="txtInfo animated fadeInLeftShort" data-id="2">Finalmente, el gas es distribuido a través de una red de tuberías para que los hogares reemplacen las garrafas de gas por una simple llave de paso. También para que las operaciones en las industrias, las usinas eléctricas y los centros turísticos reemplacen el consumo de combustibles contaminantes y costosos por gas biometano.</p>
+                    </div>
 
-                        <!--elementos landscape bottom 9 -->
-                        <div class="group-animated animatedParent"  data-appear-left-offset='-10800'  data-sequence='300'>
-                            <div id="figure-1" class="figure1 animated fadeInLeftShort" data-id="1"></div>
-                            <div id="y-line-1" class="y-line animated fadeInLeftShort" data-id="2"></div>
-                            <h3 id="h3-13" class="title-h3 animated fadeInLeftShort" data-id="3">Comunidades aisladas</h3>
-                            <div id="figure-2" class="figure2 animated fadeInLeftShort" data-id="4"></div>
-                        </div>
+                    <!--elementos landscape bottom 9 -->
+                    <div class="group-animated animatedParent"  data-appear-left-offset='-10800'  data-sequence='300'>
+                        <div id="figure-1" class="figure1 animated fadeInLeftShort" data-id="1"></div>
+                        <div id="y-line-1" class="y-line animated fadeInLeftShort" data-id="2"></div>
+                        <h3 id="h3-13" class="title-h3 animated fadeInLeftShort" data-id="3">Comunidades aisladas</h3>
+                        <div id="figure-2" class="figure2 animated fadeInLeftShort" data-id="4"></div>
+                    </div>
 
-                        <div class="group-animated animatedParent"  data-appear-left-offset='-10880'  data-sequence='300'>
-                            <div id="warning-3" class="warning-icon animated fadeInLeftShort" data-id="1"></div>
-                            <h3 id="h3-14" class="title-h3 animated fadeInLeftShort" data-id="2">Suministro continuo y monitoreado 24/7</h3>
-                            <p id="txt-14" class="txtInfo animated fadeInLeftShort" data-id="3">Cada vez que el medidor de los MATs indica una baja de los niveles de carga, el sistema recibe una orden automática de reabastecimiento.</p>
-                            <div id="figure-3" class="figure3 animated fadeInLeftShort" data-id="4"></div>
-                        </div>
+                    <div class="group-animated animatedParent"  data-appear-left-offset='-10900'  data-sequence='300'>
+                        <div id="warning-3" class="warning-icon animated fadeInLeftShort" data-id="1"></div>
+                        <h3 id="h3-14" class="title-h3 animated fadeInLeftShort" data-id="2">Suministro continuo y monitoreado 24/7</h3>
+                        <p id="txt-14" class="txtInfo animated fadeInLeftShort" data-id="3">Cada vez que el medidor de los MATs indica una baja de los niveles de carga, el sistema recibe una orden automática de reabastecimiento.</p>
+                        <div id="figure-3" class="figure3 animated fadeInLeftShort" data-id="4"></div>
+                    </div>
 
-                        <div class="group-animated animatedParent"  data-appear-left-offset='-10920'  data-sequence='300'>
-                            <h3 id="h3-15" class="title-h3 animated fadeInLeftShort" data-id="1">Inyección en la red<br />de gas natural</h3>
-                            <div id="y-line-2" class="y-line animated fadeInLeftShort" data-id="2"></div>
-                            <div id="figure-4" class="figure4 animated fadeInLeftShort" data-id="3"></div>
-                        </div>
+                    <div class="group-animated animatedParent"  data-appear-left-offset='-10920'  data-sequence='300'>
+                        <h3 id="h3-15" class="title-h3 animated fadeInLeftShort" data-id="1">Inyección en la red<br />de gas natural</h3>
+                        <div id="y-line-2" class="y-line animated fadeInLeftShort" data-id="2"></div>
+                        <div id="figure-4" class="figure4 animated fadeInLeftShort" data-id="3"></div>
+                    </div>
 
-                         <div class="group-animated animatedParent"  data-appear-left-offset='-10920'  data-sequence='300'>
-                            <div id="figure-5" class="figure5 animated fadeInLeftShort" data-id="3"></div>
-                            <div id="y-line-3" class="y-line animated fadeInLeftShort" data-id="2"></div>
-                            <h3 id="h3-16" class="title-h3 animated fadeInLeftShort" data-id="1">Minas y plantas industriales</h3>
-                            <div id="figure-6" class="figure6 animated fadeInLeftShort" data-id="3"></div>
-                         </div>
+                    <div class="group-animated animatedParent"  data-appear-left-offset='-11100'  data-sequence='300'>
+                        <div id="figure-5" class="figure5 animated fadeInLeftShort" data-id="1"></div>
+                        <div id="y-line-3" class="y-line animated fadeInLeftShort" data-id="2"></div>
+                        <h3 id="h3-16" class="title-h3 animated fadeInLeftShort" data-id="3">Minas y plantas industriales</h3>
+                        <div id="figure-6" class="figure6 animated fadeInLeftShort" data-id="4"></div>
+                    </div>
+
+                    <!--elementos landscape bottom 10 -->
+                    <div class="group-animated animatedParent"  data-appear-left-offset='-11900'  data-sequence='300'>
+                         <div id="figure-7" class="figure7 animated fadeInLeftShort" data-id="1"></div>
+                         <div id="y-line-4" class="y-line animated fadeInLeftShort" data-id="2"></div>
+                         <h3 id="h3-17" class="title-h3 animated fadeInLeftShort" data-id="3">Usinas</h3>
+                         <div id="figure-8" class="figure8 animated fadeInLeftShort" data-id="4"></div>
+                         <div id="figure-9" class="figure9 animated fadeInLeftShort" data-id="5"></div>
+                         <div id="figure-10" class="figure9 animated fadeInLeftShort" data-id="6"></div>
+
+                    </div>
+
+
 
                      <!--main image-->
                      <img class="main-landscape-image" src="assets/images/gnc-biogas-landscape-main-img.png">

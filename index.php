@@ -129,7 +129,7 @@
                          <div id="tree-5" class="treeType1 animated fadeInLeftShort" data-id='8'></div>
                      </div> 
                      <div class="group-animated animatedParent" data-appear-left-offset='-1600'  data-sequence='300'>
-                         <h2 id="h2-2" class="h2-title-box animated fadeInLeftShort" data-id="1"><h2><?php echo $texts->top_titles->estacion_madre; ?></h2>
+                         <h2 id="h2-2" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->top_titles->estacion_madre; ?></h2>
                      </div>
  
                      <div class="group-animated animatedParent" data-appear-left-offset='-1900'  data-sequence='300'>
@@ -253,23 +253,37 @@
                         <div id="tree-33" class="treeType1 animated fadeInLeftShort" data-id='4'></div>
                     </div>
 
-                    <div class="group-animated animatedParent" data-appear-left-offset='-13700'  data-sequence='300'>
+                    <div class="group-animated animatedParent" data-appear-left-offset='-13900'  data-sequence='300'>
                         <div id="tree-34" class="treeType1 animated fadeInLeftShort" data-id='1'></div>
                         <h2 id="h2-8" class="h2-title-box animated fadeInLeftShort" data-id="2">REGRESO A LA ESTACIÓN MADRE</h2> 
                     </div>
 
-                    <div class="group-animated animatedParent" data-appear-left-offset='-13900'  data-sequence='300'>
+                    <div class="group-animated animatedParent" data-appear-left-offset='-14000'  data-sequence='300'>
                         <div id="tree-35" class="treeType1 animated fadeInLeftShort" data-id='1'></div>  
                     </div>
 
-                    <div class="group-animated animatedParent" data-appear-left-offset='-14100'  data-sequence='300'>
+                    <div class="group-animated animatedParent" data-appear-left-offset='-14300'  data-sequence='300'>
                         <div id="tree-36" class="treeType1 animated fadeInLeftShort" data-id='1'></div>  
                     </div>
 
-                    <div class="group-animated animatedParent" data-appear-left-offset='-14300'  data-sequence='300'>
+                    <div class="group-animated animatedParent" data-appear-left-offset='-14500'  data-sequence='300'>
                         <div id="hill-24" class="hillType1 animated fadeInLeftShort" data-id='1'></div>
                         <div id="hill-25" class="hillType2 animated fadeInLeftShort" data-id='2'></div>
                         <div id="tree-37" class="treeType2 animated fadeInLeftShort" data-id='3'></div>  
+                    </div>
+
+                    <div class="group-animated animatedParent" data-appear-left-offset='-15100'  data-sequence='300'>
+                        <div id="tree-38" class="treeType1 animated fadeInLeftShort" data-id='1'></div> 
+                        <h2 id="h2-9" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->top_titles->estacion_madre; ?></h2>
+                        <h4 id="subt-3" class="subtitle animated fadeInLeftShort" data-id="2"><?php echo $texts->top_titles->estacion_madre_desc; ?></h4>
+                    </div>
+                    <div class="group-animated animatedParent" data-appear-left-offset='-15500'  data-sequence='300'>
+                        <div id="hill-26" class="hillType1 animated fadeInLeftShort" data-id='1'></div>
+                        <div id="tree-39" class="treeType1 animated fadeInLeftShort" data-id='2'></div> 
+                        <div id="tree-40" class="treeType2 animated fadeInLeftShort" data-id='3'></div>
+                        <div id="hill-27" class="hillType2 animated fadeInLeftShort" data-id='4'></div>
+                        <div id="tree-41" class="treeType1 animated fadeInLeftShort" data-id='5'></div> 
+                        <div id="tree-42" class="treeType2 animated fadeInLeftShort" data-id='6'></div>
                     </div>
                       
                  </div>
@@ -440,6 +454,11 @@
                     <p id="txt-16" class="txtInfo animated fadeInLeftShort" data-id="2">El Tráiler VST regresa a la estación madre para reemplazar los MATs vacíos.</p>
                     </div>
 
+                    <!--elementos landscape bottom 12 -->
+                    <div class="group-animated animatedParent"  data-appear-left-offset='-15000'  data-sequence='300'>
+                        <h3 id="h3-21" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">8</span>Plataformas PAC</h3>
+                        <p id="txt-17" class="txtInfo animated fadeInLeftShort" data-id="2">A su arribo a la estación madre, los tráileres VST intercambian los MAT traídos desde los centros de consumo por los que acaban de cargarse y están depositados sobre las PAC. Los contenedores se deslizan suavemente de una plataforma a otra gracias a los mecanismos de anclaje controlados por el conductor del camión de remolque.</p>
+                    </div>
                        
 
 

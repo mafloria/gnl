@@ -258,6 +258,11 @@ a.gasoducto-menu-btn:hover{
 #tree-35{ bottom: -10px; left: 13600px;}
 #tree-36{ bottom: -10px; left: 13750px;}
 #tree-37{ bottom: -10px; left: 14100px;}
+#tree-38{ bottom: -10px; left: 14700px;}
+#tree-39{ bottom: -25px; left: 15200px;}
+#tree-40{ bottom: -10px; left: 15300px;}
+#tree-41{ bottom: -25px; left: 15400px;}
+#tree-42{ bottom: -10px; left: 15500px;}
 
 #hill-1{ bottom: 0; left: 400px;}
 #hill-2{ bottom: 0; left: 580px;}
@@ -284,6 +289,8 @@ a.gasoducto-menu-btn:hover{
 #hill-23{ bottom: 0; left: 13040px;}
 #hill-24{ bottom: 0; left: 13900px;}
 #hill-25{ bottom: 0; left: 14050px;}
+#hill-26{ bottom: 0; left: 15130px;}
+#hill-27{ bottom: 0; left: 15400px;}
 
 #txt-wrap-1{bottom: -328px; left: 150px;}
 #txt-wrap-2{bottom: -175px; left: 6500px;}
@@ -296,6 +303,7 @@ a.gasoducto-menu-btn:hover{
 #h2-6{top: 40px; left: 8200px;}
 #h2-7{top: 40px; left: 9550px;}
 #h2-8{top: 40px; left: 13400px;}
+#h2-9{top: 40px; left: 14650px;}
 
 #txt-1{ bottom: 350px; left: 988px; width: 150px;}
 #txt-2{ bottom: 225px; left: 1383px; width: 450px;}
@@ -313,9 +321,11 @@ a.gasoducto-menu-btn:hover{
 #txt-14{ top: -262px; left: 10390px; width: 400px;}
 #txt-15{ top: -300px; left: 12140px; width: 600px;}
 #txt-16{ bottom: 295px; left: 13450px; width: 400px;}
+#txt-17{ top: -210px; left: 14250px; width: 310px;}
 
 #subt-1{ top: 80px; left: 3000px;}
 #subt-2{ top: 80px; left: 8190px;}
+#subt-3{ top: 80px; left: 14650px;}
 
 #h3-1{ bottom: -15px; width: 100%;}
 #h3-2{ bottom: 215px; left: 690px; border-bottom: 2px solid #1a5489}
@@ -337,6 +347,7 @@ a.gasoducto-menu-btn:hover{
 #h3-18{ bottom: 409px; left: 12172px;}
 #h3-19{ bottom: 409px; left: 12530px;}
 #h3-20{ bottom: 300px; left: 13400px;}
+#h3-21{ top: -250px; left: 14250px;}
 
 #arrow-1{top: -53px; left: 1511px;}
 #arrow-2{top: -53px; left: 2330px;}

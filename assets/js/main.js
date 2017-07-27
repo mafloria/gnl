@@ -16,12 +16,12 @@ $(document).ready(function(){
             onScroll: function(percent) {   //optional: callback function that will be called when the user scrolls down, useful for animating other things on the page
                 //console.log(percent);
                 
-                /*tmp = $('#track_moving').attr('data-appear-left-offset');
-                tmp = Math.floor((el.width - winWidth) * scrollPercent) * -1; */
+                /*tmp = $('#track_moving').attr('data-appear-left-offset');*/
+                tmp = Math.floor((777 - $(window).innerWidth()) * percent) * -1; 
                 var position = $(".front").position();
-                //console.log(position.left); 
+                console.log($('#camion').parent().width()); 
                 if((position.left*-1)>6400){
-					$('#camion').css("margin-left", (position.left*-1)-2900);
+					$('#camion').css("margin-left", tmp); //3370 6212
 					//$('#camion').animate({left:(position.left*-1)-2900},100,"linear");
 				}				
             }

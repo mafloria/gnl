@@ -64,7 +64,7 @@
                      
                      <!-- camnio que se mueve -->
                     <div class="group-animated animatedParent"  data-appear-left-offset='-3300'  data-sequence='300'>
-                         <div id="camion" class="wrapObjet1 animated" data-id="1"></div>
+                         <div id="camion" class="camion1 animated" data-id="1"></div>
                      </div>
                      
                      <div class="group-animated animatedParent"  data-appear-left-offset='-3600'  data-sequence='300'>

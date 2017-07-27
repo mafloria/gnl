@@ -205,6 +205,13 @@ a.gasoducto-menu-btn:hover{
   bottom: 38%; 
   left: -3%;
 }
+.camion-1{
+  width: 777px;
+  height: 188px;
+  position: absolute;
+  z-index: 12;
+    background: transparent url(../images/camion-1.png) no-repeat; 
+}
 /*elements 1 hills*/
 .hillType1{
   position: absolute;
@@ -294,6 +301,8 @@ a.gasoducto-menu-btn:hover{
 
 #txt-wrap-1{bottom: -328px; left: 150px;}
 #txt-wrap-2{bottom: -175px; left: 6500px;}
+
+#camion{top: -100px; left: 3500px;}
 
 #h2-1{top: 40px; left: 610px;}
 #h2-2{top: 40px; left: 1700px;}

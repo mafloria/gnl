@@ -84,12 +84,12 @@
                 </section>         
     
                 <div class="gnc-biogas-landscape landscape-section">
-                    <?php require_once("sections/biogas.php")?>                
+                    <?php require_once("sections/biogas.php")?>
     
                 </div> <!-- end gnc-biogas-landscape -->
                 
                 <div class="gnc-yacimiento-landscape landscape-section">
-                    <?php require_once("sections/yacimientogas.php")?>                
+                    <?php require_once("sections/yacimientogas.php")?>
     
                 </div> <!-- end gnc-yacimiento-landscape -->
             </div><!-- end front scroll -->

@@ -236,8 +236,41 @@
                         <div id="hill-19" class="hillType2 animated fadeInLeftShort" data-id='2'></div>
                         <div id="tree-29" class="treeType2 animated fadeInLeftShort" data-id='3'></div>
                     </div>
-                     
- 
+
+                    <!--elementos landscape top 10 --> 
+                    <div class="group-animated animatedParent" data-appear-left-offset='-12550'  data-sequence='300'>
+                        <div id="tree-30" class="treeType1 animated fadeInLeftShort" data-id='1'></div>
+                        <div id="hill-20" class="hillType2 animated fadeInLeftShort" data-id='2'></div>
+                        <div id="hill-21" class="hillType1 animated fadeInLeftShort" data-id='3'></div>
+                        <div id="tree-31" class="treeType2 animated fadeInLeftShort" data-id='4'></div>
+                    </div>
+
+                    <!--elementos landscape top 11 --> 
+                     <div class="group-animated animatedParent" data-appear-left-offset='-13300'  data-sequence='300'>
+                        <div id="hill-22" class="hillType2 animated fadeInLeftShort" data-id='1'></div>
+                        <div id="tree-32" class="treeType2 animated fadeInLeftShort" data-id='2'></div>
+                        <div id="hill-23" class="hillType1 animated fadeInLeftShort" data-id='3'></div>
+                        <div id="tree-33" class="treeType1 animated fadeInLeftShort" data-id='4'></div>
+                    </div>
+
+                    <div class="group-animated animatedParent" data-appear-left-offset='-13700'  data-sequence='300'>
+                        <div id="tree-34" class="treeType1 animated fadeInLeftShort" data-id='1'></div>
+                        <h2 id="h2-8" class="h2-title-box animated fadeInLeftShort" data-id="2">REGRESO A LA ESTACIÓN MADRE</h2> 
+                    </div>
+
+                    <div class="group-animated animatedParent" data-appear-left-offset='-13900'  data-sequence='300'>
+                        <div id="tree-35" class="treeType1 animated fadeInLeftShort" data-id='1'></div>  
+                    </div>
+
+                    <div class="group-animated animatedParent" data-appear-left-offset='-14100'  data-sequence='300'>
+                        <div id="tree-36" class="treeType1 animated fadeInLeftShort" data-id='1'></div>  
+                    </div>
+
+                    <div class="group-animated animatedParent" data-appear-left-offset='-14300'  data-sequence='300'>
+                        <div id="hill-24" class="hillType1 animated fadeInLeftShort" data-id='1'></div>
+                        <div id="hill-25" class="hillType2 animated fadeInLeftShort" data-id='2'></div>
+                        <div id="tree-37" class="treeType2 animated fadeInLeftShort" data-id='3'></div>  
+                    </div>
                       
                  </div>
                  <div class="landscape-bottom">
@@ -398,6 +431,13 @@
                         <div id="y-line-6" class="y-line animated fadeInLeftShort" data-id="2"></div>
                         <h3 id="h3-19" class="title-h3 animated fadeInLeftShort" data-id="3">Estaciones de servicio</h3>
                         <div id="figure-14" class="figure11 animated fadeInLeftShort" data-id="4"></div>
+                    </div>
+
+                    <!--elementos landscape bottom 11 -->
+
+                    <div class="group-animated animatedParent"  data-appear-left-offset='-13950'  data-sequence='300'>
+                    <h3 id="h3-20" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">7</span></h3>
+                    <p id="txt-16" class="txtInfo animated fadeInLeftShort" data-id="2">El Tráiler VST regresa a la estación madre para reemplazar los MATs vacíos.</p>
                     </div>
 
                        

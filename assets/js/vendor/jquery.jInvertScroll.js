@@ -95,7 +95,7 @@
             var scrollPercent = (currY / (totalHeight - winHeight)).toFixed(4);
             //console.log(currY+" / "+totalHeight+" - "+winHeight+" = "+scrollPercent);
             // Call the onScroll callback
-            if(typeof config.onScroll === 'function') {
+            if(typeof config.onScroll === 'function') {            	
                 config.onScroll.call(this, scrollPercent);
             }
             
@@ -103,6 +103,7 @@
             $.each(elements, function (i, el) {
                 var pos = Math.floor((el.width - winWidth) * scrollPercent) * -1;                
                 el.el.css('left', pos);
+                console.log("inside:"+pos);
             });
         });
     };

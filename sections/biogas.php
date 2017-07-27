@@ -23,8 +23,8 @@
                      </div>
                      <div class="group-animated animatedParent" data-appear-left-offset='-700'  data-sequence='300'>
                              <h2 id="h2-1" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->top_titles->estacion_madre; ?></h2>
-                     </div>
- 
+                     </div>                    
+                    
                      <div class="group-animated animatedParent"  data-appear-left-offset='-700'  data-sequence='150'>
                         <div id="hill-1" class="hillType1 animated fadeInLeftShort" data-id='1'></div>
                          <div id="tree-1" class="treeType2 animated fadeInLeftShort" data-id='2'></div>
@@ -61,6 +61,12 @@
                          <h2 id="h2-3" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->top_titles->estacion_madre; ?></h2>
                          <h4 id="subt-1" class="subtitle animated fadeInLeftShort" data-id="2"><?php echo $texts->top_titles->estacion_madre_desc; ?></h4>
                      </div>
+                     
+                     <!-- camnio que se mueve -->
+                    <div class="group-animated animatedParent"  data-appear-left-offset='-3300'  data-sequence='300'>
+                         <div id="camion" class="wrapObjet1 animated" data-id="1"></div>
+                     </div>
+                     
                      <div class="group-animated animatedParent"  data-appear-left-offset='-3600'  data-sequence='300'>
                          <div id="hill-5" class="hillType2 animated fadeInLeftShort" data-id='1'></div>
                      </div>

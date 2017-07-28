@@ -122,6 +122,12 @@ img.logo-intro{
   width: 50%;
   margin-top: 20%;
 }
+.camion-section{
+  position: absolute;
+    left: 3370px;
+    top: 362px;
+    z-index: 12;
+}
 /*screen2*/
 .screen2-txt{
   float: left;
@@ -208,9 +214,7 @@ a.gasoducto-menu-btn:hover{
 .camion-1{
   width: 777px;
   height: 188px;
-  /*position: absolute;*/
-  z-index: 12;
-    background: transparent url(../images/camion-1.png) no-repeat; 
+  background: transparent url(../images/camion-1.png) no-repeat; 
 }
 /*elements 1 hills*/
 .hillType1{
@@ -301,8 +305,6 @@ a.gasoducto-menu-btn:hover{
 
 #txt-wrap-1{bottom: -328px; left: 150px;}
 #txt-wrap-2{bottom: -175px; left: 6500px;}
-
-#camion{top: -100px; left: 3500px;}
 
 #h2-1{top: 40px; left: 610px;}
 #h2-2{top: 40px; left: 1700px;}
@@ -413,7 +415,7 @@ a.gasoducto-menu-btn:hover{
 .txtWrap1{
   width: 341px;
   height: 537px;
-  z-index: 11;
+  z-index: 14;
   position: absolute;
   background: transparent url(../images/cajon-txt-section1.png) no-repeat;
   padding: 20px 0;
@@ -421,7 +423,7 @@ a.gasoducto-menu-btn:hover{
 .txtWrap2{
   width: 396px;
   height: 393px;
-  z-index: 11;
+  z-index: 14;
   position: absolute;
   background: transparent url(../images/cajon-txt-section2.png) no-repeat;
   padding: 0;

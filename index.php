@@ -18,7 +18,7 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>Galileo technologies</title>
         <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
         <link rel="stylesheet" href="assets/css/normalize.css">        
         <link rel="stylesheet" href="assets/css/main.css">
@@ -84,12 +84,12 @@
                 </section>         
     
                 <div class="gnc-biogas-landscape landscape-section">
-                    <?php require_once("sections/biogas.php")?>
+                    <?php require_once("sections/biogas.php"); ?>
     
                 </div> <!-- end gnc-biogas-landscape -->
                 
                 <div class="gnc-yacimiento-landscape landscape-section">
-                    <?php require_once("sections/yacimientogas.php")?>
+                    <?php require_once("sections/yacimientogas.php"); ?>
     
                 </div> <!-- end gnc-yacimiento-landscape -->
             </div><!-- end front scroll -->

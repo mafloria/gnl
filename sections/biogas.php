@@ -1,3 +1,15 @@
+            <section class="section screen-3">
+                    <div class="section-content">
+                        <div class="title-section">
+                            <h2><?php echo $texts->top_titles->fuentes; ?></h2>
+                        </div>
+                        <div class="screen3-title center">
+                            <h1>Bio - GNC</h1>
+                            <p><?php echo $texts->intro->biognc_subtitulo; ?></p>
+                        </div>                   
+                    </div>
+            </section>
+            <div class="gnc-biogas-landscape landscape-section">
                 <div class="landscape-top">
                  <!--elementos landscape top 1 -->  
                      <div class="group-animated animatedParent" data-appear-left-offset='-700'  data-sequence='200'>
@@ -385,3 +397,4 @@
                      <img class="main-landscape-image" src="assets/images/gnc-biogas-landscape-main-img.png">
                      <!--main image-->
                 </div>
+            </div> <!-- end gnc-biogas-landscape -->

@@ -23,7 +23,7 @@
         <link rel="stylesheet" href="assets/css/normalize.css">        
         <link rel="stylesheet" href="assets/css/main.css">
         <link rel="stylesheet" href="assets/css/animations.css" type="text/css">
-        <link rel="stylesheet" id="galileocss" href="assets/css/galileo.css">
+        <link rel="stylesheet" id="galileocss" href="assets/css/galileo-biogas.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
                 
     </head>
@@ -69,34 +69,13 @@
                         </div>
                     </div>   
     
-                </section>
+                </section>                             
     
-                <section class="section screen-3">
-                    <div class="section-content">
-                        <div class="title-section">
-                            <h2><?php echo $texts->top_titles->fuentes; ?></h2>
-                        </div>
-                        <div class="screen3-title center">
-                            <h1>Bio - GNC</h1>
-                            <p><?php echo $texts->intro->biognc_subtitulo; ?></p>
-                        </div>                   
-                    </div>
-                </section>         
-    
-                <div class="gnc-biogas-landscape landscape-section">
-                    <?php require_once("sections/biogas.php"); ?>
-    
-                </div> <!-- end gnc-biogas-landscape -->
                 
-                <div class="gnc-yacimiento-landscape landscape-section">
-                    <?php require_once("sections/yacimientogas.php"); ?>
-    
-                </div> <!-- end gnc-yacimiento-landscape -->
-                
-                <div class="gnc-gasoducto-landscape landscape-section">
-                    <?php require_once("sections/gasoducto.php"); ?>
-    
-                </div> <!-- end gnc-gasoducto-landscape -->
+                <?php require_once("sections/biogas.php"); ?>                                
+                <?php require_once("sections/yacimientogas.php"); ?>
+                <?php require_once("sections/gasoducto.php"); ?>
+                    
             </div><!-- end front scroll -->
             
         </div><!-- fin wrapper -->

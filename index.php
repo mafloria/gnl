@@ -23,7 +23,7 @@
         <link rel="stylesheet" href="assets/css/normalize.css">        
         <link rel="stylesheet" href="assets/css/main.css">
         <link rel="stylesheet" href="assets/css/animations.css" type="text/css">
-        <link rel="stylesheet" href="assets/css/galileo.css">
+        <link rel="stylesheet" id="galileocss" href="assets/css/galileo.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
                 
     </head>
@@ -63,9 +63,9 @@
                             <p><?php echo $texts->intro->intro_text; ?></p>
                         </div>     
                         <div class="menu-circles-icons">
-                            <a class="biogas-menu-btn" href=""></a>
-                            <a class="yacimiento-menu-btn" href=""></a>
-                            <a class="gasoducto-menu-btn" href=""></a>
+                            <a id="view-biogas-process" class="view-process biogas-menu-btn" href="javascript:void(0);"></a>
+                            <a id="view-yacimiento-process" class="view-process yacimiento-menu-btn" href="javascript:void(0);"></a>
+                            <a id="view-gasoducto-process" class="view-process gasoducto-menu-btn" href="javascript:void(0);"></a>
                         </div>
                     </div>   
     
@@ -92,6 +92,11 @@
                     <?php require_once("sections/yacimientogas.php"); ?>
     
                 </div> <!-- end gnc-yacimiento-landscape -->
+                
+                <div class="gnc-gasoducto-landscape landscape-section">
+                    <?php require_once("sections/gasoducto.php"); ?>
+    
+                </div> <!-- end gnc-gasoducto-landscape -->
             </div><!-- end front scroll -->
             
         </div><!-- fin wrapper -->

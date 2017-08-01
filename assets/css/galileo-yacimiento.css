@@ -1,6 +1,6 @@
 /* ESTILOS YACIMIENTOS BIOGAS- UXDEVCO */
-.gnc-biogas-landscape{
-  width: 15860px;
+.gnc-yacimiento-landscape{
+  width: 14460px;
   max-height: 670px;
 }
 .landscape-top{
@@ -338,7 +338,7 @@
  height: 58px;
  position: absolute;
  z-index: 12;
- background: transparent url(../images/medidor.png) no-repeat;
+ background: transparent url(../images/medidor.gif) no-repeat;
 }
 .figure4{
  width: 131px;

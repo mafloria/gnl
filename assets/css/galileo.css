@@ -18,11 +18,20 @@ body{
 .sr .screen2-txt { 
   visibility: hidden; 
 }
+img{
+  width: 100%;
+  height: auto;
+}
 h1, h2, h3, h4{
   margin: 0;
   padding: 0;
   line-height: inherit;
 }
+.idex-10{position: absolute; z-index:10;}
+.idex-11{position: absolute; z-index:11;}
+.index-12{position: absolute; z-index:12;}
+.index-13{position: absolute; z-index:13;}
+
 .title-section h2{
   color: white;
   font-size: 1.85em;
@@ -34,8 +43,8 @@ h1, h2, h3, h4{
   display: table;
 }
 .h2-title-box{
-  position: absolute;
-  z-index: 13;
+  /*position: absolute;
+  z-index: 13;*/
   color: white;
   font-size: 1.85em;
   padding: 0 1em;
@@ -206,39 +215,63 @@ a.gasoducto-menu-btn:hover{
   position: relative;
 }
 .main-landscape-image{
-  position: absolute;
+  margin-top: -1.65%;
+  margin-left: -3%;
+  position: inherit;
   z-index: 10;
-  bottom: 38%; 
-  left: -3%;
 }
 .camion-1{
+  display: none;
   width: 777px;
   height: 188px;
   background: transparent url(../images/camion-1.png) no-repeat; 
   position: fixed;
   left: 0;
 }
-/*elements 1 hills*/
-.hillType1{
+.group-animated{
   position: absolute;
-  z-index: 2;
-  width: 200px;
-  height: 125px;
-  background: transparent url(../images/montana-galileo-1.png) no-repeat;
 }
-.hillType2{
-  z-index: 3;
-  position: absolute;
-  width: 152px;
-  height: 95px;
-  background: transparent url(../images/montana-galileo-2.png) no-repeat;
-}
+#gat-1{top: 30%; left: 0.8%; z-index: 14;}
+#gat-2{top: 5%; left: 4%;}
+#gat-3{bottom: 0; left: 3%; width: 4%;}
+#gat-4{width: 4%; bottom: 0; left: 7.5%;}
+#gat-5{}
+#gat-6{}
+#gat-7{}
+#gat-8{}
+#gat-9{}
+#gat-10{}
+#gat-11{}
+#gat-12{}
+#gat-13{}
+#gat-14{}
+#gat-15{}
+#gat-16{}
+#gat-17{}
+#gat-18{}
+#gat-19{}
+#gat-20{}
+#gat-21{}
+#gat-22{}
+#gat-23{}
+#gat-24{}
+#gat-25{}
+#gat-26{}
+#gat-27{}
+#gat-28{}
+#gat-29{}
+#gat-30{}
+#gat-31{}
+
+
 /*elements position*/
-#tree-1{ bottom: -10px; left: 465px;}
-#tree-2{ bottom: -10px; left: 610px;}
-#tree-3{ bottom: -20px; left: 765px;}
-#tree-4{ bottom: -10px; left: 1150px;}
-#tree-5{ bottom: -25px; left: 1250px;}
+.icon1, .icon2, .icon3, .icon4{float: left; width: 50%;}
+
+#tree-1{ bottom: -10px; left: 6%;}
+#tree-2{ bottom: -10px; left: 24%;}
+#tree-3{ bottom: -20px; left: 43%;}
+#tree-4{ bottom: -10px; left: 0;}
+#tree-5{ bottom: -15px; left: 10%;}
 #tree-6{ bottom: -10px; left: 2450px;}
 #tree-7{ bottom: -25px; left: 2600px;}
 #tree-8{ bottom: -10px; left: 2700px;}
@@ -277,9 +310,9 @@ a.gasoducto-menu-btn:hover{
 #tree-41{ bottom: -25px; left: 15400px;}
 #tree-42{ bottom: -10px; left: 15500px;}
 
-#hill-1{ bottom: 0; left: 400px;}
-#hill-2{ bottom: 0; left: 580px;}
-#hill-3{ bottom: 0; left: 700px;}
+#hill-1{ bottom: 0; left: 0;}
+#hill-2{ bottom: 0; left: 20%;}
+#hill-3{ bottom: 0; left: 39%;}
 #hill-4{ bottom: 0; left: 2670px;}
 #hill-5{ bottom: 0; left: 3500px;}
 #hill-6{ bottom: 0; left: 4300px;}
@@ -397,16 +430,34 @@ a.gasoducto-menu-btn:hover{
 .treeType1{
   z-index: 4;
   position: absolute;
-  width: 80px;
+  width: 10%;
+  /*width: 80px;
   height: 117px;
-  background: transparent url(../images/arbol-galileo-1.png) no-repeat;
+  background: transparent url(../images/arbol-galileo-1.png) no-repeat;*/
 }
 .treeType2{
   z-index: 4;
   position: absolute;
-  width: 64px;
+  width: 8%;
+ /* width: 64px;
   height: 94px;
-  background: transparent url(../images/arbol-galileo-2.png) no-repeat;  
+  background: transparent url(../images/arbol-galileo-2.png) no-repeat; */ 
+}
+.hillType1{
+  position: absolute;
+  z-index: 2;
+  width: 24%;
+ /* width: 200px;
+  height: 125px;
+  background: transparent url(../images/montana-galileo-1.png) no-repeat;*/
+}
+.hillType2{
+  z-index: 3;
+  position: absolute;
+  width: 18%;
+  /*width: 152px;
+  height: 95px;
+  background: transparent url(../images/montana-galileo-2.png) no-repeat;*/
 }
 .txt-wrap-cntr{
   position: relative;
@@ -417,8 +468,6 @@ a.gasoducto-menu-btn:hover{
 .txtWrap1{
   width: 341px;
   height: 537px;
-  z-index: 14;
-  position: absolute;
   background: transparent url(../images/cajon-txt-section1.png) no-repeat;
   padding: 20px 0;
 }
@@ -491,9 +540,11 @@ a.gasoducto-menu-btn:hover{
   position: absolute;
   z-index: 12;
 }
+
+/*
 .icon1{
  float: left;
- width: 171px;
+width: 171px;
  height: 118px;
  background: transparent url(../images/em-icon-1.png) no-repeat;
 }
@@ -515,6 +566,7 @@ a.gasoducto-menu-btn:hover{
  height: 118px;
  background: transparent url(../images/em-icon-4.png) no-repeat;
 }
+*/
 .figure1{
  width: 148px;
  height: 54px;

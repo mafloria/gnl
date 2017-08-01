@@ -27,5 +27,12 @@ $(document).ready(function(){
             }
         });        
 	
+	$(".view-process").click(function(){
+		var id = $(this).attr( "id" ).split("-");
+		
+		$("#galileocss").attr("href", "assets/css/galileo-"+id[1]+".css");
+		$(".landscape-section").hide();
+		$(".gnc-"+id[1]+"-landscape").show();
+	});
 		 
 });

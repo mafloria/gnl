@@ -123,13 +123,13 @@ img.logo-intro{
   margin-top: 20%;
 }
 .camion-section{
-  display: none;
   position: absolute;
   left: 3370px;
   top: 230px;
   z-index: 12;
 }
 .camion-1{
+  display: none !important;
   width: 777px;
   height: 188px;
   background: transparent url(../images/camion-1.png) no-repeat; 

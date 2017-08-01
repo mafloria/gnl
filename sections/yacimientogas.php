@@ -362,6 +362,6 @@
 
 
                      <!--main image-->
-                     <img class="main-landscape-image" src="assets/images/gnc-biogas-landscape-main-img.png">
+                     <img class="main-landscape-image" src="assets/images/gnc-yacimientos-landscape-main-img.png">
                      <!--main image-->
                 </div>

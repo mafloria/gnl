@@ -1,81 +1,78 @@
                 <div class="landscape-top">
                  <!--elementos landscape top 1 -->  
-                     <div id="gat-1" class="group-animated animatedParent" data-appear-left-offset='-700'  data-sequence='200'>
+                     <div class="group-animated animatedParent" data-appear-left-offset='-700'  data-sequence='200'>
                          <div id="txt-wrap-1" class="txtWrap1 animated fadeInLeftShort" data-id="1">
                              <div class="txt-wrap-cntr">
-                                 <div id="icon-1" class="icon1 animated fadeInLeftShort" data-id="2"><img src="assets/images/em-icon-1.png"></div> 
+                                 <div id="icon-1" class="icon1 animated fadeInLeftShort" data-id="2"></div> 
                                  <p class="txt-box1 animated fadeInLeftShort" data-id="3"><?php echo $texts->process->fuentes_biogas_box_op1; ?></p>   
                              </div>
                              <div class="txt-wrap-cntr">
-                                 <div id="icon-2" class="icon2 animated fadeInLeftShort" data-id="4"><img src="assets/images/em-icon-2.png"></div> 
+                                 <div id="icon-2" class="icon2 animated fadeInLeftShort" data-id="4"></div> 
                                  <p class="txt-box1 animated fadeInLeftShort" data-id="5"><?php echo $texts->process->fuentes_biogas_box_op2; ?></p>   
                              </div>
                              <div class="txt-wrap-cntr">
-                                 <div id="icon-1" class="icon3 animated fadeInLeftShort" data-id="6"><img src="assets/images/em-icon-3.png"></div> 
+                                 <div id="icon-1" class="icon3 animated fadeInLeftShort" data-id="6"></div> 
                                  <p class="txt-box1 animated fadeInLeftShort" data-id="7"><?php echo $texts->process->fuentes_biogas_box_op3; ?></p>   
                              </div>
                              <div class="txt-wrap-cntr">
-                                 <div id="icon-2" class="icon4 animated fadeInLeftShort" data-id="8"><img src="assets/images/em-icon-4.png"></div> 
+                                 <div id="icon-2" class="icon4 animated fadeInLeftShort" data-id="8"></div> 
                                  <p class="txt-box1 animated fadeInLeftShort" data-id="9"><?php echo $texts->process->fuentes_biogas_box_op4; ?></p>
                              </div> 
                              <h3 id="h3-1" class="title-h3 animated fadeInLeftShort" data-id="10"><?php echo $texts->process->fuentes_biogas_box_titulo; ?></h3>   
                          </div>
                      </div>
-                     <div id="gat-2" class="group-animated animatedParent" data-appear-left-offset='-700'  data-sequence='300'>
+                     <div class="group-animated animatedParent" data-appear-left-offset='-700'  data-sequence='300'>
                              <h2 id="h2-1" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->top_titles->estacion_madre; ?></h2>
                      </div>                    
                     
-                     <div id="gat-3" class="group-animated animatedParent"  data-appear-left-offset='-700'  data-sequence='150'>
-                        <div id="hill-1" class="hillType1 animated fadeInLeftShort" data-id='1'><img src="assets/images/montana-galileo-1.png"></div>
-                         <div id="tree-1" class="treeType2 animated fadeInLeftShort" data-id='2'><img src="assets/images/arbol-galileo-2.png"></div>
+                     <div class="group-animated animatedParent"  data-appear-left-offset='-700'  data-sequence='150'>
+                        <div id="hill-1" class="hillType1 animated fadeInLeftShort" data-id='1'></div>
+                         <div id="tree-1" class="treeType2 animated fadeInLeftShort" data-id='2'></div>
                          
-
-                         <div id="hill-2" class="hillType2 animated fadeInLeftShort" data-id='3'><img src="assets/images/montana-galileo-2.png"></div>
-                         <div id="tree-2" class="treeType2 animated fadeInLeftShort" data-id='4'><img src="assets/images/arbol-galileo-2.png"></div>
+                         <div id="hill-2" class="hillType2 animated fadeInLeftShort" data-id='3'></div>
+                         <div id="tree-2" class="treeType2 animated fadeInLeftShort" data-id='4'></div>
                          
-                         <div id="hill-3" class="hillType1 animated fadeInLeftShort" data-id='5'><img src="assets/images/montana-galileo-1.png"></div>
-                         <div id="tree-3" class="treeType1 animated fadeInLeftShort" data-id='6'><img src="assets/images/arbol-galileo-1.png"></div>       
+                         <div id="hill-3" class="hillType1 animated fadeInLeftShort" data-id='5'></div>
+                         <div id="tree-3" class="treeType1 animated fadeInLeftShort" data-id='6'></div>       
                      </div>
                      
                      <!--elementos landscape top 2 --> 
-                     <div id="gat-4" class="group-animated animatedParent"  data-appear-left-offset='-900'  data-sequence='300'>
-                         <div id="tree-4" class="treeType2 animated fadeInLeftShort" data-id='1'><img src="assets/images/arbol-galileo-2.png"></div>
-                         <div id="tree-5" class="treeType1 animated fadeInLeftShort" data-id='2'><img src="assets/images/arbol-galileo-1.png"></div>
+                     <div class="group-animated animatedParent"  data-appear-left-offset='-1500'  data-sequence='300'>
+                         <div id="tree-4" class="treeType2 animated fadeInLeftShort" data-id='7'></div>
+                         <div id="tree-5" class="treeType1 animated fadeInLeftShort" data-id='8'></div>
                      </div> 
-
-                     <div id="gat-5" class="group-animated animatedParent" data-appear-left-offset='-1600'  data-sequence='300'>
+                     <div class="group-animated animatedParent" data-appear-left-offset='-1600'  data-sequence='300'>
                          <h2 id="h2-2" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->top_titles->estacion_madre; ?></h2>
                      </div>
  
-                     <div id="gat-6" class="group-animated animatedParent" data-appear-left-offset='-1900'  data-sequence='300'>
-                         <div id="tree-6" class="treeType2 animated fadeInLeftShort" data-id='1'><img src="assets/images/arbol-galileo-2.png"></div>
+                     <div class="group-animated animatedParent" data-appear-left-offset='-1900'  data-sequence='300'>
+                         <div id="tree-6" class="treeType2 animated fadeInLeftShort" data-id='1'></div>
                      </div>
  
                      <!--elementos landscape top 3 --> 
  
-                     <div id="gat-7" class="group-animated animatedParent"  data-appear-left-offset='-3100'  data-sequence='300'>
-                         <div id="tree-7" class="treeType1 animated fadeInLeftShort" data-id='1'><img src="assets/images/arbol-galileo-1.png"></div>
-                         <div id="hill-4" class="hillType1 animated fadeInLeftShort" data-id='2'><img src="assets/images/montana-galileo-1.png"></div>
-                         <div id="tree-8" class="treeType2 animated fadeInLeftShort" data-id='3'><img src="assets/images/arbol-galileo-2.png"></div>
-                         <div id="tree-9" class="treeType1 animated fadeInLeftShort" data-id='4'><img src="assets/images/arbol-galileo-1.png"></div>    
+                     <div class="group-animated animatedParent"  data-appear-left-offset='-3100'  data-sequence='300'>
+                         <div id="tree-7" class="treeType1 animated fadeInLeftShort" data-id='1'></div>
+                         <div id="hill-4" class="hillType1 animated fadeInLeftShort" data-id='2'></div>
+                         <div id="tree-8" class="treeType2 animated fadeInLeftShort" data-id='3'></div>
+                         <div id="tree-9" class="treeType1 animated fadeInLeftShort" data-id='4'></div>    
                      </div>
-
-                     <div id="gat-8" class="group-animated animatedParent" data-appear-left-offset='-3200'  data-sequence='300'>
+                     <div class="group-animated animatedParent" data-appear-left-offset='-3200'  data-sequence='300'>
                          <h2 id="h2-3" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->top_titles->estacion_madre; ?></h2>
                          <h4 id="subt-1" class="subtitle animated fadeInLeftShort" data-id="2"><?php echo $texts->top_titles->estacion_madre_desc; ?></h4>
                      </div>
                      
                      <!-- camnio que se mueve -->
-                    <div id="gat-9" class="group-animated camion-section animatedParent"  data-appear-left-offset='-3300'  data-sequence='300'>
+                    <div class="group-animated camion-section animatedParent"  data-appear-left-offset='-3300'  data-sequence='300'>
                          <div id="camion" class="camion-1 animated" data-id="1"></div>
                      </div>
                      
-                     <div id="gat-10" class="group-animated animatedParent"  data-appear-left-offset='-3600'  data-sequence='300'>
+                     <div class="group-animated animatedParent"  data-appear-left-offset='-3600'  data-sequence='300'>
                          <div id="hill-5" class="hillType2 animated fadeInLeftShort" data-id='1'></div>
                      </div>
  
                      <!--elementos landscape top 4 -->
-                     <div id="gat-11" class="group-animated animatedParent"  data-appear-left-offset='-5200'  data-sequence='300'> 
+                     <div class="group-animated animatedParent"  data-appear-left-offset='-5200'  data-sequence='300'> 
                          <div id="hill-6" class="hillType1 animated fadeInLeftShort" data-id='1'></div>
                          <div id="tree-10" class="treeType2 animated fadeInLeftShort" data-id='2'></div>
                          <div id="hill-7" class="hillType2 animated fadeInLeftShort" data-id='3'></div>
@@ -84,9 +81,8 @@
                          <div id="hill-9" class="hillType2 animated fadeInLeftShort" data-id='6'></div>
                          <div id="tree-12" class="treeType2 animated fadeInLeftShort" data-id='7'></div>
                      </div>
-
                      <!--elementos landscape top 5 --> 
-                     <div id="gat-12" class="group-animated animatedParent"  data-appear-left-offset='-5800'  data-sequence='300'>
+                     <div class="group-animated animatedParent"  data-appear-left-offset='-5800'  data-sequence='300'>
                          <div id="tree-13" class="treeType1 animated fadeInLeftShort" data-id='1'></div>
                          <div id="hill-10" class="hillType1 animated fadeInLeftShort" data-id='2'></div>
                          <div id="tree-14" class="treeType2 animated fadeInLeftShort" data-id='3'></div>
@@ -96,11 +92,11 @@
                          <div id="tree-17" class="treeType1 animated fadeInLeftShort" data-id='7'></div>
                      </div>
  
-                     <div id="gat-13" class="group-animated animatedParent" data-appear-left-offset='-5900'  data-sequence='300'>
+                     <div class="group-animated animatedParent" data-appear-left-offset='-5900'  data-sequence='300'>
                          <h2 id="h2-4" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->top_titles->transporte; ?></h2>
                      </div>
   
-                     <div id="gat-14" class="group-animated animatedParent" data-appear-left-offset='-6600'  data-sequence='300'>
+                     <div class="group-animated animatedParent" data-appear-left-offset='-6600'  data-sequence='300'>
                          <div id="hill-12" class="hillType1 animated fadeInLeftShort" data-id='1'></div>
                          <div id="tree-18" class="treeType1 animated fadeInLeftShort" data-id='2'></div>
                          <div id="hill-13" class="hillType2 animated fadeInLeftShort" data-id='3'></div>
@@ -108,62 +104,60 @@
                      </div>
                                      
                     <!--elementos landscape top 6 -->
-                    <div id="gat-15" class="group-animated animatedParent" data-appear-left-offset='-7100'  data-sequence='300'>
+                    <div class="group-animated animatedParent" data-appear-left-offset='-7100'  data-sequence='300'>
                          <h2 id="h2-5" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->top_titles->transporte; ?></h2>
                      </div>
 
-                     <div id="gat-16" class="group-animated animatedParent" data-appear-left-offset='-7200'  data-sequence='200'>
+                     <div class="group-animated animatedParent" data-appear-left-offset='-7200'  data-sequence='200'>
                          <div id="txt-wrap-2" class="txtWrap2 animated fadeInLeftShort" data-id="1">
                             <h3 id="h3-9" class="title-h3 animated fadeInLeftShort" data-id="2">MAT-B</h3>
                             <div id="wrap-objet-1" class="wrapObjet1 animated fadeInLeftShort" data-id="3"></div>
                          </div>
                      </div>
 
-                    <div id="gat-17" class="group-animated animatedParent" data-appear-left-offset='-7300'  data-sequence='300'> 
+                    <div class="group-animated animatedParent" data-appear-left-offset='-7300'  data-sequence='300'> 
                         <div id="tree-20" class="treeType2 animated fadeInLeftShort" data-id='1'></div>
                         <div id="tree-21" class="treeType1 animated fadeInLeftShort" data-id='2'></div>
                         <div id="tree-22" class="treeType2 animated fadeInLeftShort" data-id='3'></div>
                     </div>
 
                     <!--elementos landscape top 7 --> 
-                    <div id="gat-18" class="group-animated animatedParent" data-appear-left-offset='-8000'  data-sequence='300'>
+                    <div class="group-animated animatedParent" data-appear-left-offset='-8000'  data-sequence='300'>
                         <div id="tree-23" class="treeType1 animated fadeInLeftShort" data-id='1'></div>
                         <div id="hill-14" class="hillType1 animated fadeInLeftShort" data-id='2'></div>
                         <div id="tree-24" class="treeType2 animated fadeInLeftShort" data-id='3'></div>
                         <div id="hill-15" class="hillType2 animated fadeInLeftShort" data-id='4'></div>   
                     </div>
 
-                    <div id="gat-19" class="group-animated animatedParent" data-appear-left-offset='-8100'  data-sequence='300'>
+                    <div class="group-animated animatedParent" data-appear-left-offset='-8100'  data-sequence='300'>
                          <h2 id="h2-6" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->top_titles->estacion_hija; ?></h2>
                          <h4 id="subt-2" class="subtitle animated fadeInLeftShort" data-id="2"><?php echo $texts->top_titles->estacion_hija_desc; ?></h4>
                      </div>
 
-                     <div id="gat-20" class="group-animated animatedParent" data-appear-left-offset='-8700'  data-sequence='300'>
+                     <div class="group-animated animatedParent" data-appear-left-offset='-8700'  data-sequence='300'>
                         <div id="hill-16" class="hillType1 animated fadeInLeftShort" data-id='1'></div>
                         <div id="tree-25" class="treeType2 animated fadeInLeftShort" data-id='2'></div>
                         <div id="hill-17" class="hillType2 animated fadeInLeftShort" data-id='3'></div>
                         <div id="tree-26" class="treeType1 animated fadeInLeftShort" data-id='4'></div>
                      </div>
-
                     <!--elementos landscape top 8 --> 
-                    <div id="gat-21" class="group-animated animatedParent" data-appear-left-offset='-9900'  data-sequence='300'>
+                    <div class="group-animated animatedParent" data-appear-left-offset='-9900'  data-sequence='300'>
                         <h2 id="h2-7" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->top_titles->estacion_hija; ?></h2>
                     </div>
 
                     <!--elementos landscape top 9 --> 
-                    <div id="gat-22" class="group-animated animatedParent" data-appear-left-offset='-10750'  data-sequence='300'>
+                    <div class="group-animated animatedParent" data-appear-left-offset='-10750'  data-sequence='300'>
                         <div id="tree-27" class="treeType2 animated fadeInLeftShort" data-id='1'></div>
                         <div id="tree-28" class="treeType1 animated fadeInLeftShort" data-id='2'></div>
                     </div>
-
-                    <div id="gat-23" class="group-animated animatedParent" data-appear-left-offset='-11500'  data-sequence='300'>
+                    <div class="group-animated animatedParent" data-appear-left-offset='-11500'  data-sequence='300'>
                         <div id="hill-18" class="hillType1 animated fadeInLeftShort" data-id='1'></div>
                         <div id="hill-19" class="hillType2 animated fadeInLeftShort" data-id='2'></div>
                         <div id="tree-29" class="treeType2 animated fadeInLeftShort" data-id='3'></div>
                     </div>
 
                     <!--elementos landscape top 10 --> 
-                    <div id="gat-24" class="group-animated animatedParent" data-appear-left-offset='-12550'  data-sequence='300'>
+                    <div class="group-animated animatedParent" data-appear-left-offset='-12550'  data-sequence='300'>
                         <div id="tree-30" class="treeType1 animated fadeInLeftShort" data-id='1'></div>
                         <div id="hill-20" class="hillType2 animated fadeInLeftShort" data-id='2'></div>
                         <div id="hill-21" class="hillType1 animated fadeInLeftShort" data-id='3'></div>
@@ -171,39 +165,38 @@
                     </div>
 
                     <!--elementos landscape top 11 --> 
-                     <div id="gat-25" class="group-animated animatedParent" data-appear-left-offset='-13300'  data-sequence='300'>
+                     <div class="group-animated animatedParent" data-appear-left-offset='-13300'  data-sequence='300'>
                         <div id="hill-22" class="hillType2 animated fadeInLeftShort" data-id='1'></div>
                         <div id="tree-32" class="treeType2 animated fadeInLeftShort" data-id='2'></div>
                         <div id="hill-23" class="hillType1 animated fadeInLeftShort" data-id='3'></div>
                         <div id="tree-33" class="treeType1 animated fadeInLeftShort" data-id='4'></div>
                     </div>
 
-                    <div id="gat-26" class="group-animated animatedParent" data-appear-left-offset='-13900'  data-sequence='300'>
+                    <div class="group-animated animatedParent" data-appear-left-offset='-13900'  data-sequence='300'>
                         <div id="tree-34" class="treeType1 animated fadeInLeftShort" data-id='1'></div>
                         <h2 id="h2-8" class="h2-title-box animated fadeInLeftShort" data-id="2">REGRESO A LA ESTACIÓN MADRE</h2> 
                     </div>
 
-                    <div id="gat-27" class="group-animated animatedParent" data-appear-left-offset='-14000'  data-sequence='300'>
+                    <div class="group-animated animatedParent" data-appear-left-offset='-14000'  data-sequence='300'>
                         <div id="tree-35" class="treeType1 animated fadeInLeftShort" data-id='1'></div>  
                     </div>
 
-                    <div id="gat-28" class="group-animated animatedParent" data-appear-left-offset='-14300'  data-sequence='300'>
+                    <div class="group-animated animatedParent" data-appear-left-offset='-14300'  data-sequence='300'>
                         <div id="tree-36" class="treeType1 animated fadeInLeftShort" data-id='1'></div>  
                     </div>
 
-                    <div id="gat-29" class="group-animated animatedParent" data-appear-left-offset='-14500'  data-sequence='300'>
+                    <div class="group-animated animatedParent" data-appear-left-offset='-14500'  data-sequence='300'>
                         <div id="hill-24" class="hillType1 animated fadeInLeftShort" data-id='1'></div>
                         <div id="hill-25" class="hillType2 animated fadeInLeftShort" data-id='2'></div>
                         <div id="tree-37" class="treeType2 animated fadeInLeftShort" data-id='3'></div>  
                     </div>
 
-                    <div id="gat-30" class="group-animated animatedParent" data-appear-left-offset='-15100'  data-sequence='300'>
+                    <div class="group-animated animatedParent" data-appear-left-offset='-15100'  data-sequence='300'>
                         <div id="tree-38" class="treeType1 animated fadeInLeftShort" data-id='1'></div> 
                         <h2 id="h2-9" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->top_titles->estacion_madre; ?></h2>
                         <h4 id="subt-3" class="subtitle animated fadeInLeftShort" data-id="2"><?php echo $texts->top_titles->estacion_madre_desc; ?></h4>
                     </div>
-
-                    <div id="gat-31" class="group-animated animatedParent" data-appear-left-offset='-15500'  data-sequence='300'>
+                    <div class="group-animated animatedParent" data-appear-left-offset='-15500'  data-sequence='300'>
                         <div id="hill-26" class="hillType1 animated fadeInLeftShort" data-id='1'></div>
                         <div id="tree-39" class="treeType1 animated fadeInLeftShort" data-id='2'></div> 
                         <div id="tree-40" class="treeType2 animated fadeInLeftShort" data-id='3'></div>

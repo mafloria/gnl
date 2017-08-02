@@ -1,3 +1,3 @@
 <?php
-	$language_url = "http://galileo/language/";
+	$language_url = "http://localhost/gnl/language/";
 ?>

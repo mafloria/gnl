@@ -21,7 +21,10 @@ $(document).ready(function(){
 		windowHeight = $(window).innerHeight();
 		windowWidth = $(window).innerWidth();
 		$('.section').css('height', windowHeight);		
-		$('.section').css('width', windowWidth);
+		$('.section').css('width', windowWidth);		
+		total_width = (windowWidth*3)+$(".gnc-biogas-landscape").width()+$(".gnc-yacimiento-landscape").width()+$(".gnc-gasoducto-landscape").width();
+		$(".wrap").css('width', total_width);
+		$(".front").css('width', total_width);
 	}
 	//********************** end windows size
 	

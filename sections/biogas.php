@@ -1,4 +1,4 @@
-            <section id="gnc-biogas-firstsection" class="section screen-3">
+            <section id="gnc-biogas-firstsection" class="section screen-3" style="display: none">
                     <div class="section-content">
                         <div class="title-section">
                             <h2><?php echo $texts->top_titles->fuentes; ?></h2>
@@ -9,7 +9,7 @@
                         </div>                   
                     </div>
             </section>
-            <div class="gnc-biogas-landscape landscape-section">
+            <div class="gnc-biogas-landscape landscape-section" style="display: none">
                 <div class="landscape-top">
                  <!--elementos landscape top 1 -->  
                      <div class="group-animated animatedParent" data-appear-left-offset='-700'  data-sequence='200'>

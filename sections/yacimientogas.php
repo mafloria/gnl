@@ -224,7 +224,7 @@
                   
                     <div class="group-animated animatedParent"  data-appear-left-offset='-1200'  data-sequence='300'>   
                         <h3 id="h3-2" class="title-h3 animated fadeInLeftShort" data-id="1">Secador</h3>
-                        <div id="warning-1" class="warning-icon animated fadeInLeftShort" data-id="2"></div>
+                        <div id="warning-0" class="warning-icon animated fadeInLeftShort" data-id="2"></div>
                         <p id="txt-1" class="txtInfo animated fadeInLeftShort" data-id="3">En caso de ser necesario, un Secador elimina el vapor de agua contenido en el gas natural que ingresa al sistema. El mismo puede estar integrado dentro del paquete de compresión o funcionar como una unidad separada.</p>
                     </div>
  
@@ -290,6 +290,12 @@
                         <div id="warning-2" class="warning-icon animated fadeInLeftShort" data-id="1"></div>
                         <p id="txt-11" class="txtInfo animated fadeInLeftShort" data-id="2">La operación de intercambio y conexión toma menos de 7 minutos por MAT y es realizada con la sola asistencia del conductor del camión, quien inmediatamente continúa su ruta hacia la próxima estación hija.</p>
                     </div>
+                    <div class="group-animated animatedParent"  data-appear-left-offset='-8800'  data-sequence='300'>
+                        <div id="up-down-arrow-1" class="upDownArrow animated fadeInLeftShort" data-id="1"></div>
+                        <div id="up-down-arrow-2" class="upDownArrow animated fadeInLeftShort" data-id="2"></div>
+                        <div id="up-down-arrow-3" class="upDownArrow animated fadeInLeftShort" data-id="3"></div>
+                        <div id="up-down-arrow-4" class="upDownArrow animated fadeInLeftShort" data-id="4"></div>
+                    </div>
 
                     <!--elementos landscape bottom 8 -->
                     <div class="group-animated animatedParent"  data-appear-left-offset='-10100'  data-sequence='300'>
@@ -304,20 +310,33 @@
 
                     <!--elementos landscape bottom 9 -->
                     <div class="group-animated animatedParent"  data-appear-left-offset='-10800'  data-sequence='300'>
-                        <div id="figure-1" class="figure1 animated fadeInLeftShort" data-id="1"></div>
-                        <div id="y-line-1" class="y-line animated fadeInLeftShort" data-id="2"></div>
-                        <h3 id="h3-13" class="title-h3 animated fadeInLeftShort" data-id="3">Comunidades aisladas</h3>
-                        <div id="figure-2" class="figure2 animated fadeInLeftShort" data-id="4"></div>
+                        <p id="txt-18" class="txtInfo animated fadeInLeftShort" data-id="1">Abastecimiento<br />a medida</p>
+                        <div id="arrow-3" class="red-arrow animated fadeInLeftShort" data-id="2"></div>
+                        <div id="figure-1" class="figure1 animated fadeInLeftShort" data-id="3"></div>
+                        <div id="y-line-1" class="y-line animated fadeInLeftShort" data-id="4"></div>
+                        <h3 id="h3-13" class="title-h3 animated fadeInLeftShort" data-id="5">Operaciones en el upstream</h3>
+                        <div id="figure-15" class="figure12 animated fadeInLeftShort" data-id="6"></div> 
                     </div>
+                    <!--<div id="figure-2" class="figure2 animated fadeInLeftShort" data-id="4"></div>     CASAS-->
 
                     <div class="group-animated animatedParent"  data-appear-left-offset='-10900'  data-sequence='300'>
+
                         <div id="warning-3" class="warning-icon animated fadeInLeftShort" data-id="1"></div>
                         <h3 id="h3-14" class="title-h3 animated fadeInLeftShort" data-id="2">Suministro continuo y monitoreado 24/7</h3>
                         <p id="txt-14" class="txtInfo animated fadeInLeftShort" data-id="3">Cada vez que el medidor de los MATs indica una baja de los niveles de carga, el sistema recibe una orden automática de reabastecimiento.</p>
                         <div id="figure-3" class="figure3 animated fadeInLeftShort" data-id="4"></div>
                     </div>
 
-                    <div class="group-animated animatedParent"  data-appear-left-offset='-10920'  data-sequence='300'>
+                    <div class="group-animated animatedParent"  data-appear-left-offset='-11000'  data-sequence='300'>
+                        <div id="figure-7" class="figure7 animated fadeInLeftShort" data-id="1"></div>
+                        <div id="y-line-4" class="y-line animated fadeInLeftShort" data-id="2"></div>
+                        <h3 id="h3-17" class="title-h3 animated fadeInLeftShort" data-id="3">Usinas</h3>
+                        <div id="figure-8" class="figure8 animated fadeInLeftShort" data-id="4"></div>
+                        <div id="figure-9" class="figure9 animated fadeInLeftShort" data-id="5"></div>
+                        <div id="figure-10" class="figure9 animated fadeInLeftShort" data-id="6"></div>
+                    </div>
+
+                    <div class="group-animated animatedParent"  data-appear-left-offset='-11000'  data-sequence='300'>
                         <h3 id="h3-15" class="title-h3 animated fadeInLeftShort" data-id="1">Inyección en la red<br />de gas natural</h3>
                         <div id="y-line-2" class="y-line animated fadeInLeftShort" data-id="2"></div>
                         <div id="figure-4" class="figure4 animated fadeInLeftShort" data-id="3"></div>
@@ -331,14 +350,7 @@
                     </div>
 
                     <!--elementos landscape bottom 10 -->
-                    <div class="group-animated animatedParent"  data-appear-left-offset='-11900'  data-sequence='300'>
-                        <div id="figure-7" class="figure7 animated fadeInLeftShort" data-id="1"></div>
-                        <div id="y-line-4" class="y-line animated fadeInLeftShort" data-id="2"></div>
-                        <h3 id="h3-17" class="title-h3 animated fadeInLeftShort" data-id="3">Usinas</h3>
-                        <div id="figure-8" class="figure8 animated fadeInLeftShort" data-id="4"></div>
-                        <div id="figure-9" class="figure9 animated fadeInLeftShort" data-id="5"></div>
-                        <div id="figure-10" class="figure9 animated fadeInLeftShort" data-id="6"></div>
-                    </div>
+                    
 
                     <div class="group-animated animatedParent"  data-appear-left-offset='-12100'  data-sequence='300'>
                         <div id="figure-11" class="figure1 animated fadeInLeftShort" data-id="1"></div>

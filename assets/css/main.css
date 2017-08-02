@@ -437,3 +437,10 @@ a.gasoducto-menu-btn:hover{
   float: left;
   position: relative;
 }
+.upDownArrow{
+  width: 35px;
+  height: 92px;
+  background: url(../images/flechas-gif.gif) no-repeat; 
+  position: absolute;
+  z-index: 12;
+}

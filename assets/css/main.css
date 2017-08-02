@@ -259,7 +259,41 @@ span.numeracion{
   height: 98%;
   padding: 2%;
 }
-
+.column-left{
+  width: 50%;
+  float: left;
+}
+.column-left p{
+  float: right;
+  font-size: 1.6em;
+  width: 60%;
+  margin-top: 2em;
+}
+p.pick-btn{
+  padding: 0.5em;
+  background-color: #1a5489;
+  text-align: center;
+  position: relative;
+}
+span.a-r{
+  width: 0; 
+  height: 0; 
+  border-top: 28px solid transparent;
+  border-bottom: 28px solid transparent; 
+  border-left: 28px solid #1a5489; 
+  position: absolute;
+  right: -30px;
+  top: 0; 
+}
+img.logo-intro{
+  width: 80%;
+  margin-top: 10%;
+  float: right;
+}
+.column-right{
+  width: 50%;
+  float: right;
+}
 /**/
 .bottom-nav{
   position: fixed;
@@ -287,11 +321,6 @@ span.numeracion{
 }
 .navigation a:hover{
   background-color: #f2990a;
-}
-
-img.logo-intro{
-  width: 50%;
-  margin-top: 20%;
 }
 .camion-section{
   position: absolute;
@@ -354,9 +383,8 @@ img.logo-intro{
   margin: 0 auto;  
 }
 .menu-circles-icons{
-  float: right;
-  width: 50%;
-
+  width: 200px;
+  margin: 0 auto;
 }
 .menu-circles-icons a{
   width: 182px;
@@ -387,7 +415,7 @@ a.gasoducto-menu-btn:hover{
 .screen3-title{
   float: left;
   width: 45%;
-  margin-top: 20%;
+  margin-top: 150px;
 }
 .screen3-title h1{
   color: #1a5489;

@@ -36,15 +36,29 @@
         -->
         <div id="wrapper">
             <div class="front scroll">
-                <section class="section center screen-1">
-                    <img class="logo-intro" src="svg/titulo-gnc.svg">
+                <section class="section screen-1">
+                    <div class="section-content">
+                        <div class="column-left">
+                            <img class="logo-intro" src="svg/titulo-gnc.svg">
+                            <p><?php echo $texts->intro->intro_text; ?></p>
+                            <p class="pick-btn">Selecciona una de nuestras fuentes para continuar <span class="a-r"></span></p>
+                        </div>
+                        <div class="column-right">
+                            <div class="menu-circles-icons">
+                                <a id="view-biogas-process" class="view-process biogas-menu-btn" href="javascript:void(0);"></a>
+                                <a id="view-yacimiento-process" class="view-process yacimiento-menu-btn" href="javascript:void(0);"></a>
+                                <a id="view-gasoducto-process" class="view-process gasoducto-menu-btn" href="javascript:void(0);"></a>
+                            </div>
+                        </div>
+                        
+                    </div>
                 </section>
     
-                <section class="section screen-2">
+                <section class="section screen-2" style="display: none;">
                     <div class="section-content">
                         <div class="title-section"><h2><?php echo $texts->top_titles->fuentes; ?></h2></div>
                         <div class="screen2-txt">
-                            <p><?php echo $texts->intro->intro_text; ?></p>
+                            
                         </div>     
                         <div class="menu-circles-icons">
                             <div class="menu-fuentes">

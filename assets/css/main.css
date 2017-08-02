@@ -282,7 +282,7 @@ span.a-r{
   border-bottom: 28px solid transparent; 
   border-left: 28px solid #1a5489; 
   position: absolute;
-  right: -30px;
+  right: -28px;
   top: 0; 
 }
 img.logo-intro{
@@ -413,9 +413,10 @@ a.gasoducto-menu-btn:hover{
 }
 /*screen 3 menu*/
 .screen3-title{
-  float: left;
-  width: 45%;
+  float: right;
+  width: auto;
   margin-top: 150px;
+  margin-right: 55%;
 }
 .screen3-title h1{
   color: #1a5489;

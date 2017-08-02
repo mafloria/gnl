@@ -3,18 +3,39 @@
                         <div class="title-section">
                             <h2><?php echo $texts->top_titles->fuentes; ?></h2>
                         </div>
-                        <div class="screen3-title center">
-                            <h1>Bio - GNC</h1>
-                            <p><?php echo $texts->intro->biognc_subtitulo; ?></p>
+                        <div class="screen3-title">
+                            <h1>GNC</h1>
+                            <p>Gas Natural Comprimido</p>
                         </div>                   
                     </div>
             </section>
             <div class="gnc-yacimiento-landscape landscape-section" style="display: none">
                 <div class="landscape-top">
-                 <!--elementos landscape top 1 -->  
+                 <!--elementos landscape top 1 --> 
+                    <div class="group-animated animatedParent" data-appear-left-offset='-700'  data-sequence='200'>
+                         <div id="txt-wrap-1" class="txtWrap1 animated fadeInLeftShort" data-id="1">
+                             <div class="txt-wrap-cntr">
+                                 <div id="icon-1" class="icon1 animated fadeInLeftShort" data-id="2"></div> 
+                                 <p class="txt-box1 animated fadeInLeftShort" data-id="3">Wellhead</p>   
+                             </div>
+                             <div class="txt-wrap-cntr">
+                                 <div id="icon-2" class="icon2 animated fadeInLeftShort" data-id="4"></div> 
+                                 <p class="txt-box1 animated fadeInLeftShort" data-id="5">Gathering</p>   
+                             </div>
+                             <div class="txt-wrap-cntr">
+                                 <div id="icon-2" class="icon3 animated fadeInLeftShort" data-id="6"></div> 
+                                 <p class="txt-box1 animated fadeInLeftShort" data-id="7">Gas-lift</p>   
+                             </div>
+                             <div class="txt-wrap-cntr">
+                                 <div id="icon-4" class="icon4 animated fadeInLeftShort" data-id="8"></div> 
+                                 <p class="txt-box1 animated fadeInLeftShort" data-id="9">Reducción del Flaring</p>
+                             </div>   
+                         </div>
+                         <p id="txt-0" class="txtInfo animated fadeInLeftShort" data-id="10">En cada pozo, una solución de Galileo</p>
+                     </div> 
                      
                      <div class="group-animated animatedParent" data-appear-left-offset='-700'  data-sequence='300'>
-                             <h2 id="h2-1" class="h2-title-box animated fadeInLeftShort" data-id="1">YACI<?php echo $texts->top_titles->estacion_madre; ?></h2>
+                             <h2 id="h2-1" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->top_titles->estacion_madre; ?></h2>
                      </div>                    
                     
                      <div class="group-animated animatedParent"  data-appear-left-offset='-700'  data-sequence='150'>
@@ -200,48 +221,28 @@
                  </div>
                  <div class="landscape-bottom">
                      <!--elementos landscape bottom 1 -->
-                 
-                    <div class="group-animated animatedParent"  data-appear-left-offset='-1400'  data-sequence='300'>                       
-                        <h3 id="h3-3" class="title-green animated fadeInLeftShort" data-id="1">Biogas</h3>    
-                    </div>
- 
+                  
                     <div class="group-animated animatedParent"  data-appear-left-offset='-1200'  data-sequence='300'>   
-                        <h3 id="h3-2" class="title-h3 animated fadeInLeftShort" data-id="1">Biodigestor</h3>
-                    </div>
- 
-                    <div class="group-animated animatedParent"  data-appear-left-offset='-1350'  data-sequence='300'> 
-                        <div id="line-1" class="linea-txt-1 animated fadeInLeftShort" data-id="1"></div>
-                        <p id="txt-1" class="txtInfo animated fadeInLeftShort" data-id="2">Los efluentes del proceso se transforman en fertilizantes.</p>
+                        <h3 id="h3-2" class="title-h3 animated fadeInLeftShort" data-id="1">Secador</h3>
+                        <div id="warning-1" class="warning-icon animated fadeInLeftShort" data-id="2"></div>
+                        <p id="txt-1" class="txtInfo animated fadeInLeftShort" data-id="3">En caso de ser necesario, un Secador elimina el vapor de agua contenido en el gas natural que ingresa al sistema. El mismo puede estar integrado dentro del paquete de compresión o funcionar como una unidad separada.</p>
                     </div>
  
                     <!--elementos landscape bottom 2 --> 
                     <div class="group-animated animatedParent"  data-appear-left-offset='-1650'  data-sequence='300'>                       
-                        <h3 id="h3-4" class="title-green animated fadeInLeftShort" data-id="1">Biogas</h3>
+                        <h3 id="h3-4" class="title-green animated fadeInLeftShort" data-id="1">Gas Natural</h3>
                         <div id="arrow-1" class="red-arrow animated fadeInLeftShort" data-id="2"></div>
                     </div>
                     <div class="group-animated animatedParent"  data-appear-left-offset='-1750'  data-sequence='300'>
                         <h3 id="h3-5" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">1</span>Paquete de Compresión Microbox-Bio</h3>
-                        <p id="txt-2" class="txtInfo animated fadeInLeftShort" data-id="2">Los paquetes de compresión Microbox-Bio® permiten depurar hasta 500 m3/h de biogás de todos sus elementos corrosivos (H2O, H2S, y CO2 entre otros) y proveer Gas Biometano Comprimido (Bio-GNC) de alta calidad a una presión de 250 bar (3625 psi).</p>
-                        <p id="txt-3" class="txtInfo animated fadeInLeftShort" data-id="3">A su vez, su sistema de refrigeración por agua provee 170 mil kilocalorías por hora (Kcal/h) que aseguran las condiciones térmicas de operación del biodigestor.</p>
+                        <p id="txt-2" class="txtInfo animated fadeInLeftShort" data-id="2">En la estación madre, paquetes de compresión de GNC Microbox® o Gigabox®, conectados a la fuente de gas natural, comprimen el fluido a una presión de 250 bar (3625 psi).</p>
                     </div>
  
                     <div class="group-animated animatedParent"  data-appear-left-offset='-2400'  data-sequence='300'>                       
-                        <h3 id="h3-6" class="title-green animated fadeInLeftShort" data-id="1">Gas Biometano <br />Comprimido</h3>
+                        <h3 id="h3-6" class="title-green animated fadeInLeftShort" data-id="1">Gas Natural Comprimido</h3>
                         <div id="arrow-2" class="red-arrow animated fadeInLeftShort" data-id="2"></div>
                     </div>
-                     <div class="group-animated animatedParent"  data-appear-left-offset='-1400'  data-sequence='300'>                       
-                         <h3 id="h3-3" class="title-green animated fadeInLeftShort" data-id="1"><?php echo $texts->road_info->biogas; ?></h3>    
-                     </div>
- 
-                     <div class="group-animated animatedParent"  data-appear-left-offset='-1200'  data-sequence='300'>   
-                     <h3 id="h3-2" class="title-h3 animated fadeInLeftShort" data-id="1"><?php echo $texts->road_info->biodigestor; ?></h3>
-                     </div>
- 
-                     <div class="group-animated animatedParent"  data-appear-left-offset='-1350'  data-sequence='300'> 
-                         <div id="line-1" class="linea-txt-1 animated fadeInLeftShort" data-id="1"></div>
-                         <p id="txt-1" class="txtInfo animated fadeInLeftShort" data-id="2"><?php echo $texts->road_info->biodigestor_desc; ?></p>
-                     </div>
- 
+
                     <!--elementos landscape bottom 3 -->
  
                     <div class="group-animated animatedParent"  data-appear-left-offset='-3250'  data-sequence='300'>

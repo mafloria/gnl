@@ -1,4 +1,4 @@
-/* ESTILOS YACIMIENTOS BIOGAS- UXDEVCO */
+/* ESTILOS YACIMIENTOS- UXDEVCO */
 .gnc-yacimiento-landscape{
   width: 14460px;
   max-height: 670px;
@@ -32,13 +32,48 @@
   height: 95px;
   background: transparent url(../images/montana-galileo-2.png) no-repeat;
 }
+.treeType1{
+  z-index: 4;
+  position: absolute;
+  width: 80px;
+  height: 117px;
+  background: transparent url(../images/arbol-galileo-1.png) no-repeat;
+}
+.treeType2{
+  z-index: 4;
+  position: absolute;
+  width: 64px;
+  height: 94px;
+  background: transparent url(../images/arbol-galileo-2.png) no-repeat;  
+}
+.y-line{
+  position: absolute;
+  z-index: 12;
+  width: 4px;
+  height: 23px;
+  background: transparent url(../images/linea-amarilla.png) no-repeat;
+}
+.red-arrow{
+  width: 74px;
+  height: 9px;
+  background: transparent url(../images/arrow1.png) no-repeat;
+  z-index: 11;
+  position: absolute;
+}
+.warning-icon{
+  width: 25px;
+  height: 25px;
+  background: transparent url(../images/icono-warning.png) no-repeat;  
+  position: absolute;
+  z-index: 12;
+}
 /*elements position*/
 #tree-1{ bottom: -10px; left: 465px;}
 #tree-2{ bottom: -10px; left: 610px;}
-#tree-3{ bottom: -20px; left: 765px;}
+#tree-3{ bottom: -20px; left: 968px;}
 #tree-4{ bottom: -10px; left: 1150px;}
 #tree-5{ bottom: -25px; left: 1250px;}
-#tree-6{ bottom: -10px; left: 2450px;}
+#tree-6{ bottom: -10px; left: 2175px;}
 #tree-7{ bottom: -25px; left: 2600px;}
 #tree-8{ bottom: -10px; left: 2700px;}
 #tree-9{ bottom: -25px; left: 2770px;}
@@ -78,7 +113,7 @@
 
 #hill-1{ bottom: 0; left: 400px;}
 #hill-2{ bottom: 0; left: 580px;}
-#hill-3{ bottom: 0; left: 700px;}
+#hill-3{ bottom: 0; left: 892px;}
 #hill-4{ bottom: 0; left: 2670px;}
 #hill-5{ bottom: 0; left: 3500px;}
 #hill-6{ bottom: 0; left: 4300px;}
@@ -104,7 +139,7 @@
 #hill-26{ bottom: 0; left: 15130px;}
 #hill-27{ bottom: 0; left: 15400px;}
 
-#txt-wrap-1{bottom: -305px; left: 150px;}
+#txt-wrap-1{bottom: -305px; left: 225px;}
 #txt-wrap-2{bottom: -175px; left: 6500px;}
 
 #h2-1{top: 40px; left: 610px;}
@@ -117,8 +152,9 @@
 #h2-8{top: 40px; left: 13400px;}
 #h2-9{top: 40px; left: 14650px;}
 
-#txt-1{ top: 86px; left: 985px; width: 150px;}
-#txt-2{ top: 192px; left: 1383px; width: 450px;}
+#txt-0{ top: 625px; left: 260px; width: 150px;}
+#txt-1{ top: 215px; left: 660px; width: 400px;}
+#txt-2{ top: 192px; left: 1701px; width: 440px;}
 #txt-3{ top: 192px; left: 1880px; width: 450px;}
 #txt-4{ top: 192px; left: 2800px; width: 400px;}
 #txt-5{ top: 192px; left: 3250px; width: 400px;}
@@ -140,11 +176,11 @@
 #subt-3{ top: 80px; left: 14650px;}
 
 #h3-1{ bottom: -15px; width: 100%;}
-#h3-2{ bottom: 60px; left: 690px; border-bottom: 2px solid #1a5489}
+#h3-2{ top: 172px; left: 772px; border-bottom: 2px solid #1a5489}
 #h3-3{ top: -70px; left: 967px;}
 #h3-4{ top: -70px; left: 1380px;}
-#h3-5{ top: 150px; left: 1380px;}
-#h3-6{ top: -96px; left: 2100px;}
+#h3-5{ top: 150px; left: 1660px;}
+#h3-6{ top: -70px; left: 2127px;}
 #h3-7{ top: 150px; left: 2800px;}
 #h3-8{ top: 150px; left: 5200px;}
 #h3-9{margin-top: -18px; text-align: center; width: 100%;}
@@ -161,10 +197,10 @@
 #h3-20{ bottom: 300px; left: 13400px;}
 #h3-21{ top: -250px; left: 14250px;}
 
-#arrow-1{top: -53px; left: 1511px;}
-#arrow-2{top: -53px; left: 2330px;}
+#arrow-1{top: -53px; left: 1565px;}
+#arrow-2{top: -53px; left: 2453px;}
 
-#warning-1{top: 195px; left: 6500px;}
+#warning-1{top: 215px; left: 622px;}
 #warning-2{top: 133px; left: 8650px;}
 #warning-3{top: -300px; left: 10355px;}
 #warning-4{top: -300px; left: 12100px;}
@@ -193,33 +229,19 @@
 
 
 /*elements css*/
-.treeType1{
-  z-index: 4;
-  position: absolute;
-  width: 80px;
-  height: 117px;
-  background: transparent url(../images/arbol-galileo-1.png) no-repeat;
-}
-.treeType2{
-  z-index: 4;
-  position: absolute;
-  width: 64px;
-  height: 94px;
-  background: transparent url(../images/arbol-galileo-2.png) no-repeat;  
-}
 .txt-wrap-cntr{
-  position: relative;
   width: 90%;
   display: inline-block;
-  padding: 1% 5%;
+  padding: 5%;
+  height: 125px;
 }
 .txtWrap1{
-  width: 341px;
-  height: 537px;
+  width: 190px;
+  height: 600px;
   z-index: 14;
   position: absolute;
-  background: transparent url(../images/cajon-txt-section1.png) no-repeat;
-  padding: 20px 0;
+  background: transparent url(../images/cajon-txt-yac-1.png) no-repeat;
+  padding:0;
 }
 .txtWrap2{
   width: 396px;
@@ -230,12 +252,12 @@
   padding: 0;
 }
 .txt-box1{
-  width: 30%;
-  float: left;
+  width: 100%;
   font-size: 20px;
   font-weight: bold;
-  color: #074c38;
-  margin-left: 10px;
+  color: #1a5489;
+  text-align: center;
+
 }
 .title-green{
   position: absolute;
@@ -262,50 +284,30 @@
   left: 835px;
   z-index: 11;
 }
-.y-line{
-  position: absolute;
-  z-index: 12;
-  width: 4px;
-  height: 23px;
-  background: transparent url(../images/linea-amarilla.png) no-repeat;
-}
-.red-arrow{
-  width: 74px;
-  height: 9px;
-  background: transparent url(../images/arrow1.png) no-repeat;
-  z-index: 11;
-  position: absolute;
-}
-.warning-icon{
-  width: 25px;
-  height: 25px;
-  background: transparent url(../images/icono-warning.png) no-repeat;  
-  position: absolute;
-  z-index: 12;
+.icon1, .icon2, .icon3, .icon4{
+  width: 100%;
+  margin: 0.5em auto;
+
 }
 .icon1{
- float: left;
- width: 171px;
- height: 118px;
- background: transparent url(../images/em-icon-1.png) no-repeat;
+ max-width: 111px;
+ height: 85px;
+ background: transparent url(../images/wellhead-icon.png) no-repeat;
 }
 .icon2{
- float: left;
- width: 161px;
- height: 117px;
- background: transparent url(../images/em-icon-2.png) no-repeat;
+ max-width: 116px;
+ height: 71px;
+ background: transparent url(../images/gathering-icon.png) no-repeat;
 }
 .icon3{
- float: left;
- width: 161px;
- height: 118px;
- background: transparent url(../images/em-icon-3.png) no-repeat;
+ max-width: 113px;
+ height: 75px;
+ background: transparent url(../images/pipeline.png) no-repeat;
 }
 .icon4{
- float: left;
- width: 162px;
- height: 118px;
- background: transparent url(../images/em-icon-4.png) no-repeat;
+ max-width: 116px;
+ height: 89px;
+ background: transparent url(../images/flaring-icon.png) no-repeat;
 }
 .figure1{
  width: 148px;

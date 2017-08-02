@@ -36,6 +36,7 @@
         -->
         <div id="wrapper">
             <div class="front scroll">
+
                 <section class="section screen-1">
                     <div class="section-content">
                         <div class="column-left">
@@ -49,8 +50,7 @@
                                 <a id="view-yacimiento-process" class="view-process yacimiento-menu-btn" href="javascript:void(0);"></a>
                                 <a id="view-gasoducto-process" class="view-process gasoducto-menu-btn" href="javascript:void(0);"></a>
                             </div>
-                        </div>
-                        
+                        </div>     
                     </div>
                 </section>
     
@@ -68,10 +68,8 @@
                             </div>
                         </div>
                     </div>   
-    
                 </section>                             
-    
-                
+                   
                 <?php require_once("sections/biogas.php"); ?>                                
                 <?php require_once("sections/yacimientogas.php"); ?>
                 <?php require_once("sections/gasoducto.php"); ?>

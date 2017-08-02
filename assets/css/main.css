@@ -174,10 +174,17 @@ body{
   background-color: #8bc9c3;
   color: white;
   overflow-x: hidden;
-}    
+} 
+.front, #wrapper{
+  width: 45000px;
+}   
 .front{
   z-index: 500;
-  width: 20000px;
+}
+#wrapper{
+  height: 900px;
+  display: block;
+  position: relative;
 }
 .scroll{    
   height: 100%;
@@ -240,12 +247,6 @@ span.numeracion{
   z-index: 11;
   text-align: center;
   line-height: 28px;
-}
-#wrapper{
-  width: 20000px;
-  height: 900px;
-  display: block;
-  position: relative;
 }
 .section{
   width: 1280px;

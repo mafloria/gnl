@@ -35,20 +35,6 @@
         <script src="js/main.js"></script>
         -->
         <div id="wrapper">
-            <div class="bottom-nav">
-                <div class="navigation">
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
-                </div>
-            </div>
             <div class="front scroll">
                 <section class="section center screen-1">
                     <img class="logo-intro" src="svg/titulo-gnc.svg">

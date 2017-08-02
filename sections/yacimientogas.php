@@ -1,4 +1,4 @@
-            <section class="section screen-3">
+            <section id="gnc-yacimiento-firstsection" class="section screen-3" style="display: none">
                     <div class="section-content">
                         <div class="title-section">
                             <h2><?php echo $texts->top_titles->fuentes; ?></h2>
@@ -9,7 +9,7 @@
                         </div>                   
                     </div>
             </section>
-            <div class="gnc-yacimiento-landscape landscape-section">
+            <div class="gnc-yacimiento-landscape landscape-section" style="display: none">
                 <div class="landscape-top">
                  <!--elementos landscape top 1 -->  
                      

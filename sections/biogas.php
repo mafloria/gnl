@@ -1,4 +1,4 @@
-            <section class="section screen-3">
+            <section id="gnc-biogas-firstsection" class="section screen-3">
                     <div class="section-content">
                         <div class="title-section">
                             <h2><?php echo $texts->top_titles->fuentes; ?></h2>

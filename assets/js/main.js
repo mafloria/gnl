@@ -32,6 +32,8 @@ $(document).ready(function(){
 		
 		$("#galileocss").attr("href", "assets/css/galileo-"+id[1]+".css");
 		$(".landscape-section").hide();
+		$(".screen-3").hide();
+		$("#gnc-"+id[1]+"-firstsection").show();
 		$(".gnc-"+id[1]+"-landscape").show();
 	});
 		 

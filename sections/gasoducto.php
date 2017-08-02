@@ -1,4 +1,4 @@
-            <section class="section screen-3">
+            <section id="gnc-gasoducto-firstsection" class="section screen-3" style="display: none">
                     <div class="section-content">
                         <div class="title-section">
                             <h2><?php echo $texts->top_titles->fuentes; ?></h2>
@@ -9,7 +9,7 @@
                         </div>                   
                     </div>
             </section>
-            <div class="gnc-gasoducto-landscape landscape-section">
+            <div class="gnc-gasoducto-landscape landscape-section"  style="display: none">
                 <div class="landscape-top">
                  
                      <div class="group-animated animatedParent" data-appear-left-offset='-700'  data-sequence='300'>

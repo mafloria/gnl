@@ -9,6 +9,23 @@
 //document ready	
 $(document).ready(function(){	
 	
+	//*********** window size to fix content	   
+	setHeight();	
+		  
+	$(window).resize(function() {
+		setHeight();
+	});
+	//adjust sections to the browser height
+	function setHeight() {	
+		//section 1, 2, 3 fixt to windows size
+		windowHeight = $(window).innerHeight();
+		windowWidth = $(window).innerWidth();
+		$('.section').css('height', windowHeight);		
+		$('.section').css('width', windowWidth);
+	}
+	//********************** end windows size
+	
+	
 	//horizontal scroll
 	 var elem = $.jInvertScroll(['.scroll'],        // an array containing the selector(s) for the elements you want to animate
             {

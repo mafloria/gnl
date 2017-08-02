@@ -307,17 +307,56 @@ img.logo-intro{
   position: fixed;
   left: 0;
 }
+.landscape-top{
+  width: 100%;
+  height: 47%;
+  position: relative; 
+  background-color: #8bc9c3; 
+}
+.landscape-bottom{
+  width: 100%;
+  height: 53%;
+  padding-top: 10px;
+  background: #81b58b url(../images/border-top-bottom-landscape.png) top repeat-x;
+  position: relative;
+}
+.green-bg{
+  position: absolute;
+  background-color: #81b58b;
+  top: 0;
+  bottom: -50%;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
 /*screen2*/
 .screen2-txt{
   float: left;
-  width: 40%;
-  margin-top: 20%;
+  width: 50%;
+}
+.screen2-txt h2{
+  width: auto;
+  color: white;
+  font-size: 1.85em;
+  padding: 0 1em;
+  background-color: #1a5489;
+  text-align: center;  
+}
+.screen2-txt p{
+  float: right;
   font-size: 1.6em;
+  width: 50%;
+  display: inline-block;
+  margin: 20% 0 0 0;
+}
+.menu-fuentes{
+  width: 182px;
+  margin: 0 auto;  
 }
 .menu-circles-icons{
   float: right;
-  width: 182px;
-  margin-right: 20%;
+  width: 50%;
+
 }
 .menu-circles-icons a{
   width: 182px;

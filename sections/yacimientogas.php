@@ -377,4 +377,5 @@
                      <img class="main-landscape-image" src="assets/images/gnc-yacimientos-landscape-main-img.png">
                      <!--main image-->
                 </div>
+                <div class="green-bg"></div>
             </div> <!-- end gnc-yacimiento-landscape -->

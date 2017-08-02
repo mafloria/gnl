@@ -3,18 +3,6 @@
   width: 14460px;
   max-height: 670px;
 }
-.landscape-top{
-  width: 100%;
-  height: 47%;
-  position: relative;  
-}
-.landscape-bottom{
-  width: 100%;
-  height: 53%;
-  padding-top: 10px;
-  background: #81b58b url(../images/border-top-bottom-landscape.png) top repeat-x;
-  position: relative;
-}
 .main-landscape-image{
   position: inherit;
   z-index: 10;

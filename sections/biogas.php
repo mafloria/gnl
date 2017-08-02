@@ -397,4 +397,5 @@
                      <img class="main-landscape-image" src="assets/images/gnc-biogas-landscape-main-img.png">
                      <!--main image-->
                 </div>
+                <div class="green-bg"></div>
             </div> <!-- end gnc-biogas-landscape -->

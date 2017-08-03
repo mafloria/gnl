@@ -9,17 +9,18 @@
 //document ready	
 $(document).ready(function(){	
 	
-	//*********** window size to fix content	   
+	//*********** window size to fix content
+	var windowHeight = $(window).innerHeight();
+	var windowWidth = $(window).innerWidth();
+		   
 	setHeight();	
 		  
 	$(window).resize(function() {
 		setHeight();
-	});
+	});	
 	//adjust sections to the browser height
 	function setHeight() {	
-		//section 1, 2, 3 fixt to windows size
-		windowHeight = $(window).innerHeight();
-		windowWidth = $(window).innerWidth();
+		//section 1, 2, 3 fixt to windows size		
 		$('.section').css('height', windowHeight);		
 		$('.section').css('width', windowWidth);		
 		total_width = (windowWidth*3)+$(".gnc-biogas-landscape").width()+$(".gnc-yacimiento-landscape").width()+$(".gnc-gasoducto-landscape").width();
@@ -55,6 +56,11 @@ $(document).ready(function(){
 		$(".screen-3").hide();
 		$("#gnc-"+id[1]+"-firstsection").show();
 		$(".gnc-"+id[1]+"-landscape").show();
+		
+		$(".screen-1").hide();
+		/*var tmp = $(".front").position();
+		$(".scroll").css('left', -(tmp.left+windowWidth));*/
+		
 	});
 		 
 });

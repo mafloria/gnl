@@ -9,6 +9,8 @@
 //document ready	
 $(document).ready(function(){	
 	
+	$(window).disablescroll({handleWheel:false});
+	
 	//*********** window size to fix content
 	var windowHeight = $(window).innerHeight();
 	var windowWidth = $(window).innerWidth();
@@ -40,7 +42,7 @@ $(document).ready(function(){
                 /*tmp = $('#track_moving').attr('data-appear-left-offset');*/
                 tmp = Math.floor((777 - $(window).innerWidth()) * percent) * -1; 
                 var position = $(".front").position();
-                console.log($('#camion').parent().width()); 
+               // console.log($('#camion').parent().width()); 
                 if((position.left*-1)>6400){
 					$('#camion').css("margin-left", tmp); //3370 6212
 					//$('#camion').animate({left:(position.left*-1)-2900},100,"linear");
@@ -61,6 +63,7 @@ $(document).ready(function(){
 		/*var tmp = $(".front").position();
 		$(".scroll").css('left', -(tmp.left+windowWidth));*/
 		
+		$(window).disablescroll("undo");		
 	});
 	
 	$(".back-home").click(function(){				
@@ -70,6 +73,8 @@ $(document).ready(function(){
 		$(".gnc-"+id[0]+"-landscape").hide();
 		
 		$(".screen-1").show();
+		
+		$(window).disablescroll({handleWheel:false});
 		
 	});
 		 

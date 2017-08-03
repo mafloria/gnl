@@ -81,6 +81,7 @@
     <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>           
     <script src="assets/js/vendor/jquery-1.12.0.min.js"></script>        
     <script src="assets/js/vendor/jquery.jInvertScroll.js"></script>
+    <script src="assets/js/vendor/jquery.disablescroll.min.js"></script>
     <script src="assets/js/dist/scrollreveal.js"></script>
     <script src="assets/js/dist/css3-animate-it.js"></script>
     <script src="assets/js/main.js"></script>

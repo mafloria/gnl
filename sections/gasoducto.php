@@ -1,11 +1,12 @@
             <section id="gnc-gasoducto-firstsection" class="section screen-3" style="display: none">
                     <div class="section-content">
                         <div class="title-section">
-                            <h2><?php echo $texts->top_titles->fuentes; ?></h2>
+                            <h2><?php echo $texts->gasoducto->top_titles->fuentes; ?></h2>
                         </div>
                         <div class="screen3-title center">
                             <h1>Bio - GNC</h1>
-                            <p><?php echo $texts->intro->biognc_subtitulo; ?></p>
+                            <p><?php echo $texts->gasoducto->intro->biognc_subtitulo; ?></p>
+                            <a href="#home" class="back-home" id="yacimiento-back-home">Back</a>
                         </div>                   
                     </div>
             </section>
@@ -13,7 +14,7 @@
                 <div class="landscape-top">
                  
                      <div class="group-animated animatedParent" data-appear-left-offset='-700'  data-sequence='300'>
-                             <h2 id="h2-1" class="h2-title-box animated fadeInLeftShort" data-id="1">GASODCUTO<?php echo $texts->top_titles->estacion_madre; ?></h2>
+                             <h2 id="h2-1" class="h2-title-box animated fadeInLeftShort" data-id="1">GASODCUTO<?php echo $texts->gasoducto->top_titles->estacion_madre; ?></h2>
                      </div>                    
                     
                      <div class="group-animated animatedParent"  data-appear-left-offset='-700'  data-sequence='150'>
@@ -33,7 +34,7 @@
                          <div id="tree-5" class="treeType1 animated fadeInLeftShort" data-id='8'></div>
                      </div> 
                      <div class="group-animated animatedParent" data-appear-left-offset='-1600'  data-sequence='300'>
-                         <h2 id="h2-2" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->top_titles->estacion_madre; ?></h2>
+                         <h2 id="h2-2" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->gasoducto->top_titles->estacion_madre; ?></h2>
                      </div>
  
                      <div class="group-animated animatedParent" data-appear-left-offset='-1900'  data-sequence='300'>
@@ -49,8 +50,8 @@
                          <div id="tree-9" class="treeType1 animated fadeInLeftShort" data-id='4'></div>    
                      </div>
                      <div class="group-animated animatedParent" data-appear-left-offset='-3200'  data-sequence='300'>
-                         <h2 id="h2-3" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->top_titles->estacion_madre; ?></h2>
-                         <h4 id="subt-1" class="subtitle animated fadeInLeftShort" data-id="2"><?php echo $texts->top_titles->estacion_madre_desc; ?></h4>
+                         <h2 id="h2-3" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->gasoducto->top_titles->estacion_madre; ?></h2>
+                         <h4 id="subt-1" class="subtitle animated fadeInLeftShort" data-id="2"><?php echo $texts->gasoducto->top_titles->estacion_madre_desc; ?></h4>
                      </div>
                      
                      <!-- camnio que se mueve -->
@@ -84,7 +85,7 @@
                      </div>
  
                      <div class="group-animated animatedParent" data-appear-left-offset='-5900'  data-sequence='300'>
-                         <h2 id="h2-4" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->top_titles->transporte; ?></h2>
+                         <h2 id="h2-4" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->gasoducto->top_titles->transporte; ?></h2>
                      </div>
   
                      <div class="group-animated animatedParent" data-appear-left-offset='-6600'  data-sequence='300'>
@@ -96,7 +97,7 @@
                                      
                     <!--elementos landscape top 6 -->
                     <div class="group-animated animatedParent" data-appear-left-offset='-7100'  data-sequence='300'>
-                         <h2 id="h2-5" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->top_titles->transporte; ?></h2>
+                         <h2 id="h2-5" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->gasoducto->top_titles->transporte; ?></h2>
                      </div>
 
                      <div class="group-animated animatedParent" data-appear-left-offset='-7200'  data-sequence='200'>
@@ -121,8 +122,8 @@
                     </div>
 
                     <div class="group-animated animatedParent" data-appear-left-offset='-8100'  data-sequence='300'>
-                         <h2 id="h2-6" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->top_titles->estacion_hija; ?></h2>
-                         <h4 id="subt-2" class="subtitle animated fadeInLeftShort" data-id="2"><?php echo $texts->top_titles->estacion_hija_desc; ?></h4>
+                         <h2 id="h2-6" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->gasoducto->top_titles->estacion_hija; ?></h2>
+                         <h4 id="subt-2" class="subtitle animated fadeInLeftShort" data-id="2"><?php echo $texts->gasoducto->top_titles->estacion_hija_desc; ?></h4>
                      </div>
 
                      <div class="group-animated animatedParent" data-appear-left-offset='-8700'  data-sequence='300'>
@@ -133,7 +134,7 @@
                      </div>
                     <!--elementos landscape top 8 --> 
                     <div class="group-animated animatedParent" data-appear-left-offset='-9900'  data-sequence='300'>
-                        <h2 id="h2-7" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->top_titles->estacion_hija; ?></h2>
+                        <h2 id="h2-7" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->gasoducto->top_titles->estacion_hija; ?></h2>
                     </div>
 
                     <!--elementos landscape top 9 --> 
@@ -184,8 +185,8 @@
 
                     <div class="group-animated animatedParent" data-appear-left-offset='-15100'  data-sequence='300'>
                         <div id="tree-38" class="treeType1 animated fadeInLeftShort" data-id='1'></div> 
-                        <h2 id="h2-9" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->top_titles->estacion_madre; ?></h2>
-                        <h4 id="subt-3" class="subtitle animated fadeInLeftShort" data-id="2"><?php echo $texts->top_titles->estacion_madre_desc; ?></h4>
+                        <h2 id="h2-9" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->gasoducto->top_titles->estacion_madre; ?></h2>
+                        <h4 id="subt-3" class="subtitle animated fadeInLeftShort" data-id="2"><?php echo $texts->gasoducto->top_titles->estacion_madre_desc; ?></h4>
                     </div>
                     <div class="group-animated animatedParent" data-appear-left-offset='-15500'  data-sequence='300'>
                         <div id="hill-26" class="hillType1 animated fadeInLeftShort" data-id='1'></div>
@@ -229,16 +230,16 @@
                         <div id="arrow-2" class="red-arrow animated fadeInLeftShort" data-id="2"></div>
                     </div>
                      <div class="group-animated animatedParent"  data-appear-left-offset='-1400'  data-sequence='300'>                       
-                         <h3 id="h3-3" class="title-green animated fadeInLeftShort" data-id="1"><?php echo $texts->road_info->biogas; ?></h3>    
+                         <h3 id="h3-3" class="title-green animated fadeInLeftShort" data-id="1"><?php echo $texts->gasoducto->road_info->biogas; ?></h3>    
                      </div>
  
                      <div class="group-animated animatedParent"  data-appear-left-offset='-1200'  data-sequence='300'>   
-                     <h3 id="h3-2" class="title-h3 animated fadeInLeftShort" data-id="1"><?php echo $texts->road_info->biodigestor; ?></h3>
+                     <h3 id="h3-2" class="title-h3 animated fadeInLeftShort" data-id="1"><?php echo $texts->gasoducto->road_info->biodigestor; ?></h3>
                      </div>
  
                      <div class="group-animated animatedParent"  data-appear-left-offset='-1350'  data-sequence='300'> 
                          <div id="line-1" class="linea-txt-1 animated fadeInLeftShort" data-id="1"></div>
-                         <p id="txt-1" class="txtInfo animated fadeInLeftShort" data-id="2"><?php echo $texts->road_info->biodigestor_desc; ?></p>
+                         <p id="txt-1" class="txtInfo animated fadeInLeftShort" data-id="2"><?php echo $texts->gasoducto->road_info->biodigestor_desc; ?></p>
                      </div>
  
                     <!--elementos landscape bottom 3 -->
@@ -250,9 +251,9 @@
                     </div>
 
                      <div class="group-animated animatedParent"  data-appear-left-offset='-3250'  data-sequence='300'>
-                         <h3 id="h3-7" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">2</span><?php echo $texts->process->p2_modulos_mat; ?></h3>
-                         <p id="txt-4" class="txtInfo animated fadeInLeftShort" data-id="2"><?php echo $texts->process->p2_modulos_mat_desc; ?></p>
-                         <p id="txt-5" class="txtInfo animated fadeInLeftShort" data-id="3"><?php echo $texts->process->p2_modulos_mat_desc2; ?></p>
+                         <h3 id="h3-7" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">2</span><?php echo $texts->gasoducto->process->p2_modulos_mat; ?></h3>
+                         <p id="txt-4" class="txtInfo animated fadeInLeftShort" data-id="2"><?php echo $texts->gasoducto->process->p2_modulos_mat_desc; ?></p>
+                         <p id="txt-5" class="txtInfo animated fadeInLeftShort" data-id="3"><?php echo $texts->gasoducto->process->p2_modulos_mat_desc2; ?></p>
                      </div>
 
  
@@ -265,9 +266,9 @@
                     </div>
 
                      <div class="group-animated animatedParent"  data-appear-left-offset='-6100'  data-sequence='300'>
-                         <h3 id="h3-8" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">3</span><?php echo $texts->process->p3_trailer_vst; ?></h3>
-                         <p id="txt-6" class="txtInfo animated fadeInLeftShort" data-id="2"><?php echo $texts->process->p3_trailer_vst_desc; ?></p>
-                         <p id="txt-7" class="txtInfo animated fadeInLeftShort" data-id="3"><?php echo $texts->process->p3_trailer_vst_desc2; ?></p>
+                         <h3 id="h3-8" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">3</span><?php echo $texts->gasoducto->process->p3_trailer_vst; ?></h3>
+                         <p id="txt-6" class="txtInfo animated fadeInLeftShort" data-id="2"><?php echo $texts->gasoducto->process->p3_trailer_vst_desc; ?></p>
+                         <p id="txt-7" class="txtInfo animated fadeInLeftShort" data-id="3"><?php echo $texts->gasoducto->process->p3_trailer_vst_desc2; ?></p>
                      </div>
 
 

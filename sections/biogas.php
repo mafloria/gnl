@@ -6,8 +6,9 @@
                         <div class="screen3-title center">
                             <h1>Bio - GNC</h1>
                             <p><?php echo $texts->biogas->intro->biognc_subtitulo; ?></p>
+                            <a href="#home" class="back-home" id="biogas-back-home">Back</a>
                         </div>                   
-                    </div>
+                    </div>                    
             </section>
             <div class="gnc-biogas-landscape landscape-section" style="display: none">
                 <div class="landscape-top">

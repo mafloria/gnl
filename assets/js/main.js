@@ -62,5 +62,15 @@ $(document).ready(function(){
 		$(".scroll").css('left', -(tmp.left+windowWidth));*/
 		
 	});
+	
+	$(".back-home").click(function(){				
+		var id = $(this).attr( "id" ).split("-");
+		
+		$("#gnc-"+id[0]+"-firstsection").hide();
+		$(".gnc-"+id[0]+"-landscape").hide();
+		
+		$(".screen-1").show();
+		
+	});
 		 
 });

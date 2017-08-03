@@ -37,7 +37,7 @@
         <div id="wrapper">
             <div class="front scroll">
                 
-                <section class="section screen-1">
+                <section class="section screen-1" id="home">
                     <div class="section-content">
                         <div class="column-left">
                             <img class="logo-intro" src="svg/titulo-gnc.svg">
@@ -46,7 +46,7 @@
                         </div>
                         <div class="column-right">
                             <div class="menu-circles-icons">
-                                <a id="view-biogas-process" class="view-process biogas-menu-btn" href="#gnc-biogas-firstsection"></a>
+                                <a id="view-biogas-process" class="view-process biogas-menu-btn" href="javascript:void(0);"></a>
                                 <a id="view-yacimiento-process" class="view-process yacimiento-menu-btn" href="javascript:void(0);"></a>
                                 <a id="view-gasoducto-process" class="view-process gasoducto-menu-btn" href="javascript:void(0);"></a>
                             </div>

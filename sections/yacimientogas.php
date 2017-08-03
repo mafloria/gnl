@@ -321,7 +321,6 @@
                     <!--<div id="figure-2" class="figure2 animated fadeInLeftShort" data-id="4"></div>     CASAS-->
 
                     <div class="group-animated animatedParent"  data-appear-left-offset='-10900'  data-sequence='300'>
-
                         <div id="warning-3" class="warning-icon animated fadeInLeftShort" data-id="1"></div>
                         <h3 id="h3-14" class="title-h3 animated fadeInLeftShort" data-id="2">Suministro continuo y monitoreado 24/7</h3>
                         <p id="txt-14" class="txtInfo animated fadeInLeftShort" data-id="3">Cada vez que el medidor de los MATs indica una baja de los niveles de carga, el sistema recibe una orden automática de reabastecimiento.</p>
@@ -337,13 +336,20 @@
                         <div id="figure-10" class="figure9 animated fadeInLeftShort" data-id="6"></div>
                     </div>
 
-                    <div class="group-animated animatedParent"  data-appear-left-offset='-11000'  data-sequence='300'>
+                    <div class="group-animated animatedParent"  data-appear-left-offset='-11100'  data-sequence='300'>
+                        <div id="figure-17" class="figure1 animated fadeInLeftShort" data-id="1"></div>
+                        <div id="y-line-7" class="y-line animated fadeInLeftShort" data-id="2"></div>
+                        <h3 id="h3-22" class="title-h3 animated fadeInLeftShort" data-id="4">Comunidades aisladas</h3>
+                        <div id="figure-16" class="figure13 animated fadeInLeftShort" data-id="4"></div>
+                    </div>
+
+                    <div class="group-animated animatedParent"  data-appear-left-offset='-11200'  data-sequence='300'>
                         <h3 id="h3-15" class="title-h3 animated fadeInLeftShort" data-id="1">Inyección en la red<br />de gas natural</h3>
                         <div id="y-line-2" class="y-line animated fadeInLeftShort" data-id="2"></div>
                         <div id="figure-4" class="figure4 animated fadeInLeftShort" data-id="3"></div>
                     </div>
 
-                    <div class="group-animated animatedParent"  data-appear-left-offset='-11100'  data-sequence='300'>
+                    <div class="group-animated animatedParent"  data-appear-left-offset='-11300'  data-sequence='300'>
                         <div id="figure-5" class="figure5 animated fadeInLeftShort" data-id="1"></div>
                         <div id="y-line-3" class="y-line animated fadeInLeftShort" data-id="2"></div>
                         <h3 id="h3-16" class="title-h3 animated fadeInLeftShort" data-id="3">Minas y plantas industriales</h3>

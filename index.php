@@ -42,7 +42,7 @@
                         <div class="column-left">
                             <img class="logo-intro" src="svg/titulo-gnc.svg">
                             <p><?php echo $texts->intro->intro_text; ?></p>
-                            <p class="pick-btn">Selecciona una de nuestras fuentes para continuar <span class="a-r"></span></p>
+                            <p class="pick-btn"><?php echo $texts->intro->continue_button; ?><span class="a-r"></span></p>
                         </div>
                         <div class="column-right">
                             <div class="menu-circles-icons">

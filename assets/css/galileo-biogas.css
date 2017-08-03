@@ -24,9 +24,9 @@
 
 /*elements 1 hills*/
 .txtInfo{
-  font-size: 1em;
+  font-size: 1.1em;
   color: white;
-  line-height: 1.1em;
+  line-height: 1.2em;
   position: absolute;
   z-index: 12;
 }

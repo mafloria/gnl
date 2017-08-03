@@ -329,12 +329,11 @@ img.logo-intro{
   z-index: 12;
 }
 .camion-1{
-  display: none !important;
   width: 777px;
   height: 188px;
   background: transparent url(../images/camion-1.png) no-repeat; 
   position: fixed;
-  left: 0;
+  left: 400px;
 }
 .landscape-top{
   width: 100%;

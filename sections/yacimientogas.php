@@ -245,12 +245,6 @@
                     </div>
 
                     <!--elementos landscape bottom 3 -->
- 
-                    <div class="group-animated animatedParent"  data-appear-left-offset='-3250'  data-sequence='300'>
-                        <h3 id="h3-7" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">2</span>Módulos MAT</h3>
-                        <p id="txt-4" class="txtInfo animated fadeInLeftShort" data-id="2">El GNC es enviado desde los paquetes de compresión a las plataformas PAC® que sirven de soporte fijo y fuente de carga de los contenedores modulares MAT.</p>
-                        <p id="txt-5" class="txtInfo animated fadeInLeftShort" data-id="3">Los contenedores MAT pueden almacenar 1500 Nm3 (420 GGE) de Bio-GNC a una presión de 250 bar (3625 psi) a temperatura ambiente.</p>
-                    </div>
 
                      <div class="group-animated animatedParent"  data-appear-left-offset='-3250'  data-sequence='300'>
                          <h3 id="h3-7" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">2</span><?php echo $texts->yacimiento->process->p2_modulos_mat; ?></h3>
@@ -260,12 +254,6 @@
 
  
                     <!--elementos landscape bottom 5 -->
-
-                    <div class="group-animated animatedParent"  data-appear-left-offset='-6100'  data-sequence='300'>
-                        <h3 id="h3-8" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">3</span>Tráiler VST</h3>
-                        <p id="txt-6" class="txtInfo animated fadeInLeftShort" data-id="2">Los MAT son transportados por carretera sobre tráileres VST y distribuidos en las estaciones hijas localizadas en los distintos centros de consumo. Los VST presentan configuraciones de transporte para 2, 3 ó 4</p>
-                        <p id="txt-7" class="txtInfo animated fadeInLeftShort" data-id="3">MATs y sus mecanismos de anclaje garantizan que el recorrido se realice en forma segura y a la velocidad promedio de cualquier flete.</p>
-                    </div>
 
                      <div class="group-animated animatedParent"  data-appear-left-offset='-6100'  data-sequence='300'>
                          <h3 id="h3-8" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">3</span><?php echo $texts->yacimiento->process->p3_trailer_vst; ?></h3>

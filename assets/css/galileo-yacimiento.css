@@ -1,20 +1,19 @@
 /* ESTILOS YACIMIENTOS- UXDEVCO */
 .gnc-yacimiento-landscape{
-  width: 14460px;
+  width: 15591px;
   max-height: 670px;
 }
 .main-landscape-image{
   position: inherit;
   z-index: 10;
-  margin-top: -267px;
-  margin-left: -480px;
+  margin-top: -229px;
+  margin-left: -475px;
 }
-
 /*elements 1 hills*/
 .txtInfo{
-  font-size: 1em;
+  font-size: 1.1em;
   color: white;
-  line-height: 1.1em;
+  line-height: 1.2em;
   position: absolute;
   z-index: 12;
 }
@@ -85,8 +84,8 @@
 #tree-15{ bottom: -14px; left: 5600px;}
 #tree-16{ bottom: -25px; left: 5750px;}
 #tree-17{ bottom: -14px; left: 5920px;}
-#tree-18{ bottom: -25px; left: 6450px;}
-#tree-19{ bottom: -15px; left: 6570px;}
+#tree-18{ bottom: -25px; left: 6324px;}
+#tree-19{ bottom: -15px; left: 6430px;}
 #tree-20{ bottom: -15px; left: 7000px;}
 #tree-21{ bottom: -25px; left: 7150px;}
 #tree-22{ bottom: -15px; left: 7300px;}
@@ -96,16 +95,16 @@
 #tree-26{ bottom: -25px; left: 8950px;}
 #tree-27{ bottom: -10px; left: 10300px;}
 #tree-28{ bottom: -10px; left: 10509px;}
-#tree-29{ bottom: -10px; left: 11600px;}
-#tree-30{ bottom: -10px; left: 12450px;}
+#tree-29{ bottom: -10px; left: 11559px;}
+#tree-30{ bottom: -20px; left: 12334px;}
 #tree-31{ bottom: -10px; left: 12800px;}
 #tree-32{ bottom: -10px; left: 12950px;}
 #tree-33{ bottom: -10px; left: 13300px;}
 #tree-34{ bottom: -10px; left: 13450px;}
 #tree-35{ bottom: -10px; left: 13600px;}
 #tree-36{ bottom: -10px; left: 13750px;}
-#tree-37{ bottom: -10px; left: 14100px;}
-#tree-38{ bottom: -10px; left: 14700px;}
+#tree-37{ bottom: -10px; left: 14596px;}
+#tree-38{ bottom: -10px; left: 14820px;}
 #tree-39{ bottom: -25px; left: 15200px;}
 #tree-40{ bottom: -10px; left: 15300px;}
 #tree-41{ bottom: -25px; left: 15400px;}
@@ -122,20 +121,20 @@
 #hill-9{ bottom: 0; left: 4850px;}
 #hill-10{ bottom: 0; left: 5250px;}
 #hill-11{ bottom: 0; left: 5400px;}
-#hill-12{ bottom: 0; left: 6350px;}
-#hill-13{ bottom: 0; left: 6550px;}
+#hill-12{ bottom: 0; left: 6212px;}
+#hill-13{ bottom: 0; left: 6390px;}
 #hill-14{ bottom: 0; left: 7800px;}
 #hill-15{ bottom: 0; left: 7950px;}
 #hill-16{ bottom: 0; left: 8600px;}
 #hill-17{ bottom: 0; left: 8780px;}
-#hill-18{ bottom: 0; left: 11300px;}
+#hill-18{ bottom: 0; left: 11645px;}
 #hill-19{ bottom: 0; left: 11450px;}
 #hill-20{ bottom: 0; left: 12500px;}
 #hill-21{ bottom: 0; left: 12620px;}
 #hill-22{ bottom: 0; left: 12900px;}
 #hill-23{ bottom: 0; left: 13040px;}
-#hill-24{ bottom: 0; left: 13900px;}
-#hill-25{ bottom: 0; left: 14050px;}
+#hill-24{ bottom: 0; left: 14400px;}
+#hill-25{ bottom: 0; left: 14624px;}
 #hill-26{ bottom: 0; left: 15130px;}
 #hill-27{ bottom: 0; left: 15400px;}
 
@@ -168,9 +167,9 @@
 #txt-13{ top: -200px; left: 9850px; width: 300px;}
 #txt-14{ top: -194px; left: 10390px; width: 400px;}
 #txt-15{ top: -270px; left: 12135px; width: 600px;}
-#txt-16{ bottom: 295px; left: 13450px; width: 400px;}
-#txt-17{ top: -210px; left: 14250px; width: 310px;}
-#txt-18{ top: 156px; left: 10251px;}
+#txt-16{ top: 176px; left: 13020px; width: 300px;}
+#txt-17{ top: -216px; left: 14040px; width: 310px;}
+#txt-18{ top: 150px; left: 10247px;}
 
 #subt-1{ top: 80px; left: 3000px;}
 #subt-2{ top: 80px; left: 8190px;}
@@ -195,8 +194,8 @@
 #h3-17{ top: 80px; left: 10720px;}
 #h3-18{ top: 68px; left: 12079px;}
 #h3-19{ top: 78px; left: 12433px;}
-#h3-20{ bottom: 300px; left: 13400px;}
-#h3-21{ top: -250px; left: 14250px;}
+#h3-20{ top: 170px; left: 12975px;}
+#h3-21{ top: -250px; left: 14000px;}
 #h3-22{ top: 75px; left: 10966px;}
 
 #arrow-1{top: -53px; left: 1565px;}

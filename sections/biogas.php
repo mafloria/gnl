@@ -3,7 +3,7 @@
                         <div class="title-section">
                             <h2><?php echo $texts->biogas->top_titles->fuentes; ?></h2>
                         </div>
-                        <div class="screen3-title center">
+                        <div class="screen3-title">
                             <h1>Bio - GNC</h1>
                             <p><?php echo $texts->biogas->intro->biognc_subtitulo; ?></p>
                             <a href="#home" class="back-home" id="biogas-back-home">Back</a>

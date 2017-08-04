@@ -3,7 +3,7 @@
                         <div class="title-section">
                             <h2><?php echo $texts->gasoducto->top_titles->fuentes; ?></h2>
                         </div>
-                        <div class="screen3-title center">
+                        <div class="screen3-title">
                             <h1>GNC</h1>
                             <p>Gas Natural Comprimido</p>
                             <a href="#home" class="back-home" id="yacimiento-back-home">Back</a>
@@ -17,28 +17,18 @@
                     <div class="group-animated animatedParent" data-appear-left-offset='-700'  data-sequence='200'>
                          <div id="txt-wrap-1" class="txtWrap1 animated fadeInLeftShort" data-id="1">
                              <div class="txt-wrap-cntr">
-                                 <div id="icon-1" class="icon1 animated fadeInLeftShort" data-id="2"></div> 
-                                 <p class="txt-box1 animated fadeInLeftShort" data-id="3">Wellhead</p>   
+                                 <div id="icon-2" class="icon3 animated fadeInLeftShort" data-id="2"></div> 
+                                 <p class="txt-box1 animated fadeInLeftShort" data-id="3">Pipeline Booster</p>   
                              </div>
-                             <div class="txt-wrap-cntr">
-                                 <div id="icon-2" class="icon2 animated fadeInLeftShort" data-id="4"></div> 
-                                 <p class="txt-box1 animated fadeInLeftShort" data-id="5">Gathering</p>   
-                             </div>
-                             <div class="txt-wrap-cntr">
-                                 <div id="icon-2" class="icon3 animated fadeInLeftShort" data-id="6"></div> 
-                                 <p class="txt-box1 animated fadeInLeftShort" data-id="7">Gas-lift</p>   
-                             </div>
-                             <div class="txt-wrap-cntr">
-                                 <div id="icon-4" class="icon4 animated fadeInLeftShort" data-id="8"></div> 
-                                 <p class="txt-box1 animated fadeInLeftShort" data-id="9">Reducción del Flaring</p>
-                             </div>   
+ 
                          </div>
-                         <p id="txt-0" class="txtInfo animated fadeInLeftShort" data-id="10">En cada pozo, una solución de Galileo</p>
+                         <p id="txt-0" class="txtInfo animated fadeInLeftShort" data-id="4">Los Pipeline Boosters de Galileo eliminan las caídas de presión en las redes de distribución de gas natural.</p>
                      </div> 
                      
                      <div class="group-animated animatedParent" data-appear-left-offset='-700'  data-sequence='300'>
                              <h2 id="h2-1" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->yacimiento->top_titles->estacion_madre; ?></h2>
-                     </div>                    
+                     </div>
+                
                     
                      <div class="group-animated animatedParent"  data-appear-left-offset='-700'  data-sequence='150'>
                         <div id="hill-1" class="hillType1 animated fadeInLeftShort" data-id='1'></div>
@@ -223,6 +213,11 @@
                  </div>
                  <div class="landscape-bottom">
                      <!--elementos landscape bottom 1 -->
+
+                     <div class="group-animated animatedParent"  data-appear-left-offset='-1000'  data-sequence='300'> 
+                        <h3 id="h3-1" class="title-green animated fadeInLeftShort" data-id="1">El Gasoducto Virtual<br />expande el alcance de<br /> la red de Gasoductos</h3>
+                        <div id="arrow-0" class="red-arrow animated fadeInLeftShort" data-id="2"></div>
+                    </div>  
                   
                     <div class="group-animated animatedParent"  data-appear-left-offset='-1200'  data-sequence='300'>   
                         <h3 id="h3-2" class="title-h3 animated fadeInLeftShort" data-id="1">Secador</h3>
@@ -236,7 +231,7 @@
                         <div id="arrow-1" class="red-arrow animated fadeInLeftShort" data-id="2"></div>
                     </div>
                     <div class="group-animated animatedParent"  data-appear-left-offset='-1750'  data-sequence='300'>
-                        <h3 id="h3-5" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">1</span>Paquete de Compresión Microbox-Bio</h3>
+                        <h3 id="h3-5" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">1</span>Paquete de Compresión Microbox y Giabox</h3>
                         <p id="txt-2" class="txtInfo animated fadeInLeftShort" data-id="2">En la estación madre, paquetes de compresión de GNC Microbox® o Gigabox®, conectados a la fuente de gas natural, comprimen el fluido a una presión de 250 bar (3625 psi).</p>
                     </div>
  
@@ -332,20 +327,14 @@
                         <div id="figure-16" class="figure13 animated fadeInLeftShort" data-id="4"></div>
                     </div>
 
-                    <div class="group-animated animatedParent"  data-appear-left-offset='-11200'  data-sequence='300'>
-                        <h3 id="h3-15" class="title-h3 animated fadeInLeftShort" data-id="1">Inyección en la red<br />de gas natural</h3>
-                        <div id="y-line-2" class="y-line animated fadeInLeftShort" data-id="2"></div>
-                        <div id="figure-4" class="figure4 animated fadeInLeftShort" data-id="3"></div>
-                    </div>
-
-                    <div class="group-animated animatedParent"  data-appear-left-offset='-11300'  data-sequence='300'>
+                
+                    <!--elementos landscape bottom 10 -->
+                     <div class="group-animated animatedParent"  data-appear-left-offset='-11500'  data-sequence='300'>
                         <div id="figure-5" class="figure5 animated fadeInLeftShort" data-id="1"></div>
                         <div id="y-line-3" class="y-line animated fadeInLeftShort" data-id="2"></div>
                         <h3 id="h3-16" class="title-h3 animated fadeInLeftShort" data-id="3">Minas y plantas industriales</h3>
                         <div id="figure-6" class="figure6 animated fadeInLeftShort" data-id="4"></div>
                     </div>
-
-                    <!--elementos landscape bottom 10 -->
                     
 
                     <div class="group-animated animatedParent"  data-appear-left-offset='-12100'  data-sequence='300'>

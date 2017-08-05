@@ -14,7 +14,11 @@ $(document).ready(function(){
 	//*********** window size to fix content
 	var windowHeight = $(window).innerHeight();
 	var windowWidth = $(window).innerWidth();
-		   
+	var biogas_active = 0;
+	var yacimiento_active = 0;
+	var gasoducto_active = 0;
+	var open_section_width = 0;
+	
 	setHeight();	
 		  
 	$(window).resize(function() {
@@ -42,14 +46,29 @@ $(document).ready(function(){
                 /*tmp = $('#track_moving').attr('data-appear-left-offset');*/
                 tmp = Math.floor((777 - $(window).innerWidth()) * percent) * -1; 
                 var position = $(".front").position();
-               // console.log($('#camion').parent().width()); 
-                if((position.left*-1)>6400){
-					$('#camion').css("margin-left", tmp); //3370 6212
+                console.log("position lef: "+(position.left*-1));
+                integer_position_left = position.left*-1; 
+                if(integer_position_left >= 4900 || integer_position_left >= 14200 ){                	
+					if(integer_position_left > 9900 && integer_position_left < 14200){ $(".camion-section").hide("slow"); }
+					else{ $(".camion-section").show("slow");}
+					
+					//$('#camion').css("margin-left", tmp); //3370 6212
 					//$('#camion').animate({left:(position.left*-1)-2900},100,"linear");
-				}				
+				}
+				else{
+					$(".camion-section").hide("slow");
+				}
+				
+				if(integer_position_left >= open_section_width){
+					console.log("stop wheel");
+					$(window).disablescroll();
+				}else{
+					$(window).disablescroll("undo");
+				}
             }
         });        
 	
+	//click for open one process animation
 	$(".view-process").click(function(){
 		var id = $(this).attr( "id" ).split("-");
 		
@@ -63,9 +82,14 @@ $(document).ready(function(){
 		/*var tmp = $(".front").position();
 		$(".scroll").css('left', -(tmp.left+windowWidth));*/
 		
-		$(window).disablescroll("undo");		
+		$(window).disablescroll("undo");
+		
+		//determine what section is opened
+		eval(id[1]+"_active = 1");		
+		open_section_width = $(".gnc-"+id[1]+"-landscape").width(); 
 	});
 	
+	//click for back to main menu
 	$(".back-home").click(function(){				
 		var id = $(this).attr( "id" ).split("-");
 		
@@ -74,8 +98,14 @@ $(document).ready(function(){
 		
 		$(".screen-1").show();
 		
-		$(window).disablescroll({handleWheel:false});
+		$(window).disablescroll();
 		
+		//setup active section to cero
+		biogas_active = 0;
+		yacimiento_active = 0;
+		gasoducto_active = 0;
+		
+		open_section_width = 0;
 	});
 		 
 });

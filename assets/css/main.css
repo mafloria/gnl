@@ -323,7 +323,7 @@ img.logo-intro{
   background-color: #f2990a;
 }
 .camion-section{
-  display: none !important;
+ display: none; /*!important*/
   position: absolute;
   left: 3370px;
   top: 230px;

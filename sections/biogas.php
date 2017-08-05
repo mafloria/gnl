@@ -76,8 +76,8 @@
                      </div>
                      
                      <!-- camnio que se mueve -->
-                    <div class="group-animated camion-section animatedParent"  data-appear-left-offset='-3300'  data-sequence='300'>
-                         <div id="camion" class="camion-1 animated" data-id="1"></div>
+                    <div class="camion-section">
+                         <div id="camion" class="camion-1" data-id="1"></div>
                      </div>
                      
                      <div class="group-animated animatedParent"  data-appear-left-offset='-3600'  data-sequence='300'>

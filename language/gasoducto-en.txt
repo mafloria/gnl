@@ -37,7 +37,7 @@
 		    "fuentes_biogas_box_op3":"Manure and guano from animals in stalls and/or feed lots",
 		    "fuentes_biogas_box_op4":"Effluents and waste from the brewing, dairy and jelly industries and from cold storage plants.",
 		    "p1_paquete_compresion":"Microbox-Bio Biogas upgrading and biomethane compression package",
-		    "p1_paquete_compresion_desc":"Microbox-Bio compression packages allow upgrading up to 500 m&sup3;/h of raw biogas by removing all its undesirable components (H2O, H2S, and CO2 among others). Hence, it is possible to provide clean Bio-CNG at a pressure of 250 bar (3625 psi).",
+		    "p1_paquete_compresion_desc":"Microbox-Bio compression packages allow upgrading up to 500 m&sup3;/h of raw biogas by removing all its undesirable components (H<sub>2</sub>O, H<sub>2</sub>S, and CO<sub>2</sub>  among others). Hence, it is possible to provide clean Bio-CNG at a pressure of 250 bar (3625 psi).",
 		    "p1_paquete_compresion_desc2":"During the process, a water cooling system refrigerates the Microbox-Bio and supplies 170 thousand kilocalories per hour (Kcal/h), ensuring the thermal operating conditions of the biodigester.",
 		    "p2_modulos_mat":"MAT Bio-CNG containers",
 		    "p2_modulos_mat_desc":"Bio-CNG is sent from the compressors to the PAC platforms that work as a ﬁxed support and load source for the MAT modular containers.",

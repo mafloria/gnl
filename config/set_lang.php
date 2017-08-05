@@ -23,7 +23,6 @@ function get_browser_language( $available, $default = 'es' ) {
 $available_langs = ['es','en'];
 $cookie_name = "gasoducto_lang";
 
-//print_r($_POST);
 if(isset($_POST['gasoducto_lang'])){
     if( in_array( $_POST['gasoducto_lang'], $available_langs ) ){
         $lang = $_POST['gasoducto_lang'];

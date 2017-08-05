@@ -37,7 +37,7 @@
 		    "fuentes_biogas_box_op3":"Estiércol de ganado estabulado",
 		    "fuentes_biogas_box_op4":"Desechos de la industria alimenticia",
 		    "p1_paquete_compresion":"Paquete de Compresión Microbox-Bio",
-		    "p1_paquete_compresion_desc":"Los paquetes de compresión Microbox-Bio&reg; permiten depurar hasta 500 m&sup3;/h de biogás de todos sus elementos corrosivos (H2O, H2S, y CO2 entre otros) y proveer Gas Biometano Comprimido (Bio-GNC) de alta calidad a una presión de 250 bar (3625 psi).",
+		    "p1_paquete_compresion_desc":"Los paquetes de compresión Microbox-Bio&reg; permiten depurar hasta 500 m&sup3;/h de biogás de todos sus elementos corrosivos (H<sub>2</sub>O, H<sub>2</sub>S, y CO<sub>2</sub> entre otros) y proveer Gas Biometano Comprimido (Bio-GNC) de alta calidad a una presión de 250 bar (3625 psi).",
 		    "p1_paquete_compresion_desc2":"A su vez, su sistema de refrigeración por agua provee 170 mil kilocalorías por hora (Kcal/h) que aseguran las condiciones térmicas de operación del biodigestor.",
 		    "p2_modulos_mat":"Módulos MAT",
 		    "p2_modulos_mat_desc":"El GNC es enviado desde los paquetes de compresión a las plataformas PAC&reg; que sirven de soporte fijo y fuente de carga de los contenedores modulares MAT.",

@@ -1,0 +1,181 @@
+{
+	"intro":{  
+		    "lang":"en-us",
+		    "intro_text":"Our Virtual Pipeline connects consumers with several gas sources, surpassing the reach of conventional pipelines and providing energy to isolated regions.",		    
+		    "continue_button": "Select one source to continue"
+	},
+    "biogas":{
+    	"intro":{		    
+		    "biognc_subtitulo":"Compressed Biomethane Gas"	    
+		},	    
+	    "top_titles":{
+		    "fuentes":"SOURCES",	    	    
+		    "estacion_madre":"MOTHER STATION",
+		    "estacion_madre_desc":"PAC Platforms",
+		    "transporte":"TRANSPORT",
+		    "estacion_hija":"DAUGHTER STATION",
+		    "estacion_hija_desc":"PAD Platforms",
+		    "regreso_estacion_madre":"RETURN TO THE MOTHER STATION"
+	    },
+	    "road_info":{
+		    "biogas":"biogas",
+		    "biodigestor":"Biodgester",
+		    "biodigestor_desc":"The efluents of the digestion are transformed into Biol (a biofertilizer).",	    
+			"gas_biometano":"Compressed <br/>Biomethane Gas",
+			"comunidades_aisladas":"Outlying communities",
+			"comunidades_aisladas_desc":"Energy efficiency through <br/>customizable supply",
+			"inyeccion_red":"Injection into the natural <br/>gas grid",
+			"minas_plantas":"",
+			"usinas":"Power generation",
+			"centros_turisticos":"Tourist resorts",
+			"estaciones_servicio":"Fueling stations"
+	    },
+	    "process":{
+		    "fuentes_biogas_box_titulo":"Biogas sources",
+		    "fuentes_biogas_box_op1":"Sewage sludge and landfills",
+		    "fuentes_biogas_box_op2":"Cultivable and inedible vegetable species",
+		    "fuentes_biogas_box_op3":"Manure and guano from animals in stalls and/or feed lots",
+		    "fuentes_biogas_box_op4":"Effluents and waste from the brewing, dairy and jelly industries and from cold storage plants.",
+		    "p1_paquete_compresion":"Microbox-Bio Biogas upgrading and biomethane compression package",
+		    "p1_paquete_compresion_desc":"Microbox-Bio compression packages allow upgrading up to 500 m&sup3;/h of raw biogas by removing all its undesirable components (H2O, H2S, and CO2 among others). Hence, it is possible to provide clean Bio-CNG at a pressure of 250 bar (3625 psi).",
+		    "p1_paquete_compresion_desc2":"During the process, a water cooling system refrigerates the Microbox-Bio and supplies 170 thousand kilocalories per hour (Kcal/h), ensuring the thermal operating conditions of the biodigester.",
+		    "p2_modulos_mat":"MAT Bio-CNG containers",
+		    "p2_modulos_mat_desc":"Bio-CNG is sent from the compressors to the PAC platforms that work as a ﬁxed support and load source for the MAT modular containers.",
+		    "p2_modulos_mat_desc2":"MAT containers can store 1500 Nm&sup3; (420 GGE) of ambient temperature Bio-CNG at a pressure of 250 bar (3625 psi).",
+		    "p3_trailer_vst":"VST Trailer",
+		    "p3_trailer_vst_desc":"MATs are transported by road on VST trailers and distributed at the daughter stations located at different consumption centers. VST can transport up to 2, 3 or 4 MATs,",
+		    "p3_trailer_vst_desc2":"and the anchoring mechanism ensures the route is safely done and at the average speed of any freight.",
+		    "p4_centro_consumo_desc":"Once at the consumption center, the VST trailer's hoisting systems slide the filled MATs on a PAD unload platform while simultaneously removing the empty containers.",
+		    "p5_depositado_pad_desc":"When placed on the PAD, MATs are connected so the CNG can be transferred to a Pressure Regulation Plant (PRP), which provides natural gas at the flow and outlet pressure required by end users.",
+		    "p6_gas_red_tuberias_desc":"Finally, gas is distributed through a network of pipes so houses can replace gas cylinders by a simple stopcock. Upstream operations, industries, power plants and tourist centers can also replace the consumption of expensive and polluting fuels by biomethane.",
+		    "p7_trailer_vst_a_estacionmadre_desc":"The VST trailer returns to the mother station to replace empty MATs with filled ones.",
+		    "p8_plataformas_pac":"PAC Platforms",
+		    "p8_plataformas_pac_desc":"After arriving to the mother station, the VST trailers exchange the MATs brought from the consumption centers with the recently filled ones placed on the PAC. Containers are carefully slid from one platform to another thanks to the anchoring mechanisms controlled by the truck driver."
+	    },
+	    "alert_messages":{
+		    "a1_mat_b":"A trailer with a MAT-B unit can operate as a mobile Bio-CNG fueling station and supply fleets at their own fleet yards.",
+		    "a1_mat_b2":"Equipped with a recompression booster and a dispenser, the MAT-B allow to distribute Bio-CNG in bulk. ",
+		    "a2_intercambio_reconexion":"The exchange and connection operation takes less than 7 minutes per MAT, and is carried out with the aid of the truck driver only, who immediately continues the route to the following daughter station.",
+		    "a3_suministro_continuo_titulo":"Continuous and monitored supply",
+		    "a3_suministro_continuo_desc":"Every time the MATs' gauge indicates the load level is low, the system receives an automatic replenishment order.",
+		    "a4_sistema_recompresion_desc":"The Virtual Pipeline makes it possible to install CNG stations even without connection to the gas network. In such case, a recompression system is added to the daughter station that, connected with the EMB dispensers, boosts the fill speed."
+	    }
+	},
+	
+	"yacimiento":{
+    	"intro":{		    
+		    "biognc_subtitulo":"Gas Biometano Comprimido"	    
+		},	    
+	    "top_titles":{
+		    "fuentes":"FUENTES",	    	    
+		    "estacion_madre":"ESTACIÓN MADRE",
+		    "estacion_madre_desc":"Plataformas PAC",
+		    "transporte":"TRANSPORTE",
+		    "estacion_hija":"ESTACIÓN HIJA",
+		    "estacion_hija_desc":"Plataformas PAD",
+		    "regreso_estacion_madre":"REGRESO A LA ESTACIÓN MADRE"
+	    },
+	    "road_info":{
+		    "biogas":"biogás",
+		    "biodigestor":"Biodigestor",
+		    "biodigestor_desc":"Los efluentes del proceso se transforman en fertilizantes.",	    
+			"gas_biometano":"Gas Biometano <br/>Comprimido",
+			"comunidades_aisladas":"Comunidades Aisladas",
+			"comunidades_aisladas_desc":"Abastecimiento a medida",
+			"inyeccion_red":"Inyección en la red de <br/>gas natural",
+			"minas_plantas":"Minas y plantas industriales",
+			"usinas":"Usinas",
+			"centros_turisticos":"Centros turísticos",
+			"estaciones_servicio":"Estaciones de servicio"
+	    },
+	    "process":{
+		    "fuentes_biogas_box_titulo":"Fuentes de biogás",
+		    "fuentes_biogas_box_op1":"Lodos Cloacales y residuos orgánicos",
+		    "fuentes_biogas_box_op2":"Cultivos no comestibles",
+		    "fuentes_biogas_box_op3":"Estiércol de ganado estabulado",
+		    "fuentes_biogas_box_op4":"Desechos de la industria alimenticia",
+		    "p1_paquete_compresion":"Paquete de Compresión Microbox-Bio",
+		    "p1_paquete_compresion_desc":"Los paquetes de compresión Microbox-Bio&reg; permiten depurar hasta 500 m&sup3;/h de biogás de todos sus elementos corrosivos (H2O, H2S, y CO2 entre otros) y proveer Gas Biometano Comprimido (Bio-GNC) de alta calidad a una presión de 250 bar (3625 psi).",
+		    "p1_paquete_compresion_desc2":"A su vez, su sistema de refrigeración por agua provee 170 mil kilocalorías por hora (Kcal/h) que aseguran las condiciones térmicas de operación del biodigestor.",
+		    "p2_modulos_mat":"Módulos MAT",
+		    "p2_modulos_mat_desc":"El GNC es enviado desde los paquetes de compresión a las plataformas PAC&reg; que sirven de soporte fijo y fuente de carga de los contenedores modulares MAT.",
+		    "p2_modulos_mat_desc2":"Los contenedores MAT pueden almacenar 1500 Nm&sup3; (420 GGE) de Bio-GNC a una presión de 250 bar (3625 psi) a temperatura ambiente.",
+		    "p3_trailer_vst":"Tráiler VST",
+		    "p3_trailer_vst_desc":"Los MAT son transportados por carretera sobre tráileres VST y distribuidos en las estaciones hijas localizadas en los distintos centros de consumo. Los VST presentan configuraciones de transporte para 2, 3 ó 4",
+		    "p3_trailer_vst_desc2":"MATs y sus mecanismos de anclaje garantizan que el recorrido se realice en forma segura y a la velocidad promedio de cualquier flete.",
+		    "p4_centro_consumo_desc":"Una vez en el centro de consumo, los mecanismos de polipasto hidráulico del tráiler VST depositan los MAT llenos sobre una plataforma de descarga PAD&reg; y simultáneamente retiran los vacíos. ",
+		    "p5_depositado_pad_desc":"Al ser depositados sobre la PAD, los MAT son conectados a ella para que el GNC sea transferido a una Planta Reguladora de Presión (PRP), cuya función es proveer gas en los rangos de presión de salida y caudal requeridos por los usuarios finales.",
+		    "p6_gas_red_tuberias_desc":"Finalmente, el gas es distribuido a través de una red de tuberías para que los hogares reemplacen las garrafas de gas por una simple llave de paso. También para que las operaciones en las industrias, las usinas eléctricas y los centros turísticos reemplacen el consumo de combustibles contaminantes y costosos por gas biometano.",
+		    "p7_trailer_vst_a_estacionmadre_desc":"El Tráiler VST regresa a la estación madre para reemplazar los MATs vacíos.",
+		    "p8_plataformas_pac":"Plataformas PAC",
+		    "p8_plataformas_pac_desc":"A su arribo a la estación madre, los tráileres VST intercambian los MAT traídos desde los centros de consumo por los que acaban de cargarse y están depositados sobre las PAC. Los contenedores se deslizan suavemente de una plataforma a otra gracias a los mecanismos de anclaje controlados por el conductor del camión de remolque."
+	    },
+	    "alert_messages":{
+		    "a1_mat_b":"Un tráiler equipado con un MAT-B puede funcionar como una estación móvil de Bio-GNC, y abastecer flotas en sus propios centros logísticos.",
+		    "a1_mat_b2":"Los MAT-B cuentan con booster de recompresión y surtidor para distribuir Bio-GNC a granel.",
+		    "a2_intercambio_reconexion":"La operación de intercambio y conexión toma menos de 7 minutos por MAT y es realizada con la sola asistencia del conductor del camión, quien inmediatamente continúa su ruta hacia la próxima estación hija.",
+		    "a3_suministro_continuo_titulo":"Suministro continuo y monitoreado 24/7",
+		    "a3_suministro_continuo_desc":"Cada vez que el medidor de los MATs indica una baja de los niveles de carga, el sistema recibe una orden automática de reabastecimiento.",
+		    "a4_sistema_recompresion_desc":"En las estaciones de GNC abastecidas por Gasoducto Virtual, un sistema de recompresión acelera los tiempos de carga surtidores EMB&reg;."
+	    }
+	},
+	
+	"gasoducto":{
+    	"intro":{		    
+		    "biognc_subtitulo":"Gas Biometano Comprimido"	    
+		},	    
+	    "top_titles":{
+		    "fuentes":"FUENTES",	    	    
+		    "estacion_madre":"ESTACIÓN MADRE",
+		    "estacion_madre_desc":"Plataformas PAC",
+		    "transporte":"TRANSPORTE",
+		    "estacion_hija":"ESTACIÓN HIJA",
+		    "estacion_hija_desc":"Plataformas PAD",
+		    "regreso_estacion_madre":"REGRESO A LA ESTACIÓN MADRE"
+	    },
+	    "road_info":{
+		    "biogas":"biogás",
+		    "biodigestor":"Biodigestor",
+		    "biodigestor_desc":"Los efluentes del proceso se transforman en fertilizantes.",	    
+			"gas_biometano":"Gas Biometano <br/>Comprimido",
+			"comunidades_aisladas":"Comunidades Aisladas",
+			"comunidades_aisladas_desc":"Abastecimiento a medida",
+			"inyeccion_red":"Inyección en la red de <br/>gas natural",
+			"minas_plantas":"Minas y plantas industriales",
+			"usinas":"Usinas",
+			"centros_turisticos":"Centros turísticos",
+			"estaciones_servicio":"Estaciones de servicio"
+	    },
+	    "process":{
+		    "fuentes_biogas_box_titulo":"Fuentes de biogás",
+		    "fuentes_biogas_box_op1":"Lodos Cloacales",
+		    "fuentes_biogas_box_op2":"Cultivos no comestibles",
+		    "fuentes_biogas_box_op3":"Estiércol de ganado estabulado",
+		    "fuentes_biogas_box_op4":"Desechos de la industria alimenticia",
+		    "p1_paquete_compresion":"Paquete de Compresión Microbox-Bio",
+		    "p1_paquete_compresion_desc":"Los paquetes de compresión Microbox-Bio&reg; permiten depurar hasta 500 m3/h de biogás de todos sus elementos corrosivos (H2O, H2S, y CO2 entre otros) y proveer Gas Biometano Comprimido (Bio-GNC) de alta calidad a una presión de 250 bar (3625 psi).",
+		    "p1_paquete_compresion_desc2":"A su vez, su sistema de refrigeración por agua provee 170 mil kilocalorías por hora (Kcal/h) que aseguran las condiciones térmicas de operación del biodigestor.",
+		    "p2_modulos_mat":"Módulos MAT",
+		    "p2_modulos_mat_desc":"El GNC es enviado desde los paquetes de compresión a las plataformas PAC&reg; que sirven de soporte fijo y fuente de carga de los contenedores modulares MAT.",
+		    "p2_modulos_mat_desc2":"Los contenedores MAT pueden almacenar 1500 Nm3 (420 GGE) de Bio-GNC a una presión de 250 bar (3625 psi) a temperatura ambiente.",
+		    "p3_trailer_vst":"Tráiler VST",
+		    "p3_trailer_vst_desc":"Los MAT son transportados por carretera sobre tráileres VST y distribuidos en las estaciones hijas localizadas en los distintos centros de consumo. Los VST presentan configuraciones de transporte para 2, 3 ó 4",
+		    "p3_trailer_vst_desc2":"MATs y sus mecanismos de anclaje garantizan que el recorrido se realice en forma segura y a la velocidad promedio de cualquier flete.",
+		    "p4_centro_consumo_desc":"Una vez en el centro de consumo, los mecanismos hidráulicos de anclaje del tráiler VST depositan los MAT llenos sobre una plataforma de descarga PAD&reg; y simultáneamente retiran los vacíos. ",
+		    "p5_depositado_pad_desc":"Al ser depositados sobre la PAD, los MAT son conectados a ella para que el GNC sea transferido a una Planta Reguladora de Presión PRP®, cuya función es proveer gas en los rangos de presión de salida y caudal requeridos por los usuarios finales.",
+		    "p6_gas_red_tuberias_desc":"Finalmente, el gas es distribuido a través de una red de tuberías para que los hogares reemplacen las garrafas de gas por una simple llave de paso. También para que las operaciones en las industrias, las usinas eléctricas y los centros turísticos reemplacen el consumo de combustibles contaminantes y costosos por gas biometano.",
+		    "p7_trailer_vst_a_estacionmadre_desc":"El Tráiler VST regresa a la estación madre para reemplazar los MATs vacíos.",
+		    "p8_plataformas_pac":"Plataformas PAC",
+		    "p8_plataformas_pac_desc":"A su arribo a la estación madre, los tráileres VST intercambian los MAT traídos desde los centros de consumo por los que acaban de cargarse y están depositados sobre las PAC. Los contenedores se deslizan suavemente de una plataforma a otra gracias a los mecanismos de anclaje controlados por el conductor del camión de remolque."
+	    },
+	    "alert_messages":{
+		    "a1_mat_b":"Un tráiler equipado con un MAT-B puede funcionar como una estación móvil de Bio-GNC, y abastecer flotas en sus propios centros logísticos.",
+		    "a1_mat_b2":"Los MAT-B cuentan con booster de recompresión y surtidor para distribuir Bio-GNC a granel.",
+		    "a2_intercambio_reconexion":"La operación de intercambio y conexión toma menos de 7 minutos por MAT y es realizada con la sola asistencia del conductor del camión, quien inmediatamente continúa su ruta hacia la próxima estación hija.",
+		    "a3_suministro_continuo_titulo":"Suministro continuo y monitoreado 24/7",
+		    "a3_suministro_continuo_desc":"Cada vez que el medidor de los MATs indica una baja de los niveles de carga, el sistema recibe una orden automática de reabastecimiento.",
+		    "a4_sistema_recompresion_desc":"En las estaciones de GNC abastecidas por Gasoducto Virtual, un sistema de recompresión acelera los tiempos de carga surtidores EMB&reg;."
+	    }
+	}
+    
+}

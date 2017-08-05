@@ -1,7 +1,8 @@
 <?php
+	include("config/set_lang.php");
 	include("config/config.php");
     $ch = curl_init();
-    curl_setopt($ch, CURLOPT_URL, $language_url."biogas.txt");
+    curl_setopt($ch, CURLOPT_URL, $language_url."gasoducto-".$lang.".txt");
     curl_setopt($ch, CURLOPT_HEADER, FALSE);    
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
     $texts_file = curl_exec($ch);
@@ -9,7 +10,7 @@
     curl_close($ch);
     
     $texts = json_decode($texts_file);
-    //print_r($texts);
+    //print_r($lang);
 ?>
 <!doctype html>
 <html class="no-js" lang="es">
@@ -43,6 +44,10 @@
                             <img class="logo-intro" src="svg/titulo-gnc.svg">
                             <p><?php echo $texts->intro->intro_text; ?></p>
                             <p class="pick-btn"><?php echo $texts->intro->continue_button; ?><span class="a-r"></span></p>
+                            <form method="POST">
+                                <?php if($lang=="es") { ?><input type="submit" name="gasoducto_lang" value="en"/> <?php } ?>
+                                <?php if($lang=="en") { ?><input type="submit" name="gasoducto_lang" value="es"/> <?php } ?>
+                            </form>
                         </div>
                         <div class="column-right">
                             <div class="menu-circles-icons">

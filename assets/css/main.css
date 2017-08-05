@@ -411,6 +411,18 @@ a.gasoducto-menu-btn{
 a.gasoducto-menu-btn:hover{
   background: url(../images/gnc-gasoducto-btn-hover.png) no-repeat; 
 }
+input.lng-btn{
+  position: absolute;
+  top: 0;
+  right: 2em;
+  border: 0;
+  padding: 0.5em;
+  background-color: #1a5489;
+  transition: all 0.5s ease;
+}
+input.lng-btn:hover{
+  padding: 1em 0.5em 0.5em 0.5em;
+}
 /*screen 3 menu*/
 .screen3-title{
   float: right;

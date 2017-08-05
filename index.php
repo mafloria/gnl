@@ -45,8 +45,8 @@
                             <p><?php echo $texts->intro->intro_text; ?></p>
                             <p class="pick-btn"><?php echo $texts->intro->continue_button; ?><span class="a-r"></span></p>
                             <form method="POST">
-                                <?php if($lang=="es") { ?><input type="submit" name="gasoducto_lang" value="en"/> <?php } ?>
-                                <?php if($lang=="en") { ?><input type="submit" name="gasoducto_lang" value="es"/> <?php } ?>
+                                <?php if($lang=="es") { ?><input class="lng-btn" type="submit" name="gasoducto_lang" value="en"/> <?php } ?>
+                                <?php if($lang=="en") { ?><input class="lng-btn" type="submit" name="gasoducto_lang" value="es"/> <?php } ?>
                             </form>
                         </div>
                         <div class="column-right">

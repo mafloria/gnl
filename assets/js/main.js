@@ -31,7 +31,7 @@ $(document).ready(function(){
 		$('.section').css('width', windowWidth);		
 		total_width = (windowWidth*3)+$(".gnc-biogas-landscape").width()+$(".gnc-yacimiento-landscape").width()+$(".gnc-gasoducto-landscape").width();
 		$(".wrap").css('width', total_width);
-		$(".front").css('width', total_width);
+		$(".front").css('width', windowWidth+$(".gnc-biogas-landscape").width());
 	}
 	//********************** end windows size
 	

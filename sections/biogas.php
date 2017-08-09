@@ -76,7 +76,7 @@
                      </div>
                      
                      <!-- camnio que se mueve -->
-                    <div class="camion-section">
+                    <div id="camion-section" class="camion-section">
                          <div id="camion" class="camion-1" data-id="1"></div>
                      </div>
                      

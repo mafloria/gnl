@@ -53,14 +53,22 @@ $(document).ready(function(){
                 console.log("position lef: "+(position.left*-1));
                 integer_position_left = position.left*-1; 
                 if(integer_position_left >= 4900 || integer_position_left >= 14200 ){                	
-					if(integer_position_left > 9900 && integer_position_left < 14200){ $(".camion-section").hide("slow"); }
-					else{ $(".camion-section").show("slow");}
+					if(integer_position_left > 9600 && integer_position_left < 14200){ 
+						//$(".camion-section").hide();
+						$("#camion-section").removeClass("camion-section");
+						$("#camion").addClass('camion-stop');
+					}
+					else{ 
+						$(".camion-section").show();
+						$("#camion-section").addClass("camion-section");
+						$("#camion").removeClass('camion-stop');						
+					}
 					
 					//$('#camion').css("margin-left", tmp); //3370 6212
 					//$('#camion').animate({left:(position.left*-1)-2900},100,"linear");
 				}
 				else{
-					$(".camion-section").hide("slow");
+					$(".camion-section").hide();									
 				}
 				
 				if(integer_position_left >= open_section_width){

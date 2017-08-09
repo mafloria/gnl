@@ -17,7 +17,7 @@ $(document).ready(function(){
 	var biogas_active = 0;
 	var yacimiento_active = 0;
 	var gasoducto_active = 0;
-	var open_section_width = 0;
+	var open_section_width = $(".gnc-biogas-landscape").width();
 	
 	setHeight();	
 		  
@@ -31,7 +31,11 @@ $(document).ready(function(){
 		$('.section').css('width', windowWidth);		
 		total_width = (windowWidth*3)+$(".gnc-biogas-landscape").width()+$(".gnc-yacimiento-landscape").width()+$(".gnc-gasoducto-landscape").width();
 		$(".wrap").css('width', total_width);
-		$(".front").css('width', windowWidth+$(".gnc-biogas-landscape").width());
+		set_width_scroll();
+	}
+	
+	function set_width_scroll(){
+		$(".front").css('width', windowWidth+open_section_width);
 	}
 	//********************** end windows size
 	
@@ -86,7 +90,9 @@ $(document).ready(function(){
 		
 		//determine what section is opened
 		eval(id[1]+"_active = 1");		
-		open_section_width = $(".gnc-"+id[1]+"-landscape").width(); 
+		open_section_width = $(".gnc-"+id[1]+"-landscape").width();
+		
+		set_width_scroll(); 
 	});
 	
 	//click for back to main menu

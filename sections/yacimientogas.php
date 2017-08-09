@@ -4,9 +4,9 @@
                             <h2><?php echo $texts->yacimiento->top_titles->fuentes; ?></h2>
                         </div>
                         <div class="screen3-title">
-                            <h1>GNC</h1>
-                            <p>Gas Natural Comprimido</p>
-                            <a href="#home" class="back-home" id="yacimiento-back-home">Back</a>
+                            <h1><?php echo $texts->yacimiento->intro->biognc_titulo; ?></h1>
+                            <p><?php echo $texts->yacimiento->intro->biognc_subtitulo; ?></p>
+                            <a href="#home" class="back-home" id="yacimiento-back-home"><?php echo $texts->yacimiento->intro->back_link; ?></a>
                         </div>                   
                     </div>
             </section>
@@ -17,22 +17,22 @@
                          <div id="txt-wrap-1" class="txtWrap1 animated fadeInLeftShort" data-id="1">
                              <div class="txt-wrap-cntr">
                                  <div id="icon-1" class="icon1 animated fadeInLeftShort" data-id="2"></div> 
-                                 <p class="txt-box1 animated fadeInLeftShort" data-id="3">Wellhead</p>   
+                                 <p class="txt-box1 animated fadeInLeftShort" data-id="3"><?php  echo $texts->yacimiento->process->pozo_box_op1; ?></p>   
                              </div>
                              <div class="txt-wrap-cntr">
                                  <div id="icon-2" class="icon2 animated fadeInLeftShort" data-id="4"></div> 
-                                 <p class="txt-box1 animated fadeInLeftShort" data-id="5">Gathering</p>   
+                                 <p class="txt-box1 animated fadeInLeftShort" data-id="5"><?php  echo $texts->yacimiento->process->pozo_box_op2; ?></p>   
                              </div>
                              <div class="txt-wrap-cntr">
                                  <div id="icon-2" class="icon3 animated fadeInLeftShort" data-id="6"></div> 
-                                 <p class="txt-box1 animated fadeInLeftShort" data-id="7">Gas-lift</p>   
+                                 <p class="txt-box1 animated fadeInLeftShort" data-id="7"><?php  echo $texts->yacimiento->process->pozo_box_op3; ?></p>   
                              </div>
                              <div class="txt-wrap-cntr">
                                  <div id="icon-4" class="icon4 animated fadeInLeftShort" data-id="8"></div> 
-                                 <p class="txt-box1 animated fadeInLeftShort" data-id="9">Reducción del Flaring</p>
+                                 <p class="txt-box1 animated fadeInLeftShort" data-id="9"><?php  echo $texts->yacimiento->process->pozo_box_op4; ?></p>
                              </div>   
                          </div>
-                         <p id="txt-0" class="txtInfo animated fadeInLeftShort" data-id="10">En cada pozo, una solución de Galileo</p>
+                         <p id="txt-0" class="txtInfo animated fadeInLeftShort" data-id="10"><?php  echo $texts->yacimiento->process->pozo_box_title; ?></p>
                      </div> 
                      
                      <div class="group-animated animatedParent" data-appear-left-offset='-700'  data-sequence='300'>
@@ -188,7 +188,7 @@
 
                     <div class="group-animated animatedParent" data-appear-left-offset='-13900'  data-sequence='300'>
                         <div id="tree-34" class="treeType1 animated fadeInLeftShort" data-id='1'></div>
-                        <h2 id="h2-8" class="h2-title-box animated fadeInLeftShort" data-id="2">REGRESO A LA ESTACIÓN MADRE</h2> 
+                        <h2 id="h2-8" class="h2-title-box animated fadeInLeftShort" data-id="2"><?php echo $texts->yacimiento->top_titles->regreso_estacion_madre; ?></h2> 
                     </div>
 
                     <div class="group-animated animatedParent" data-appear-left-offset='-14000'  data-sequence='300'>
@@ -224,23 +224,23 @@
                      <!--elementos landscape bottom 1 -->
                   
                     <div class="group-animated animatedParent"  data-appear-left-offset='-1200'  data-sequence='300'>   
-                        <h3 id="h3-2" class="title-h3 animated fadeInLeftShort" data-id="1">Secador</h3>
+                        <h3 id="h3-2" class="title-h3 animated fadeInLeftShort" data-id="1"><?php echo $texts->yacimiento->road_info->secador; ?></h3>
                         <div id="warning-0" class="warning-icon animated fadeInLeftShort" data-id="2"></div>
-                        <p id="txt-1" class="txtInfo animated fadeInLeftShort" data-id="3">En caso de ser necesario, un Secador elimina el vapor de agua contenido en el gas natural que ingresa al sistema. El mismo puede estar integrado dentro del paquete de compresión o funcionar como una unidad separada.</p>
+                        <p id="txt-1" class="txtInfo animated fadeInLeftShort" data-id="3"><?php echo $texts->yacimiento->alert_messages->a1_secador; ?></p>
                     </div>
  
                     <!--elementos landscape bottom 2 --> 
                     <div class="group-animated animatedParent"  data-appear-left-offset='-1650'  data-sequence='300'>                       
-                        <h3 id="h3-4" class="title-green animated fadeInLeftShort" data-id="1">Gas Natural</h3>
+                        <h3 id="h3-4" class="title-green animated fadeInLeftShort" data-id="1"><?php echo $texts->yacimiento->road_info->gasnatural; ?></h3>
                         <div id="arrow-1" class="red-arrow animated fadeInLeftShort" data-id="2"></div>
                     </div>
                     <div class="group-animated animatedParent"  data-appear-left-offset='-1750'  data-sequence='300'>
-                        <h3 id="h3-5" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">1</span>Paquete de Compresión Microbox-Bio</h3>
-                        <p id="txt-2" class="txtInfo animated fadeInLeftShort" data-id="2">En la estación madre, paquetes de compresión de GNC Microbox® o Gigabox®, conectados a la fuente de gas natural, comprimen el fluido a una presión de 250 bar (3625 psi).</p>
+                        <h3 id="h3-5" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">1</span><?php echo $texts->yacimiento->process->p1_paquete_compresion; ?></h3>
+                        <p id="txt-2" class="txtInfo animated fadeInLeftShort" data-id="2"><?php echo $texts->yacimiento->process->p1_paquete_compresion_desc; ?></p>
                     </div>
  
                     <div class="group-animated animatedParent"  data-appear-left-offset='-2400'  data-sequence='300'>                       
-                        <h3 id="h3-6" class="title-green animated fadeInLeftShort" data-id="1">Gas Natural Comprimido</h3>
+                        <h3 id="h3-6" class="title-green animated fadeInLeftShort" data-id="1"><?php echo $texts->yacimiento->road_info->gasnatural_comprimido; ?></h3>
                         <div id="arrow-2" class="red-arrow animated fadeInLeftShort" data-id="2"></div>
                     </div>
 
@@ -266,18 +266,18 @@
  
                     <div class="group-animated animatedParent"  data-appear-left-offset='-7400'  data-sequence='300'>
                         <div id="warning-1" class="warning-icon animated fadeInLeftShort" data-id="1"></div>
-                        <p id="txt-8" class="txtInfo animated fadeInLeftShort" data-id="2">Un tráiler equipado con un MAT-B puede funcionar como una estación móvil de Bio-GNC, y abastecer flotas en sus propios centros logísticos.</p>
-                        <p id="txt-9" class="txtInfo animated fadeInLeftShort" data-id="3">Los MAT-B cuentan con booster de recompresión y surtidor para distribuir Bio-GNC a granel.</p>
+                        <p id="txt-8" class="txtInfo animated fadeInLeftShort" data-id="2"><?php echo $texts->yacimiento->alert_messages->a1_mat_b; ?></p>
+                        <p id="txt-9" class="txtInfo animated fadeInLeftShort" data-id="3"><?php echo $texts->yacimiento->alert_messages->a1_mat_b2; ?></p>
                     </div>
 
                      <!--elementos landscape bottom 7 -->
                     <div class="group-animated animatedParent"  data-appear-left-offset='-8200'  data-sequence='300'>
                         <h3 id="h3-10" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">4</span></h3>
-                        <p id="txt-10" class="txtInfo animated fadeInLeftShort" data-id="2">Una vez en el centro de consumo, los mecanismos hidráulicos de anclaje del tráiler VST depositan los MAT llenos sobre una plataforma de descarga PAD® y simultáneamente retiran los vacíos. </p>
+                        <p id="txt-10" class="txtInfo animated fadeInLeftShort" data-id="2"><?php echo $texts->yacimiento->process->p4_centro_consumo_desc; ?></p>
                     </div>
                     <div class="group-animated animatedParent"  data-appear-left-offset='-8600'  data-sequence='300'>
                         <div id="warning-2" class="warning-icon animated fadeInLeftShort" data-id="1"></div>
-                        <p id="txt-11" class="txtInfo animated fadeInLeftShort" data-id="2">La operación de intercambio y conexión toma menos de 7 minutos por MAT y es realizada con la sola asistencia del conductor del camión, quien inmediatamente continúa su ruta hacia la próxima estación hija.</p>
+                        <p id="txt-11" class="txtInfo animated fadeInLeftShort" data-id="2"><?php echo $texts->yacimiento->alert_messages->a2_intercambio_reconexion; ?></p>
                     </div>
                     <div class="group-animated animatedParent"  data-appear-left-offset='-8800'  data-sequence='300'>
                         <div id="up-down-arrow-1" class="upDownArrow animated fadeInLeftShort" data-id="1"></div>
@@ -289,36 +289,36 @@
                     <!--elementos landscape bottom 8 -->
                     <div class="group-animated animatedParent"  data-appear-left-offset='-10100'  data-sequence='300'>
                         <h3 id="h3-11" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">5</span></h3>
-                        <p id="txt-12" class="txtInfo animated fadeInLeftShort" data-id="2">Al ser depositados sobre la PAD, los MAT son conectados a ella para que el GNC sea transferido a una Planta Reguladora de Presión PRP®, cuya función es proveer gas en los rangos de presión de salida y caudal requeridos por los usuarios finales.</p>
+                        <p id="txt-12" class="txtInfo animated fadeInLeftShort" data-id="2"><?php echo $texts->yacimiento->process->p5_depositado_pad_desc; ?></p>
                     </div>
 
                     <div class="group-animated animatedParent"  data-appear-left-offset='-10450'  data-sequence='300'>
                         <h3 id="h3-12" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">6</span></h3>
-                        <p id="txt-13" class="txtInfo animated fadeInLeftShort" data-id="2">Finalmente, el gas es distribuido a través de una red de tuberías para que los hogares reemplacen las garrafas de gas por una simple llave de paso. También para que las operaciones en las industrias, las usinas eléctricas y los centros turísticos reemplacen el consumo de combustibles contaminantes y costosos por gas biometano.</p>
+                        <p id="txt-13" class="txtInfo animated fadeInLeftShort" data-id="2"><?php echo $texts->yacimiento->process->p6_gas_red_tuberias_desc; ?></p>
                     </div>
 
                     <!--elementos landscape bottom 9 -->
                     <div class="group-animated animatedParent"  data-appear-left-offset='-10800'  data-sequence='300'>
-                        <p id="txt-18" class="txtInfo animated fadeInLeftShort" data-id="1">Abastecimiento<br />a medida</p>
+                        <p id="txt-18" class="txtInfo animated fadeInLeftShort" data-id="1"><?php echo $texts->yacimiento->road_info->abastecimiento; ?></p>
                         <div id="arrow-3" class="red-arrow animated fadeInLeftShort" data-id="2"></div>
                         <div id="figure-1" class="figure1 animated fadeInLeftShort" data-id="3"></div>
                         <div id="y-line-1" class="y-line animated fadeInLeftShort" data-id="4"></div>
-                        <h3 id="h3-13" class="title-h3 animated fadeInLeftShort" data-id="5">Operaciones en el upstream</h3>
+                        <h3 id="h3-13" class="title-h3 animated fadeInLeftShort" data-id="5"><?php echo $texts->yacimiento->road_info->upstream; ?></h3>
                         <div id="figure-15" class="figure12 animated fadeInLeftShort" data-id="6"></div> 
                     </div>
                     <!--<div id="figure-2" class="figure2 animated fadeInLeftShort" data-id="4"></div>     CASAS-->
 
                     <div class="group-animated animatedParent"  data-appear-left-offset='-10900'  data-sequence='300'>
                         <div id="warning-3" class="warning-icon animated fadeInLeftShort" data-id="1"></div>
-                        <h3 id="h3-14" class="title-h3 animated fadeInLeftShort" data-id="2">Suministro continuo y monitoreado 24/7</h3>
-                        <p id="txt-14" class="txtInfo animated fadeInLeftShort" data-id="3">Cada vez que el medidor de los MATs indica una baja de los niveles de carga, el sistema recibe una orden automática de reabastecimiento.</p>
+                        <h3 id="h3-14" class="title-h3 animated fadeInLeftShort" data-id="2"><?php echo $texts->yacimiento->alert_messages->a3_suministro_continuo_titulo; ?></h3>
+                        <p id="txt-14" class="txtInfo animated fadeInLeftShort" data-id="3"><?php echo $texts->yacimiento->alert_messages->a3_suministro_continuo_desc; ?></p>
                         <div id="figure-3" class="figure3 animated fadeInLeftShort" data-id="4"></div>
                     </div>
 
                     <div class="group-animated animatedParent"  data-appear-left-offset='-11000'  data-sequence='300'>
                         <div id="figure-7" class="figure7 animated fadeInLeftShort" data-id="1"></div>
                         <div id="y-line-4" class="y-line animated fadeInLeftShort" data-id="2"></div>
-                        <h3 id="h3-17" class="title-h3 animated fadeInLeftShort" data-id="3">Usinas</h3>
+                        <h3 id="h3-17" class="title-h3 animated fadeInLeftShort" data-id="3"><?php echo $texts->yacimiento->road_info->usinas; ?></h3>
                         <div id="figure-8" class="figure8 animated fadeInLeftShort" data-id="4"></div>
                         <div id="figure-9" class="figure9 animated fadeInLeftShort" data-id="5"></div>
                         <div id="figure-10" class="figure9 animated fadeInLeftShort" data-id="6"></div>
@@ -327,12 +327,12 @@
                     <div class="group-animated animatedParent"  data-appear-left-offset='-11100'  data-sequence='300'>
                         <div id="figure-17" class="figure1 animated fadeInLeftShort" data-id="1"></div>
                         <div id="y-line-7" class="y-line animated fadeInLeftShort" data-id="2"></div>
-                        <h3 id="h3-22" class="title-h3 animated fadeInLeftShort" data-id="4">Comunidades aisladas</h3>
+                        <h3 id="h3-22" class="title-h3 animated fadeInLeftShort" data-id="4"><?php echo $texts->yacimiento->road_info->comunidades_aisladas; ?></h3>
                         <div id="figure-16" class="figure13 animated fadeInLeftShort" data-id="4"></div>
                     </div>
 
                     <div class="group-animated animatedParent"  data-appear-left-offset='-11200'  data-sequence='300'>
-                        <h3 id="h3-15" class="title-h3 animated fadeInLeftShort" data-id="1">Inyección en la red<br />de gas natural</h3>
+                        <h3 id="h3-15" class="title-h3 animated fadeInLeftShort" data-id="1"><?php echo $texts->yacimiento->road_info->inyeccion_red; ?></h3>
                         <div id="y-line-2" class="y-line animated fadeInLeftShort" data-id="2"></div>
                         <div id="figure-4" class="figure4 animated fadeInLeftShort" data-id="3"></div>
                     </div>
@@ -340,7 +340,7 @@
                     <div class="group-animated animatedParent"  data-appear-left-offset='-11300'  data-sequence='300'>
                         <div id="figure-5" class="figure5 animated fadeInLeftShort" data-id="1"></div>
                         <div id="y-line-3" class="y-line animated fadeInLeftShort" data-id="2"></div>
-                        <h3 id="h3-16" class="title-h3 animated fadeInLeftShort" data-id="3">Minas y plantas industriales</h3>
+                        <h3 id="h3-16" class="title-h3 animated fadeInLeftShort" data-id="3"><?php echo $texts->yacimiento->road_info->minas_plantas; ?></h3>
                         <div id="figure-6" class="figure6 animated fadeInLeftShort" data-id="4"></div>
                     </div>
 
@@ -350,19 +350,19 @@
                     <div class="group-animated animatedParent"  data-appear-left-offset='-12100'  data-sequence='300'>
                         <div id="figure-11" class="figure1 animated fadeInLeftShort" data-id="1"></div>
                         <div id="y-line-5" class="y-line animated fadeInLeftShort" data-id="2"></div>
-                        <h3 id="h3-18" class="title-h3 animated fadeInLeftShort" data-id="3">Centros turísticos</h3>
+                        <h3 id="h3-18" class="title-h3 animated fadeInLeftShort" data-id="3"><?php echo $texts->yacimiento->road_info->centros_turisticos; ?></h3>
                         <div id="figure-12" class="figure10 animated fadeInLeftShort" data-id="4"></div>
                     </div>
 
                     <div class="group-animated animatedParent"  data-appear-left-offset='-12150'  data-sequence='300'>
                         <div id="warning-4" class="warning-icon animated fadeInLeftShort" data-id="1"></div>
-                        <p id="txt-15" class="txtInfo animated fadeInLeftShort" data-id="3">En las estaciones de GNC abastecidas por Gasoducto Virtual, un sistema de recompresión acelera los tiempos de carga surtidores EMB®.</p>
+                        <p id="txt-15" class="txtInfo animated fadeInLeftShort" data-id="3"><?php echo $texts->yacimiento->alert_messages->a4_sistema_recompresion_desc; ?></p>
                     </div>
 
                     <div class="group-animated animatedParent"  data-appear-left-offset='-12600'  data-sequence='300'>
                         <div id="figure-13" class="figure1 animated fadeInLeftShort" data-id="1"></div>
                         <div id="y-line-6" class="y-line animated fadeInLeftShort" data-id="2"></div>
-                        <h3 id="h3-19" class="title-h3 animated fadeInLeftShort" data-id="3">Estaciones de servicio</h3>
+                        <h3 id="h3-19" class="title-h3 animated fadeInLeftShort" data-id="3"><?php echo $texts->yacimiento->road_info->estaciones_servicio; ?></h3>
                         <div id="figure-14" class="figure11 animated fadeInLeftShort" data-id="4"></div>
                     </div>
 
@@ -370,13 +370,13 @@
 
                     <div class="group-animated animatedParent"  data-appear-left-offset='-13950'  data-sequence='300'>
                     <h3 id="h3-20" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">7</span></h3>
-                    <p id="txt-16" class="txtInfo animated fadeInLeftShort" data-id="2">El Tráiler VST regresa a la estación madre para reemplazar los MATs vacíos.</p>
+                    <p id="txt-16" class="txtInfo animated fadeInLeftShort" data-id="2"><?php echo $texts->yacimiento->process->p7_trailer_vst_a_estacionmadre_desc; ?></p>
                     </div>
 
                     <!--elementos landscape bottom 12 -->
                     <div class="group-animated animatedParent"  data-appear-left-offset='-15000'  data-sequence='300'>
-                        <h3 id="h3-21" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">8</span>Plataformas PAC</h3>
-                        <p id="txt-17" class="txtInfo animated fadeInLeftShort" data-id="2">A su arribo a la estación madre, los tráileres VST intercambian los MAT traídos desde los centros de consumo por los que acaban de cargarse y están depositados sobre las PAC. Los contenedores se deslizan suavemente de una plataforma a otra gracias a los mecanismos de anclaje controlados por el conductor del camión de remolque.</p>
+                        <h3 id="h3-21" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">8</span><?php echo $texts->yacimiento->process->p8_plataformas_pac; ?></h3>
+                        <p id="txt-17" class="txtInfo animated fadeInLeftShort" data-id="2"><?php echo $texts->yacimiento->process->p8_plataformas_pac_desc; ?></p>
                     </div>
                        
 

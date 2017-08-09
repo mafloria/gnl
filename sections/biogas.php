@@ -75,10 +75,9 @@
                          <h4 id="subt-1" class="subtitle animated fadeInLeftShort" data-id="2"><?php echo $texts->biogas->top_titles->estacion_madre_desc; ?></h4>
                      </div>
                      
-                     <!-- camnio que se mueve -->
-                    <div id="camion-section" class="camion-section">
-                         <div id="camion" class="camion-1" data-id="1"></div>
-                     </div>
+                    <!-- CAMION -->
+                    <div id="truck" class="camion"></div>
+                    <!--CAMION -->
                      
                      <div class="group-animated animatedParent"  data-appear-left-offset='-3600'  data-sequence='300'>
                          <div id="hill-5" class="hillType2 animated fadeInLeftShort" data-id='1'></div>

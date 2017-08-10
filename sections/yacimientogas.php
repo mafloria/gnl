@@ -76,10 +76,9 @@
                          <h4 id="subt-1" class="subtitle animated fadeInLeftShort" data-id="2"><?php echo $texts->yacimiento->top_titles->estacion_madre_desc; ?></h4>
                      </div>
                      
-                     <!-- camnio que se mueve -->
-                    <div class="group-animated camion-section animatedParent"  data-appear-left-offset='-3300'  data-sequence='300'>
-                         <div id="camion" class="camion-1 animated" data-id="1"></div>
-                     </div>
+                    <!-- CAMION -->
+                    <div id="truck" class="camion firstTruck-yacimiento-stop"></div>
+                    <!--CAMION -->
                      
                      <div class="group-animated animatedParent"  data-appear-left-offset='-3600'  data-sequence='300'>
                          <div id="hill-5" class="hillType2 animated fadeInLeftShort" data-id='1'></div>

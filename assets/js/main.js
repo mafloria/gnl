@@ -18,8 +18,9 @@ $(document).ready(function(){
 	var yacimiento_active = 0;
 	var gasoducto_active = 0;
 	var open_section_width = $(".gnc-biogas-landscape").width();
+	var open_section_name = "biogas";
 	
-	setHeight();	
+	setHeight();
 		  
 	$(window).resize(function() {
 		setHeight();
@@ -53,22 +54,48 @@ $(document).ready(function(){
                 console.log("position lef: "+(position.left*-1));
                 integer_position_left = position.left*-1; 
                 if(integer_position_left >= 4900 || integer_position_left >= 14200 ){                	
-					if(integer_position_left > 9600 && integer_position_left < 14200){ 
-						//$(".camion-section").hide();
-						$("#camion-section").removeClass("camion-section");
-						$("#camion").addClass('camion-stop');
+					if(integer_position_left > 9600 && integer_position_left < 14200){ //no se ve el camion
+						//$(".camion-section").hide();												
+						if(integer_position_left > 13000){
+						//	$("#truck").addClass('truck-fixed');
+							$("#truck").addClass('secondTruck-'+open_section_name+'-stop');
+							$("#truck").removeClass('secondTruck-'+open_section_name+'-start');
+						}else{
+							console.log("if interno hide");						
+							$("#truck").removeClass('truck-fixed');					
+							$("#truck").removeClass('firstTruck-'+open_section_name+'-start');
+							$("#truck").addClass('firstTruck-'+open_section_name+'-stop');
+						}
 					}
-					else{ 
-						$(".camion-section").show();
-						$("#camion-section").addClass("camion-section");
-						$("#camion").removeClass('camion-stop');						
+					else{ //se ve el camnio
+						console.log("else interno show");
+						//$(".camion-section").show();
+						$("#truck").addClass('truck-fixed');
+						$("#truck").removeClass('firstTruck-'+open_section_name+'-stop');
+						$("#truck").removeClass('firstTruck-'+open_section_name+'-start');						
+						$("#truck").removeClass('secondTruck-'+open_section_name+'-stop');
+						$("#truck").removeClass('secondTruck-'+open_section_name+'-start');
 					}
 					
 					//$('#camion').css("margin-left", tmp); //3370 6212
 					//$('#camion').animate({left:(position.left*-1)-2900},100,"linear");
 				}
 				else{
-					$(".camion-section").hide();									
+					console.log("else externo hide");
+					//$(".camion-section").hide();					
+					
+						
+					if(integer_position_left > 14200){
+							$("#truck").addClass('truck-fixed');
+							$("#truck").removeClass('secondTruck-'+open_section_name+'-start');
+							$("#truck").removeClass('secondTruck-'+open_section_name+'-stop');
+					}else{
+						$("#truck").addClass('firstTruck-'+open_section_name+'-start');
+						$("#truck").removeClass('firstTruck-'+open_section_name+'-stop');		
+					}
+					
+						
+					
 				}
 				
 				if(integer_position_left >= open_section_width){
@@ -99,6 +126,7 @@ $(document).ready(function(){
 		//determine what section is opened
 		eval(id[1]+"_active = 1");		
 		open_section_width = $(".gnc-"+id[1]+"-landscape").width();
+		open_section_name = id[1];
 		
 		set_width_scroll(); 
 	});

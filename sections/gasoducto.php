@@ -67,10 +67,10 @@
                          <h4 id="subt-1" class="subtitle animated fadeInLeftShort" data-id="2"><?php echo $texts->yacimiento->top_titles->estacion_madre_desc; ?></h4>
                      </div>
                      
-                     <!-- camnio que se mueve -->
-                    <div class="group-animated camion-section animatedParent"  data-appear-left-offset='-3300'  data-sequence='300'>
-                         <div id="camion" class="camion-1 animated" data-id="1"></div>
-                     </div>
+                    <!-- camnio que se mueve -->
+                    <!-- CAMION -->
+                    <div id="truck" class="camion firstTruck-gasoducto-stop"></div>
+                    <!--CAMION -->
                      
                      <div class="group-animated animatedParent"  data-appear-left-offset='-3600'  data-sequence='300'>
                          <div id="hill-5" class="hillType2 animated fadeInLeftShort" data-id='1'></div>
@@ -367,6 +367,11 @@
                     <div class="group-animated animatedParent"  data-appear-left-offset='-15000'  data-sequence='300'>
                         <h3 id="h3-21" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">8</span>Plataformas PAC</h3>
                         <p id="txt-17" class="txtInfo animated fadeInLeftShort" data-id="2">A su arribo a la estación madre, los tráileres VST intercambian los MAT traídos desde los centros de consumo por los que acaban de cargarse y están depositados sobre las PAC. Los contenedores se deslizan suavemente de una plataforma a otra gracias a los mecanismos de anclaje controlados por el conductor del camión de remolque.</p>
+                    </div>
+
+                    <div class="group-animated animatedParent"  data-appear-left-offset='-15200'  data-sequence='300'>
+                        <div id="up-down-arrow-5" class="upDownArrow animated fadeInLeftShort" data-id="1"></div>
+                        <div id="up-down-arrow-6" class="upDownArrow animated fadeInLeftShort" data-id="2"></div>
                     </div>
 
                      <!--main image-->

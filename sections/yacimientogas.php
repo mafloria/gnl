@@ -377,8 +377,12 @@
                         <h3 id="h3-21" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">8</span><?php echo $texts->yacimiento->process->p8_plataformas_pac; ?></h3>
                         <p id="txt-17" class="txtInfo animated fadeInLeftShort" data-id="2"><?php echo $texts->yacimiento->process->p8_plataformas_pac_desc; ?></p>
                     </div>
-                       
 
+                    <div class="group-animated animatedParent"  data-appear-left-offset='-15200'  data-sequence='300'>
+                        <div id="up-down-arrow-5" class="upDownArrow animated fadeInLeftShort" data-id="1"></div>
+                        <div id="up-down-arrow-6" class="upDownArrow animated fadeInLeftShort" data-id="2"></div>
+                    </div>
+                       
 
                      <!--main image-->
                      <img class="main-landscape-image" src="assets/images/gnc-yacimientos-landscape-main-img.png">

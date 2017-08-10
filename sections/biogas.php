@@ -216,6 +216,17 @@
                         <div id="tree-41" class="treeType1 animated fadeInLeftShort" data-id='5'></div> 
                         <div id="tree-42" class="treeType2 animated fadeInLeftShort" data-id='6'></div>
                     </div>
+
+                    <!--NUBES / CLOUDS-->
+                     <div class="cloud-s">
+                         <div id="cloud-1" class="cloudType1"></div>
+                     </div>
+                     <div class="cloud-m">
+                         <div id="cloud-2" class="cloudType2"></div>
+                     </div>
+                     <div class="cloud-l">
+                         <div id="cloud-3" class="cloudType3"></div>
+                     </div>
                       
                  </div>
                  <div class="landscape-bottom">
@@ -294,6 +305,13 @@
                     <div class="group-animated animatedParent"  data-appear-left-offset='-8600'  data-sequence='300'>
                         <div id="warning-2" class="warning-icon animated fadeInLeftShort" data-id="1"></div>
                         <p id="txt-11" class="txtInfo animated fadeInLeftShort" data-id="2"><?php echo $texts->biogas->alert_messages->a2_intercambio_reconexion; ?></p>
+                    </div>
+
+                    <div class="group-animated animatedParent"  data-appear-left-offset='-8800'  data-sequence='300'>
+                        <div id="up-down-arrow-1" class="upDownArrow animated fadeInLeftShort" data-id="1"></div>
+                        <div id="up-down-arrow-2" class="upDownArrow animated fadeInLeftShort" data-id="2"></div>
+                        <div id="up-down-arrow-3" class="upDownArrow animated fadeInLeftShort" data-id="3"></div>
+                        <div id="up-down-arrow-4" class="upDownArrow animated fadeInLeftShort" data-id="4"></div>
                     </div>
 
                     <!--elementos landscape bottom 8 -->
@@ -376,12 +394,16 @@
                         <h3 id="h3-21" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">8</span><?php echo $texts->biogas->process->p8_plataformas_pac; ?></h3>
                         <p id="txt-17" class="txtInfo animated fadeInLeftShort" data-id="2"><?php echo $texts->biogas->process->p8_plataformas_pac_desc; ?></p>
                     </div>
+
+                    <div class="group-animated animatedParent"  data-appear-left-offset='-15200'  data-sequence='300'>
+                        <div id="up-down-arrow-5" class="upDownArrow animated fadeInLeftShort" data-id="1"></div>
+                        <div id="up-down-arrow-6" class="upDownArrow animated fadeInLeftShort" data-id="2"></div>
+                    </div>
                        
-
-
                      <!--main image-->
                      <img class="main-landscape-image" src="assets/images/gnc-biogas-landscape-main-img.png">
                      <!--main image-->
+
                 </div>
                 <div class="green-bg"></div>
             </div> <!-- end gnc-biogas-landscape -->

@@ -501,7 +501,7 @@ input.lng-btn:hover{
 }
 @-webkit-keyframes nubesanim{
     0%  { } 
-    50% { -webkit-transform:translateX(2000px)}
+    50% { -webkit-transform:translateX(1200px)}
     100% {-webkit-transform:translateX(0px); }
 }
 .cloud-s{
@@ -519,29 +519,28 @@ input.lng-btn:hover{
 }
 .cloud-m{
   animation-name: nubesanim;
-  animation-duration: 260s;
+  animation-duration: 270s;
   animation-iteration-count:infinite;
 
   -moz-animation-name: nubesanim;
-  -moz-animation-duration: 260s;
+  -moz-animation-duration: 270s;
   -moz-animation-iteration-count:infinite;
 
   -webkit-animation-name: nubesanim;
-  -webkit-animation-duration: 260s;
+  -webkit-animation-duration: 270s;
   -webkit-animation-iteration-count:infinite;  
 }
-
 .cloud-l{
   animation-name: nubesanim;
-  animation-duration: 210s;
+  animation-duration: 250s;
   animation-iteration-count:infinite;
 
   -moz-animation-name: nubesanim;
-  -moz-animation-duration: 210s;
+  -moz-animation-duration: 250s;
   -moz-animation-iteration-count:infinite;
 
   -webkit-animation-name: nubesanim;
-  -webkit-animation-duration: 210s;
+  -webkit-animation-duration: 250s;
   -webkit-animation-iteration-count:infinite;  
 }
 

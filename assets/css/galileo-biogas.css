@@ -210,9 +210,35 @@
 #up-down-arrow-5{top: 123px; left: 15000px;}
 #up-down-arrow-6{top: 123px; left: 15100px;}
 
-#cloud-1{top: 0; left: 200px;}
-#cloud-2{top: 60px; left: 0px;}
+#cloud-1{top: 130px; left: 100px;}
+#cloud-2{top: 70px; left: 0px;}
 #cloud-3{top: 130px; left: 500px;}
+#cloud-4{top: 90px; left: 1000px;}
+#cloud-5{top: 50px; left: 1200px;}
+#cloud-6{top: 90px; left: 1500px;}
+#cloud-7{top: 20px; left: 2200px;}
+#cloud-8{top: 130px; left: 2500px;}
+#cloud-9{top: 110px; left: 3200px;}
+#cloud-10{top: 65px; left: 3500px;}
+#cloud-11{top: 110px; left: 3800px;}
+#cloud-12{top: 70px; left: 4400px;}
+#cloud-13{top: 120px; left: 4700px;}
+#cloud-14{top: 70px; left: 5000px;}
+#cloud-15{top: 100px; left: 6000px;}
+#cloud-16{top: 100px; left: 6600px;}
+#cloud-17{top: 20px; left: 7400px;}
+#cloud-18{top: 70px; left: 8100px;}
+#cloud-19{top: 70px; left: 8600px;}
+#cloud-20{top: 70px; left: 9200px;}
+#cloud-21{top: 250px; left: 10500px;}
+#cloud-22{top: 20px; left: 11000px;}
+#cloud-23{top: 160px; left: 11900px;}
+#cloud-24{top: 120px; left: 12500px;}
+#cloud-25{top: 150px; left: 12900px;}
+#cloud-26{top: 100px; left: 13500px;}
+#cloud-27{top: 150px; left: 13900px;}
+#cloud-28{top: 20px; left: 14500px;}
+#cloud-29{top: 35px; left: 14900px;}
 
 /*elements css*/
 .treeType1{
@@ -252,7 +278,7 @@
   padding: 0;
 }
 .txt-box1{
-  width: 30%;
+  width: 40%;
   float: left;
   font-size: 20px;
   font-weight: bold;

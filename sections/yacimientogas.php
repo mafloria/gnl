@@ -217,6 +217,48 @@
                         <div id="tree-41" class="treeType1 animated fadeInLeftShort" data-id='5'></div> 
                         <div id="tree-42" class="treeType2 animated fadeInLeftShort" data-id='6'></div>
                     </div>
+
+                    <!--NUBES / CLOUDS-->
+                     <div class="cloud-s"><div id="cloud-1" class="cloudType1"></div></div>
+                     <div class="cloud-m"><div id="cloud-2" class="cloudType2"></div></div>
+                     <div class="cloud-s"><div id="cloud-3" class="cloudType1"></div></div>
+
+                     <div class="cloud-l"><div id="cloud-4" class="cloudType2"></div></div>
+                     <div class="cloud-s"><div id="cloud-5" class="cloudType2"></div></div>
+                     <div class="cloud-m"><div id="cloud-6" class="cloudType1"></div></div>
+
+                     <div class="cloud-s"><div id="cloud-7" class="cloudType1"></div></div>
+                     <div class="cloud-m"><div id="cloud-8" class="cloudType2"></div></div>
+
+                     <div class="cloud-s"><div id="cloud-9" class="cloudType2"></div></div>
+                     <div class="cloud-m"><div id="cloud-10" class="cloudType1"></div></div>
+                     <div class="cloud-s"><div id="cloud-11" class="cloudType2"></div></div>
+
+                     <div class="cloud-l"><div id="cloud-12" class="cloudType1"></div></div>
+                     <div class="cloud-s"><div id="cloud-13" class="cloudType2"></div></div>
+                     <div class="cloud-m"><div id="cloud-14" class="cloudType1"></div></div>
+
+                     <div class="cloud-m"><div id="cloud-15" class="cloudType2"></div></div>
+                     <div class="cloud-s"><div id="cloud-16" class="cloudType1"></div></div>
+
+                     <div class="cloud-m"><div id="cloud-17" class="cloudType1"></div></div>
+                     <div class="cloud-s"><div id="cloud-18" class="cloudType2"></div></div>
+
+                     <div class="cloud-m"><div id="cloud-19" class="cloudType2"></div></div>
+                     <div class="cloud-s"><div id="cloud-20" class="cloudType2"></div></div>
+
+                     <div class="cloud-m"><div id="cloud-21" class="cloudType3"></div></div>
+                     <div class="cloud-s"><div id="cloud-22" class="cloudType2"></div></div>
+
+                     <div class="cloud-m"><div id="cloud-23" class="cloudType1"></div></div>
+                     <div class="cloud-s"><div id="cloud-24" class="cloudType2"></div></div>
+
+                     <div class="cloud-s"><div id="cloud-25" class="cloudType1"></div></div>
+                     <div class="cloud-m"><div id="cloud-26" class="cloudType2"></div></div>
+                     <div class="cloud-s"><div id="cloud-27" class="cloudType1"></div></div>
+
+                     <div class="cloud-m"><div id="cloud-28" class="cloudType2"></div></div>
+                     <div class="cloud-s"><div id="cloud-29" class="cloudType2"></div></div>
                       
                  </div>
                  <div class="landscape-bottom">

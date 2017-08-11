@@ -105,6 +105,7 @@ $(document).ready(function(){
 		$(".screen-1").hide(); //hides main screen		
 		
 		$(window).disablescroll("undo");
+		$('body').css('overflow-y', 'auto');
 						
 		//console.log("OJO 1 --  image_width: "+$(".gnc-"+open_section_name+"-landscape").width());
 		open_section_width = $("#bgimage-"+open_section_name).width(); //$(".gnc-"+open_section_name+"-landscape > img").width();		
@@ -123,6 +124,7 @@ $(document).ready(function(){
 		$(".screen-1").show();  //shows main screen
 		
 		$(window).disablescroll();
+		$('body').css('overflow-y', 'hidden');
 				
 		open_section_width = $("#bgimage-"+open_section_name).width(); //$(".gnc-biogas-landscape > img").width();
 		console.log("BACK open_section_width: "+$(".gnc-"+open_section_name+"-landscape").width());

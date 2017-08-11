@@ -58,23 +58,7 @@
                         </div>     
                     </div>
                 </section>
-    
-                <section class="section screen-2" style="display: none;">
-                    <div class="section-content">
-                        <div class="title-section"><h2><?php echo $texts->top_titles->fuentes; ?></h2></div>
-                        <div class="screen2-txt">
-                            
-                        </div>     
-                        <div class="menu-circles-icons">
-                            <div class="menu-fuentes">
-                                <a id="view-biogas-process" class="view-process biogas-menu-btn" href="javascript:void(0);"></a>
-                                <a id="view-yacimiento-process" class="view-process yacimiento-menu-btn" href="javascript:void(0);"></a>
-                                <a id="view-gasoducto-process" class="view-process gasoducto-menu-btn" href="javascript:void(0);"></a>
-                            </div>
-                        </div>
-                    </div>   
-                </section>                             
-                   
+                    
                 <?php require_once("sections/biogas.php"); ?>                                
                 <?php require_once("sections/yacimientogas.php"); ?>
                 <?php require_once("sections/gasoducto.php"); ?>

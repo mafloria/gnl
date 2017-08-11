@@ -9,14 +9,11 @@
 //document ready	
 $(document).ready(function(){	
 	
-	$(window).disablescroll({handleWheel:false});
+	$(window).disablescroll();
 	
 	//*********** window size to fix content
 	var windowHeight = $(window).innerHeight();
-	var windowWidth = $(window).innerWidth();
-	var biogas_active = 0;
-	var yacimiento_active = 0;
-	var gasoducto_active = 0;
+	var windowWidth = $(window).innerWidth();	
 	var open_section_width = $(".gnc-biogas-landscape").width();
 	var open_section_name = "biogas";
 	
@@ -28,15 +25,16 @@ $(document).ready(function(){
 	//adjust sections to the browser height
 	function setHeight() {	
 		//section 1, 2, 3 fixt to windows size		
-		$('.section').css('height', windowHeight);		
-		$('.section').css('width', windowWidth);		
-		total_width = (windowWidth*3)+$(".gnc-biogas-landscape").width()+$(".gnc-yacimiento-landscape").width()+$(".gnc-gasoducto-landscape").width();
-		$(".wrap").css('width', total_width);
+		$('.screen-1').css('height', windowHeight);		
+		$('.screen-1').css('width', windowWidth);		
+		//total_width = (windowWidth*3)+$(".gnc-biogas-landscape").width()+$(".gnc-yacimiento-landscape").width()+$(".gnc-gasoducto-landscape").width();		
 		set_width_scroll();
 	}
 	
 	function set_width_scroll(){
+		console.log("SET WITH SCROLL: open_section_width: "+windowWidth+"+"+open_section_width);
 		$(".front").css('width', windowWidth+open_section_width);
+		$('body').css('height', (windowWidth+open_section_width)+'px');	
 	}
 	//********************** end windows size
 	
@@ -51,7 +49,7 @@ $(document).ready(function(){
                 /*tmp = $('#track_moving').attr('data-appear-left-offset');*/
                 tmp = Math.floor((777 - $(window).innerWidth()) * percent) * -1; 
                 var position = $(".front").position();
-                console.log("position lef: "+(position.left*-1));
+                //console.log("position lef: "+(position.left*-1));
                 integer_position_left = position.left*-1; 
                 if(integer_position_left >= 4900 || integer_position_left >= 14200 ){                	
 					if(integer_position_left > 9600 && integer_position_left < 14200){ //no se ve el camion
@@ -61,14 +59,14 @@ $(document).ready(function(){
 							$("#truck").addClass('secondTruck-'+open_section_name+'-stop');
 							$("#truck").removeClass('secondTruck-'+open_section_name+'-start');
 						}else{
-							console.log("if interno hide");						
+							//console.log("if interno hide");						
 							$("#truck").removeClass('truck-fixed');					
 							$("#truck").removeClass('firstTruck-'+open_section_name+'-start');
 							$("#truck").addClass('firstTruck-'+open_section_name+'-stop');
 						}
 					}
 					else{ //se ve el camnio
-						console.log("else interno show");
+						//console.log("else interno show");
 						//$(".camion-section").show();
 						$("#truck").addClass('truck-fixed');
 						$("#truck").removeClass('firstTruck-'+open_section_name+'-stop');
@@ -76,15 +74,11 @@ $(document).ready(function(){
 						$("#truck").removeClass('secondTruck-'+open_section_name+'-stop');
 						$("#truck").removeClass('secondTruck-'+open_section_name+'-start');
 					}
-					
-					//$('#camion').css("margin-left", tmp); //3370 6212
-					//$('#camion').animate({left:(position.left*-1)-2900},100,"linear");
 				}
 				else{
-					console.log("else externo hide");
+					//console.log("else externo hide");
 					//$(".camion-section").hide();					
-					
-						
+
 					if(integer_position_left > 14200){
 							$("#truck").addClass('truck-fixed');
 							$("#truck").removeClass('secondTruck-'+open_section_name+'-start');
@@ -92,42 +86,30 @@ $(document).ready(function(){
 					}else{
 						$("#truck").addClass('firstTruck-'+open_section_name+'-start');
 						$("#truck").removeClass('firstTruck-'+open_section_name+'-stop');		
-					}
-					
-						
-					
-				}
-				
-				if(integer_position_left >= open_section_width){
-					console.log("stop wheel");
-					$(window).disablescroll();
-				}else{
-					$(window).disablescroll("undo");
-				}
+					}									
+				}				
             }
         });        
 	
 	//click for open one process animation
 	$(".view-process").click(function(){
 		var id = $(this).attr( "id" ).split("-");
-		
-		$("#galileocss").attr("href", "assets/css/galileo-"+id[1]+".css");
-		$(".landscape-section").hide();
-		$(".screen-3").hide();
-		$("#gnc-"+id[1]+"-firstsection").show();
-		$(".gnc-"+id[1]+"-landscape").show();
-		
-		$(".screen-1").hide();
-		/*var tmp = $(".front").position();
-		$(".scroll").css('left', -(tmp.left+windowWidth));*/
-		
-		$(window).disablescroll("undo");
-		
-		//determine what section is opened
-		eval(id[1]+"_active = 1");		
-		open_section_width = $(".gnc-"+id[1]+"-landscape").width();
 		open_section_name = id[1];
 		
+		$("#galileocss").attr("href", "assets/css/galileo-"+open_section_name+".css");
+		$(".landscape-section").hide();
+		$(".screen-3").hide();
+		$("#gnc-"+open_section_name+"-firstsection").show();
+		$(".gnc-"+open_section_name+"-landscape").show();
+		
+		$(".screen-1").hide(); //hides main screen		
+		
+		$(window).disablescroll("undo");
+						
+		//console.log("OJO 1 --  image_width: "+$(".gnc-"+open_section_name+"-landscape").width());
+		open_section_width = $("#bgimage-"+open_section_name).width(); //$(".gnc-"+open_section_name+"-landscape > img").width();		
+		
+		console.log("OJO -- open_section_width: "+$("#bgimage-"+open_section_name).width());		
 		set_width_scroll(); 
 	});
 	
@@ -138,16 +120,12 @@ $(document).ready(function(){
 		$("#gnc-"+id[0]+"-firstsection").hide();
 		$(".gnc-"+id[0]+"-landscape").hide();
 		
-		$(".screen-1").show();
+		$(".screen-1").show();  //shows main screen
 		
 		$(window).disablescroll();
-		
-		//setup active section to cero
-		biogas_active = 0;
-		yacimiento_active = 0;
-		gasoducto_active = 0;
-		
-		open_section_width = 0;
+				
+		open_section_width = $("#bgimage-"+open_section_name).width(); //$(".gnc-biogas-landscape > img").width();
+		console.log("BACK open_section_width: "+$(".gnc-"+open_section_name+"-landscape").width());
 	});
 		 
 });

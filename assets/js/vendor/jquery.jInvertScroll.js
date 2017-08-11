@@ -103,7 +103,7 @@
             $.each(elements, function (i, el) {
                 var pos = Math.floor((el.width - winWidth) * scrollPercent) * -1;                
                 el.el.css('left', pos);
-                console.log("inside:"+pos);
+                //console.log("inside:"+pos);
             });
         });
     };

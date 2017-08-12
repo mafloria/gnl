@@ -337,7 +337,7 @@ img.logo-intro{
   top: 230px;
   z-index: 12;
 }
-.truck-fixed{position: fixed; left: 25%;}
+.truck-fixed{position: fixed; left: 2%;}
 
 .firstTruck-biogas-start{position: absolute; left: 3560px;}
 .firstTruck-biogas-stop{position: absolute; left: 7983px;}

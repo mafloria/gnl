@@ -6,7 +6,7 @@
                         <div class="screen3-title">
                             <h1><?php echo $texts->biogas->intro->biognc_titulo; ?></h1>
                             <p><?php echo $texts->biogas->intro->biognc_subtitulo; ?></p>
-                            <a href="#home" class="back-home" id="biogas-back-home"><?php echo $texts->biogas->intro->back_link; ?></a>
+                            <a href="#home" class="back-home" id="biogas-back-home"><span><</span><?php echo $texts->biogas->intro->back_link; ?></a>
                         </div>                   
                     </div>                    
             </section>

@@ -6,7 +6,8 @@
                         <div class="screen3-title">
                             <h1><?php echo $texts->yacimiento->intro->biognc_titulo; ?></h1>
                             <p><?php echo $texts->yacimiento->intro->biognc_subtitulo; ?></p>
-                            <a href="#home" class="back-home" id="yacimiento-back-home"><?php echo $texts->yacimiento->intro->back_link; ?></a>
+                            <a href="#home" class="back-home" id="yacimiento-back-home"><span><</span><?php echo $texts->yacimiento->intro->back_link; ?>
+                            </a>
                         </div>                   
                     </div>
             </section>

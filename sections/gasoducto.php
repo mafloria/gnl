@@ -6,7 +6,7 @@
                         <div class="screen3-title">
                             <h1>GNC</h1>
                             <p>Gas Natural Comprimido</p>
-                            <a href="#home" class="back-home" id="yacimiento-back-home">Back</a>
+                            <a href="#home" class="back-home" id="yacimiento-back-home"><span><</span><?php echo $texts->gasoducto->intro->back_link; ?></a>
                         </div>                   
                     </div>
             </section>

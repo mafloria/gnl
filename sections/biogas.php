@@ -13,7 +13,7 @@
             <div class="gnc-biogas-landscape landscape-section" style="display: none">
                 <div class="landscape-top">
                  <!--elementos landscape top 1 -->  
-                     <div class="group-animated animatedParent" data-appear-left-offset='-700'  data-sequence='200'>
+                     <div class="group-animated animatedParent" data-appear-left-offset='-500'  data-sequence='200'>
                          <div id="txt-wrap-1" class="txtWrap1 animated fadeInLeftShort" data-id="1">
                              <div class="txt-wrap-cntr">
                                  <div id="icon-1" class="icon1 animated fadeInLeftShort" data-id="2"></div> 
@@ -34,11 +34,11 @@
                              <h3 id="h3-1" class="title-h3 animated fadeInLeftShort" data-id="10"><?php echo $texts->biogas->process->fuentes_biogas_box_titulo; ?></h3>   
                          </div>
                      </div>
-                     <div class="group-animated animatedParent" data-appear-left-offset='-700'  data-sequence='300'>
+                     <div class="group-animated animatedParent" data-appear-left-offset='-500'  data-sequence='300'>
                              <h2 id="h2-1" class="h2-title-box animated fadeInLeftShort" data-id="1"><?php echo $texts->biogas->top_titles->estacion_madre; ?></h2>
                      </div>                    
                     
-                     <div class="group-animated animatedParent"  data-appear-left-offset='-700'  data-sequence='150'>
+                     <div class="group-animated animatedParent"  data-appear-left-offset='-550'  data-sequence='150'>
                         <div id="hill-1" class="hillType1 animated fadeInLeftShort" data-id='1'></div>
                          <div id="tree-1" class="treeType2 animated fadeInLeftShort" data-id='2'></div>
                          
@@ -403,7 +403,7 @@
 
                     <div class="group-animated animatedParent"  data-appear-left-offset='-12150'  data-sequence='300'>
                         <div id="warning-4" class="warning-icon animated fadeInLeftShort" data-id="1"></div>
-                        <p id="txt-15" class="txtInfo animated fadeInLeftShort" data-id="3"><?php echo $texts->biogas->alert_messages->a4_sistema_recompresion_desc; ?></p>
+                        <p id="txt-15" class="txtInfo animated fadeInLeftShort" data-id="2"><?php echo $texts->biogas->alert_messages->a4_sistema_recompresion_desc; ?></p>
                     </div>
 
                     <div class="group-animated animatedParent"  data-appear-left-offset='-12600'  data-sequence='300'>
@@ -430,6 +430,12 @@
                         <div id="up-down-arrow-5" class="upDownArrow animated fadeInLeftShort" data-id="1"></div>
                         <div id="up-down-arrow-6" class="upDownArrow animated fadeInLeftShort" data-id="2"></div>
                     </div>
+
+                    <div class="group-animated animatedParent menu-circles-icons-end"  data-appear-left-offset='-15200'  data-sequence='300'>
+                        <p class="pick-btn animated fadeInLeftShort" data-id="1">Selecciona otra de nuestras fuentes</p>
+                        <a id="view-yacimiento-process" class="view-process yacimiento-menu-btn animated fadeInLeftShort" href="javascript:void(0);" data-id="2"></a>
+                        <a id="view-gasoducto-process" class="view-process gasoducto-menu-btn animated fadeInLeftShort" href="javascript:void(0);" data-id="3"></a>
+                    </div>
                        
                      <!--main image-->
                      <img id="bgimage-biogas" class="main-landscape-image" src="assets/images/gnc-biogas-landscape-main-img.png">
@@ -437,4 +443,5 @@
 
                 </div>
                 <div class="green-bg"></div>
+
             </div> <!-- end gnc-biogas-landscape -->

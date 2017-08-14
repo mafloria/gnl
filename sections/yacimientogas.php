@@ -397,7 +397,7 @@
 
                     <div class="group-animated animatedParent"  data-appear-left-offset='-12150'  data-sequence='300'>
                         <div id="warning-4" class="warning-icon animated fadeInLeftShort" data-id="1"></div>
-                        <p id="txt-15" class="txtInfo animated fadeInLeftShort" data-id="3"><?php echo $texts->yacimiento->alert_messages->a4_sistema_recompresion_desc; ?></p>
+                        <p id="txt-15" class="txtInfo animated fadeInLeftShort" data-id="2"><?php echo $texts->yacimiento->alert_messages->a4_sistema_recompresion_desc; ?></p>
                     </div>
 
                     <div class="group-animated animatedParent"  data-appear-left-offset='-12600'  data-sequence='300'>
@@ -423,6 +423,12 @@
                     <div class="group-animated animatedParent"  data-appear-left-offset='-15200'  data-sequence='300'>
                         <div id="up-down-arrow-5" class="upDownArrow animated fadeInLeftShort" data-id="1"></div>
                         <div id="up-down-arrow-6" class="upDownArrow animated fadeInLeftShort" data-id="2"></div>
+                    </div>
+
+                    <div class="group-animated animatedParent menu-circles-icons-end"  data-appear-left-offset='-15200'  data-sequence='300'>
+                        <p class="pick-btn animated fadeInLeftShort" data-id="1">Selecciona otra de nuestras fuentes</p>
+                        <a id="view-biogas-process" class="view-process biogas-menu-btn animated fadeInLeftShort" href="javascript:void(0);" data-id="2"></a>
+                        <a id="view-gasoducto-process" class="view-process gasoducto-menu-btn animated fadeInLeftShort" href="javascript:void(0);" data-id="3"></a>
                     </div>
                        
 

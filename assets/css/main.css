@@ -411,6 +411,20 @@ img.logo-intro{
   transition: all 0.5s ease;
   margin-bottom: 1em;
 }
+.menu-circles-icons-end a{
+  width: 182px;
+  height: 197px;
+  position: absolute;
+  transition: all 0.5s ease;
+}
+.menu-circles-icons-end p.pick-btn{
+  width: 430px;
+  font-size: 1.5em;
+  padding: 0.5em;
+  background-color: #1a5489;
+  text-align: center;
+  position: absolute;
+}
 a.biogas-menu-btn{
   background: url(../images/gnc-biogas-btn.png) no-repeat;
 }

@@ -33,8 +33,8 @@ $(document).ready(function(){
 	
 	function set_width_scroll(){
 		console.log("SET WITH SCROLL: open_section_width: "+windowWidth+"+"+open_section_width);
-		$(".front").css('width', windowWidth+open_section_width);
-		$('body').css('height', (windowWidth+open_section_width)+'px');	
+		$(".front").css('width', windowWidth+open_section_width+140);
+		$('body').css('height', (windowWidth+open_section_width+140)+'px');	
 	}
 	//********************** end windows size
 	
@@ -51,14 +51,14 @@ $(document).ready(function(){
                 var position = $(".front").position();
                 //console.log("position lef: "+(position.left*-1));
                 integer_position_left = position.left*-1; 
-                if(integer_position_left >= 4900 || integer_position_left >= 14200 ){                	
-					if(integer_position_left > 9600 && integer_position_left < 14200){ //no se ve el camion
+                if(integer_position_left >= 4350 || integer_position_left > 13700 ){                	
+					if(integer_position_left > 8880 && integer_position_left < 13700){ //no se ve el camion
 						//$(".camion-section").hide();												
 						if(integer_position_left > 13000){
 							//console.log("if interno hide");
-							$("#truck").addClass('secondTruck-'+open_section_name+'-stop');
+							$("#truck").addClass('secondTruck-'+open_section_name+'-start');
 							$("#truck").removeClass('truck-fixed');							
-							$("#truck").removeClass('secondTruck-'+open_section_name+'-start');
+							$("#truck").removeClass('secondTruck-'+open_section_name+'-stop');
 							$("#truck").removeClass('firstTruck-'+open_section_name+'-stop');
 							$("#truck").removeClass('firstTruck-'+open_section_name+'-start');
 						}else{
@@ -71,18 +71,26 @@ $(document).ready(function(){
 						}
 					}
 					else{ //se ve el camnio
-						//console.log("else2 interno show");
-						//$(".camion-section").show();
-						$("#truck").addClass('truck-fixed');
-						$("#truck").removeClass('firstTruck-'+open_section_name+'-stop');
-						$("#truck").removeClass('firstTruck-'+open_section_name+'-start');						
-						$("#truck").removeClass('secondTruck-'+open_section_name+'-stop');
-						$("#truck").removeClass('secondTruck-'+open_section_name+'-start');
+						if(integer_position_left > 15300){
+							$("#truck").addClass('secondTruck-'+open_section_name+'-stop');
+							$("#truck").removeClass('truck-fixed');							
+							$("#truck").removeClass('secondTruck-'+open_section_name+'-start');
+							$("#truck").removeClass('firstTruck-'+open_section_name+'-stop');
+							$("#truck").removeClass('firstTruck-'+open_section_name+'-start');
+						}else{						 
+							console.log("else2 interno show");
+							//$(".camion-section").show();
+							$("#truck").addClass('truck-fixed');
+							$("#truck").removeClass('firstTruck-'+open_section_name+'-stop');
+							$("#truck").removeClass('firstTruck-'+open_section_name+'-start');						
+							$("#truck").removeClass('secondTruck-'+open_section_name+'-stop');
+							$("#truck").removeClass('secondTruck-'+open_section_name+'-start');
+						}
 					}
 				}
 				else{
-					//console.log("else externo hide");							
-					if(integer_position_left > 14200){
+					console.log("else externo hide");							
+					if(integer_position_left > 13700){
 							$("#truck").addClass('truck-fixed');
 							$("#truck").removeClass('secondTruck-'+open_section_name+'-start');
 							$("#truck").removeClass('secondTruck-'+open_section_name+'-stop');

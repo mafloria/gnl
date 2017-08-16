@@ -78,7 +78,7 @@
                      </div>
                      
                     <!-- CAMION -->
-                    <div id="truck" class="camion firstTruck-yacimiento-stop"></div>
+                    <div id="truck-yacimiento" class="camion firstTruck-yacimiento-stop"></div>
                     <!--CAMION -->
                      
                      <div class="group-animated animatedParent"  data-appear-left-offset='-3600'  data-sequence='300'>

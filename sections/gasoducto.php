@@ -179,7 +179,7 @@
 
                     <div class="group-animated animatedParent" data-appear-left-offset='-13900'  data-sequence='300'>
                         <div id="tree-34" class="treeType1 animated fadeInLeftShort" data-id='1'></div>
-                        <h2 id="h2-8" class="h2-title-box animated fadeInLeftShort" data-id="2">REGRESO A LA ESTACIÓN MADRE</h2> 
+                        <h2 id="h2-8" class="h2-title-box animated fadeInLeftShort" data-id="2"><?php echo $texts->gasoducto->top_titles->regreso_estacion_madre; ?></h2> 
                     </div>
 
                     <div class="group-animated animatedParent" data-appear-left-offset='-14000'  data-sequence='300'>
@@ -418,8 +418,8 @@
 
                     <div class="group-animated animatedParent menu-circles-icons-end"  data-appear-left-offset='-15200'  data-sequence='300'>
                         <p class="pick-btn animated fadeInLeftShort" data-id="1">Selecciona otra de nuestras fuentes</p>
-                        <a class="view-process biogas-menu-btn animated fadeInLeftShort" href="javascript:void(0);" data-id="2"></a>
-                        <a class="view-process yacimiento-menu-btn animated fadeInLeftShort" href="javascript:void(0);" data-id="3"></a>
+                        <a id="continue-biogas-process" class="view-process biogas-menu-btn animated fadeInLeftShort" href="javascript:void(0);" data-id="2"></a>
+                        <a id="continue-yacimiento-process" class="view-process yacimiento-menu-btn animated fadeInLeftShort" href="javascript:void(0);" data-id="3"></a>
                     </div>
 
                      <!--main image-->

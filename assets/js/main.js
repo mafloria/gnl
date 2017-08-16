@@ -112,6 +112,11 @@ $(document).ready(function(){
 		var id = $(this).attr( "id" ).split("-");
 		open_section_name = id[1];
 		
+		set_width_scroll();		
+		$(".scroll").css('left', 0);
+		
+		$("html, body").animate({ scrollTop: 0 }, "fast");
+		
 		$("#galileocss").attr("href", "assets/css/galileo-"+open_section_name+".css");
 		$(".landscape-section").hide();
 		$(".screen-3").hide();
@@ -119,17 +124,17 @@ $(document).ready(function(){
 		$(".gnc-"+open_section_name+"-landscape").show();
 				
 		$(".screen-1").hide(); //hides main screen		
-		
+						
 		$(window).disablescroll("undo");
 		$('body').css('overflow-y', 'auto');
+				
 						
 		//console.log("OJO 1 --  image_width: "+$(".gnc-"+open_section_name+"-landscape").width());
 		open_section_width = $("#bgimage-"+open_section_name).width(); //$(".gnc-"+open_section_name+"-landscape > img").width();		
 		
-		console.log("OJO -- open_section_width: "+$("#bgimage-"+open_section_name).width());		
-		set_width_scroll();
+		//console.log("OJO -- open_section_width: "+$("#bgimage-"+open_section_name).width());
 		
-		$(".front").css('left', 0);
+		console.log(".scroll: "+$(".scroll").scrollTop() + " body: "+$("body").scrollTop() + " Wrapper:"+$(".wrapper").scrollTop());			
 		console.log($(".front").css('left')); 
 	});
 	

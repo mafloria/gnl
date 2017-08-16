@@ -109,34 +109,23 @@ $(document).ready(function(){
 	
 	//click for open one process animation
 	$(".view-process").click(function(){
-		var id = $(this).attr( "id" ).split("-");
-		open_section_name = id[1];
-		
-		set_width_scroll();		
-		$(".scroll").css('left', 0);
-		
-		$("html, body").animate({ scrollTop: 0 }, "fast");
-		
-		$("#galileocss").attr("href", "assets/css/galileo-"+open_section_name+".css");
-		$(".landscape-section").hide();
-		$(".screen-3").hide();
-		$("#gnc-"+open_section_name+"-firstsection").show();
-		$(".gnc-"+open_section_name+"-landscape").show();
+		open_process($(this));
 				
-		$(".screen-1").hide(); //hides main screen		
-						
-		$(window).disablescroll("undo");
-		$('body').css('overflow-y', 'auto');
-				
-						
-		//console.log("OJO 1 --  image_width: "+$(".gnc-"+open_section_name+"-landscape").width());
-		open_section_width = $("#bgimage-"+open_section_name).width(); //$(".gnc-"+open_section_name+"-landscape > img").width();		
-		
 		//console.log("OJO -- open_section_width: "+$("#bgimage-"+open_section_name).width());
 		
-		console.log(".scroll: "+$(".scroll").scrollTop() + " body: "+$("body").scrollTop() + " Wrapper:"+$(".wrapper").scrollTop());			
-		console.log($(".front").css('left')); 
+		/*console.log(".scroll: "+$(".scroll").scrollTop() + " body: "+$("body").scrollTop() + " Wrapper:"+$(".wrapper").scrollTop());			
+		console.log($(".front").css('left'));*/ 
 	});
+	
+	//click for open one process animation from actions at the end of each process
+	$(".continue-process").click(function(){
+		open_process($(this));
+		
+		$(".scroll").css('left', 0);				
+		$("html, body").animate({ scrollTop: 0 }, "fast");		 
+	});
+	
+	
 	
 	//click for back to main menu
 	$(".back-home").click(function(){				
@@ -153,5 +142,27 @@ $(document).ready(function(){
 		open_section_width = $("#bgimage-"+open_section_name).width(); //$(".gnc-biogas-landscape > img").width();
 		console.log("BACK open_section_width: "+$(".gnc-"+open_section_name+"-landscape").width());
 	});
+	
+	function open_process(this_object){
+		var id = this_object.attr( "id" ).split("-");
+		open_section_name = id[1];				
+		
+		$("#galileocss").attr("href", "assets/css/galileo-"+open_section_name+".css");
+		$(".landscape-section").hide();
+		$(".screen-3").hide();
+		$("#gnc-"+open_section_name+"-firstsection").show();
+		$(".gnc-"+open_section_name+"-landscape").show();
+				
+		$(".screen-1").hide(); //hides main screen		
+						
+		$(window).disablescroll("undo");
+		$('body').css('overflow-y', 'auto');
+				
+						
+		//console.log("OJO 1 --  image_width: "+$(".gnc-"+open_section_name+"-landscape").width());
+		open_section_width = $("#bgimage-"+open_section_name).width(); //$(".gnc-"+open_section_name+"-landscape > img").width();		
+		
+		set_width_scroll();	
+	}
 		 
 });

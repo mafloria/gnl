@@ -117,7 +117,7 @@ $(document).ready(function(){
 		$(".screen-3").hide();
 		$("#gnc-"+open_section_name+"-firstsection").show();
 		$(".gnc-"+open_section_name+"-landscape").show();
-		
+				
 		$(".screen-1").hide(); //hides main screen		
 		
 		$(window).disablescroll("undo");
@@ -127,7 +127,10 @@ $(document).ready(function(){
 		open_section_width = $("#bgimage-"+open_section_name).width(); //$(".gnc-"+open_section_name+"-landscape > img").width();		
 		
 		console.log("OJO -- open_section_width: "+$("#bgimage-"+open_section_name).width());		
-		set_width_scroll(); 
+		set_width_scroll();
+		
+		$(".front").css('left', 0);
+		console.log($(".front").css('left')); 
 	});
 	
 	//click for back to main menu

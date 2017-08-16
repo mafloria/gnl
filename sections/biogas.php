@@ -433,8 +433,13 @@
 
                     <div class="group-animated animatedParent menu-circles-icons-end"  data-appear-left-offset='-15200'  data-sequence='300'>
                         <p class="pick-btn animated fadeInLeftShort" data-id="1">Selecciona otra de nuestras fuentes</p>
+<<<<<<< HEAD
                         <a id="view-yacimiento-process" class="view-process yacimiento-menu-btn animated fadeInLeftShort" href="#gnc-yacimiento-firstsection" data-id="2"></a>
                         <a id="view-gasoducto-process" class="view-process gasoducto-menu-btn animated fadeInLeftShort" href="javascript:void(0);" data-id="3"></a>
+=======
+                        <a class="view-process yacimiento-menu-btn animated fadeInLeftShort" href="javascript:void(0);" data-id="2"></a>
+                        <a class="view-process gasoducto-menu-btn animated fadeInLeftShort" href="javascript:void(0);" data-id="3"></a>
+>>>>>>> origin/master
                     </div>
                        
                      <!--main image-->

@@ -240,8 +240,8 @@
 #cloud-28{top: 20px; left: 14500px;}
 #cloud-29{top: 35px; left: 14900px;}
 
-a#view-yacimiento-process{top: 100px; left: 15904px;}
-a#view-gasoducto-process{top: 100px; left: 16122px}
+a.yacimiento-menu-btn{top: 100px; left: 15904px;}
+a.gasoducto-menu-btn{top: 100px; left: 16122px}
 .menu-circles-icons-end p.pick-btn{top: 0;left: 15860px;}
 
 /*elements css*/

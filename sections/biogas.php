@@ -13,7 +13,7 @@
             <div class="gnc-biogas-landscape landscape-section" style="display: none">
                 <div class="landscape-top">
                  <!--elementos landscape top 1 -->  
-                     <div class="group-animated animatedParent" data-appear-left-offset='-500'  data-sequence='200'>
+                     <div class="group-animated animatedParent" data-appear-left-offset='-1000'  data-sequence='200'>
                          <div id="txt-wrap-1" class="txtWrap1 animated fadeInLeftShort" data-id="1">
                              <div class="txt-wrap-cntr">
                                  <div id="icon-1" class="icon1 animated fadeInLeftShort" data-id="2"></div> 
@@ -281,7 +281,7 @@
                         <h3 id="h3-4" class="title-green animated fadeInLeftShort" data-id="1"><?php echo $texts->biogas->road_info->biogas; ?></h3>
                         <div id="arrow-1" class="red-arrow animated fadeInLeftShort" data-id="2"></div>
                     </div>
-                    <div class="group-animated animatedParent"  data-appear-left-offset='-1750'  data-sequence='300'>
+                    <div class="group-animated animatedParent"  data-appear-left-offset='-1900'  data-sequence='300'>
                         <h3 id="h3-5" class="title-h3 animated fadeInLeftShort" data-id="1"><span class="numeracion">1</span><?php echo $texts->biogas->process->p1_paquete_compresion; ?></h3>
                         <p id="txt-2" class="txtInfo animated fadeInLeftShort" data-id="2"><?php echo $texts->biogas->process->p1_paquete_compresion_desc; ?></p>
                         <p id="txt-3" class="txtInfo animated fadeInLeftShort" data-id="3"><?php echo $texts->biogas->process->p1_paquete_compresion_desc2; ?></p>

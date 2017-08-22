@@ -426,12 +426,14 @@ img.logo-intro{
   display: block;
   transition: all 0.5s ease;
   margin-bottom: 1em;
+  opacity: .6;
 }
 .menu-circles-icons-end a{
   width: 182px;
   height: 197px;
   position: absolute;
   transition: all 0.5s ease;
+  opacity: .6;
 }
 .menu-circles-icons-end p.pick-btn{
   width: 430px;
@@ -441,24 +443,30 @@ img.logo-intro{
   text-align: center;
   position: absolute;
 }
+.menu-circles-icons a:hover,
+.menu-circles-icons-end a:hover{
+  opacity: 1;
+}
 a.biogas-menu-btn{
   background: url(../images/gnc-biogas-btn.png) no-repeat;
-}
-a.biogas-menu-btn:hover{
-  background: url(../images/gnc-biogas-btn-hover.png) no-repeat;
 }
 a.yacimiento-menu-btn{
   background: url(../images/gnc-yacimiento-btn.png) no-repeat;  
 }
-a.yacimiento-menu-btn:hover{
-  background: url(../images/gnc-yacimiento-btn-hover.png) no-repeat; 
-}
 a.gasoducto-menu-btn{
   background: url(../images/gnc-gasoducto-btn.png) no-repeat;  
+}
+/*
+a.biogas-menu-btn:hover{
+  background: url(../images/gnc-biogas-btn-hover.png) no-repeat;
+}
+a.yacimiento-menu-btn:hover{
+  background: url(../images/gnc-yacimiento-btn-hover.png) no-repeat; 
 }
 a.gasoducto-menu-btn:hover{
   background: url(../images/gnc-gasoducto-btn-hover.png) no-repeat; 
 }
+*/
 input.lng-btn{
   position: absolute;
   top: 0;

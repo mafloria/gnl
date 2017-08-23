@@ -339,6 +339,7 @@ img.logo-intro{
 .navigation a:hover{
   background-color: #f2990a;
 }
+/*---------------------------------------------------ESTILOS CAMION*/
 .camion-section{
  display: none; /*!important*/
   position: absolute;
@@ -353,6 +354,52 @@ img.logo-intro{
   top: 230px;
   z-index: 12;
 }
+.camion-animated{
+  width: 777px;
+  height: 188px;
+  background: transparent url(../images/camion.png) no-repeat; 
+  top: 230px;
+  z-index: 12;
+  position: relative;  
+}
+.rueda{
+  width: 52px;
+  height: 52px;
+  position: absolute;
+  bottom: 3px;
+  background: transparent url(../images/rueda.png) no-repeat; 
+}
+.rueda1{
+  left: 107px;
+  transform:rotate(70deg);
+  -webkit-transform:rotate(70deg);
+  -moz-transform:rotate(70deg);
+}
+.rueda2{
+  left: 167px;
+  transform:rotate(140deg);
+  -webkit-transform:rotate(140deg);
+  -moz-transform:rotate(140deg);
+}
+.rueda3{
+  left: 276px;
+  transform:rotate(210deg);
+  -webkit-transform:rotate(210deg);
+  -moz-transform:rotate(210deg);
+}
+.rueda4{
+  left: 484px;
+  transform:rotate(140deg);
+  -webkit-transform:rotate(140deg);
+  -moz-transform:rotate(140deg);
+}
+.rueda5{
+  left: 677px;
+  transform:rotate(70deg);
+  -webkit-transform:rotate(70deg);
+  -moz-transform:rotate(70deg);
+}
+
 .truck-fixed{position: fixed; left: 25%;}
 
 .firstTruck-biogas-start{position: absolute; left: 3560px;}
@@ -369,7 +416,7 @@ img.logo-intro{
 .firstTruck-gasoducto-stop{position: absolute; left: 7983px;}
 .secondTruck-gasoducto-start{position: absolute;left: 12751px;}
 .secondTruck-gasoducto-stop{position: absolute;left: 14353px;}
-
+/*-----------------------------------------------*/
 .landscape-top{
   width: 100%;
   height: 47%;

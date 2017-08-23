@@ -592,3 +592,10 @@ input.lng-btn:hover{
   -webkit-animation-iteration-count:infinite;  
 }
 
+@media screen and (max-width: 1400px){
+  .column-left p{
+    width: 80%;
+  }
+}
+
+

@@ -271,8 +271,8 @@
 #cloud-28{top: 20px; left: 14500px;}
 #cloud-29{top: 35px; left: 14900px;}
 
-a.biogas-menu-btn{top: 100px; left: 15630px;}
-a.gasoducto-menu-btn{top: 100px; left: 15853px}
+a#continue-biogas-process{top: 100px; left: 15630px;}
+a#continue-gasoducto-process{top: 100px; left: 15853px}
 .menu-circles-icons-end p.pick-btn{top: 0;left: 15591px;}
 
 /*elements css*/

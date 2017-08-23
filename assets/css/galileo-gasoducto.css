@@ -273,8 +273,8 @@
 #cloud-28{top: 20px; left: 14500px;}
 #cloud-29{top: 35px; left: 14900px;}
 
-a.biogas-menu-btn{top: 100px; left: 15799px;}
-a.yacimiento-menu-btn{top: 100px; left: 16025px;}
+a#continue-biogas-process{top: 100px; left: 15799px;}
+a#continue-yacimiento-process{top: 100px; left: 16025px;}
 .menu-circles-icons-end p.pick-btn{top: 0;left: 15757px;}
 
 /*elements css*/

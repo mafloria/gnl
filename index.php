@@ -51,9 +51,9 @@
                         </div>
                         <div class="column-right">
                             <div class="menu-circles-icons">
-                                <a id="view-biogas-process" class="view-process biogas-menu-btn" href="javascript:void(0);"></a>
-                                <a id="view-yacimiento-process" class="view-process yacimiento-menu-btn" href="javascript:void(0);"></a>
-                                <a id="view-gasoducto-process" class="view-process gasoducto-menu-btn" href="javascript:void(0);"></a>
+                                <a id="view-biogas-process" class="view-process biogas-menu-btn-<?php echo $lang; ?>" href="javascript:void(0);"></a>
+                                <a id="view-yacimiento-process" class="view-process yacimiento-menu-btn-<?php echo $lang; ?>" href="javascript:void(0);"></a>
+                                <a id="view-gasoducto-process" class="view-process gasoducto-menu-btn-<?php echo $lang; ?>" href="javascript:void(0);"></a>
                             </div>
                         </div>     
                     </div>

@@ -447,14 +447,23 @@ img.logo-intro{
 .menu-circles-icons-end a:hover{
   opacity: 1;
 }
-a.biogas-menu-btn{
-  background: url(../images/gnc-biogas-btn.png) no-repeat;
+a.biogas-menu-btn-es{
+  background: url(../images/gnc-biogas-btn-es.png) no-repeat;
 }
-a.yacimiento-menu-btn{
-  background: url(../images/gnc-yacimiento-btn.png) no-repeat;  
+a.yacimiento-menu-btn-es{
+  background: url(../images/gnc-yacimiento-btn-es.png) no-repeat;  
 }
-a.gasoducto-menu-btn{
-  background: url(../images/gnc-gasoducto-btn.png) no-repeat;  
+a.gasoducto-menu-btn-es{
+  background: url(../images/gnc-gasoducto-btn-es.png) no-repeat;  
+}
+a.biogas-menu-btn-en{
+  background: url(../images/gnc-biogas-btn-en.png) no-repeat;
+}
+a.yacimiento-menu-btn-en{
+  background: url(../images/gnc-yacimiento-btn-en.png) no-repeat;  
+}
+a.gasoducto-menu-btn-en{
+  background: url(../images/gnc-gasoducto-btn-en.png) no-repeat;  
 }
 /*
 a.biogas-menu-btn:hover{

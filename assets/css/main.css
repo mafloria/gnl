@@ -416,6 +416,7 @@ img.logo-intro{
 .firstTruck-gasoducto-stop{position: absolute; left: 7983px;}
 .secondTruck-gasoducto-start{position: absolute;left: 12751px;}
 .secondTruck-gasoducto-stop{position: absolute;left: 14353px;}
+
 /*-----------------------------------------------*/
 .landscape-top{
   width: 100%;
@@ -638,7 +639,7 @@ input.lng-btn:hover{
   -webkit-animation-duration: 250s;
   -webkit-animation-iteration-count:infinite;  
 }
-
+/*Media queries*/
 @media screen and (max-width: 1400px){
   .column-left p{
     width: 80%;

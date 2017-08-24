@@ -57,14 +57,18 @@ $(document).ready(function(){
 						if(integer_position_left > 13000){
 							//console.log("if interno hide");
 							$("#truck-"+open_section_name).addClass('secondTruck-'+open_section_name+'-start');
-							$("#truck-"+open_section_name).removeClass('truck-fixed');							
+							//$("#truck-"+open_section_name).removeClass('truck-fixed');
+							$("#truck-"+open_section_name).show();
+							$("#truck-"+open_section_name+"-animated").hide();							
 							$("#truck-"+open_section_name).removeClass('secondTruck-'+open_section_name+'-stop');
 							$("#truck-"+open_section_name).removeClass('firstTruck-'+open_section_name+'-stop');
 							$("#truck-"+open_section_name).removeClass('firstTruck-'+open_section_name+'-start');
 						}else{
 							//console.log("ifelse interno hide");						
 							$("#truck-"+open_section_name).addClass('firstTruck-'+open_section_name+'-stop');
-							$("#truck-"+open_section_name).removeClass('truck-fixed');					
+							//$("#truck-"+open_section_name).removeClass('truck-fixed');
+							$("#truck-"+open_section_name).show();
+							$("#truck-"+open_section_name+"-animated").hide();					
 							$("#truck-"+open_section_name).removeClass('firstTruck-'+open_section_name+'-start');							
 							$("#truck-"+open_section_name).removeClass('secondTruck-'+open_section_name+'-start');
 							$("#truck-"+open_section_name).removeClass('secondTruck-'+open_section_name+'-stop');
@@ -73,14 +77,17 @@ $(document).ready(function(){
 					else{ //se ve el camnio
 						if(integer_position_left > 15300){
 							$("#truck-"+open_section_name).addClass('secondTruck-'+open_section_name+'-stop');
-							$("#truck-"+open_section_name).removeClass('truck-fixed');							
+							//$("#truck-"+open_section_name).removeClass('truck-fixed');
+							$("#truck-"+open_section_name).show();
+							$("#truck-"+open_section_name+"-animated").hide();
 							$("#truck-"+open_section_name).removeClass('secondTruck-'+open_section_name+'-start');
 							$("#truck-"+open_section_name).removeClass('firstTruck-'+open_section_name+'-stop');
 							$("#truck-"+open_section_name).removeClass('firstTruck-'+open_section_name+'-start');
 						}else{						 
 							console.log("else2 interno show");
 							//$(".camion-section").show();
-							$("#truck-"+open_section_name).addClass('truck-fixed');
+							$("#truck-"+open_section_name).hide();//addClass('truck-fixed');
+							$("#truck-"+open_section_name+"-animated").show();
 							$("#truck-"+open_section_name).removeClass('firstTruck-'+open_section_name+'-stop');
 							$("#truck-"+open_section_name).removeClass('firstTruck-'+open_section_name+'-start');						
 							$("#truck-"+open_section_name).removeClass('secondTruck-'+open_section_name+'-stop');
@@ -91,14 +98,17 @@ $(document).ready(function(){
 				else{
 					console.log("else externo hide");							
 					if(integer_position_left > 13700){
-							$("#truck-"+open_section_name).addClass('truck-fixed');
+							$("#truck-"+open_section_name).hide();//addClass('truck-fixed');
+							$("#truck-"+open_section_name+"-animated").show();
 							$("#truck-"+open_section_name).removeClass('secondTruck-'+open_section_name+'-start');
 							$("#truck-"+open_section_name).removeClass('secondTruck-'+open_section_name+'-stop');
 							$("#truck-"+open_section_name).removeClass('firstTruck-'+open_section_name+'-stop');
 							$("#truck-"+open_section_name).removeClass('firstTruck-'+open_section_name+'-start');
 					}else{
 						$("#truck-"+open_section_name).addClass('firstTruck-'+open_section_name+'-start');
-						$("#truck-"+open_section_name).removeClass('truck-fixed');						
+						//$("#truck-"+open_section_name).removeClass('truck-fixed');
+						$("#truck-"+open_section_name).show();
+						$("#truck-"+open_section_name+"-animated").hide();						
 						$("#truck-"+open_section_name).removeClass('firstTruck-'+open_section_name+'-stop');		
 						$("#truck-"+open_section_name).removeClass('secondTruck-'+open_section_name+'-start');
 						$("#truck-"+open_section_name).removeClass('secondTruck-'+open_section_name+'-stop');

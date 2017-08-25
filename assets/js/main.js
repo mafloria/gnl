@@ -34,7 +34,7 @@ $(document).ready(function(){
 	function set_width_scroll(){
 		console.log("SET WITH SCROLL: open_section_width: "+windowWidth+"+"+open_section_width);
 		$(".front").css('width', windowWidth+open_section_width+440);
-		$('body').css('height', (windowWidth+open_section_width+440)+'px');	
+		$('#wrapper').css('height', (windowWidth+open_section_width+440)+'px');	//prev body
 	}
 	//********************** end windows size
 	

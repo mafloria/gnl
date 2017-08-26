@@ -10,6 +10,7 @@
 $(document).ready(function(){	
 	
 	$(window).disablescroll();
+	var mobile_multiplier = 1.5;
 	var isMobile = {
 	    Android: function() {
 	        return navigator.userAgent.match(/Android/i);
@@ -18,6 +19,7 @@ $(document).ready(function(){
 	        return navigator.userAgent.match(/BlackBerry/i);
 	    },
 	    iOS: function() {
+	    	mobile_multiplier = 2;
 	        return navigator.userAgent.match(/iPhone|iPad|iPod/i);
 	    },
 	    Opera: function() {
@@ -47,8 +49,8 @@ $(document).ready(function(){
 		//section 1, 2, 3 fixt to windows size		
 		$('.screen-1').css('height', windowHeight);		
 		if(isMobile.any()){
-			$('.screen-1').css('width', (windowWidth*1.5));
-			$("#mobilecss").attr("href", "assets/css/mobile.css?v=0.8");
+			$('.screen-1').css('width', (windowWidth*mobile_multiplier));
+			$("#mobilecss").attr("href", "assets/css/mobile.css?v=0.81");
 		}else{
 			$('.screen-1').css('width', windowWidth);
 		}

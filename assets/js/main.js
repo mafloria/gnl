@@ -10,7 +10,7 @@
 $(document).ready(function(){	
 	
 	$(window).disablescroll();
-	var mobile_multiplier = 1.5;
+	var mobile_multiplier = 2;
 	var isMobile = {
 	    Android: function() {
 	        return navigator.userAgent.match(/Android/i);

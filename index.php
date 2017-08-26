@@ -19,7 +19,7 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>Galileo technologies</title>
         <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
         <link rel="stylesheet" href="assets/css/normalize.css">        
         <link rel="stylesheet" href="assets/css/main.css">
@@ -28,13 +28,8 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
                 
     </head>
-    <body>
-        <!--
-        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-        -->
+    <body> 
+      <div id="outer-container">  
         <div class="portrait-intro">
             <div class="girar">
                 <img src="assets/images/girrar-phone.png">
@@ -78,14 +73,15 @@
             </div><!-- end front scroll -->
             
         </div><!-- fin wrapper -->
+      </div> <!-- end outer-container -->
     </body>
     <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>           
     <script src="assets/js/vendor/jquery-1.12.0.min.js"></script>        
-    <script src="assets/js/vendor/jquery.jInvertScroll.js"></script>
+    <script src="assets/js/vendor/jquery.jInvertScroll.js?v=1.0"></script>
     <script src="assets/js/vendor/jquery.disablescroll.min.js"></script>
     <script src="assets/js/dist/scrollreveal.js"></script>
     <script src="assets/js/dist/css3-animate-it.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="assets/js/main.js?v=0.9"></script>
         
     <style>
         /* Ensure elements load hidden before ScrollReveal runs 

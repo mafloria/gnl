@@ -19,7 +19,7 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>Galileo technologies</title>
         <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <link rel="stylesheet" href="assets/css/normalize.css">        
         <link rel="stylesheet" href="assets/css/main.css">
@@ -51,9 +51,15 @@
                         </div>
                         <div class="column-right">
                             <div class="menu-circles-icons">
-                                <a id="view-biogas-process" class="view-process biogas-menu-btn-<?php echo $lang; ?>" href="javascript:void(0);"></a>
-                                <a id="view-yacimiento-process" class="view-process yacimiento-menu-btn-<?php echo $lang; ?>" href="javascript:void(0);"></a>
-                                <a id="view-gasoducto-process" class="view-process gasoducto-menu-btn-<?php echo $lang; ?>" href="javascript:void(0);"></a>
+                                <a id="view-biogas-process" class="view-process" href="javascript:void(0);">
+                                    <img src="assets/images/gnc-biogas-btn-<?php echo $lang; ?>.png">
+                                </a>
+                                <a id="view-yacimiento-process" class="view-process" href="javascript:void(0);">
+                                    <img src="assets/images/gnc-yacimiento-btn-<?php echo $lang; ?>.png">    
+                                </a>
+                                <a id="view-gasoducto-process" class="view-process" href="javascript:void(0);">
+                                    <img src="assets/images/gnc-gasoducto-btn-<?php echo $lang; ?>.png">   
+                                </a>
                             </div>
                         </div>     
                     </div>

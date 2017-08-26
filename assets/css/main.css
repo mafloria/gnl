@@ -465,12 +465,12 @@ img.logo-intro{
   margin: 0 auto;  
 }
 .menu-circles-icons{
-  width: 200px;
+  width: 21%;
   margin: 0 auto;
 }
 .menu-circles-icons a{
-  width: 182px;
-  height: 197px;
+  width: 100%;
+  height: auto;
   display: block;
   transition: all 0.5s ease;
   margin-bottom: 1em;
@@ -482,6 +482,10 @@ img.logo-intro{
   position: absolute;
   transition: all 0.5s ease;
   opacity: .6;
+}
+.menu-circles-icons-end a img{
+  width: 100%;
+  height: 100%;
 }
 .menu-circles-icons-end p.pick-btn{
   width: 430px;
@@ -495,7 +499,7 @@ img.logo-intro{
 .menu-circles-icons-end a:hover{
   opacity: 1;
 }
-a.biogas-menu-btn-es{
+/*a.biogas-menu-btn-es{
   background: url(../images/gnc-biogas-btn-es.png) no-repeat;
 }
 a.yacimiento-menu-btn-es{
@@ -513,6 +517,7 @@ a.yacimiento-menu-btn-en{
 a.gasoducto-menu-btn-en{
   background: url(../images/gnc-gasoducto-btn-en.png) no-repeat;  
 }
+*/
 /*
 a.biogas-menu-btn:hover{
   background: url(../images/gnc-biogas-btn-hover.png) no-repeat;
@@ -639,7 +644,69 @@ input.lng-btn:hover{
   -webkit-animation-duration: 250s;
   -webkit-animation-iteration-count:infinite;  
 }
+.portrait-intro{
+  position: fixed;
+  width: 100%;
+    z-index: 20;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    color: white;
+    display: none;
+}
 /*Media queries*/
+/* mobile Portrait */
+@media only screen 
+  and (min-device-width: 0) 
+  and (max-device-width: 374px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .portrait-intro{
+      display: block !important;
+    }
+}
+
+/* mobile Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 979px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .menu-circles-icons {
+        width: 30%;
+    }
+    .menu-circles-icons a{
+      margin-bottom: 0.5em;
+    }
+    input.lng-btn{
+      right: 1em;
+    }
+    img.logo-intro{
+      float: left;
+    }
+    .column-left p {
+      float: right;
+      font-size: 1em;
+      width: 100% !important;
+      margin-top: 1em;
+  }
+  .column-right {
+      width: 40%;
+  }
+  .column-left {
+    width: 60%;
+  }
+  span.a-r {
+    border-top: 18px solid transparent;
+    border-bottom: 17px solid transparent;
+    border-left: 18px solid #1a5489;
+    right: -18px;
+  }
+
+
+}
 @media screen and (max-width: 1400px){
   .column-left p{
     width: 80%;

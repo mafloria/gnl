@@ -17,10 +17,10 @@
       margin-top: 1em !important;
   }
   .column-right {
-      width: 40% !important;
+      width: 85% !important;
   }
   .column-left {
-    width: 60% !important;
+    width: 15% !important;
   }
   span.a-r {
     border-top: 18px solid transparent !important;

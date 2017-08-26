@@ -1,0 +1,30 @@
+.menu-circles-icons {
+        width: 30%;
+    }
+    .menu-circles-icons a{
+      margin-bottom: 0.5em;
+    }
+    input.lng-btn{
+      right: 1em;
+    }
+    img.logo-intro{
+      float: left;
+    }
+    .column-left p {
+      float: right;
+      font-size: 1em;
+      width: 100% !important;
+      margin-top: 1em;
+  }
+  .column-right {
+      width: 40%;
+  }
+  .column-left {
+    width: 60%;
+  }
+  span.a-r {
+    border-top: 18px solid transparent;
+    border-bottom: 17px solid transparent;
+    border-left: 18px solid #1a5489;
+    right: -18px;
+  }

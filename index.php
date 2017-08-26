@@ -25,6 +25,7 @@
         <link rel="stylesheet" href="assets/css/main.css">
         <link rel="stylesheet" href="assets/css/animations.css" type="text/css">
         <link rel="stylesheet" id="galileocss" href="assets/css/galileo-biogas.css">
+        <link rel="stylesheet" id="mobilecss" href="assets/css/empty.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
                 
     </head>
@@ -81,7 +82,7 @@
     <script src="assets/js/vendor/jquery.disablescroll.min.js"></script>
     <script src="assets/js/dist/scrollreveal.js"></script>
     <script src="assets/js/dist/css3-animate-it.js"></script>
-    <script src="assets/js/main.js?v=0.9"></script>
+    <script src="assets/js/main.js?v=0.91"></script>
         
     <style>
         /* Ensure elements load hidden before ScrollReveal runs 

@@ -10,7 +10,27 @@
 $(document).ready(function(){	
 	
 	$(window).disablescroll();
-	
+	var isMobile = {
+	    Android: function() {
+	        return navigator.userAgent.match(/Android/i);
+	    },
+	    BlackBerry: function() {
+	        return navigator.userAgent.match(/BlackBerry/i);
+	    },
+	    iOS: function() {
+	        return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+	    },
+	    Opera: function() {
+	        return navigator.userAgent.match(/Opera Mini/i);
+	    },
+	    Windows: function() {
+	        return navigator.userAgent.match(/IEMobile/i);
+	    },
+	    any: function() {
+	        return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+	    }
+	};
+	console.log("mobile:"+isMobile.any());
 	//*********** window size to fix content
 	var windowHeight = $(window).innerHeight();
 	var windowWidth = $(window).innerWidth();	
@@ -26,7 +46,12 @@ $(document).ready(function(){
 	function setHeight() {	
 		//section 1, 2, 3 fixt to windows size		
 		$('.screen-1').css('height', windowHeight);		
-		$('.screen-1').css('width', windowWidth);		
+		if(isMobile.any()){
+			$('.screen-1').css('width', (windowWidth*2));
+			$("#mobilecss").attr("href", "assets/css/mobile.css");
+		}else{
+			$('.screen-1').css('width', windowWidth);
+		}
 		//total_width = (windowWidth*3)+$(".gnc-biogas-landscape").width()+$(".gnc-yacimiento-landscape").width()+$(".gnc-gasoducto-landscape").width();		
 		set_width_scroll();
 	}
@@ -159,7 +184,7 @@ $(document).ready(function(){
 		
 		$("#galileocss").attr("href", "assets/css/galileo-"+open_section_name+".css");
 		$(".landscape-section").hide();
-		$(".screen-3").hide();
+		//$(".screen-3").hide();
 		$("#gnc-"+open_section_name+"-firstsection").show();
 		$(".gnc-"+open_section_name+"-landscape").show();
 				

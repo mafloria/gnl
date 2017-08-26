@@ -79,6 +79,14 @@
                      
                     <!-- CAMION -->
                     <div id="truck-yacimiento" class="camion firstTruck-yacimiento-stop"></div>
+                    
+                    <div id="truck-yacimiento-animated" class="camion-animated truck-fixed" style="display: none">
+                        <div class="rueda rueda1"></div>
+                        <div class="rueda rueda2"></div>
+                        <div class="rueda rueda3"></div>
+                        <div class="rueda rueda4"></div>
+                        <div class="rueda rueda5"></div>
+                    </div>
                     <!--CAMION -->
                      
                      <div class="group-animated animatedParent"  data-appear-left-offset='-3600'  data-sequence='300'>

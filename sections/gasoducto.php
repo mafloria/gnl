@@ -70,6 +70,14 @@
                     <!-- camnio que se mueve -->
                     <!-- CAMION -->
                     <div id="truck-gasoducto" class="camion firstTruck-gasoducto-stop"></div>
+                    
+                    <div id="truck-gasoducto-animated" class="camion-animated truck-fixed" style="display: none">
+                        <div class="rueda rueda1"></div>
+                        <div class="rueda rueda2"></div>
+                        <div class="rueda rueda3"></div>
+                        <div class="rueda rueda4"></div>
+                        <div class="rueda rueda5"></div>
+                    </div>
                     <!--CAMION -->
                      
                      <div class="group-animated animatedParent"  data-appear-left-offset='-3600'  data-sequence='300'>

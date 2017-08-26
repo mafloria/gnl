@@ -436,8 +436,12 @@
 
                     <div class="group-animated animatedParent menu-circles-icons-end"  data-appear-left-offset='-15200'  data-sequence='300'>
                         <p class="pick-btn animated fadeInLeftShort" data-id="1">Selecciona otra de nuestras fuentes</p>
-                        <a id="continue-biogas-process" class="view-process continue-process biogas-menu-btn-<?php echo $lang; ?> animated fadeInLeftShort" href="javascript:void(0);" data-id="2"></a>
-                        <a id="continue-gasoducto-process" class="view-process continue-process gasoducto-menu-btn-<?php echo $lang; ?> animated fadeInLeftShort" href="javascript:void(0);" data-id="3"></a>
+                        <a id="continue-biogas-process" class="view-process continue-process biogas-menu-btn-<?php echo $lang; ?> animated fadeInLeftShort" href="javascript:void(0);" data-id="2">
+                        	<img src="assets/images/gnc-biogas-btn-<?php echo $lang; ?>.png">
+                        </a>
+                        <a id="continue-gasoducto-process" class="view-process continue-process gasoducto-menu-btn-<?php echo $lang; ?> animated fadeInLeftShort" href="javascript:void(0);" data-id="3">
+                        	<img src="assets/images/gnc-gasoducto-btn-<?php echo $lang; ?>.png">
+                        </a>
                     </div>
                        
 

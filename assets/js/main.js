@@ -50,7 +50,7 @@ $(document).ready(function(){
 		$('.screen-1').css('height', windowHeight);		
 		if(isMobile.any()){
 			$('.screen-1').css('width', (windowWidth*mobile_multiplier));
-			$("#mobilecss").attr("href", "assets/css/mobile.css?v=0.81");
+			$("#mobilecss").attr("href", "assets/css/mobile.css?v=0.82");
 		}else{
 			$('.screen-1').css('width', windowWidth);
 		}
@@ -186,7 +186,7 @@ $(document).ready(function(){
 		
 		$("#galileocss").attr("href", "assets/css/galileo-"+open_section_name+".css");
 		$(".landscape-section").hide();
-		//$(".screen-3").hide();
+		$(".screen-3").hide();
 		$("#gnc-"+open_section_name+"-firstsection").show();
 		$(".gnc-"+open_section_name+"-landscape").show();
 				

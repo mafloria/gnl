@@ -13,7 +13,7 @@
             <div class="gnc-biogas-landscape landscape-section" style="display: none">
                 <div class="landscape-top">
                  <!--elementos landscape top 1 -->  
-                     <div class="group-animated animatedParent" data-appear-left-offset='-1000'  data-sequence='200'>
+                     <div class="group-animated animatedParent" data-appear-left-offset='-700'  data-sequence='200'>
                          <div id="txt-wrap-1" class="txtWrap1 animated fadeInLeftShort" data-id="1">
                              <div class="txt-wrap-cntr">
                                  <div id="icon-1" class="icon1 animated fadeInLeftShort" data-id="2"></div> 
@@ -441,8 +441,12 @@
 
                     <div class="group-animated animatedParent menu-circles-icons-end"  data-appear-left-offset='-15200'  data-sequence='300'>
                         <p class="pick-btn animated fadeInLeftShort" data-id="1">Selecciona otra de nuestras fuentes</p>
-                        <a id="continue-yacimiento-process" class="view-process continue-process yacimiento-menu-btn-<?php echo $lang; ?> animated fadeInLeftShort" href="javascript:void(0);" data-id="2"></a>
-                        <a id="continue-gasoducto-process" class="view-process continue-process gasoducto-menu-btn-<?php echo $lang; ?> animated fadeInLeftShort" href="javascript:void(0);" data-id="3"></a>
+                        <a id="continue-yacimiento-process" class="view-process continue-process yacimiento-menu-btn-<?php echo $lang; ?> animated fadeInLeftShort" href="javascript:void(0);" data-id="2">
+                        	<img src="assets/images/gnc-yacimiento-btn-<?php echo $lang; ?>.png">
+                        </a>
+                        <a id="continue-gasoducto-process" class="view-process continue-process gasoducto-menu-btn-<?php echo $lang; ?> animated fadeInLeftShort" href="javascript:void(0);" data-id="3">
+                        	<img src="assets/images/gnc-gasoducto-btn-<?php echo $lang; ?>.png">
+                        </a>
                     </div>
                        
                      <!--main image-->

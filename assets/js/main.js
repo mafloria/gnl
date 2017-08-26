@@ -47,8 +47,8 @@ $(document).ready(function(){
 		//section 1, 2, 3 fixt to windows size		
 		$('.screen-1').css('height', windowHeight);		
 		if(isMobile.any()){
-			$('.screen-1').css('width', (windowWidth*2));
-			$("#mobilecss").attr("href", "assets/css/mobile.css");
+			$('.screen-1').css('width', (windowWidth*1.5));
+			$("#mobilecss").attr("href", "assets/css/mobile.css?v=0.8");
 		}else{
 			$('.screen-1').css('width', windowWidth);
 		}

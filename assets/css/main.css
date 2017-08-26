@@ -647,14 +647,28 @@ input.lng-btn:hover{
 .portrait-intro{
   position: fixed;
   width: 100%;
-    z-index: 20;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: black;
-    color: white;
-    display: none;
+  z-index: 100;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #2f8c83;
+  color: white;
+  display: none;
+}
+.girar{
+  width: 70%;
+  margin: 0 auto;
+  opacity: .5;
+}
+.girar img{
+  width: 22%;
+  margin: 40% 39% 1em 39%;
+
+}
+.girar p{
+  text-align: center;
+  font-size: 1.2em;
 }
 /*Media queries*/
 /* mobile Portrait */
@@ -666,8 +680,10 @@ input.lng-btn:hover{
     .portrait-intro{
       display: block !important;
     }
+    #wrapper{
+      display: none;
+    }
 }
-
 /* mobile Landscape */
 @media only screen 
   and (min-device-width: 375px) 
@@ -704,8 +720,6 @@ input.lng-btn:hover{
     border-left: 18px solid #1a5489;
     right: -18px;
   }
-
-
 }
 @media screen and (max-width: 1400px){
   .column-left p{

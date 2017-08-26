@@ -35,6 +35,12 @@
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
         -->
+        <div class="portrait-intro">
+            <div class="girar">
+                <img src="assets/images/girrar-phone.png">
+                <p>Gira tu dispositivo para poder visualizar el contenido</p>
+            </div>
+        </div>
         <div id="wrapper">
             <div class="front scroll">
                 

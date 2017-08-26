@@ -1,30 +1,30 @@
 .menu-circles-icons {
-        width: 30%;
+        width: 30% !important;
     }
     .menu-circles-icons a{
-      margin-bottom: 0.5em;
+      margin-bottom: 0.5em !important;
     }
     input.lng-btn{
-      right: 1em;
+      right: 1em !important;
     }
     img.logo-intro{
-      float: left;
+      float: left !important;
     }
     .column-left p {
-      float: right;
-      font-size: 1em;
+      float: right !important;
+      font-size: 1em !important;
       width: 100% !important;
-      margin-top: 1em;
+      margin-top: 1em !important;
   }
   .column-right {
-      width: 40%;
+      width: 40% !important;
   }
   .column-left {
-    width: 60%;
+    width: 60% !important;
   }
   span.a-r {
-    border-top: 18px solid transparent;
-    border-bottom: 17px solid transparent;
-    border-left: 18px solid #1a5489;
-    right: -18px;
+    border-top: 18px solid transparent !important;
+    border-bottom: 17px solid transparent !important;
+    border-left: 18px solid #1a5489 !important;
+    right: -18px !important;
   }

@@ -721,6 +721,9 @@ input.lng-btn:hover{
     border-left: 18px solid #1a5489;
     right: -18px;
   }
+  .green-bg{
+    bottom: -200%;
+  }
 }
 @media screen and (max-width: 1400px){
   .column-left p{

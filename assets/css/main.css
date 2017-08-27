@@ -666,7 +666,7 @@ input.lng-btn:hover{
   left: 0;
   bottom: 0;
   display: none;
-
+/*
   -moz-animation-duration: 3s;
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
@@ -679,6 +679,10 @@ input.lng-btn:hover{
   -moz-animation-direction: alternate;
   -webkit-animation-direction: alternate;
   animation-direction: alternate;
+  */
+ animation: manito 3s linear infinite;    
+ -webkit-animation-direction: alternate;
+ -webkit-animation: manito 2s;
 }
 @-webkit-keyframes manito {
   from {bottom: 0;}

@@ -38,6 +38,7 @@ $(document).ready(function(){
 	var windowWidth = $(window).innerWidth();	
 	var open_section_width = $(".gnc-biogas-landscape").width();
 	var open_section_name = "biogas";
+	var plus_width = 0; //for some mobiles is needed because the srceen distribution
 	
 	setHeight();
 		  
@@ -51,6 +52,8 @@ $(document).ready(function(){
 		if(isMobile.any()){
 			$('.screen-1').css('width', (windowWidth*mobile_multiplier));
 			$("#mobilecss").attr("href", "assets/css/mobile.css?v=0.82");
+			$(".hand-instruction").show();
+			plus_width = 1000;
 		}else{
 			$('.screen-1').css('width', windowWidth);
 		}
@@ -60,8 +63,8 @@ $(document).ready(function(){
 	
 	function set_width_scroll(){
 		//console.log("SET WITH SCROLL: open_section_width: "+windowWidth+"+"+open_section_width);
-		$(".front").css('width', windowWidth+open_section_width+440);
-		$('#outer-container').css('height', (windowWidth+open_section_width+440)+'px');	//prev body
+		$(".front").css('width', windowWidth+open_section_width+440+plus_width);
+		$('#outer-container').css('height', (windowWidth+open_section_width+440+plus_width)+'px');	//prev body
 	}
 	//********************** end windows size
 	

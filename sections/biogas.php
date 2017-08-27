@@ -82,11 +82,11 @@
                     <div id="truck-biogas" class="camion firstTruck-biogas-stop"></div>
 
                     <div id="truck-biogas-animated" class="camion-animated truck-fixed" style="display: none">
-                        <div class="rueda rueda1"></div>
-                        <div class="rueda rueda2"></div>
-                        <div class="rueda rueda3"></div>
-                        <div class="rueda rueda4"></div>
-                        <div class="rueda rueda5"></div>
+                        <div class="rueda rueda1 rueda_andando"></div>
+                        <div class="rueda rueda2 rueda_andando"></div>
+                        <div class="rueda rueda3 rueda_andando"></div>
+                        <div class="rueda rueda4 rueda_andando"></div>
+                        <div class="rueda rueda5 rueda_andando"></div>
                     </div>
                     <!--CAMION -->
                      

@@ -101,20 +101,21 @@ $(document).ready(function(){
 							$("#truck-"+open_section_name).removeClass('secondTruck-'+open_section_name+'-stop');
 						}
 					}
-					else{ //se ve el camnio
+					else{ //se ve el camnio.
 						if(integer_position_left > 15300){
 							$("#truck-"+open_section_name).addClass('secondTruck-'+open_section_name+'-stop');
 							//$("#truck-"+open_section_name).removeClass('truck-fixed');
 							$("#truck-"+open_section_name).show();
-							$("#truck-"+open_section_name+"-animated").hide();
+							$("#truck-"+open_section_name+"-animated").hide();							
 							$("#truck-"+open_section_name).removeClass('secondTruck-'+open_section_name+'-start');
 							$("#truck-"+open_section_name).removeClass('firstTruck-'+open_section_name+'-stop');
 							$("#truck-"+open_section_name).removeClass('firstTruck-'+open_section_name+'-start');
-						}else{						 
+						}else{ //CAMION RODANDO		 
 							console.log("else2 interno show");
 							//$(".camion-section").show();
 							$("#truck-"+open_section_name).hide();//addClass('truck-fixed');
 							$("#truck-"+open_section_name+"-animated").show();
+							$(".rueda").addClass("rueda_andando");
 							$("#truck-"+open_section_name).removeClass('firstTruck-'+open_section_name+'-stop');
 							$("#truck-"+open_section_name).removeClass('firstTruck-'+open_section_name+'-start');						
 							$("#truck-"+open_section_name).removeClass('secondTruck-'+open_section_name+'-stop');
@@ -124,9 +125,10 @@ $(document).ready(function(){
 				}
 				else{
 					console.log("else externo hide");							
-					if(integer_position_left > 13700){
+					if(integer_position_left > 13700){  //CAMION RODANDO
 							$("#truck-"+open_section_name).hide();//addClass('truck-fixed');
 							$("#truck-"+open_section_name+"-animated").show();
+							$(".rueda").addClass("rueda_andando");
 							$("#truck-"+open_section_name).removeClass('secondTruck-'+open_section_name+'-start');
 							$("#truck-"+open_section_name).removeClass('secondTruck-'+open_section_name+'-stop');
 							$("#truck-"+open_section_name).removeClass('firstTruck-'+open_section_name+'-stop');
@@ -141,9 +143,13 @@ $(document).ready(function(){
 						$("#truck-"+open_section_name).removeClass('secondTruck-'+open_section_name+'-stop');
 					}									
 				}				
-            }
+            } //end onScroll
+            
         });        
-	
+	$(window).on("scrollstop",function(){
+	   $(".rueda").removeClass("rueda_andando");	   
+	});
+
 	//click for open one process animation
 	$(".view-process").click(function(){
 		open_process($(this));

@@ -400,6 +400,20 @@ img.logo-intro{
   -moz-transform:rotate(70deg);
 }
 
+/* animacion ruedas */
+.rueda_andando{
+	-webkit-animation: rotation 2s infinite linear;
+}
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+/* end animacion ruedas */
+
 .truck-fixed{position: fixed; left: 25%;}
 
 .firstTruck-biogas-start{position: absolute; left: 3560px;}

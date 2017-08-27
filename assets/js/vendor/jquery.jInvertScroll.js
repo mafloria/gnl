@@ -36,7 +36,7 @@
             height: 'auto',		    // How far the user can scroll down (shorter distance = faster scrolling)
             onScroll: function(percent) {  // Callback fired when the user scrolls down, the percentage of how far the user has scrolled down gets passed as parameter (format: 0.xxxx - 1.0000)
                 // do whatever you like
-            }
+            }           
         };
         
         var config = $.extend(defaults, options);

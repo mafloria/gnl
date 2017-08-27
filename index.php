@@ -37,6 +37,7 @@
                 <p>Gira tu dispositivo para poder visualizar el contenido</p>
             </div>
         </div>
+        
         <div id="wrapper">
             <div class="front scroll">
                 

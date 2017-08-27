@@ -1,14 +1,17 @@
             <section id="gnc-gasoducto-firstsection" class="section screen-3" style="display: none">
-                    <div class="section-content">
-                        <div class="title-section">
-                            <h2><?php echo $texts->gasoducto->top_titles->fuentes; ?></h2>
-                        </div>
-                        <div class="screen3-title">
-                            <h1><?php echo $texts->gasoducto->intro->gnc_titulo; ?></h1>
-                            <p><?php echo $texts->gasoducto->intro->gnc_subtitulo; ?></p>
-                            <a href="#home" class="back-home" id="yacimiento-back-home"><span><</span><?php echo $texts->gasoducto->intro->back_link; ?></a>
-                        </div>                   
+                <div id="manito-a" class="hand-instruction">
+                    <img src="assets/images/hand-browser.png">   
+                </div>
+                <div class="section-content">
+                    <div class="title-section">
+                        <h2><?php echo $texts->gasoducto->top_titles->fuentes; ?></h2>
                     </div>
+                    <div class="screen3-title">
+                        <h1><?php echo $texts->gasoducto->intro->gnc_titulo; ?></h1>
+                        <p><?php echo $texts->gasoducto->intro->gnc_subtitulo; ?></p>
+                        <a href="#home" class="back-home" id="yacimiento-back-home"><span><</span><?php echo $texts->gasoducto->intro->back_link; ?></a>
+                    </div>                   
+                </div>
             </section>
             <div class="gnc-gasoducto-landscape landscape-section"  style="display: none">
                 <div class="landscape-top">

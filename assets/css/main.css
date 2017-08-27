@@ -364,7 +364,7 @@ img.logo-intro{
 }
 .rueda{
   width: 52px;
-  height: 52px;
+  height: 51px;
   position: absolute;
   bottom: 3px;
   background: transparent url(../images/rueda.png) no-repeat; 

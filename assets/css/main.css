@@ -651,6 +651,7 @@ input.lng-btn:hover{
   z-index: 100;
   left: 0;
   bottom: 0;
+  display: none;
 
   -moz-animation-duration: 3s;
   -webkit-animation-duration: 3s;
@@ -723,6 +724,9 @@ input.lng-btn:hover{
   and (max-device-width: 979px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) { 
+    .hand-instruction{
+      display: block !important;
+    }
     .menu-circles-icons {
       width: 30%;
     }

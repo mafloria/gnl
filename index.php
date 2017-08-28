@@ -37,6 +37,7 @@
                 <p>Gira tu dispositivo para poder visualizar el contenido</p>
             </div>
         </div>
+        
         <div id="wrapper">
             <div class="front scroll">
                 
@@ -80,9 +81,14 @@
     <script src="assets/js/vendor/jquery-1.12.0.min.js"></script>        
     <script src="assets/js/vendor/jquery.jInvertScroll.js?v=1.0"></script>
     <script src="assets/js/vendor/jquery.disablescroll.min.js"></script>
+    <script src="assets/js/vendor/jquery.scrollstop.min.js"></script>
     <script src="assets/js/dist/scrollreveal.js"></script>
     <script src="assets/js/dist/css3-animate-it.js"></script>
+<<<<<<< HEAD
     <script src="assets/js/main.js?v=0.98"></script>
+=======
+    <script src="assets/js/main.js?v=0.99"></script>
+>>>>>>> origin/master
         
     <style>
         /* Ensure elements load hidden before ScrollReveal runs 

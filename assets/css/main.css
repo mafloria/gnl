@@ -364,7 +364,7 @@ img.logo-intro{
 }
 .rueda{
   width: 52px;
-  height: 52px;
+  height: 51px;
   position: absolute;
   bottom: 3px;
   background: transparent url(../images/rueda.png) no-repeat; 
@@ -399,6 +399,20 @@ img.logo-intro{
   -webkit-transform:rotate(70deg);
   -moz-transform:rotate(70deg);
 }
+
+/* animacion ruedas */
+.rueda_andando{
+	-webkit-animation: rotation 2s infinite linear;
+}
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+/* end animacion ruedas */
 
 .truck-fixed{position: fixed; left: 25%;}
 
@@ -645,6 +659,43 @@ input.lng-btn:hover{
   -webkit-animation-duration: 250s;
   -webkit-animation-iteration-count:infinite;  
 }
+.hand-instruction{
+  position: absolute;
+  width: 200px;
+  z-index: 100;
+  left: 0;
+  bottom: 0;
+  display: none;
+/*
+  -moz-animation-duration: 3s;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -moz-animation-name: manito;
+  -webkit-animation-name: manito;
+  animation-name: manito;
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -moz-animation-direction: alternate;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+  */
+ animation: manito 3s linear infinite;    
+ -webkit-animation-direction: alternate;
+ -webkit-animation: manito 2s;
+}
+@-webkit-keyframes manito {
+  from {bottom: 0;}
+  to {top: 0;}
+}
+@-moz-keyframes manito {
+  from {bottom: 0;}
+  to {top: 0;}
+}
+@keyframes manito {
+  from {bottom: 0;}
+  to {top: 0;}
+}
 .portrait-intro{
   position: fixed;
   width: 100%;
@@ -691,8 +742,11 @@ input.lng-btn:hover{
   and (max-device-width: 979px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) { 
+    .hand-instruction{
+      display: block !important;
+    }
     .menu-circles-icons {
-        width: 30%;
+      width: 30%;
     }
     .menu-circles-icons a{
       margin-bottom: 0.5em;
@@ -709,21 +763,18 @@ input.lng-btn:hover{
       width: 100% !important;
       margin-top: 1em;
   }
-  .column-right {
+    .column-right {
       width: 40%;
-  }
-  .column-left {
-    width: 60%;
-  }
-  span.a-r {
-    border-top: 18px solid transparent;
-    border-bottom: 17px solid transparent;
-    border-left: 18px solid #1a5489;
-    right: -18px;
-  }
-  .green-bg{
-    bottom: -200%;
-  }
+    }
+    .column-left {
+      width: 60%;
+    }
+    span.a-r {
+      border-top: 18px solid transparent;
+      border-bottom: 17px solid transparent;
+      border-left: 18px solid #1a5489;
+      right: -18px;
+    }
 }
 @media screen and (max-width: 1400px){
   .column-left p{

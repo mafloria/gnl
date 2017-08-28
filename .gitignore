@@ -56,5 +56,12 @@ config/config.php
 config/config.php
 config/config.php
 config/config.php
+<<<<<<< HEAD
+index.php
+index.php
+=======
+config/config.php
+config/config.php
+>>>>>>> origin/master
 index.php
 index.php

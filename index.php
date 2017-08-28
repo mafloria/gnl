@@ -82,7 +82,7 @@
     <script src="assets/js/vendor/jquery.disablescroll.min.js"></script>
     <script src="assets/js/dist/scrollreveal.js"></script>
     <script src="assets/js/dist/css3-animate-it.js"></script>
-    <script src="assets/js/main.js?v=0.97"></script>
+    <script src="assets/js/main.js?v=0.98"></script>
         
     <style>
         /* Ensure elements load hidden before ScrollReveal runs 

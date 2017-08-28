@@ -10,7 +10,7 @@
 $(document).ready(function(){	
 	
 	$(window).disablescroll();
-	var mobile_multiplier = 2;
+	var mobile_multiplier = 3;
 	var isMobile = {
 	    Android: function() {
 	        return navigator.userAgent.match(/Android/i);
@@ -19,7 +19,7 @@ $(document).ready(function(){
 	        return navigator.userAgent.match(/BlackBerry/i);
 	    },
 	    iOS: function() {
-	    	mobile_multiplier = 2;
+	    	mobile_multiplier = 3;
 	        return navigator.userAgent.match(/iPhone|iPad|iPod/i);
 	    },
 	    Opera: function() {

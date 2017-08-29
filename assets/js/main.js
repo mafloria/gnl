@@ -81,7 +81,7 @@ $(document).ready(function(){
                 var position = $(".front").position();
                 //console.log("position lef: "+(position.left*-1));
                 integer_position_left = position.left*-1; 
-                if(integer_position_left >= 4350 || integer_position_left > 13700 ){                	
+                if(integer_position_left >= 4310 || integer_position_left > 13700 ){                	
 					if(integer_position_left > 8880 && integer_position_left < 13700){ //no se ve el camion
 						//$(".camion-section").hide();												
 						if(integer_position_left > 13000){ //SEGUNDO CAMION PARADO
@@ -105,7 +105,7 @@ $(document).ready(function(){
 						}
 					}
 					else{ //segundo CAMION PARADO
-						if(integer_position_left > 15300){
+						if(integer_position_left > 15483){
 							$("#truck-"+open_section_name).addClass('secondTruck-'+open_section_name+'-stop');
 							//$("#truck-"+open_section_name).removeClass('truck-fixed');
 							$("#truck-"+open_section_name).show();

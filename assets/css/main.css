@@ -414,9 +414,9 @@ img.logo-intro{
 }
 /* end animacion ruedas */
 
-.truck-fixed{position: fixed; left: 25%;}
+.truck-fixed{position: fixed; left: 28%;}
 
-.firstTruck-biogas-start{position: absolute; left: 3560px;}
+.firstTruck-biogas-start{position: absolute; left: 3450px;}/*3560px*/
 .firstTruck-biogas-stop{position: absolute; left: 7983px;}
 .secondTruck-biogas-start{position: absolute;left: 12853px;}
 .secondTruck-biogas-stop{position: absolute;left: 14582px;}

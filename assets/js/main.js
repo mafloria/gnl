@@ -105,7 +105,7 @@ $(document).ready(function(){
 						}
 					}
 					else{ //segundo CAMION PARADO
-						if(integer_position_left > 15483){
+						if(((open_section_name=="yacimiento" || open_section_name=="gasoducto") && integer_position_left > 15169) || (open_section_name=="biogas" && integer_position_left > 15483)){//biogas=15483  yacimiento=15169 gasoducto=15169
 							$("#truck-"+open_section_name).addClass('secondTruck-'+open_section_name+'-stop');
 							//$("#truck-"+open_section_name).removeClass('truck-fixed');
 							$("#truck-"+open_section_name).show();
@@ -169,6 +169,10 @@ $(document).ready(function(){
 		
 		$(".scroll").css('left', 0);				
 		$("html, body").animate({ scrollTop: 0 }, "fast");		 
+		
+		//let the first truck in place
+		$("#truck-"+open_section_name).addClass('firstTruck-'+open_section_name+'-start');
+		$("#truck-"+open_section_name).removeClass('secondTruck-'+open_section_name+'-stop');
 	});
 	
 	

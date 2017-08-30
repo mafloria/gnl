@@ -51,4 +51,10 @@
   .girar{
     margin: 0 !important;
   }
+  .landscape-top{
+    padding-top: 10em !important;
+  }
+  .camion{
+    top: 390px !important;
+  }
  

@@ -455,7 +455,7 @@
                 <div class="green-bg"></div>
             </div> <!-- end gnc-yacimiento-landscape -->
 
-             <div class="menu-circles-icons-end">
+             <div class="menu-circles-icons-end" style="display: none;">
                 <img class="logo-intro" src="svg/titulo-gnc.svg">
                 <p class="pick-btn">Selecciona otra fuente:</p>
 

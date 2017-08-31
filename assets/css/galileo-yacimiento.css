@@ -233,6 +233,30 @@
 #figure-15{top: -50px; left: 10446px;}
 #figure-16{top: -80px; left: 10932px;}
 #figure-17{top: 155px; left: 11008px;}
+/**/
+#figure-18{top: 154px; left: 10402px;}
+#figure-19{top: 154px; left: 10452px;}
+#figure-20{top: 154px; left: 10501px;}
+#figure-21{top: 154px; left: 10608px;}
+#figure-22{top: 154px; left: 10658px;}
+#figure-23{top: 154px; left: 10708px;}
+#figure-24{top: 154px; left: 10758px;}
+#figure-25{top: 154px; left: 10807px;}
+#figure-26{top: 154px; left: 10856px;}
+#figure-27{top: 154px; left: 11009px;}
+#figure-28{top: 154px; left: 11059px;}
+#figure-29{top: 154px; left: 11108px;}
+#figure-30{top: 154px; left: 11653px;}
+#figure-31{top: 154px; left: 11703px;}
+#figure-32{top: 154px; left: 11752px;}
+#figure-33{top: 154px; left: 11802px;}
+#figure-34{top: 154px; left: 11851px;}
+#figure-35{top: 154px; left: 12106px;}
+#figure-36{top: 154px; left: 12156px;}
+#figure-37{top: 154px; left: 12205px;}
+#figure-38{top: 154px; left: 12488px;}
+#figure-39{top: 154px; left: 12538px;}
+#figure-40{top: 154px; left: 12587px;}
 
 #up-down-arrow-1{top: 75px; left: 8028px;}
 #up-down-arrow-2{top: 75px; left: 8165px;}
@@ -446,4 +470,11 @@ a#continue-gasoducto-process{top: 100px; left: 15853px}
   position: absolute;
   z-index: 12;
   background: transparent url(../images/comunidades-2.png) no-repeat;
+}
+.mat-s{
+  width: 49px;
+  height: 34px;
+  position: absolute;
+  z-index: 12;
+  background: url(../images/mat-small.png) no-repeat;
 }

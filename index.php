@@ -42,29 +42,27 @@
             <div class="front scroll">
                 
                 <section class="section screen-1" id="home">
-                    <div class="section-content">
-                        <div class="column-left">
-                            <img class="logo-intro" src="svg/titulo-gnc.svg">
-                            <p><?php echo $texts->intro->intro_text; ?></p>
-                            <p class="pick-btn"><?php echo $texts->intro->continue_button; ?><span class="a-r"></span></p>
-                            <form method="POST">
-                                <?php if($lang=="es") { ?><input class="lng-btn" type="submit" name="gasoducto_lang" value="en"/> <?php } ?>
-                                <?php if($lang=="en") { ?><input class="lng-btn" type="submit" name="gasoducto_lang" value="es"/> <?php } ?>
-                            </form>
-                        </div>
-                        <div class="column-right">
-                            <div class="menu-circles-icons">
-                                <a id="view-biogas-process" class="view-process" href="javascript:void(0);">
-                                    <img src="assets/images/gnc-biogas-btn-<?php echo $lang; ?>.png">
-                                </a>
-                                <a id="view-yacimiento-process" class="view-process" href="javascript:void(0);">
-                                    <img src="assets/images/gnc-yacimiento-btn-<?php echo $lang; ?>.png">    
-                                </a>
-                                <a id="view-gasoducto-process" class="view-process" href="javascript:void(0);">
-                                    <img src="assets/images/gnc-gasoducto-btn-<?php echo $lang; ?>.png">   
-                                </a>
-                            </div>
-                        </div>     
+                    <div class="section-content content-landing center">
+
+                        <img class="logo-intro" src="svg/titulo-gnc.svg">
+                        <p class="txt-description"><?php echo $texts->intro->intro_text; ?></p>
+                        <p class="pick-btn"><?php echo $texts->intro->continue_button; ?></p>
+                        <form method="POST">
+                            <?php if($lang=="es") { ?><input class="lng-btn" type="submit" name="gasoducto_lang" value="en"/> <?php } ?>
+                            <?php if($lang=="en") { ?><input class="lng-btn" type="submit" name="gasoducto_lang" value="es"/> <?php } ?>
+                        </form>
+                        <div class="menu-circles-icons">
+                            <a id="view-biogas-process" class="view-process" href="javascript:void(0);">
+                                <img src="assets/images/gnc-biogas-btn-<?php echo $lang; ?>.png">
+                            </a>
+                            <a id="view-yacimiento-process" class="view-process" href="javascript:void(0);">
+                                <img src="assets/images/gnc-yacimiento-btn-<?php echo $lang; ?>.png">    
+                            </a>
+                            <a id="view-gasoducto-process" class="view-process" href="javascript:void(0);">
+                                <img src="assets/images/gnc-gasoducto-btn-<?php echo $lang; ?>.png">   
+                            </a>
+                        </div> 
+
                     </div>
                 </section>
                     

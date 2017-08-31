@@ -462,15 +462,15 @@
             </div> <!-- end gnc-biogas-landscape -->
             
             <div class="menu-circles-icons-end" style="display: none;">
-                <img class="logo-intro" src="svg/titulo-gnc.svg"/>
+                <img class="logo-intro" src="svg/titulo-gnc.svg">
                 <p class="pick-btn">Selecciona otra fuente:</p>
 
                 <div class="menu-end">
                     <a id="continue-yacimiento-process" class="view-process continue-process yacimiento-menu-btn-<?php echo $lang; ?>" href="javascript:void(0);">
-                        <img src="assets/images/gnc-yacimiento-btn-<?php echo $lang; ?>.png"/>
+                        <img src="assets/images/gnc-yacimiento-btn-<?php echo $lang; ?>.png">
                     </a>
                     <a id="continue-gasoducto-process" class="view-process continue-process gasoducto-menu-btn-<?php echo $lang; ?>" href="javascript:void(0);">
-                        <img src="assets/images/gnc-gasoducto-btn-<?php echo $lang; ?>.png"/>
+                        <img src="assets/images/gnc-gasoducto-btn-<?php echo $lang; ?>.png">
                     </a>
                 </div>
             </div>

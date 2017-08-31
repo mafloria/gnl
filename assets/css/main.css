@@ -292,11 +292,13 @@ p.txt-description{
 }
 p.pick-btn{
   font-size: 1.6em;
-  padding: 0.5em;
+  padding: 0.5em 1em;
   background-color: #1a5489;
   margin: 3em 0;
   width: auto;
   display: inline-block;
+  border-radius: 0.2em;
+  transition: all 0.5s ease;
 }
 span.a-r{
   width: 0; 
@@ -311,6 +313,7 @@ span.a-r{
 img.logo-intro{
   width: 70%;
   margin: 0 0 3em 0;
+  transition: all 0.5s ease;
 }
 .column-right{
   width: 50%;

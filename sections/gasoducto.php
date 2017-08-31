@@ -350,10 +350,12 @@
                     <div class="group-animated animatedParent"  data-appear-left-offset='-10800'  data-sequence='300'>
                         <p id="txt-18" class="txtInfo animated fadeInLeftShort" data-id="1"><?php echo $texts->gasoducto->road_info->abastecimiento; ?></p>
                         <div id="arrow-3" class="red-arrow animated fadeInLeftShort" data-id="2"></div>
-                        <div id="figure-1" class="figure1 animated fadeInLeftShort" data-id="3"></div>
-                        <div id="y-line-1" class="y-line animated fadeInLeftShort" data-id="4"></div>
-                        <h3 id="h3-13" class="title-h3 animated fadeInLeftShort" data-id="5"><?php echo $texts->gasoducto->road_info->upstream; ?></h3>
-                        <div id="figure-15" class="figure12 animated fadeInLeftShort" data-id="6"></div> 
+                        <div id="figure-18" class="mat-s animated fadeInLeftShort" data-id="3"></div>
+                        <div id="figure-19" class="mat-s animated fadeInLeftShort" data-id="4"></div>
+                        <div id="figure-20" class="mat-s animated fadeInLeftShort" data-id="5"></div>
+                        <div id="y-line-1" class="y-line animated fadeInLeftShort" data-id="6"></div>
+                        <h3 id="h3-13" class="title-h3 animated fadeInLeftShort" data-id="7"><?php echo $texts->gasoducto->road_info->upstream; ?></h3>
+                        <div id="figure-15" class="figure12 animated fadeInLeftShort" data-id="8"></div> 
                     </div>
                     <!--<div id="figure-2" class="figure2 animated fadeInLeftShort" data-id="4"></div>     CASAS-->
 

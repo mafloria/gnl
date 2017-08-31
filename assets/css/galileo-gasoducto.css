@@ -235,6 +235,10 @@
 #figure-15{top: -50px; left: 10446px;}
 #figure-16{top: -80px; left: 11043px;}
 #figure-17{top: 155px; left: 11146px;}
+/**/
+#figure-18{top: 155px; left: 10402px;}
+#figure-19{top: 155px; left: 10450px;}
+#figure-20{top: 155px; left: 10500px;}
 
 #up-down-arrow-1{top: 75px; left: 8037px;}
 #up-down-arrow-2{top: 75px; left: 8176px;}
@@ -448,4 +452,11 @@ a#continue-yacimiento-process{top: 100px; left: 16025px;}
   position: absolute;
   z-index: 12;
   background: transparent url(../images/comunidades-2.png) no-repeat;
+}
+.mat-s{
+  width: 49px;
+  height: 34px;
+  position: absolute;
+  z-index: 12;
+  background: url(../images/mat-small.png) no-repeat;
 }

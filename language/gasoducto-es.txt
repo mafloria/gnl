@@ -27,7 +27,7 @@
 			"comunidades_aisladas":"Comunidades Aisladas",
 			"comunidades_aisladas_desc":"Abastecimiento a medida",
 			"inyeccion_red":"Inyección en la red de <br/>gas natural",
-			"minas_plantas":"",
+			"minas_plantas":"Minas y Plantas industriales",
 			"usinas":"Usinas",
 			"centros_turisticos":"Centros turísticos",
 			"estaciones_servicio":"Estaciones de servicio"

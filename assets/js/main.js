@@ -42,9 +42,9 @@ $(document).ready(function(){
 	
 	setHeight();
 		  
-	$(window).resize(function() {
+	/*$(window).resize(function() {
 		setHeight();
-	});	
+	});*/	
 	//adjust sections to the browser height
 	function setHeight() {	
 		//section 1, 2, 3 fixt to windows size		
@@ -62,7 +62,7 @@ $(document).ready(function(){
 	}
 	
 	function set_width_scroll(){
-		//console.log("SET WITH SCROLL: open_section_width: "+windowWidth+"+"+open_section_width);
+		console.log("SET WITH "+open_section_name+" SCROLL: open_section_width: "+windowWidth+"+"+open_section_width);
 		$(".front").css('width', windowWidth+open_section_width+440+plus_width);
 		$('#outer-container').css('height', (windowWidth+open_section_width+440+plus_width)+'px');	//prev body
 	}
@@ -81,7 +81,7 @@ $(document).ready(function(){
                 var position = $(".front").position();
                 //console.log("position lef: "+(position.left*-1));
                 integer_position_left = position.left*-1; 
-                if(integer_position_left >= 4310 || integer_position_left > 13700 ){                	
+                if(integer_position_left >= 4350 || integer_position_left > 13700 ){                	
 					if(integer_position_left > 8880 && integer_position_left < 13700){ //no se ve el camion
 						//$(".camion-section").hide();												
 						if(integer_position_left > 13000){ //SEGUNDO CAMION PARADO
@@ -210,7 +210,7 @@ $(document).ready(function(){
 				
 						
 		//console.log("OJO 1 --  image_width: "+$(".gnc-"+open_section_name+"-landscape").width());
-		open_section_width = $("#bgimage-"+open_section_name).width(); //$(".gnc-"+open_section_name+"-landscape > img").width();		
+		open_section_width = $(".gnc-"+open_section_name+"-landscape").width(); //$("#bgimage-"+open_section_name).width(); //$(".gnc-"+open_section_name+"-landscape > img").width();		
 		
 		set_width_scroll();	
 	}

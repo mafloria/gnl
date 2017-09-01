@@ -300,6 +300,9 @@
 a#continue-biogas-process{top: 100px; left: 15799px;}
 a#continue-yacimiento-process{top: 100px; left: 16025px;}
 .menu-circles-icons-end p.pick-btn{top: 0;left: 15757px;}
+.menu-circles-icons-end{
+  left: 15759px;
+}
 
 /*elements css*/
 .txt-wrap-cntr{

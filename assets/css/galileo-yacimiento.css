@@ -299,6 +299,9 @@ a#continue-biogas-process{top: 100px; left: 15630px;}
 a#continue-gasoducto-process{top: 100px; left: 15853px}
 .menu-circles-icons-end p.pick-btn{top: 0;left: 15591px;}
 
+.menu-circles-icons-end{
+  left: 15593px;
+}
 /*elements css*/
 .txt-wrap-cntr{
   width: 90%;

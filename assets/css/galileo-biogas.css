@@ -244,6 +244,10 @@ a#continue-yacimiento-process{top: 100px; left: 15904px;}
 a#continue-gasoducto-process{top: 100px; left: 16122px}
 .menu-circles-icons-end p.pick-btn{top: 0;left: 15860px;}
 
+.menu-circles-icons-end{
+  left: 15862px;
+}
+
 /*elements css*/
 .treeType1{
   z-index: 4;

@@ -444,15 +444,19 @@
                         <div id="up-down-arrow-6" class="upDownArrow animated fadeInLeftShort" data-id="2"></div>
                     </div>
 
-                    <!--<div class="group-animated animatedParent menu-circles-icons-end"  data-appear-left-offset='-15200'  data-sequence='300'>
-                        <p class="pick-btn animated fadeInLeftShort" data-id="1">Selecciona otra de nuestras fuentes</p>
-                        <a id="continue-biogas-process" class="view-process continue-process biogas-menu-btn-<?php echo $lang; ?> animated fadeInLeftShort" href="javascript:void(0);" data-id="2">
-                        	<img src="assets/images/gnc-biogas-btn-<?php echo $lang; ?>.png">
-                        </a>
-                        <a id="continue-yacimiento-process" class="view-process continue-process yacimiento-menu-btn-<?php echo $lang; ?> animated fadeInLeftShort" href="javascript:void(0);" data-id="3">
-                        	<img src="assets/images/gnc-yacimiento-btn-<?php echo $lang; ?>.png">
-                        </a>
-                    </div>-->
+                    <div class="menu-circles-icons-end group-animated animatedParent" data-appear-left-offset='-15600'  data-sequence='300'>
+                        <img class="logo-intro animated fadeInLeftShort" src="svg/titulo-gnc.svg" data-id="1">
+                        <p class="pick-btn animated fadeInLeftShort" data-id="2">Selecciona otra fuente:</p>
+
+                        <div class="menu-end animated fadeInLeftShort" data-id="3">
+                            <a id="continue-biogas-process" class="view-process continue-process biogas-menu-btn-<?php echo $lang; ?>" href="javascript:void(0);">
+                                <img src="assets/images/gnc-biogas-btn-<?php echo $lang; ?>.png">
+                            </a>
+                            <a id="continue-yacimiento-process" class="view-process continue-process yacimiento-menu-btn-<?php echo $lang; ?>" href="javascript:void(0);">
+                                <img src="assets/images/gnc-yacimiento-btn-<?php echo $lang; ?>.png">
+                            </a>
+                        </div>
+                    </div>
 
                      <!--main image-->
                      <img  id="bgimage-gasoducto" class="main-landscape-image" src="assets/images/gnc-gasoducto-landscape-main-img-<?php echo $lang; ?>.png">
@@ -460,17 +464,3 @@
                 </div>
                 <div class="green-bg"></div>
             </div> <!-- end gnc-gasoducto-landscape -->
-
-            <div class="menu-circles-icons-end" style="display: none;">
-                <img class="logo-intro" src="svg/titulo-gnc.svg">
-                <p class="pick-btn">Selecciona otra fuente:</p>
-
-                <div class="menu-end">
-                    <a id="continue-biogas-process" class="view-process continue-process biogas-menu-btn-<?php echo $lang; ?>" href="javascript:void(0);">
-                        <img src="assets/images/gnc-biogas-btn-<?php echo $lang; ?>.png">
-                    </a>
-                    <a id="continue-yacimiento-process" class="view-process continue-process yacimiento-menu-btn-<?php echo $lang; ?>" href="javascript:void(0);">
-                        <img src="assets/images/gnc-yacimiento-btn-<?php echo $lang; ?>.png">
-                    </a>
-                </div>
-            </div>

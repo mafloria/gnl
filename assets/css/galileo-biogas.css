@@ -165,7 +165,7 @@
 #h3-12{ top: -200px; left: 9800px;}
 #h3-13{ top: 88px;; left: 10510px;}
 #h3-14{ top: -231px; left: 10390px;}
-#h3-15{ top: 130px; left: 10927px;}
+#h3-15{ top: 130px; left: 10911px;}
 #h3-16{ top: 68px; left: 11227px;}
 #h3-17{ top: 68px; left: 11827px;}
 #h3-18{ top: 68px; left: 12172px;}
@@ -202,6 +202,30 @@
 #figure-12{top: -149px; left: 12107px;}
 #figure-13{top: 155px;; left: 12575px;}
 #figure-14{top: -100px; left: 12500px;}
+/**/
+#figure-18{top: 159px; left: 10550px;}
+#figure-19{top: 159px; left: 10600px;}
+#figure-20{top: 159px; left: 10650px;}
+#figure-21{top: 159px; left: 10660px;}
+#figure-22{top: 159px; left: 10709px;}
+#figure-23{top: 159px; left: 10759px;}
+#figure-24{top: 159px; left: 10809px;}
+#figure-25{top: 159px; left: 10858px;}
+#figure-26{top: 159px; left: 10908px;}
+#figure-27{top: 159px; left: 11148px;}
+#figure-28{top: 159px; left: 11198px;}
+#figure-29{top: 159px; left: 11247px;}
+#figure-30{top: 159px; left: 11665px;}
+#figure-31{top: 159px; left: 11715px;}
+#figure-32{top: 159px; left: 11764px;}
+#figure-33{top: 159px; left: 11813px;}
+#figure-34{top: 159px; left: 11863px;}
+#figure-35{top: 159px; left: 12117px;}
+#figure-36{top: 159px; left: 12167px;}
+#figure-37{top: 159px; left: 12217px;}
+#figure-38{top: 159px; left: 12500px;}
+#figure-39{top: 159px; left: 12550px;}
+#figure-40{top: 159px; left: 12599px;}
 
 #up-down-arrow-1{top: 75px; left: 8106px;}
 #up-down-arrow-2{top: 75px; left: 8245px;}
@@ -439,4 +463,11 @@ a#continue-gasoducto-process{top: 100px; left: 16122px}
  position: absolute;
  z-index: 12;
  background: transparent url(../images/estacion-servicio.png) no-repeat;
+}
+.mat-s{
+  width: 49px;
+  height: 34px;
+  position: absolute;
+  z-index: 12;
+  background: url(../images/mat-small.png) no-repeat;
 }

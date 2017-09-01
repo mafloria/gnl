@@ -368,18 +368,20 @@
                     </div>
 
                     <!--elementos landscape bottom 9 -->
-                    <div class="group-animated animatedParent"  data-appear-left-offset='-10800'  data-sequence='300'>
-                        <div id="figure-1" class="figure1 animated fadeInLeftShort" data-id="1"></div>
-                        <div id="y-line-1" class="y-line animated fadeInLeftShort" data-id="2"></div>
-                        <h3 id="h3-13" class="title-h3 animated fadeInLeftShort" data-id="3"><?php echo $texts->biogas->road_info->comunidades_aisladas; ?></h3>
-                        <div id="figure-2" class="figure2 animated fadeInLeftShort" data-id="4"></div>
-                    </div>
-
-                    <div class="group-animated animatedParent"  data-appear-left-offset='-10900'  data-sequence='300'>
+                    <div class="group-animated animatedParent"  data-appear-left-offset='-11000'  data-sequence='300'>
                         <div id="warning-3" class="warning-icon animated fadeInLeftShort" data-id="1"></div>
                         <h3 id="h3-14" class="title-h3 animated fadeInLeftShort" data-id="2"><?php echo $texts->biogas->alert_messages->a3_suministro_continuo_titulo; ?></h3>
                         <p id="txt-14" class="txtInfo animated fadeInLeftShort" data-id="3"><?php echo $texts->biogas->alert_messages->a3_suministro_continuo_desc; ?></p>
                         <div id="figure-3" class="figure3 animated fadeInLeftShort" data-id="4"></div>
+                    </div>
+
+                    <div class="group-animated animatedParent"  data-appear-left-offset='-11200'  data-sequence='300'>
+                        <div id="figure-18" class="mat-s animated fadeInLeftShort" data-id="1"></div>
+                        <div id="figure-19" class="mat-s animated fadeInLeftShort" data-id="2"></div>
+                        <div id="figure-20" class="mat-s animated fadeInLeftShort" data-id="3"></div>
+                        <div id="y-line-1" class="y-line animated fadeInLeftShort" data-id="4"></div>
+                        <h3 id="h3-13" class="title-h3 animated fadeInLeftShort" data-id="5"><?php echo $texts->biogas->road_info->comunidades_aisladas; ?></h3>
+                        <div id="figure-2" class="figure2 animated fadeInLeftShort" data-id="6"></div>
                     </div>
 
                     <div class="group-animated animatedParent"  data-appear-left-offset='-10920'  data-sequence='300'>

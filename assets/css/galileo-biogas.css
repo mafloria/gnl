@@ -231,8 +231,8 @@
 #up-down-arrow-2{top: 75px; left: 8245px;}
 #up-down-arrow-3{top: 75px; left: 8382px;}
 #up-down-arrow-4{top: 75px; left: 8517px;}
-#up-down-arrow-5{top: 123px; left: 15000px;}
-#up-down-arrow-6{top: 123px; left: 15100px;}
+#up-down-arrow-5{top: 123px; left: 14850px;}
+#up-down-arrow-6{top: 123px; left: 14980px;}
 
 #cloud-1{top: 130px; left: 100px;}
 #cloud-2{top: 70px; left: 0px;}
@@ -266,10 +266,10 @@
 
 a#continue-yacimiento-process{top: 100px; left: 15904px;}
 a#continue-gasoducto-process{top: 100px; left: 16122px}
-.menu-circles-icons-end p.pick-btn{top: 0;left: 15860px;}
+.menu-circles-icons-end p.pick-btn{top: 0;left: 15660px;}
 
 .menu-circles-icons-end{
-  left: 15862px;
+  left: 15662px;
 }
 
 /*elements css*/

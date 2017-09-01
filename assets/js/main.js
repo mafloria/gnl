@@ -53,7 +53,7 @@ $(document).ready(function(){
 			$('.screen-1').css('width', (windowWidth*mobile_multiplier));
 			$("#mobilecss").attr("href", "assets/css/mobile.css?v=0.82");
 			$(".hand-instruction").show();
-			plus_width = 1000;
+			plus_width = 1000;//moviles
 		}else{
 			$('.screen-1').css('width', windowWidth);
 		}
@@ -63,8 +63,8 @@ $(document).ready(function(){
 	
 	function set_width_scroll(){
 		console.log("SET WITH "+open_section_name+" SCROLL: open_section_width: "+windowWidth+"+"+open_section_width);
-		$(".front").css('width', windowWidth+open_section_width+440+plus_width);
-		$('#outer-container').css('height', (windowWidth+open_section_width+440+plus_width)+'px');	//prev body
+		$(".front").css('width', windowWidth+open_section_width+550+plus_width); //600 for menu at the end
+		$('#outer-container').css('height', (windowWidth+open_section_width+550+plus_width)+'px');	 //600 for menu at the end
 	}
 	//********************** end windows size
 	
@@ -81,8 +81,8 @@ $(document).ready(function(){
                 var position = $(".front").position();
                 //console.log("position lef: "+(position.left*-1));
                 integer_position_left = position.left*-1; 
-                if(integer_position_left >= 4350 || integer_position_left > 13700 ){                	
-					if(integer_position_left > 8880 && integer_position_left < 13700){ //no se ve el camion
+                if(integer_position_left >= 4310 || integer_position_left > 13700 ){                	
+					if(integer_position_left > 8870 && integer_position_left < 13700){ //no se ve el camion
 						//$(".camion-section").hide();												
 						if(integer_position_left > 13000){ //SEGUNDO CAMION PARADO
 							//console.log("if interno hide");
@@ -105,7 +105,7 @@ $(document).ready(function(){
 						}
 					}
 					else{ //segundo CAMION PARADO
-						if(((open_section_name=="yacimiento" || open_section_name=="gasoducto") && integer_position_left > 15169) || (open_section_name=="biogas" && integer_position_left > 15483)){//biogas=15483  yacimiento=15169 gasoducto=15169
+						if(((open_section_name=="yacimiento" || open_section_name=="gasoducto") && integer_position_left > 15169) || (open_section_name=="biogas" && integer_position_left > 15315)){//biogas=15483  yacimiento=15169 gasoducto=15169
 							$("#truck-"+open_section_name).addClass('secondTruck-'+open_section_name+'-stop');
 							//$("#truck-"+open_section_name).removeClass('truck-fixed');
 							$("#truck-"+open_section_name).show();

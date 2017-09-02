@@ -85,9 +85,9 @@ $(document).ready(function(){
                 //console.log("position lef: "+(position.left*-1));
                 integer_position_left = position.left*-1; 
                 if(integer_position_left >= 4308 || integer_position_left > 13700 ){     //biogas 4310           	
-					if(integer_position_left > 8870 && integer_position_left < 13700){ //no se ve el camion
+					if(integer_position_left > 8820 && integer_position_left < 13700){ //no se ve el camion gasoducto 8820
 						//$(".camion-section").hide();												
-						if((open_section_name=="yacimiento" && integer_position_left > 13666) || integer_position_left > 13000){ //SEGUNDO CAMION PARADO
+						if((open_section_name=="yacimiento" && integer_position_left > 13666) || integer_position_left > 13000){ //SEGUNDO CAMION PARADO para comenazr
 							//console.log("if interno hide");
 							$("#truck-"+open_section_name).addClass('secondTruck-'+open_section_name+'-start');
 							//$("#truck-"+open_section_name).removeClass('truck-fixed');
@@ -108,7 +108,7 @@ $(document).ready(function(){
 						}
 					}
 					else{ //segundo CAMION PARADO
-						if((open_section_name=="yacimiento" && integer_position_left > 15169) || (open_section_name=="gasoducto" && integer_position_left > 15169) || (open_section_name=="biogas" && integer_position_left > 15315)){//biogas=15483  yacimiento=15169 gasoducto=15169
+						if((open_section_name=="yacimiento" && integer_position_left > 15169) || (open_section_name=="gasoducto" && integer_position_left > 15169) || (open_section_name=="biogas" && integer_position_left > 15310)){//biogas=15483  yacimiento=15169 gasoducto=15169
 							$("#truck-"+open_section_name).addClass('secondTruck-'+open_section_name+'-stop');
 							//$("#truck-"+open_section_name).removeClass('truck-fixed');
 							$("#truck-"+open_section_name).show();

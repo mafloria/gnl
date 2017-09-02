@@ -54,7 +54,8 @@
   .landscape-top{
     padding-top: 10em !important;
   }
-  .camion{
+  .camion,
+  .camion-animated{
     top: 390px !important;
   }
  

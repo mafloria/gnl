@@ -431,12 +431,12 @@ img.logo-intro{
 
 .firstTruck-yacimiento-start{position: absolute; left: 3440px;}
 .firstTruck-yacimiento-stop{position: absolute; left: 7983px;}
-.secondTruck-yacimiento-start{position: absolute;left: 12753px;}
+.secondTruck-yacimiento-start{position: absolute;left: 12793px;}
 .secondTruck-yacimiento-stop{position: absolute;left: 14303px;}
 
 .firstTruck-gasoducto-start{position: absolute; left: 3453px;}
 .firstTruck-gasoducto-stop{position: absolute; left: 7983px;}
-.secondTruck-gasoducto-start{position: absolute;left: 12751px;}
+.secondTruck-gasoducto-start{position: absolute;left: 12791px;}
 .secondTruck-gasoducto-stop{position: absolute;left: 14353px;}
 
 /*-----------------------------------------------*/
@@ -491,7 +491,7 @@ img.logo-intro{
   margin: 0 auto;
 }
 .menu-circles-icons-end{
-  width: 800px;
+  width: 700px;
   padding: 0 0 0 5em;
   text-align: center;
   position: absolute;

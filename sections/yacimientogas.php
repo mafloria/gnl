@@ -453,11 +453,11 @@
                         <div id="up-down-arrow-6" class="upDownArrow animated fadeInLeftShort" data-id="2"></div>
                     </div>
 
-                    <div class="menu-circles-icons-end group-animated animatedParent" data-appear-left-offset='-12000'  data-sequence='300'>
-                        <img class="logo-intro animated fadeInLeftShort" src="svg/titulo-gnc.svg" data-id="1">
-                        <p class="pick-btn animated fadeInLeftShort" data-id="2">Selecciona otra fuente:</p>
+                    <div class="menu-circles-icons-end " data-appear-left-offset='-12000'  data-sequence='300'>
+                        <img class="logo-intro" src="svg/titulo-gnc.svg" data-id="1">
+                        <p class="pick-btn" data-id="2">Selecciona otra fuente:</p>
 
-                        <div class="menu-end animated fadeInLeftShort" data-id="3">
+                        <div class="menu-end" data-id="3">
                             <a id="continue-biogas-process" class="view-process continue-process biogas-menu-btn-<?php echo $lang; ?>" href="javascript:void(0);">
                                 <img src="assets/images/gnc-biogas-btn-<?php echo $lang; ?>.png">
                             </a>

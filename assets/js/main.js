@@ -45,6 +45,7 @@ $(document).ready(function(){
 
 	setHeight();
 	console.log("Total Width: " + screen.width);
+	if(screen.width > 1366) $(".truck-fixed").css("left", "20.5%");
 		  
 	/*$(window).resize(function() {
 		setHeight();
@@ -86,7 +87,7 @@ $(document).ready(function(){
                 //console.log("position lef: "+(position.left*-1));
                 integer_position_left = position.left*-1; 
                 if(integer_position_left >= 4290 || integer_position_left > 13700 ){     //biogas 4310           	
-					if(((open_section_name=="biogas" && integer_position_left > 8820)||(open_section_name=="yacimiento" && integer_position_left > 8805)) && integer_position_left < 13700){ //no se ve el camion gasoducto 8820
+					if(((open_section_name=="biogas" && integer_position_left > 8820)||(open_section_name=="yacimiento" && integer_position_left > 8805)||(open_section_name=="gasoducto" && integer_position_left > 8834)) && integer_position_left < 13700){ //no se ve el camion gasoducto 8820
 						//$(".camion-section").hide();												
 						if((open_section_name=="yacimiento" && integer_position_left > 13666) || integer_position_left > 13000){ //SEGUNDO CAMION PARADO para comenazr
 							//console.log("if interno hide");

@@ -44,6 +44,7 @@ $(document).ready(function(){
 	var plus_width = 0; //for some mobiles is needed because the srceen distribution
 
 	setHeight();
+	console.log("Total Width: " + screen.width);
 		  
 	/*$(window).resize(function() {
 		setHeight();

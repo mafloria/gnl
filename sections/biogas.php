@@ -376,9 +376,9 @@
                     </div>
 
                     <div class="group-animated animatedParent"  data-appear-left-offset='-11200'  data-sequence='200'>
-                        <div id="figure-18" class="mat-s animated fadeInLeftShort" data-id="1"></div>
-                        <div id="figure-19" class="mat-s animated fadeInLeftShort" data-id="2"></div>
-                        <div id="figure-20" class="mat-s animated fadeInLeftShort" data-id="3"></div>
+                        <div id="figure-18" class="mat-s animated fadeInUpShort" data-id="1"></div>
+                        <div id="figure-19" class="mat-s animated fadeInUpShort" data-id="2"></div>
+                        <div id="figure-20" class="mat-s animated fadeInUpShort" data-id="3"></div>
                         <div id="y-line-1" class="y-line animated fadeInLeftShort" data-id="4"></div>
                         <h3 id="h3-13" class="title-h3 animated fadeInLeftShort" data-id="5"><?php echo $texts->biogas->road_info->comunidades_aisladas; ?></h3>
                         <div id="figure-2" class="figure2 animated fadeInLeftShort" data-id="6"></div>
@@ -391,11 +391,11 @@
                     </div>
 
                     <div class="group-animated animatedParent"  data-appear-left-offset='-11900'  data-sequence='200'>
-                        <div id="figure-21" class="mat-s animated fadeInLeftShort" data-id="1"></div>
-                        <div id="figure-22" class="mat-s animated fadeInLeftShort" data-id="2"></div>
-                        <div id="figure-23" class="mat-s animated fadeInLeftShort" data-id="3"></div>
-                        <div id="figure-24" class="mat-s animated fadeInLeftShort" data-id="4"></div>
-                        <div id="figure-25" class="mat-s animated fadeInLeftShort" data-id="5"></div>
+                        <div id="figure-21" class="mat-s animated fadeInUpShort" data-id="1"></div>
+                        <div id="figure-22" class="mat-s animated fadeInUpShort" data-id="2"></div>
+                        <div id="figure-23" class="mat-s animated fadeInUpShort" data-id="3"></div>
+                        <div id="figure-24" class="mat-s animated fadeInUpShort" data-id="4"></div>
+                        <div id="figure-25" class="mat-s animated fadeInUpShort" data-id="5"></div>
                         <div id="y-line-3" class="y-line animated fadeInLeftShort" data-id="6"></div>
                         <h3 id="h3-16" class="title-h3 animated fadeInLeftShort" data-id="7"><?php echo $texts->biogas->road_info->minas_plantas; ?></h3>
                         <div id="figure-6" class="figure6 animated fadeInLeftShort" data-id="8"></div>
@@ -403,12 +403,12 @@
 
                     <!--elementos landscape bottom 10 -->
                     <div class="group-animated animatedParent"  data-appear-left-offset='-12400'  data-sequence='200'>
-                        <div id="figure-26" class="mat-s animated fadeInLeftShort" data-id="1"></div>
-                        <div id="figure-27" class="mat-s animated fadeInLeftShort" data-id="2"></div>
-                        <div id="figure-28" class="mat-s animated fadeInLeftShort" data-id="3"></div>
-                        <div id="figure-29" class="mat-s animated fadeInLeftShort" data-id="4"></div>
-                        <div id="figure-30" class="mat-s animated fadeInLeftShort" data-id="5"></div>
-                        <div id="figure-31" class="mat-s animated fadeInLeftShort" data-id="6"></div>
+                        <div id="figure-26" class="mat-s animated fadeInUpShort" data-id="1"></div>
+                        <div id="figure-27" class="mat-s animated fadeInUpShort" data-id="2"></div>
+                        <div id="figure-28" class="mat-s animated fadeInUpShort" data-id="3"></div>
+                        <div id="figure-29" class="mat-s animated fadeInUpShort" data-id="4"></div>
+                        <div id="figure-30" class="mat-s animated fadeInUpShort" data-id="5"></div>
+                        <div id="figure-31" class="mat-s animated fadeInUpShort" data-id="6"></div>
                         <div id="y-line-4" class="y-line animated fadeInLeftShort" data-id="7"></div>
                         <h3 id="h3-17" class="title-h3 animated fadeInLeftShort" data-id="8"><?php echo $texts->biogas->road_info->usinas; ?></h3>
                         <div id="figure-8" class="figure8 animated fadeInLeftShort" data-id="9"></div>
@@ -417,9 +417,9 @@
                     </div>
 
                     <div class="group-animated animatedParent"  data-appear-left-offset='-12900'  data-sequence='200'>
-                        <div id="figure-32" class="mat-s animated fadeInLeftShort" data-id="1"></div>
-                        <div id="figure-33" class="mat-s animated fadeInLeftShort" data-id="2"></div>
-                        <div id="figure-34" class="mat-s animated fadeInLeftShort" data-id="3"></div>
+                        <div id="figure-32" class="mat-s animated fadeInUpShort" data-id="1"></div>
+                        <div id="figure-33" class="mat-s animated fadeInUpShort" data-id="2"></div>
+                        <div id="figure-34" class="mat-s animated fadeInUpShort" data-id="3"></div>
                         <div id="y-line-5" class="y-line animated fadeInLeftShort" data-id="4"></div>
                         <h3 id="h3-18" class="title-h3 animated fadeInLeftShort" data-id="5"><?php echo $texts->biogas->road_info->centros_turisticos; ?></h3>
                         <div id="figure-12" class="figure10 animated fadeInLeftShort" data-id="6"></div>
@@ -430,10 +430,10 @@
                         <p id="txt-15" class="txtInfo animated fadeInLeftShort" data-id="2"><?php echo $texts->biogas->alert_messages->a4_sistema_recompresion_desc; ?></p>
                     </div>
 
-                    <div class="group-animated animatedParent"  data-appear-left-offset='-13300'  data-sequence='300'>
-                        <div id="figure-35" class="mat-s animated fadeInLeftShort" data-id="1"></div>
-                        <div id="figure-36" class="mat-s animated fadeInLeftShort" data-id="2"></div>
-                        <div id="figure-37" class="mat-s animated fadeInLeftShort" data-id="3"></div>
+                    <div class="group-animated animatedParent"  data-appear-left-offset='-13300'  data-sequence='200'>
+                        <div id="figure-35" class="mat-s animated fadeInUpShort" data-id="1"></div>
+                        <div id="figure-36" class="mat-s animated fadeInUpShort" data-id="2"></div>
+                        <div id="figure-37" class="mat-s animated fadeInUpShort" data-id="3"></div>
                         <div id="y-line-6" class="y-line animated fadeInLeftShort" data-id="4"></div>
                         <h3 id="h3-19" class="title-h3 animated fadeInLeftShort" data-id="5"><?php echo $texts->biogas->road_info->estaciones_servicio; ?></h3>
                         <div id="figure-14" class="figure11 animated fadeInLeftShort" data-id="6"></div>

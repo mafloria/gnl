@@ -36,9 +36,9 @@ $(document).ready(function(){
 	//*********** window size to fix content
 	var windowHeight = $(window).innerHeight();
 	var windowWidth = $(window).innerWidth();	
-	var biogas_width = 15860;//valor del css: .gnc-biogas-landscape
-	var yacimiento_width = 15591;//valor del css: .gnc-yacimiento-landscape
-	var gasoducto_width = 15757;//valor del css: .gnc-gasoducto-landscape	
+	var biogas_width = 17000;//valor del css: .gnc-biogas-landscape
+	var yacimiento_width = 16730;//valor del css: .gnc-yacimiento-landscape
+	var gasoducto_width = 16900;//valor del css: .gnc-gasoducto-landscape	
 	var open_section_name = "biogas";
 	var open_section_width = biogas_width;
 	var plus_width = 0; //for some mobiles is needed because the srceen distribution
@@ -68,8 +68,8 @@ $(document).ready(function(){
 	
 	function set_width_scroll(){
 		console.log("SET WITH "+open_section_name+" SCROLL: open_section_width: "+windowWidth+"+"+open_section_width);
-		$(".front").css('width', windowWidth+open_section_width+550+plus_width); //600 for menu at the end
-		$('#outer-container').css('height', (windowWidth+open_section_width+550+plus_width)+'px');	 //600 for menu at the end
+		$(".front").css('width', windowWidth+open_section_width+plus_width); //600 for menu at the end
+		$('#outer-container').css('height', (windowWidth+open_section_width+plus_width)+'px');	 //600 for menu at the end
 	}
 	//********************** end windows size
 	

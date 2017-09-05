@@ -42,9 +42,9 @@ $(document).ready(function(){
 	var open_section_name = "biogas";
 	var open_section_width = biogas_width;
 	var plus_width = 0; //for some mobiles is needed because the srceen distribution
-	var biogas_icons_width = 700;
-	var yacimiento_icons_width = 900;
-	var gasoducto_icons_width = 700;
+	var biogas_icons_width = 1000;//700;
+	var yacimiento_icons_width = 1220;//900;
+	var gasoducto_icons_width = 1100;//700;
 	
 	setHeight();
 	console.log("Total Width: " + screen.width);
@@ -72,7 +72,7 @@ $(document).ready(function(){
 	function set_width_scroll(){
 		console.log("SET WITH "+open_section_name+" SCROLL: open_section_width: "+windowWidth+"+"+open_section_width);
 		$(".front").css('width', windowWidth+open_section_width+plus_width); //600 for menu at the end
-		$('#outer-container').css('height', (700+open_section_width+plus_width)+'px');	 //600 for menu at the end
+		$('#outer-container').css('height', eval(open_section_name"_icons_width"+open_section_width+plus_width)+'px'); //(700+open_section_width+plus_width)	 //600 for menu at the end
 	}
 	//********************** end windows size
 	

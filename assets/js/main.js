@@ -42,9 +42,9 @@ $(document).ready(function(){
 	var open_section_name = "biogas";
 	var open_section_width = biogas_width;
 	var plus_width = 0; //for some mobiles is needed because the srceen distribution
-	var biogas_icons_width = 1000;//700;
-	var yacimiento_icons_width = 1220;//900;
-	var gasoducto_icons_width = 1100;//700;
+	var biogas_icons_width = 700; //1000;
+	var yacimiento_icons_width = 900; //1220;
+	var gasoducto_icons_width = 700;//1100;
 	
 	setHeight();
 	console.log("Total Width: " + screen.width);

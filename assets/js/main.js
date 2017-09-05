@@ -58,7 +58,7 @@ $(document).ready(function(){
 			$('.screen-1').css('width', (windowWidth*mobile_multiplier));
 			$("#mobilecss").attr("href", "assets/css/mobile.css?v=0.82");
 			$(".hand-instruction").show();
-			plus_width = 1000;//moviles
+			plus_width = 1500;//moviles
 		}else{
 			$('.screen-1').css('width', windowWidth);
 		}
@@ -73,7 +73,7 @@ $(document).ready(function(){
 	}
 	//********************** end windows size
 	
-	
+//if(!isMobile.any()){
 	//horizontal scroll
 	 var elem = $.jInvertScroll(['.scroll'],        // an array containing the selector(s) for the elements you want to animate
             {
@@ -153,13 +153,16 @@ $(document).ready(function(){
 				}				
             } //end onScroll
             
-        });        
+        }); //end scroll invert
+//} //end if mobile                
 	$(window).on("scrollstop", function(){
 	   $(".rueda").removeClass("rueda_andando");	   
 	});
 
 	//click for open one process animation
 	$(".view-process").click(function(){
+		$(".camion-animated").hide();
+		
 		open_process($(this));
 				
 		//console.log("OJO -- open_section_width: "+$("#bgimage-"+open_section_name).width());
@@ -201,7 +204,7 @@ $(document).ready(function(){
 	
 	function open_process(this_object){
 		var id = this_object.attr( "id" ).split("-");
-		open_section_name = id[1];				
+		open_section_name = id[1];
 		
 		$("#galileocss").attr("href", "assets/css/galileo-"+open_section_name+".css");
 		$(".landscape-section").hide();
@@ -219,7 +222,7 @@ $(document).ready(function(){
 		//open_section_width = $(".gnc-"+open_section_name+"-landscape").width();
 		eval("open_section_width="+open_section_name+"_width");		
 		
-		set_width_scroll();	
+		set_width_scroll();			
 	}
 		 
 });

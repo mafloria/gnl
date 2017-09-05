@@ -74,7 +74,7 @@
                     <!-- CAMION -->
                     <div id="truck-gasoducto" class="camion firstTruck-gasoducto-stop"></div>
                     
-                    <div id="truck-gasoducto-animated" class="camion-animated truck-fixed" style="display: none">
+                    <div id="truck-gasoducto-animated" class="camion-animated truck-fixed">
                         <div class="rueda rueda1"></div>
                         <div class="rueda rueda2"></div>
                         <div class="rueda rueda3"></div>

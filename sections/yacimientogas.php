@@ -83,7 +83,7 @@
                     <!-- CAMION -->
                     <div id="truck-yacimiento" class="camion firstTruck-yacimiento-stop"></div>
                     
-                    <div id="truck-yacimiento-animated" class="camion-animated truck-fixed" style="display: none">
+                    <div id="truck-yacimiento-animated" class="camion-animated truck-fixed">
                         <div class="rueda rueda1"></div>
                         <div class="rueda rueda2"></div>
                         <div class="rueda rueda3"></div>

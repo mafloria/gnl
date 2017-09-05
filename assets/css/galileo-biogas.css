@@ -1,7 +1,6 @@
 /* ESTILOS GALILEO BIOGAS- UXDEVCO */
 .gnc-biogas-landscape{ 
-  /*width: 17050px;*/
-  width: 93.1%;
+  width: 17050px;
   max-height: 670px;
 }
 .landscape-top{

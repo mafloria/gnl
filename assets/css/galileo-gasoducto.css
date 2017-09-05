@@ -1,9 +1,9 @@
 /* ESTILOS YACIMIENTOS BIOGAS- UXDEVCO */
 .gnc-gasoducto-landscape{
-  /*width: 16940px;*/
-  width: 93.1%;
+  width: 16940px;
   max-height: 670px;
 }
+
 .main-landscape-image{
   position: inherit;
   z-index: 10;

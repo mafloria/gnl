@@ -1,6 +1,7 @@
 /* ESTILOS YACIMIENTOS- UXDEVCO */
 .gnc-yacimiento-landscape{
-  width: 16780px;
+  /*width: 16780px;*/
+  width: 93.1%;
   max-height: 670px;
 }
 .main-landscape-image{

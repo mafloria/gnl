@@ -72,7 +72,7 @@ $(document).ready(function(){
 	function set_width_scroll(){
 		console.log("SET WITH "+open_section_name+" SCROLL: open_section_width: "+windowWidth+"+"+open_section_width);
 		$(".front").css('width', windowWidth+open_section_width+plus_width); //600 for menu at the end
-		$('#outer-container').css('height', eval(open_section_name+"_icons_width+"+open_section_width+plus_width)+'px'); //(700+open_section_width+plus_width)	 //600 for menu at the end
+		$('#outer-container').css('height', eval(open_section_name+"_icons_width")+open_section_width+plus_width+'px'); //(700+open_section_width+plus_width)	 //600 for menu at the end
 	}
 	//********************** end windows size
 	

@@ -21,7 +21,7 @@
                          <div id="txt-wrap-1" class="txtWrap1 animated fadeInLeftShort" data-id="1">
                             <div class="txt-wrap-cntr">
                                  <div id="icon-0" class="icon0 animated fadeInLeftShort" data-id="2"></div> 
-                                 <p class="txt-box1 animated fadeInLeftShort" data-id="3">Pozos no <br />conectados</p>   
+                                 <p class="txt-box1 animated fadeInLeftShort" data-id="3"><?php  echo $texts->yacimiento->process->pozo_box_op0; ?></p>   
                              </div>
                              <div class="txt-wrap-cntr">
                                  <div id="icon-1" class="icon1 animated fadeInLeftShort" data-id="4"></div> 
@@ -37,7 +37,7 @@
                              </div>
                              <div class="txt-wrap-cntr">
                                  <div id="icon-4" class="icon4 animated fadeInLeftShort" data-id="10"></div> 
-                                 <p class="txt-box1 animated fadeInLeftShort" data-id="11">Reducción del Flaring / Pozos de testing</p>
+                                 <p class="txt-box1 animated fadeInLeftShort" data-id="11"><?php  echo $texts->yacimiento->process->pozo_box_op4; ?></p>
                              </div>   
                          </div>
                          <p id="txt-0" class="txtInfo animated fadeInLeftShort" data-id="12"><?php  echo $texts->yacimiento->process->pozo_box_title; ?></p>

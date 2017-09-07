@@ -95,10 +95,11 @@
 	    },
 	    "process":{
 		    "pozo_box_title":"A Galileo Solution for every well.",
+		    "pozo_box_op0":"Orphan wells",
 		    "pozo_box_op1":"Wellhead",
 		    "pozo_box_op2":"Gathering",
 		    "pozo_box_op3":"Gas-lift",
-		    "pozo_box_op4":"Gas Flaring Reduction",
+		    "pozo_box_op4":"Flaring reduction / Well testing",
 		    "p1_paquete_compresion":"Microbox  and  Gigabox CNG compression packages",
 		    "p1_paquete_compresion_desc":"At the mother station, Microbox  or Gigabox CNG compression packages connected to the gas source compress natural gas at a pressure of 250 bar (3625 psi).",		    
 		    "p2_modulos_mat":"MAT CNG containers",

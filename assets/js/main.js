@@ -209,6 +209,8 @@ $(document).ready(function(){
 		var id = this_object.attr( "id" ).split("-");
 		open_section_name = id[1];
 		
+		$(".camion").hide();
+		
 		$("#galileocss").attr("href", "assets/css/galileo-"+open_section_name+".css");
 		$(".landscape-section").hide();
 		$(".screen-3").hide();

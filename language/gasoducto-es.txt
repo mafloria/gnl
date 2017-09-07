@@ -95,10 +95,11 @@
 	    },
 	    "process":{
 		    "pozo_box_title":"En cada pozo, una solución de Galileo",
+		    "pozo_box_op0":"Pozos no <br/>conectados",
 		    "pozo_box_op1":"Wellhead",
 		    "pozo_box_op2":"Gathering",
 		    "pozo_box_op3":"Gas-lift",
-		    "pozo_box_op4":"Reducción del Flaring",
+		    "pozo_box_op4":"Pozos de testing",
 		    "p1_paquete_compresion":"Paquete de Compresión Microbox-Bio",
 		    "p1_paquete_compresion_desc":"En la estación madre, paquetes de compresión de GNC Microbox&reg o Gigabox&reg, conectados a la fuente de gas natural, comprimen el fluido a una presión de 250 bar (3625 psi).",		    
 		    "p2_modulos_mat":"Módulos MAT",

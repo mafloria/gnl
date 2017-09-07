@@ -138,7 +138,7 @@
 #hill-26{ bottom: 0; left: 15130px;}
 #hill-27{ bottom: 0; left: 15400px;}
 
-#txt-wrap-1{bottom: -305px; left: 225px;}
+#txt-wrap-1{bottom: -333px; left: 225px;}
 #txt-wrap-2{bottom: -175px; left: 6500px;}
 
 #h2-1{top: 40px; left: 610px;}
@@ -151,7 +151,7 @@
 #h2-8{top: 40px; left: 13190px;}
 #h2-9{top: 40px; left: 14580px;}
 
-#txt-0{ top: 625px; left: 260px; width: 150px;}
+#txt-0{ top: 651px; left: 196px; width: 270px;}
 #txt-1{ top: 215px; left: 660px; width: 400px;}
 #txt-2{ top: 192px; left: 1701px; width: 440px;}
 #txt-3{ top: 192px; left: 1880px; width: 450px;}
@@ -183,7 +183,7 @@
 #h3-6{ top: -84px; left: 2260px;}
 #h3-7{ top: 150px; left: 2800px;}
 #h3-8{ top: 150px; left: 5200px;}
-#h3-9{margin-top: -18px; text-align: center; width: 100%;}
+#h3-9{margin-top: -27px; text-align: center; width: 100%;}
 #h3-10{ top: 145px; left: 7647px;}
 #h3-11{ top: -200px; left: 9150px;}
 #h3-12{ top: -200px; left: 9800px;}
@@ -311,7 +311,7 @@ a#continue-gasoducto-process{top: 100px; left: 15853px}
 }
 .txtWrap1{
   width: 190px;
-  height: 600px;
+  height: 620px;
   z-index: 14;
   position: absolute;
   background: transparent url(../images/cajon-txt-yac-1.png) no-repeat;
@@ -331,7 +331,7 @@ a#continue-gasoducto-process{top: 100px; left: 15853px}
   font-weight: bold;
   color: #1a5489;
   text-align: center;
-
+  line-height: 20px;
 }
 .title-green{
   position: absolute;
@@ -358,19 +358,32 @@ a#continue-gasoducto-process{top: 100px; left: 15853px}
   left: 835px;
   z-index: 11;
 }
-.icon1, .icon2, .icon3, .icon4{
+.icon0, .icon1, .icon2, .icon3, .icon4{
   width: 100%;
   margin: 0.5em auto;
-
+}
+#icon-2{
+  margin-top: -22px;
+}
+#icon-3{
+  margin-top: -64px;
+}
+#icon-4{
+  margin-top: -105px;
+}
+.icon0{
+ max-width: 48px;
+ height: 77px;
+ background: transparent url(../images/orphan-well.png) no-repeat;  
 }
 .icon1{
- max-width: 111px;
- height: 85px;
+ max-width: 83px;
+ height: 64px;
  background: transparent url(../images/wellhead-icon.png) no-repeat;
 }
 .icon2{
- max-width: 116px;
- height: 71px;
+ max-width: 87px;
+ height: 53px;
  background: transparent url(../images/gathering-icon.png) no-repeat;
 }
 .icon3{
@@ -379,8 +392,8 @@ a#continue-gasoducto-process{top: 100px; left: 15853px}
  background: transparent url(../images/pipeline.png) no-repeat;
 }
 .icon4{
- max-width: 116px;
- height: 89px;
+ max-width: 79px;
+ height: 63px;
  background: transparent url(../images/flaring-icon.png) no-repeat;
 }
 .figure1{

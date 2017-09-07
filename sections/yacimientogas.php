@@ -19,24 +19,28 @@
                  <!--elementos landscape top 1 --> 
                     <div class="group-animated animatedParent" data-appear-left-offset='-700'  data-sequence='200'>
                          <div id="txt-wrap-1" class="txtWrap1 animated fadeInLeftShort" data-id="1">
-                             <div class="txt-wrap-cntr">
-                                 <div id="icon-1" class="icon1 animated fadeInLeftShort" data-id="2"></div> 
-                                 <p class="txt-box1 animated fadeInLeftShort" data-id="3"><?php  echo $texts->yacimiento->process->pozo_box_op1; ?></p>   
+                            <div class="txt-wrap-cntr">
+                                 <div id="icon-0" class="icon0 animated fadeInLeftShort" data-id="2"></div> 
+                                 <p class="txt-box1 animated fadeInLeftShort" data-id="3">Pozos no <br />conectados</p>   
                              </div>
                              <div class="txt-wrap-cntr">
-                                 <div id="icon-2" class="icon2 animated fadeInLeftShort" data-id="4"></div> 
-                                 <p class="txt-box1 animated fadeInLeftShort" data-id="5"><?php  echo $texts->yacimiento->process->pozo_box_op2; ?></p>   
+                                 <div id="icon-1" class="icon1 animated fadeInLeftShort" data-id="4"></div> 
+                                 <p class="txt-box1 animated fadeInLeftShort" data-id="5"><?php  echo $texts->yacimiento->process->pozo_box_op1; ?></p>   
                              </div>
                              <div class="txt-wrap-cntr">
-                                 <div id="icon-2" class="icon3 animated fadeInLeftShort" data-id="6"></div> 
-                                 <p class="txt-box1 animated fadeInLeftShort" data-id="7"><?php  echo $texts->yacimiento->process->pozo_box_op3; ?></p>   
+                                 <div id="icon-2" class="icon2 animated fadeInLeftShort" data-id="6"></div> 
+                                 <p class="txt-box1 animated fadeInLeftShort" data-id="7"><?php  echo $texts->yacimiento->process->pozo_box_op2; ?></p>   
                              </div>
                              <div class="txt-wrap-cntr">
-                                 <div id="icon-4" class="icon4 animated fadeInLeftShort" data-id="8"></div> 
-                                 <p class="txt-box1 animated fadeInLeftShort" data-id="9"><?php  echo $texts->yacimiento->process->pozo_box_op4; ?></p>
+                                 <div id="icon-3" class="icon2 animated fadeInLeftShort" data-id="8"></div> 
+                                 <p class="txt-box1 animated fadeInLeftShort" data-id="9"><?php  echo $texts->yacimiento->process->pozo_box_op3; ?></p>   
+                             </div>
+                             <div class="txt-wrap-cntr">
+                                 <div id="icon-4" class="icon4 animated fadeInLeftShort" data-id="10"></div> 
+                                 <p class="txt-box1 animated fadeInLeftShort" data-id="11">Reducción del Flaring / Pozos de testing</p>
                              </div>   
                          </div>
-                         <p id="txt-0" class="txtInfo animated fadeInLeftShort" data-id="10"><?php  echo $texts->yacimiento->process->pozo_box_title; ?></p>
+                         <p id="txt-0" class="txtInfo animated fadeInLeftShort" data-id="12"><?php  echo $texts->yacimiento->process->pozo_box_title; ?></p>
                      </div> 
                      
                      <div class="group-animated animatedParent" data-appear-left-offset='-700'  data-sequence='300'>

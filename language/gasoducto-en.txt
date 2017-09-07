@@ -67,7 +67,7 @@
 	"yacimiento":{
     	"intro":{		    
 		    "biognc_titulo": "CNG",
-		    "biognc_subtitulo":"Compressed Natural Gas",
+		    "biognc_subtitulo":"Compressed<br/>Natural Gas",
 		    "back_link": "Back"    	    
 		},	    
 	    "top_titles":{
@@ -83,7 +83,7 @@
 		    "gasnatural":"Natural Gas",
 		    "secador":"Dryer",		    	    
 			"gasnatural_comprimido":"Compressed Natural Gas",
-			"abastecimiento":"Energy efficiency <br/>through customizable supply",
+			"abastecimiento":"Energy efficiency <br/>through <br/>customizable supply",
 			"upstream":"Upstream operations",
 			"comunidades_aisladas":"Outlying communities",
 			"comunidades_aisladas_desc":"",

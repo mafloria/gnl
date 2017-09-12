@@ -294,7 +294,7 @@ p.pick-btn{
   font-size: 1.6em;
   padding: 0.5em 1em;
   background-color: #1a5489;
-  margin: 3em 0;
+  margin: 1.5em 0;
   width: auto;
   display: inline-block;
   border-radius: 0.2em;
@@ -311,7 +311,7 @@ span.a-r{
   top: 0; 
 }
 img.logo-intro{
-  width: 70%;
+  width: 50%;
   margin: 0 0 3em 0;
   transition: all 0.5s ease;
 }

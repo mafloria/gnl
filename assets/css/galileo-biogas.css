@@ -191,7 +191,7 @@
 #figure-1{top: 155px; left: 10550px;}
 #figure-2{top: -122px; left: 10390px;}
 #figure-3{top: -297px; left: 10520px;}
-#figure-4{top: -39px; left: 10955px;}
+#figure-4{top: -33px; left: 10962px;}
 #figure-5{top: 155px; left: 11245px;}
 #figure-6{top: -200px; left: 11222px;}
 #figure-7{top: 155px; left: 11710px;}
@@ -409,8 +409,8 @@ a#continue-gasoducto-process{top: 100px; left: 16122px}
  background: transparent url(../images/medidor.gif) no-repeat;
 }
 .figure4{
- width: 131px;
- height: 105px;
+ width: 176px;
+ height: 89px;
  position: absolute;
  z-index: 12;
  background: transparent url(../images/inyeccion-gas.png) no-repeat;

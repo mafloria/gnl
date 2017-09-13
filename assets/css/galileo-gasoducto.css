@@ -95,7 +95,7 @@
 #tree-25{ bottom: -15px; left: 8750px;}
 #tree-26{ bottom: -25px; left: 8950px;}
 #tree-27{ bottom: -10px; left: 10300px;}
-#tree-28{ bottom: -10px; left: 10509px;}
+#tree-28{ bottom: -10px; left: 10700px;}
 #tree-29{ bottom: -10px; left: 11559px;}
 #tree-30{ bottom: -20px; left: 12334px;}
 #tree-31{ bottom: -10px; left: 12800px;}
@@ -232,7 +232,7 @@
 #figure-12{top: -149px; left: 12027px;}
 #figure-13{top: 155px;; left: 12488px;}
 #figure-14{top: -100px; left: 12407px;}
-#figure-15{top: -50px; left: 10446px;}
+#figure-15{top: -40px; left: 10413px;}
 #figure-16{top: -80px; left: 11043px;}
 #figure-17{top: 155px; left: 11146px;}
 /**/
@@ -264,7 +264,7 @@
 #up-down-arrow-2{top: 75px; left: 8176px;}
 #up-down-arrow-3{top: 75px; left: 8314px;}
 #up-down-arrow-4{top: 75px; left: 8448px;}
-#up-down-arrow-5{top: 123px; left: 147404px;}
+#up-down-arrow-5{top: 123px; left: 14744px;}
 #up-down-arrow-6{top: 123px; left: 14868px;}
 
 #cloud-1{top: 130px; left: 100px;}
@@ -463,11 +463,11 @@ a#continue-yacimiento-process{top: 100px; left: 16025px;}
  background: transparent url(../images/estacion-servicio.png) no-repeat;
 }
 .figure12{
-  width: 56px;
-  height: 105px;
+  width: 132px;
+  height: 107px;
   position: absolute;
   z-index: 12; 
-  background: transparent url(../images/upstream.png) no-repeat;
+  background: transparent url(../images/cusiana.png) no-repeat;
 }
 .figure13{
   width: 333px;

@@ -459,7 +459,7 @@
 
                     <div class="menu-circles-icons-end">
                         <img class="logo-intro" src="svg/titulo-gnc.svg" data-id="1">
-                        <p class="pick-btn" data-id="2">Selecciona otra fuente:</p>
+                        <p class="pick-btn" data-id="2"><?php echo $texts->intro->selecciona_otra_fuente; ?></p>
 
                         <div class="menu-end" data-id="3">
                             <a id="continue-yacimiento-process" class="view-process continue-process yacimiento-menu-btn-<?php echo $lang; ?>" href="javascript:void(0);">

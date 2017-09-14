@@ -2,7 +2,9 @@
 	"intro":{  
 		    "lang":"en-us",
 		    "intro_text":"Our Virtual Pipeline connects consumers with several gas sources, surpassing the reach of conventional pipelines and providing energy to isolated regions.",		    
-		    "continue_button": "Select one source to continue"		    
+		    "continue_button": "Select one source to continue",		
+		    "selecciona_otra_fuente": "Select another source:",
+		    "gira_dispositivo": "Rotate your device to view the content"    
 	},
     "biogas":{
     	"intro":{		    
@@ -99,7 +101,7 @@
 		    "pozo_box_op1":"Wellhead",
 		    "pozo_box_op2":"Gathering",
 		    "pozo_box_op3":"Gas-lift",
-		    "pozo_box_op4":"Flaring reduction / Well testing",
+		    "pozo_box_op4":"Gas flaring reduction / Well testing",
 		    "p1_paquete_compresion":"Microbox  and  Gigabox CNG compression packages",
 		    "p1_paquete_compresion_desc":"At the mother station, Microbox  or Gigabox CNG compression packages connected to the gas source compress natural gas at a pressure of 250 bar (3625 psi).",		    
 		    "p2_modulos_mat":"MAT CNG containers",

@@ -446,7 +446,7 @@
 
                     <div class="menu-circles-icons-end" data-appear-left-offset='-15600'  data-sequence='300'>
                         <img class="logo-intro" src="svg/titulo-gnc.svg" data-id="1">
-                        <p class="pick-btn" data-id="2">Selecciona otra fuente:</p>
+                        <p class="pick-btn" data-id="2"><?php echo $texts->intro->selecciona_otra_fuente; ?></p>
 
                         <div class="menu-end" data-id="3">
                             <a id="continue-biogas-process" class="view-process continue-process biogas-menu-btn-<?php echo $lang; ?>" href="javascript:void(0);">

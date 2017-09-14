@@ -34,7 +34,7 @@
         <div class="portrait-intro">
             <div class="girar">
                 <img src="assets/images/girrar-phone.png">
-                <p>Gira tu dispositivo para poder visualizar el contenido</p>
+                <p><?php echo $texts->intro->gira_dispositivo; ?></p>
             </div>
         </div>
         
@@ -80,7 +80,7 @@
     <script src="assets/js/vendor/jquery.jInvertScroll.js?v=1.0"></script>
     <script src="assets/js/vendor/jquery.disablescroll.min.js"></script>
     <script src="assets/js/vendor/jquery.scrollstop.min.js"></script>
-    <script src="assets/js/dist/scrollreveal.js"></script>
+    
     <script src="assets/js/dist/css3-animate-it.js"></script>
     <script src="assets/js/main.js?v=0.99"></script>
         

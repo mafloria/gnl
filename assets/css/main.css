@@ -605,7 +605,6 @@ input.lng-btn:hover{
   float: left;
   position: relative;
 }
-
 .upDownArrow{
   width: 6px;
   height: 92px;
@@ -714,6 +713,7 @@ input.lng-btn:hover{
  -webkit-animation-direction: alternate;
  -webkit-animation: manito 2s;
 }
+
 @-webkit-keyframes manito {
   from {bottom: 0;}
   to {top: 0;}
@@ -725,6 +725,21 @@ input.lng-btn:hover{
 @keyframes manito {
   from {bottom: 0;}
   to {top: 0;}
+}
+.scrollTonav{
+  position: absolute;
+  bottom: 2em;
+ padding: 0.5em 1em 0.5em 4em;;
+  background-color: #443a2b;
+}
+.scrollTonav p{
+  position: relative;
+}
+.scrollTonav p img{
+  position: absolute;
+  width: 30%;
+  top: -43px;
+  left: -3em;
 }
 .portrait-intro{
   position: fixed;

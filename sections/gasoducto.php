@@ -1,6 +1,9 @@
             <section id="gnc-gasoducto-firstsection" class="section screen-3" style="display: none">
                 <div id="manito-a" class="hand-instruction">
-                    <img src="assets/images/hand-browser.png">   
+                    <img src="assets/images/hand-browser-1.png">   
+                </div>
+                <div class="scrollTonav">
+                    <p><img src="assets/images/hand-browser.png">Scroll para navegar</p>
                 </div>
                 <div class="section-content">
                     <div class="title-section">

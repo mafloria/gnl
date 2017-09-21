@@ -76,7 +76,6 @@ $(document).ready(function(){
 	}
 	//********************** end windows size
 	
-//if(!isMobile.any()){
 	//horizontal scroll
 	 var elem = $.jInvertScroll(['.scroll'],        // an array containing the selector(s) for the elements you want to animate
             {
@@ -85,8 +84,15 @@ $(document).ready(function(){
                 //console.log(percent);
                 
                 /*tmp = $('#track_moving').attr('data-appear-left-offset');*/
-                tmp = Math.floor((777 - $(window).innerWidth()) * percent) * -1; 
-                var position = $(".front").position();
+                //tmp = Math.floor((777 - $(window).innerWidth()) * percent) * -1; 
+             	display_camion_accion();   				
+            } //end onScroll
+            
+        }); //end scroll invert
+    
+    
+    function display_camion_accion(){
+    	var position = $(".front").position();
                 //console.log("position lef: "+(position.left*-1));
                 integer_position_left = position.left*-1; 
                 if(integer_position_left >= 4290 || integer_position_left > 13700 ){     //biogas 4310           	
@@ -153,11 +159,9 @@ $(document).ready(function(){
 						$("#truck-"+open_section_name).removeClass('secondTruck-'+open_section_name+'-start');
 						$("#truck-"+open_section_name).removeClass('secondTruck-'+open_section_name+'-stop');
 					}									
-				}				
-            } //end onScroll
-            
-        }); //end scroll invert
-//} //end if mobile                
+				}
+    }
+    
 	$(window).on("scrollstop", function(){
 	   $(".rueda").removeClass("rueda_andando");	   
 	});

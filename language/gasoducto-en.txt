@@ -4,7 +4,8 @@
 		    "intro_text":"Our Virtual Pipeline connects consumers with several gas sources, surpassing the reach of conventional pipelines and providing energy to isolated regions.",		    
 		    "continue_button": "Select one source to continue",		
 		    "selecciona_otra_fuente": "Select another source:",
-		    "gira_dispositivo": "Rotate your device to view the content"    
+		    "gira_dispositivo": "Rotate your device to view the content",
+		    "scroll_to_navigate": "Scroll to navigate"    
 	},
     "biogas":{
     	"intro":{		    

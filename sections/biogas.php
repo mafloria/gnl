@@ -4,7 +4,7 @@
                 </div>
                 <div class="scrollTonav">
 
-                    <p><img src="assets/images/hand-browser.png">Scroll para navegar</p>
+                    <p><img src="assets/images/hand-browser.png"><?php echo $texts->intro->scroll_to_navigate; ?></p>
                 </div>
                 <div class="section-content">
                     <div class="title-section">

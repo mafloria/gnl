@@ -4,7 +4,8 @@
 		    "intro_text":"Nuestro Gasoducto Virtual&reg; conecta a los consumidores con múltiples fuentes de gas, superando el alcance de los gasoductos convencionales y proveyendo energía en regiones aisladas.",		    
 		    "continue_button": "Selecciona una de nuestras fuentes para continuar",
 		    "selecciona_otra_fuente": "Seleccione otra fuente:",
-		    "gira_dispositivo": "Rotate your device to view the content"	    
+		    "gira_dispositivo": "Rota su dispositivo para ver el contenido",
+		    "scroll_to_navigate": "Scroll para navegar"    
 	},
     "biogas":{
     	"intro":{		    

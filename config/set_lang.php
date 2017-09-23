@@ -23,9 +23,9 @@ function get_browser_language( $available, $default = 'es' ) {
 $available_langs = array('es','en');
 $cookie_name = "gasoducto_lang";
 
-if(isset($_POST['gasoducto_lang'])){
-    if( in_array( $_POST['gasoducto_lang'], $available_langs ) ){
-        $lang = $_POST['gasoducto_lang'];
+if(isset($_GET['lang'])){
+    if( in_array( $_GET['lang'], $available_langs ) ){
+        $lang = $_GET['lang'];
         /*$cookie_value = $_POST['gasoducto_lang'];  
         setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1 day
         echo "change cookie on submit: ". $_COOKIE[$cookie_name];*/

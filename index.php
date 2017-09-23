@@ -47,9 +47,9 @@
                         <img class="logo-intro" src="svg/titulo-gnc.svg">
                         <p class="txt-description"><?php echo $texts->intro->intro_text; ?></p>
                         <p class="pick-btn"><?php echo $texts->intro->continue_button; ?></p>
-                        <form method="POST">
-                            <?php if($lang=="es") { ?><input class="lng-btn" type="submit" name="gasoducto_lang" value="en"/> <?php } ?>
-                            <?php if($lang=="en") { ?><input class="lng-btn" type="submit" name="gasoducto_lang" value="es"/> <?php } ?>
+                        <form method="GET">
+                            <?php if($lang=="es") { ?><input class="lng-btn" type="submit" name="lang" value="en"/> <?php } ?>
+                            <?php if($lang=="en") { ?><input class="lng-btn" type="submit" name="lang" value="es"/> <?php } ?>
                         </form>
                         <div class="menu-circles-icons">
                             <a id="view-biogas-process" class="view-process" href="javascript:void(0);">

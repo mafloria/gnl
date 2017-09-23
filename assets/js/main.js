@@ -50,9 +50,6 @@ $(document).ready(function(){
 	console.log("Total Width: " + screen.width);
 	if(screen.width > 1366) $(".truck-fixed").css("left", "20.5%");
 		  
-	/*$(window).resize(function() {
-		setHeight();
-	});*/	
 	//adjust sections to the browser height
 	function setHeight() {	
 		//section 1, 2, 3 fixt to windows size		
@@ -71,13 +68,22 @@ $(document).ready(function(){
 	
 	function set_width_scroll(){
 		console.log("SET WITH "+open_section_name+" SCROLL: open_section_width: "+windowWidth+"+"+open_section_width);
-		$(".front").css('width', windowWidth+open_section_width+plus_width); //600 for menu at the end
-		$('#outer-container').css('height', eval(open_section_name+"_icons_width")+open_section_width+plus_width+'px'); //(700+open_section_width+plus_width)	 //600 for menu at the end
+		if(!isMobile.any()){
+			$(".front").css('width', windowWidth+open_section_width+plus_width); //600 for menu at the end
+		
+			$('#outer-container').css('height', eval(open_section_name+"_icons_width")+open_section_width+plus_width+'px'); //(700+open_section_width+plus_width)	 //600 for menu at the end
+		}
 	}
 	//********************** end windows size
-	
-	//horizontal scroll
-	 var elem = $.jInvertScroll(['.scroll'],        // an array containing the selector(s) for the elements you want to animate
+    
+    if(isMobile.any()){
+    	window.onscroll = function(e) {
+			  display_camion_accion();
+		}
+    }else{
+    	$(".scrollTonav").hide();
+    	//horizontal scroll
+	 	var elem = $.jInvertScroll(['.scroll'],        // an array containing the selector(s) for the elements you want to animate
             {
             //height: $(window).innerHeight(),  // optional: define the height the user can scroll, otherwise the overall length will be taken as scrollable height
             onScroll: function(percent) {   //optional: callback function that will be called when the user scrolls down, useful for animating other things on the page
@@ -85,11 +91,11 @@ $(document).ready(function(){
                 
                 /*tmp = $('#track_moving').attr('data-appear-left-offset');*/
                 //tmp = Math.floor((777 - $(window).innerWidth()) * percent) * -1; 
-             	display_camion_accion();   				
+             	display_camion_accion();
             } //end onScroll
             
-        }); //end scroll invert
-    
+        }); //end scroll invert	
+    }
     
     function display_camion_accion(){
     	var position = $(".front").position();

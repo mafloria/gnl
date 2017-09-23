@@ -3,7 +3,6 @@
                     <img src="assets/images/hand-browser-1.png">   
                 </div>
                 <div class="scrollTonav">
-
                     <p><img src="assets/images/hand-browser.png"><?php echo $texts->intro->scroll_to_navigate; ?></p>
                 </div>
                 <div class="section-content">

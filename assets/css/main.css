@@ -277,8 +277,8 @@ a.back-home span{
   padding: 2%;
 }
 .section-content.content-landing{
-  width: 60%;
-  padding: 2% 20%;
+  width: 80%;
+  padding: 2% 10%;
 }
 .column-left{
   width: 50%;
@@ -288,7 +288,6 @@ p.txt-description{
   font-size: 1.5em;
   width: 70%;
   margin: 0 auto;
-  text-align: left;
 }
 p.pick-btn{
   font-size: 1.6em;
@@ -487,8 +486,9 @@ img.logo-intro{
   margin: 0 auto;  
 }
 .menu-circles-icons{
-  width: 70%;
-  margin: 0 auto;
+  width: 60%;
+  padding: 0 20%;
+  display: inline-block;
 }
 .menu-circles-icons-end{
   width: 700px;
@@ -499,13 +499,13 @@ img.logo-intro{
   z-index: 12;
 }
 .menu-circles-icons a{
-  width: 25%;
+  width: 27%;
   height: auto;
   float: left;
   display: block;
   transition: all 0.5s ease;
-  margin: 0 1.4em;	
-  opacity: .6;
+  margin: 0 3%;
+  opacity: 1;
 }
 .menu-end{
   width: 70%;
@@ -517,7 +517,6 @@ img.logo-intro{
   height: auto;
   float: left;
   transition: all 0.5s ease;
-  opacity: .6;
   margin: 0 2em;
 }
 .menu-circles-icons-end a img,
@@ -533,10 +532,7 @@ img.logo-intro{
   text-align: center;
   margin: 2em 0;
 }
-.menu-circles-icons a:hover,
-.menu-end a:hover{
-  opacity: 1;
-}
+
 /*a.biogas-menu-btn-es{
   background: url(../images/gnc-biogas-btn-es.png) no-repeat;
 }

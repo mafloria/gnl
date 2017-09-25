@@ -44,7 +44,7 @@
                 <section class="section screen-1" id="home">
                     <div class="section-content content-landing center">
 
-                        <img class="logo-intro" src="svg/titulo-gnc.svg">
+                        <img class="logo-intro" src="assets/images/titulo-gnc-<?php echo $lang; ?>.png">
                         <p class="txt-description"><?php echo $texts->intro->intro_text; ?></p>
                         <p class="pick-btn"><?php echo $texts->intro->continue_button; ?></p>
                         <form method="GET">

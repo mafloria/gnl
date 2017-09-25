@@ -68,18 +68,30 @@ $(document).ready(function(){
 	
 	function set_width_scroll(){
 		console.log("SET WITH "+open_section_name+" SCROLL: open_section_width: "+windowWidth+"+"+open_section_width);
-		if(!isMobile.any()){
+		//if(!isMobile.any()){
 			$(".front").css('width', windowWidth+open_section_width+plus_width); //600 for menu at the end
 		
 			$('#outer-container').css('height', eval(open_section_name+"_icons_width")+open_section_width+plus_width+'px'); //(700+open_section_width+plus_width)	 //600 for menu at the end
-		}
+		//}
 	}
 	//********************** end windows size
     
     if(isMobile.any()){
-    	window.onscroll = function(e) {
+    	/*window.onscroll = function(e) {
 			  display_camion_accion();
-		}
+		}*/
+		var elem = $.jInvertScroll(['.scroll'],        // an array containing the selector(s) for the elements you want to animate
+            {
+            //height: $(window).innerHeight(),  // optional: define the height the user can scroll, otherwise the overall length will be taken as scrollable height
+            onScroll: function(percent) {   //optional: callback function that will be called when the user scrolls down, useful for animating other things on the page
+                //console.log(percent);
+                
+                /*tmp = $('#track_moving').attr('data-appear-left-offset');*/
+                //tmp = Math.floor((777 - $(window).innerWidth()) * percent) * -1; 
+             	display_camion_accion();
+            } //end onScroll
+            
+        }); //end scroll invert	
     }else{
     	$(".scrollTonav").hide();
     	//horizontal scroll

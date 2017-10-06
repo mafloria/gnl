@@ -46,6 +46,8 @@ $(document).ready(function(){
 	var yacimiento_icons_width = 900; //1220;
 	var gasoducto_icons_width = 700;//1100;
 	
+	$(".scrollTonav").hide();
+	
 	setHeight();
 	console.log("Total Width: " + screen.width);
 	if(screen.width > 1366) $(".truck-fixed").css("left", "20.5%");
@@ -61,6 +63,9 @@ $(document).ready(function(){
 			plus_width = 1500;//moviles
 		}else{
 			$('.screen-1').css('width', windowWidth);
+			$("body").css("overflow-x", "hidden");
+	    	$("body").css("overflow-y", "hidden");
+	    	$(".scroll").css("position", "fixed");	    	
 		}
 		//total_width = (windowWidth*3)+$(".gnc-biogas-landscape").width()+$(".gnc-yacimiento-landscape").width()+$(".gnc-gasoducto-landscape").width();		
 		set_width_scroll();
@@ -70,19 +75,18 @@ $(document).ready(function(){
 		//console.log("SET WITH "+open_section_name+" SCROLL: open_section_width: "+windowWidth+"+"+open_section_width);
 		if(isMobile.any()){
 			$(".front").css('width', windowWidth+open_section_width+plus_width); //600 for menu at the end					
-		}else{
+		}else{			
 			$(".front").css('width', windowWidth+open_section_width+plus_width); //600 for menu at the end
 			
 			$('#outer-container').css('height', eval(open_section_name+"_icons_width")+open_section_width+plus_width+'px'); //(700+open_section_width+plus_width)	 //600 for menu at the end
 		}
 	}
 	//********************** end windows size
-    
+    $(".scrollTonav").hide();
     if(isMobile.any()){
-    	$(".scrollTonav").hide();
     	window.onscroll = function(e) {
     		console.log("onscroll: "+window.pageXOffset);
-			  display_camion_accion(window.pageXOffset);
+			display_camion_accion(window.pageXOffset);
 		}		        
     }else{
     	var elem = $.jInvertScroll(['.scroll'],        // an array containing the selector(s) for the elements you want to animate
@@ -99,7 +103,7 @@ $(document).ready(function(){
         }); //end scroll invert
     }
     
-    function display_camion_accion(integer_position_left ){    	
+    function display_camion_accion(integer_position_left){    	
 		if(integer_position_left >= 4290 || integer_position_left > 13700 ){     //biogas 4310           	
 					if(((open_section_name=="biogas" && integer_position_left > 8820)||(open_section_name=="yacimiento" && integer_position_left > 8805)||(open_section_name=="gasoducto" && integer_position_left > 8834)) && integer_position_left < 13700){ //no se ve el camion gasoducto 8820
 						//$(".camion-section").hide();												

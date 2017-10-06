@@ -82,7 +82,7 @@
     <script src="assets/js/vendor/jquery.scrollstop.min.js"></script>
     
     <script src="assets/js/dist/css3-animate-it.js"></script>
-    <script src="assets/js/main.js?v=0.99"></script>
+    <script src="assets/js/main.js?v=0.1"></script>
         
     <style>
         /* Ensure elements load hidden before ScrollReveal runs 

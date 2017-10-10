@@ -349,21 +349,21 @@ img.logo-intro{
  display: none; /*!important*/
   position: absolute;
   left: 3370px;
-  top: 243px;
+  top: 238px;
   z-index: 12;
 }
 .camion{
   width: 777px;
   height: 188px;
   background: transparent url(../images/camion-1.png) no-repeat; 
-  top: 243px;
+  top: 238px;
   z-index: 12;
 }
 .camion-animated{
   width: 777px;
   height: 188px;
   background: transparent url(../images/camion.png) no-repeat; 
-  top: 243px;
+  top: 238px;
   z-index: 12;
   position: relative;  
 }

@@ -61,6 +61,12 @@ $(document).ready(function(){
 			$("#mobilecss").attr("href", "assets/css/mobile.css?v=0.82");
 			$(".hand-instruction").show();
 			plus_width = 1500;//moviles
+			
+			//let all animations fixed
+			$(".fadeInLeftShort").removeClass("animated");
+	    	$(".fadeInLeftShort").removeClass("fadeInLeftShort");
+	    	$(".group-animated").removeClass("animatedParent");
+	    	$(".group-animated").removeClass("group-animated");	
 		}else{
 			$('.screen-1').css('width', windowWidth);
 			$("body").css("overflow-x", "hidden");
@@ -191,8 +197,13 @@ $(document).ready(function(){
 	$(".continue-process").click(function(){
 		open_process($(this));
 		
-		$(".scroll").css('left', 0);				
-		$("html, body").animate({ scrollTop: 0 }, "fast");		 
+		if(isMobile.any()){
+			$("html, body").animate({ scrollLeft: 0 }, "fast");
+		}
+		else{
+			$(".scroll").css('left', 0);				
+			$("html, body").animate({ scrollTop: 0 }, "fast");	
+		}	 
 		
 		//let the first truck in place
 		$("#truck-"+open_section_name).addClass('firstTruck-'+open_section_name+'-start');

@@ -1,10 +1,7 @@
             <section id="gnc-yacimiento-firstsection" class="section screen-3" style="display: none">
-                <!--<div id="manito-a" class="hand-instruction">
-                    <img src="assets/images/hand-browser-1.png">   
-                </div>
                 <div class="scrollTonav">
-                    <p><img src="assets/images/hand-browser.png"><?php echo $texts->intro->scroll_to_navigate; ?></p>
-                </div>-->
+                    <p><img src="assets/images/hand-browser.png">Scroll para navegar</p>
+                </div>
                 <div class="section-content">
                     <div class="title-section">
                         <h2><?php echo $texts->yacimiento->top_titles->fuentes; ?></h2>

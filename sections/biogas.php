@@ -82,9 +82,9 @@
                      </div>
                      
                     <!-- CAMION -->
-                    <div id="truck-biogas" class="camion firstTruck-biogas-stop"></div>
+                    <div id="truck-biogas" class="camion camion-<?php echo $lang; ?> firstTruck-biogas-stop"></div>
 
-                    <div id="truck-biogas-animated" class="camion-animated truck-fixed">
+                    <div id="truck-biogas-animated" class="camion-animated truck-fixed camion-animated-<?php echo $lang; ?>">
                         <div class="rueda rueda1"></div>
                         <div class="rueda rueda2"></div>
                         <div class="rueda rueda3"></div>

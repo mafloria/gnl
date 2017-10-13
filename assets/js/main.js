@@ -36,9 +36,9 @@ $(document).ready(function(){
 	//*********** window size to fix content
 	var windowHeight = $(window).innerHeight();
 	var windowWidth = $(window).innerWidth();	
-	var biogas_width = 17000;//valor del css: .gnc-biogas-landscape
-	var yacimiento_width = 16730;//valor del css: .gnc-yacimiento-landscape
-	var gasoducto_width = 16900;//valor del css: .gnc-gasoducto-landscape	
+	var biogas_width = 17090;//valor del css: .gnc-biogas-landscape
+	var yacimiento_width = 16820;//valor del css: .gnc-yacimiento-landscape
+	var gasoducto_width = 16990;//valor del css: .gnc-gasoducto-landscape	
 	var open_section_name = "biogas";
 	var open_section_width = biogas_width;
 	var plus_width = 0; //for some mobiles is needed because the srceen distribution
@@ -200,11 +200,11 @@ $(document).ready(function(){
 		open_process($(this));
 		
 		if(isMobile.any()){
-			$("html, body").animate({ scrollLeft: 0 }, "fast");
+			$("html, body").animate({ scrollLeft: 0 }, "slow");
 		}
 		else{
 			$(".scroll").css('left', 0);				
-			$("html, body").animate({ scrollTop: 0 }, "fast");	
+			$("html, body").animate({ scrollTop: 0 }, "slow");	
 		}	 
 		
 		//let the first truck in place

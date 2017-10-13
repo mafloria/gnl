@@ -90,14 +90,15 @@ $(document).ready(function(){
 			$('#outer-container').css('height', eval(open_section_name+"_icons_width")+open_section_width+plus_width+'px'); //(700+open_section_width+plus_width)	 //600 for menu at the end
 		}
 	}
-	//********************** end windows size
-    $(".scrollTonav").hide();
+	//********************** end windows size    
     if(isMobile.any()){
+    	$(".scrollTonav").show();
     	window.onscroll = function(e) {
     		//console.log("onscroll: "+window.pageXOffset);
 			display_camion_accion(window.pageXOffset);
 		}		        
     }else{
+    	$(".scrollTonav").hide();
     	var elem = $.jInvertScroll(['.scroll'],        // an array containing the selector(s) for the elements you want to animate
             {
             //height: $(window).innerHeight(),  // optional: define the height the user can scroll, otherwise the overall length will be taken as scrollable height
